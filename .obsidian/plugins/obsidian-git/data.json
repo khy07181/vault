@@ -9,10 +9,10 @@
   "disablePush": false,
   "pullBeforePush": true,
   "disablePopups": false,
-  "listChangedFilesInMessageBody": false,
+  "listChangedFilesInMessageBody": true,
   "showStatusBar": true,
   "updateSubmodules": false,
-  "syncMethod": "merge",
+  "syncMethod": "rebase",
   "gitPath": "",
   "customMessageOnAutoBackup": false,
   "autoBackupAfterFileChange": false,
@@ -20,6 +20,6 @@
   "refreshSourceControl": true,
   "basePath": "",
   "differentIntervalCommitAndPush": false,
-  "changedFilesInStatusBar": false,
+  "changedFilesInStatusBar": true,
   "username": ""
 }

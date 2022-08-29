@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "test.md",
+            "file": "README.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test.md"
+                "file": "README.md"
               }
             }
           },
@@ -155,6 +155,7 @@
   "active": "50748a6b3e491c98",
   "lastOpenFiles": [
     "Git Command.md",
+    "README.md",
     "test.md",
     "templates/table.md",
     "templates/metadata.md",
@@ -162,7 +163,6 @@
     "templates/br.md",
     "private/무제노트.md",
     "private/무제노트 1.md",
-    "무제노트2.md",
-    "무제노트dada.md"
+    "무제노트2.md"
   ]
 }
