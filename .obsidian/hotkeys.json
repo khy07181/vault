@@ -88,5 +88,21 @@
       ],
       "key": "`"
     }
+  ],
+  "templater-obsidian:templates/daily-note.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
+  ],
+  "templater-obsidian:templates/weekly-planner.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "W"
+    }
   ]
 }
