@@ -3,5 +3,7 @@
   "showLineNumber": true,
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "trashOption": "system"
+  "trashOption": "system",
+  "showFrontmatter": true,
+  "spellcheck": true
 }

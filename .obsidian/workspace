@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8db219644b3ad75c",
+        "id": "50748a6b3e491c98",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "stream.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
         }
       }
     ],
@@ -22,6 +27,14 @@
         "id": "b7a73884f2ad47ed",
         "type": "tabs",
         "children": [
+          {
+            "id": "60cf48ce2b072aa7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
           {
             "id": "e1e9f8c089dc809a",
             "type": "leaf",
@@ -44,21 +57,12 @@
               "type": "starred",
               "state": {}
             }
-          },
-          {
-            "id": "05e7727c5e75503d",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300
   },
   "right": {
     "id": "0c90cd3b41f4518d",
@@ -74,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "stream.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "stream.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "stream.md"
+              }
             }
           },
           {
@@ -137,33 +145,24 @@
               "type": "FANTASY_CALENDAR",
               "state": {}
             }
-          },
-          {
-            "id": "8f853ba623cfaede",
-            "type": "leaf",
-            "state": {
-              "type": "timeline",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "05e7727c5e75503d",
+  "active": "50748a6b3e491c98",
   "lastOpenFiles": [
-    "Git Command.md",
-    "README.md",
-    "templates/table.md",
+    "Optional.md",
     "templates/metadata.md",
     "templates/daily-note.md",
-    "templates/무제노트.md",
+    "README.md",
+    "Git Command.md",
+    "test.md",
+    "templates/table.md",
+    "무제노트.md",
     "templates/br.md",
-    "private/daily-note/2022-08-31.md",
-    "private/daily-note/2022-09-01.md",
-    "private/daily-note/2022-08-30.md"
+    "private/무제노트.md"
   ]
 }
