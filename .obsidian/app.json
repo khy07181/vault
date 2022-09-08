@@ -2,8 +2,8 @@
   "promptDelete": false,
   "showLineNumber": true,
   "alwaysUpdateLinks": true,
-  "newFileLocation": "current",
+  "newFileLocation": "folder",
   "trashOption": "system",
   "showFrontmatter": true,
-  "spellcheck": true
+  "newFileFolderPath": "fleeting"
 }

@@ -1,6 +1,6 @@
 ---
-title: Optional
-aliases: Optinal
+title: optional
+aliases: optinal
 categories: java
 tags: java, null, optional
 created: 2022-08-11 15:31
