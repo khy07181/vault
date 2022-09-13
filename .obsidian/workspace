@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7851727037ba44aa",
+        "id": "ed1628f27f33a2ff",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "fleeting/spring boot - spring security.md",
+            "file": "permanent/함수형 인터페이스와 람다.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -27,6 +27,14 @@
         "id": "b7a73884f2ad47ed",
         "type": "tabs",
         "children": [
+          {
+            "id": "60cf48ce2b072aa7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
           {
             "id": "e1e9f8c089dc809a",
             "type": "leaf",
@@ -49,21 +57,12 @@
               "type": "starred",
               "state": {}
             }
-          },
-          {
-            "id": "05e7727c5e75503d",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 300
   },
   "right": {
     "id": "0c90cd3b41f4518d",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fleeting/spring boot - spring security.md",
+                "file": "permanent/함수형 인터페이스와 람다.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fleeting/spring boot - spring security.md",
+                "file": "permanent/함수형 인터페이스와 람다.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fleeting/spring boot - spring security.md"
+                "file": "permanent/함수형 인터페이스와 람다.md"
               }
             }
           },
@@ -146,34 +145,24 @@
               "type": "FANTASY_CALENDAR",
               "state": {}
             }
-          },
-          {
-            "id": "8f853ba623cfaede",
-            "type": "leaf",
-            "state": {
-              "type": "timeline",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "7851727037ba44aa",
+  "active": "ed1628f27f33a2ff",
   "lastOpenFiles": [
-    "fleeting/spring boot data.md",
-    "fleeting/spring boot 원리.md",
-    "fleeting/spring boot mvc.md",
-    "fleeting/spring boot core.md",
-    "fleeting/spring mvc 활용.md",
-    "fleeting/spring mvc 설정.md",
-    "fleeting/spring mvc 동작 원리.md",
-    "fleeting/spring intro.md",
-    "fleeting/spring core.md",
-    "fleeting/스프링 부트와 AWS로 혼자 구현하는 웹 서비스 - 1. 인텔리제이로 스프링 부트 시작하기.md"
+    "fleeting/java basic.md",
+    "permanent/다차원 배열 비교하기.md",
+    "permanent/함수형 인터페이스와 람다.md",
+    "templates/metadata.md",
+    "permanent/무제노트.md",
+    "permanent/Git Command.md",
+    "permanent/optional.md",
+    "permanent/CSS.md",
+    "fleeting/무제노트.md",
+    "stream.md"
   ]
 }

@@ -496,32 +496,6 @@
           "auto": true
         },
         {
-          "id": "ID_5b7bda88e989",
-          "name": "함수형 인터페이스와 람다",
-          "note": "fleeting/함수형 인터페이스와 람다.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 8
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_48492a1a9b6a",
-          "name": "다차원 배열 비교하기",
-          "note": "fleeting/다차원 배열 비교하기.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 9
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
           "id": "ID_dbf8581a3828",
           "name": "spring mvc 활용",
           "note": "fleeting/spring mvc 활용.md",
@@ -620,6 +594,32 @@
             "year": 2022,
             "month": 8,
             "day": 13
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_18b82888aa4b",
+          "name": "함수형 인터페이스와 람다",
+          "note": "permanent/함수형 인터페이스와 람다.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 8
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_49aae86a7a1b",
+          "name": "다차원 배열 비교하기",
+          "note": "permanent/다차원 배열 비교하기.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 9
           },
           "end": null,
           "description": "",
