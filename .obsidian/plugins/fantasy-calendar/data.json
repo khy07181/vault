@@ -196,7 +196,7 @@
       "current": {
         "year": 2022,
         "month": 8,
-        "day": 14
+        "day": 19
       },
       "events": [
         {
@@ -520,6 +520,110 @@
           "end": null,
           "description": "",
           "auto": true
+        },
+        {
+          "id": "ID_dbf8581a3828",
+          "name": "spring mvc 활용",
+          "note": "fleeting/spring mvc 활용.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 13
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_1b3ba9086b8a",
+          "name": "spring boot data",
+          "note": "fleeting/spring boot data.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 13
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_482be8682adb",
+          "name": "spring boot 원리",
+          "note": "fleeting/spring boot 원리.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 13
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_db1a18eb7a6a",
+          "name": "spring boot core",
+          "note": "fleeting/spring boot core.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 13
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_7b4988998958",
+          "name": "spring boot mvc",
+          "note": "fleeting/spring boot mvc.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 13
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_0b9ac8cb9adb",
+          "name": "spring mvc 설정",
+          "note": "fleeting/spring mvc 설정.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 13
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_cb1abab9ea7b",
+          "name": "spring core",
+          "note": "fleeting/spring core.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 13
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_eb49ba9babd8",
+          "name": "spring boot - spring security",
+          "note": "fleeting/spring boot - spring security.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 13
+          },
+          "end": null,
+          "description": "",
+          "auto": true
         }
       ],
       "id": "ID_69eaa9e9a948",
@@ -550,7 +654,7 @@
           "color": "#0288D1"
         }
       ],
-      "date": 1662649255650
+      "date": 1663078047890
     }
   ],
   "configDirectory": null,
