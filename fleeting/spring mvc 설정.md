@@ -11,11 +11,7 @@ fc-date: 2022-09-13 15:53
 
 # 스프링 MVC 설정
 
-
-
 ## 스프링 MVC 빈 설정
-
-
 
 ### 스프링 MVC 구성 요소 직접 빈으로 등록하기
 
@@ -77,9 +73,6 @@ return viewResolver;
 
 - 이런 식으로 bean설정을 직접하는 것은 low-level이다. 좀 더 편한 방법이 있으므로 일일히 설정할 수 있다는 정도만 알면 된다.(스프링 부트가 나오기 이전에도 이렇게 하진 않았다)
 
-
-
-
 ## @EnableWebMvc
 
 - 애노테이션 기반의 스프링 MVC를 사용할 때 일일히 bean으로 등록하지 않도록 편리한 기능을 제공한다.
@@ -102,9 +95,6 @@ public class WebConfig{
 }
 
 ```
-
-
-
 
 ## WebMvcConfigurer
 
@@ -179,21 +169,13 @@ public void addInterceptors(InterceptorRegistry registry) {
 
 ```
 
-
-
-
 ## 스프링 부트의 스프링 MVC 설정
-
-
 
 ### 스프링 부트의 “주관”이 적용된 자동 설정이 동작한다.
 
 - JSP 보다 Thymeleaf를 선호한다.
 - JSON 지원 (XML은 지원하지 않는다)
 - 정적 리소스 지원 (+ 웰컴 페이지, 파비콘 등 지원)
-
-
-
 
 ### 스프링 MVC 커스터마이징
 
@@ -212,12 +194,7 @@ public void addInterceptors(InterceptorRegistry registry) {
 
 * 스프링 부트의 스프링 MVC 자동설정을 사용하지 않음.
 
-
-
-
 ## 스프링 부트와 JSP
-
-
 
 ### 스프링 부트에서 JSP 사용하기
 
@@ -386,12 +363,7 @@ spring.mvc.view.suffix=.jsp
 
 ```
 
-
-
-
 ## WebMvcConfigurer 설정 - Formatter 설정
-
-
 
 ### Formatter
 
@@ -401,8 +373,6 @@ spring.mvc.view.suffix=.jsp
 
 * Printer: 객체를 (Locale 정보를 참고하여) 문자열로 어떻게 출력할 것인가
 * Parser: 문자열을 (Locale 정보를 참고하여) 객체로 어떻게 변환할 것인가
-
-
 
 ### Formatter 실습
 
@@ -576,8 +546,6 @@ this.mockMvc.perform(get("/hello")
 
 ```
 
-
-
 ### 스프링 부트에서의 Formatter
 
 - 스프링 부트를 쓰면 굳이 스프링 설정 파일에 등록할 필요 없다.
@@ -588,17 +556,12 @@ this.mockMvc.perform(get("/hello")
 * `@WebMvcTest`를 `@SpringBootTest`로 통합 Test를 하면 된다.
 * mockMvc가 자동으로 bean으로 등록되지 않기 때문에 `@AutoConfigureMockMvc` 애노테이션도 Test에 붙여줘야 한다.
 
-
-
-
 ## 도메인 클래스 컨버터 자동 등록
 
 - 스프링 데이터 JPA는 스프링 MVC용 도메인 클래스 컨버터를 제공한다.
 - 도메인 클래스 컨버터
 
 * 스프링 데이터 JPA가 제공하는 Repository를 사용해서 ID에 해당하는 엔티티를 읽어온다.
-
-
 
 ### 실습
 
@@ -747,9 +710,6 @@ this.mockMvc.perform(get("/hello")
 
 ```
 
-
-
-
 ## [HandlerInterceptor](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/servlet/HandlerInterceptor.html )
 
 - 핸들러 맵핑에 설정할 수 있는 인터셉터
@@ -761,9 +721,6 @@ this.mockMvc.perform(get("/hello")
 
 * 로깅, 인증 체크, Locale 변경 등...
 
-
-
-
 ### boolean preHandle(request, response, handler)
 
 - 핸들러 실행하기 전에 호출 된다.
@@ -771,9 +728,6 @@ this.mockMvc.perform(get("/hello")
 - 리턴값으로 계속 다음 인터셉터 또는 핸들러로 요청,응답을 전달할지(true) 응답 처리가 이곳에서 끝났는지(false) 알린다.
 
 * false를 리턴하면 요청처리가 끝나기 때문에 afterCompletion까지 가지 않는다.
-
-
-
 
 ### void postHandle(request, response, modelAndView)
 
@@ -785,9 +739,6 @@ this.mockMvc.perform(get("/hello")
 - 인터셉터 역순으로 호출된다.
 - 비동기적인 요청 처리 시에는 호출되지 않는다
 
-
-
-
 ### void afterCompletion(request, response, handler, ex)
 
 - 요청 처리가 완전히 끝난 뒤(뷰 랜더링 끝난 뒤)에 호출 됨
@@ -795,16 +746,10 @@ this.mockMvc.perform(get("/hello")
 - 인터셉터 역순으로 호출된다.
 - 비동기적인 요청 처리 시에는 호출되지 않는다.
 
-
-
-
 ### HandlerInterceptor vs 서블릿 필터
 
 - 서블릿 보다 구체적인 처리가 가능하다.
 - 서블릿은 보다 일반적인 용도의 기능을 구현하는데 사용하는게 좋다.
-
-
-
 
 ### HandlerInterceptor 실습
 
@@ -918,24 +863,15 @@ registry.addInterceptor(new AnotherInterceptor())
 
 ```
 
-
-
-
 ## [ResourceHandler](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/servlet/config/annotation/WebMvcConfigurer.html#addResourceHandlers-org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry-)
 
 - 이미지, 자바스크립트, CSS 그리고 HTML 파일과 같은 정적인 리소스를 처리하는 핸들러이다.
-
-
-
 
 ### Default Servlet
 
 - ResourceHandler는 Default Servlet을 이해해야 한다.
 - Servlet 컨테이너가 기본으로 제공하는 Servlet으로 정적인 리소스를 처리할 때 사용한다.
 - [참고 자료](https://tomcat.apache.org/tomcat-9.0-doc/default-servlet.html)
-
-
-
 
 ### 스프링 MVC ResourceHandler 맵핑 등록
 
@@ -945,9 +881,6 @@ registry.addInterceptor(new AnotherInterceptor())
 * 최종적으로 ResourceHandler가 처리하도록 한다.
 
 - DefaultServletHandlerConfigurer
-
-
-
 
 ### ResourceHandler 설정
 
@@ -1013,13 +946,7 @@ this.mockMvc.perform(get("/mobile/index.html"))
 
 - [참고 자료](https://www.slideshare.net/rstoya05/resource-handling-spring-framework-41)
 
-
-
-
 \* 스프링 부트에서는 기본 정적 ResourceHandler와 캐싱 제공해준다.
-
-
-
 
 ## [HTTP Message Converter](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/servlet/config/annotation/WebMvcConfigurer.html#configureMessageConverters-java.util.List-)
 
@@ -1030,9 +957,6 @@ this.mockMvc.perform(get("/mobile/index.html"))
 * 문자열이 JSON인 경우 객체로 변환하거나
 * 문자열이 XML인 경우 객체로 변환하거나
 * 문자열로 받거나 할 수 있다.
-
-
-
 
 ### 기본으로 등록해주는 HTTP 메시지 컨버터
 
@@ -1048,9 +972,6 @@ this.mockMvc.perform(get("/mobile/index.html"))
 - (RSS 컨버터) 등등
 
 \* 괄호가 있는 컨버터는 classpath의 pom.xml파일에 해당 dependency가 있는 경우에만 등록된다.
-
-
-
 
 ### 문자열 변환 실습
 
@@ -1114,9 +1035,6 @@ this.mockMvc.perform(get("/message")
 
 ```
 
-
-
-
 ### 설정 방법
 
 - extendMessageConverters
@@ -1132,9 +1050,6 @@ this.mockMvc.perform(get("/message")
 * 메이븐 또는 그래들 설정에 의존성을 추가하면 그에 따른 컨버터가 자동으로 등록 된다.
 * WebMvcConfigurationSupport 클래스에서 판단 후 등록
 
-
-
-
 ### HTTP Message Converter : JSON Converter
 
 - 스프링 부트를 사용하지 않는 경우
@@ -1148,9 +1063,6 @@ this.mockMvc.perform(get("/message")
 
 * 기본적으로 JacksonJSON 2가 의존성에 들어있다.
 * 따라서 JSON용 HTTP 메시지 컨버터가 기본으로 등록되어 있다.
-
-
-
 
 #### 실습
 
@@ -1234,9 +1146,6 @@ this.mockMvc.perform(get("/jsonMessage")
 
 ```
 
-
-
-
 ### HTTP Message Converter : XML Converter
 
 - OXM(Object-XML Mapper) 라이브러리 중에 스프링이 지원하는 의존성 추가
@@ -1246,9 +1155,6 @@ this.mockMvc.perform(get("/jsonMessage")
 * JAXB
 
 - JSON과 달리 스프링 부트에서 기본으로 XML 의존성을 추가해주지 않는다.
-
-
-
 
 #### 사용방법
 
@@ -1390,9 +1296,6 @@ this.mockMvc.perform(get("/jsonMessage")
 }
 
 ```
-
-
-
 
 \* JSON과 XML의 본문을 확인하고 싶을 때는 path를 사용하면 된다.
 

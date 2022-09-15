@@ -11,14 +11,9 @@ fc-date: 2022-09-13 15:48
 
 # 스프링 프레임워크 핵심 기술
 
-
-
 ## IoC 컨테이너와 빈
 
 - Inversion of Control : 의존 관계 주입(Dependency Injection)이라고도 하며, 어떤 객체가 사용하는 의존 객체를 직접 만들어 사용하는게 아니라, 주입 받아 사용하는 방법을 말한다.
-
-
-
 
 ### 스프링 IoC 컨테이너
 
@@ -34,9 +29,6 @@ fc-date: 2022-09-13 15:48
 - 빈 설정 소스로 부터 빈 정의를 읽어들이고, 빈을 구성하고 제공한다.
 - 스프링의 가장 중요한 특징은 객체의 생성과 의존관계를 컨테이너가 자동으로 관리한다는 점이다.
 
-
-
-
 ### 빈
 
 - Bean : 스프링 IoC 컨테이너가 가지고 있고 관리하는 객체.
@@ -51,12 +43,7 @@ fc-date: 2022-09-13 15:48
 
 * 라이프사이클 인터페이스 지원
 
-
-
-
 ## ApplicationContext와 다양한 빈 설정 방법
-
-
 
 ### 1. Spring bean 설정 파일을 만들고 bean을 주입하는 방법
 
@@ -120,9 +107,6 @@ System.out.println(bookService.bookRepository != null);
 
 - 이러한 방법은 모든 빈을 일일히 등록(`<bean id = " ">`)을 해줘야 하기 때문에 번거롭다.
 
-
-
-
 ### 2. context-component-scan
 
 - bean을 스캐닝해서 등록하는 것이다. (Spring 2.5부터 등장)
@@ -182,9 +166,6 @@ this.bookRepository = bookRepository;
 }
 
 ```
-
-
-
 
 ### 3. java 설정 파일
 
@@ -278,9 +259,6 @@ ApplicationContext context = new AnnotationConfigApplicationContext(ApplicationC
 
 ```
 
-
-
-
 ### java 설정 파일의 component-scanning
 
 - java 설정 파일을 통한 방법도 일일히 bean을 등록해야 한다. 따라서 xml에서 했던 것과 비슷하게 component-scanning을 할 수 있다.
@@ -316,12 +294,7 @@ public static void main(String[] args) {
 
 ```
 
-
-
-
 ## Autowired
-
-
 
 ### 생성자를 사용한 의존성 주입
 
@@ -359,8 +332,6 @@ public class BookRepository {
 
 ```
 
-
-
 ### Setter를 사용한 의존성 주입
 
 ```java
@@ -390,9 +361,6 @@ this.bookRepository = bookRepository;
 - Setter 메소드는 스프링 컨테이너가 자동으로 호출하며, 호출하는 시점은 bean 객체 생성 직후이다.
 - 보통은 Setter를 사용하며, Setter 메소드가 제공되지 않는 클래스에 대해서 생성자를 사용한다.
 
-
-
-
 ### Field에 의존성 주입
 
 ```java
@@ -413,9 +381,6 @@ BookRepository bookRepository;
 
 - 이렇게 Setter나 field를 통한 의존성 주입은 `@Autowired(required = false)`를 사용하여 BookService가 BookRepository의 의존성 없이도 bean으로 등록되도록 할 수 있다.
 - 그러나 생성자를 사용한 의존성 주입은 bean을 만들 떄도 개입이 되기 때문에 전달받아야하는 타입의 bean이 없으면 인스턴스를 만들지 못하고 bean으로도 등록되지 못한다.
-
-
-
 
 ### 해당 타입의 빈이 여러 개인 경우
 
@@ -508,21 +473,13 @@ List<BookRepository> bookRepositories;
 
 ```
 
-
-
-
 ### Autowired 동작원리
 
 - [AutowiredAnnotationBeanPostProcessor](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/config/BeanPostProcessor.html) 가 기본적으로 Bean으로 등록되어있고
 - BeanFactory 가 자신에게 등록된 [BeanPostProcessor](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.html) 들을 찾아서 일반적인 Bean들에게 로직을 적용한다.
 - 따라서 bean으로 등록되어 있는 모든 bean들은 `@Autowired`로 주입 가능하다.
 
-
-
-
 ## @Component와 컴포넌트 스캔
-
-
 
 ### component-scan이 되는 대상
 
@@ -532,9 +489,6 @@ List<BookRepository> bookRepositories;
 * @Service
 * @Controller
 * @Configuration
-
-
-
 
 ### 컴포넌트 스캔의 주요 기능
 
@@ -548,12 +502,7 @@ List<BookRepository> bookRepositories;
 * component-scan을 한다고 해서 모든 애노테이션들을 처리해서 bean으로 등록해주진 않는다.
 * 그것을 걸러주는 것이 필터이다.
 
-
-
-
 ## 빈의 스코프
-
-
 
 ### Singleton scope
 
@@ -629,9 +578,6 @@ System.out.println(single.getProto());
 
 ```
 
-
-
-
 ### Prototype scope
 
 - 매번 새로운 인스턴스를 만들어서 사용
@@ -680,9 +626,6 @@ System.out.println(ctx.getBean(Single.class));
 
 ```
 
-
-
-
 ### sigleton scope와 prototype socpe의 혼용
 
 1. prototype 빈이 sigleton 빈을 참조하는 경우
@@ -704,8 +647,6 @@ Single Single;
 - sigle 인스턴스는 매번 같은 인스턴스가 들어오고 prototype 인스턴스는 매번 꺼낼 때마다 새로운 인스턴스가 생성된다.
 - prototype의 bean은 새롭지만 참조하는 sigleton scope의 bean은 항상 동일하다.
 - 아무 문제가 없다.
-
-
 
 2. sigleton bean이 prototype bean을 참조하는 경우
 
@@ -742,8 +683,6 @@ System.out.println(ctx.getBean(Single.class).getProto());
 
 ```
 
-
-
 3. 2번 문제를 해결하는 방법
 
 - proxyMode를 설정
@@ -766,8 +705,6 @@ public class Proto {
 * 원래 Java JDK 안에 있는 다이나믹 프록시는 인터페이스의 프록시 밖에 못만든다.
 * 위의 코드에서 처럼 `proxyMode = ScopedProxyMode.TARGET_CLASS`는 CG라이브러리를 이용해서 클래스를 상속받은 프록시를 만들라고 지시하는 것이다.
 * 만약 인터페이스가 있었다면 `proxyMode = ScopedProxyMode.INTERFACE`를 지시하여 JDK의 인터페이스 기반의 프록시를 만들어 사용
-
-
 
 - ObjectProvider
 
@@ -797,12 +734,7 @@ return proto.getIfAvailable();
 
 \* 일반적으로 sigleton 이외의 scope를 쓸 일이 거의 없다. 생긴다면 참고
 
-
-
-
 ## ApplicationContext - [Environment](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/core/env/Environment.html)
-
-
 
 ### Frofile
 
@@ -811,9 +743,6 @@ return proto.getIfAvailable();
 - 각각의 환경에 따라 bean을 다르게 사용해야 할 경우, 또는 특정 환경에서만 어떠한 bean을 등록해야하는 경우에 사용한다.
 - environmentCapable 인터페이스의 getEnvironment()를 사용하여 Environment를 가져올 수 있다.
 - environment.getActiveProfile()을 통해 현재 active되어있는 프로파일을 가져올 수 있다.
-
-
-
 
 #### profile 정의하는 방법
 
@@ -880,9 +809,6 @@ return new TestBookRepository();
 
 ```
 
-
-
-
 #### profile 설정 방법
 
 1. Active profiles
@@ -892,9 +818,6 @@ return new TestBookRepository();
 2. VM options
 
 - 실습 기준 IntelliJ에서 Community 버젼의 경우 Active profiles가 없을 경우, VM option에 `-Dspring.profiles.active="profile이름"`으로 profile 추가
-
-
-
 
 ### Component스캔으로 등록되는 bean에 Profile 지정
 
@@ -911,9 +834,6 @@ public class TestBookRepository implements BookRepository {
 }
 
 ```
-
-
-
 
 #### profile 표현 예시
 
@@ -947,9 +867,6 @@ public class TestBookRepository implements BookRepository {
 
 ```
 
-
-
-
 ### Property
 
 - 다양한 방법으로 정의할 수 있는 설정값이다.
@@ -969,9 +886,6 @@ app.name=spring5
 - VM option에 property 값을 줄 수 있다.
 
 * `-Dapp.name=spring5`
-
-
-
 
 ### Property 실습
 
@@ -1027,9 +941,6 @@ System.out.println(environment.getProperty("app.about"));
 
 ```
 
-
-
-
 ### Property 우선 순위
 
 - StandardServletEnvironment의 우선순위
@@ -1039,8 +950,6 @@ System.out.println(environment.getProperty("app.about"));
 * JNDI (java:comp/env/)
 * JVM 시스템 프로퍼티 (-Dkey="value")
 * JVM 시스템 환경 변수 (운영 체제 환경 변수)
-
-
 
 ## MessageSource
 
@@ -1087,9 +996,6 @@ System.out.println(messageSource.getMessage("greeting", new String[]{"hayoung"},
 }
 
 ```
-
-
-
 
 ### Reloading 기능이 있는 메세지 소스 사용하기
 
@@ -1165,15 +1071,10 @@ return messageSource;
 
 ```
 
-
-
-
 ## [ApplicationEventPublisher](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/ApplicationEventPublisher.html)
 
 - ApplicationContext가 상속받고 있는 인터페이스
 - [옵저버 패턴](https://en.wikipedia.org/wiki/Observer_pattern)의 구현체로, 이벤트 기반의 프로그래밍을 할 때 유용하다.
-
-
 
 ### 이벤트 만들기
 
@@ -1221,9 +1122,6 @@ return data;
 
 ```
 
-
-
-
 ### 이벤트 발생 시키기
 
 ```java
@@ -1253,9 +1151,6 @@ publisherEvent.publishEvent(new MyEvent(this, 100));
 }
 
 ```
-
-
-
 
 ### 이벤트 처리
 
@@ -1316,9 +1211,6 @@ System.out.println("Another " + event.getData());
 * 비동기적으로 실행할 때는 각각의 쓰레드 풀에서 따로 놀고, 어느 것이 먼저 실행 될지는 쓰레드 스케쥴링에 따라 달라지기 때문에 Order가 더이상 의미 없다.
 * Application 파일에도 `@EnableAsync`를 추가하면 Async하게 동작한다.
 
-
-
-
 ### spring이 제공해주는 ApplicationContext 관련된 기본 이벤트
 
 - ContextRefreshedEvent
@@ -1369,9 +1261,6 @@ System.out.println("ContextClosedEvent");
 
 ```
 
-
-
-
 ## [ResourceLoader](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/core/io/ResourceLoader.html)
 
 - ApplicationContext가 상속받고 있는 인터페이스
@@ -1421,9 +1310,6 @@ hello spring
 
 ```
 
-
-
-
 ## [Resource](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/core/io/Resource.html) 추상화
 
 - java.net.URL을 추상화 한 것.
@@ -1432,17 +1318,11 @@ hello spring
 
 - 스프링 내부에서 많이 사용하는 인터페이스
 
-
-
-
 ### 추상화 한 이유
 
 - java.net.URL 클래스가 클래스패스 기준으로 리소스 읽어오는 기능 부재
 - ServletContext를 기준으로 상대 경로로 읽어오는 기능 부재
 - 새로운 핸들러를 등록하여 특별한 URL 접미사를 만들어 사용할 수는 있지만 구현이 복잡하고 편의성 메소드가 부족하다.
-
-
-
 
 ### 주요 구현체
 
@@ -1452,9 +1332,6 @@ hello spring
 - ServletContextResource: 웹 애플리케이션 루트에서 상대 경로로 리소스를 찾는다.
 
 * 읽어들이는 resource타입이 ApplicationContext 타입에 따라 결정되기 때문에 가장 많이 쓴다.
-
-
-
 
 ### 리소스 읽어오기
 
@@ -1473,9 +1350,6 @@ hello spring
 - 접두어를 사용하지 않으면 ServletContextResource로 Resolve 된다.
 - 루트는 ///를 사용하고 와일드 카드나 classpath*도 사용할 수도 있다.
 
-
-
-
 ## [Validation](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/validation/Validator.html) 추상화
 
 - 애플리케이션에서 사용하는 객체들을 검증할 때 사용하는 인터페이스
@@ -1484,9 +1358,6 @@ hello spring
 
 * supports : 검증해야할 인스턴스의 클래스가 Validator가 지원하는(검증할 수 있는) 클래스인지 확인하는 메소드
 * validate : 실질적으로 검증 작업이 이뤄지는 메소드
-
-
-
 
 ### 구현
 
@@ -1632,9 +1503,6 @@ Empty title is now allowed.
 
 ```
 
-
-
-
 ### 스프링 부트 2.0.5 이상 버젼을 사용할 때의 구현
 
 - 처음 구현에서 Event와 Runner만 수정
@@ -1730,8 +1598,6 @@ this.email = email;
 }
 
 ```
-
-
 
 ```java
 
@@ -1835,12 +1701,7 @@ must be a well-formed email address
 
 ```
 
-
-
-
 ## 데이터 바인딩 추상화 - PropertyEditor
-
-
 
 ### [데이터 바인딩](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/validation/DataBinder.html)
 
@@ -1848,9 +1709,6 @@ must be a well-formed email address
 - 사용자 관점 : 사용자의 입력값을 애플리케이션 도메인 객체에 동적으로 할당하는 기능
 
 * 바인딩을 하는 이유 : 사용자의 입력값은 주로 문자열인데 그 값을 객체가 가지고 있는 int, Date, boolean, 도메인 객체 타입 그 자체 등으로 변환해야 하는 경우가 많다.
-
-
-
 
 ### [PropertyEditor](https://docs.oracle.com/javase/7/docs/api/java/beans/PropertyEditor.html)
 
@@ -1861,12 +1719,7 @@ must be a well-formed email address
 
 - Object와 String 간의 변환만 할 수 있어, 사용 범위가 제한적이다.
 
-
-
-
 ## 데이터 바인딩 추상화 - Converter와 Formatter
-
-
 
 ### [Converter](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/core/convert/converter/Converter.html)
 
@@ -1948,9 +1801,6 @@ System.out.println(conversionService.getClass().toString());
 
 ```
 
-
-
-
 ### [Formatter](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/format/Formatter.html)
 
 - 웹 쪽에 특화된 PropertyEditor 대체 인터페이스
@@ -2006,9 +1856,6 @@ registry.addFormatter(new EventFormatter());
 
 ```
 
-
-
-
 ### [ConversionService](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/core/convert/ConversionService.html)
 
 - Converter와 Formatter를 활용할 수 있게 해준다.
@@ -2025,17 +1872,10 @@ registry.addFormatter(new EventFormatter());
 
 <p align="center"><img src = "https://github.com/khy07181/TIL/blob/master/Spring_SpringBoot/img/SpringFrameworkCore_1.png" width="600px"></p>
 
-
-
-
-
 \* 스프링 부트
 
 - 웹 애플리케이션인 경우에 DefaultFormattingConversionSerivce를 상속하여 만든 WebConversionService를 빈으로 등록해 준다. (더 많은 기능 가능)
 - Formatter와 Converter 빈을 찾아 자동으로 등록해 준다.
-
-
-
 
 ## SpEL(Srping Expression Language)
 
@@ -2048,9 +1888,6 @@ registry.addFormatter(new EventFormatter());
 
 - 스프링 3.0 부터 지원한다.
 
-
-
-
 ### 문법
 
 - #{“표현식"} : #{ }에 들어있는 값을 표현식으로 인식해서 실행한 다음 결과값을 프로퍼티에 넣어준다.
@@ -2061,9 +1898,6 @@ registry.addFormatter(new EventFormatter());
 * @Value("#{${my.value} eq 100}")
 
 - 이외에도 많지만 필요할 때마다 [래퍼런스](https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#expressions-language-ref) 참고
-
-
-
 
 ### 사용 예시
 
@@ -2183,9 +2017,6 @@ System.out.println(value); // 102
 
 ```
 
-
-
-
 ### 실제 사용되는 곳
 
 - @Value 애노테이션
@@ -2203,9 +2034,6 @@ System.out.println(value); // 102
 
 - [Thymeleaf](https://blog.outsider.ne.kr/997)
 
-
-
-
 ## [AOP(Aspect-oriendted Programming)](https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#aop-pointcuts)
 
 - AOP는 OOP를 보완하는 수단으로, 흩어진 Aspect를 모듈화 할 수 있는 프로그래밍 기법
@@ -2214,9 +2042,6 @@ System.out.println(value); // 102
 - 해야할 일과 그 일을 어디에 적용해야하는 지를 묶어서 모듈화 하는 것
 
 <p align="center"><img src = "https://github.com/khy07181/TIL/blob/master/Spring_SpringBoot/img/SpringFrameworkCore_2.jpg" width="600px"></p>
-
-
-
 
 ### AOP 주요 용어
 
@@ -2241,9 +2066,6 @@ System.out.println(value); // 102
 - AOP 구현체
 - Java에서는 AspectJ와 Spring AOP
 
-
-
-
 ### AOP 적용 방법
 
 - 컴파일 시점 (AspectJ)
@@ -2264,18 +2086,11 @@ System.out.println(value); // 102
 * bean을 만들 때 그 bean을 감싸는 proxy bean을 만들어 AOP 적용
 * 장점 : 별도의 컴파일러나 별도의 Java Agent로 로드타임 위버 설정을 할 필요가 없고 문법이 쉽다.
 
-
-
-
-
 ### Spring AOP 특징
 
 - 프록시 기반의 AOP 구현체
 - 스프링 bean에만 AOP를 적용할 수 있다.
 - 모든 AOP 기능을 제공하는 것이 목적이 아니라, 스프링 IoC와 연동하여 엔터프라이즈 애플리케이션에서 가장 흔한 문제에 대한 해결책을 제공하는 것이 목적이다.
-
-
-
 
 ### 프록시 패턴
 
@@ -2285,9 +2100,6 @@ System.out.println(value); // 102
 * 매 번 프록시 클래스를 작성해야 한다.
 * 여러 클래스, 여러 메소드에 적용하려면 비용이 많이 든다.
 * 중복 코드가 생긴다.
-
-
-
 
 ### 문제점 때문에 등장한 Spring AOP
 
@@ -2302,9 +2114,6 @@ System.out.println(value); // 102
 * 클라이언트 코드 변경 없음
 * [AbstractAutoProxyCreator](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.html) implements [BeanPostProcessor](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/beans/factory/config/BeanPostProcessor.html)
 
-
-
-
 ### 동작 시점
 
 | <center>동작 시점</center> | <center>설명</center> |
@@ -2316,9 +2125,6 @@ System.out.println(value); // 102
 |**After** | - After Returning : 메소드가 성공적으로 리턴되면 동작 - After Throwing : 메소드 실행 중 예외가 발생하면 동작 - After : 메소드가 실행된 후, 무조건 실행 |
 
 |**Around** | Around는 메소드 호출 자체를 가로채 메소드 실행 전후에 처리할 로직을 삽입할 수 있다. |
-
-
-
 
 ### Spring AOP 예시
 
@@ -2380,9 +2186,6 @@ public @interface PerfLogging {
 
 ```
 
-
-
-
 ## Null-safety
 
 - 목적 : (툴의 지원을 받아) 컴파일 시점에 최대한 NullPointerException을 방지하는 것
@@ -2394,14 +2197,9 @@ public @interface PerfLogging {
 
 - `@NonNullFields`(패키지 레벨 설정)
 
-
-
-
 ### 툴에서 적용 방법
 
 <p align="center"><img src = "https://github.com/khy07181/TIL/blob/master/Spring_SpringBoot/img/SpringFrameworkCore_3.jpg" width="800px"></p>
-
-
 
 - Build, Excution, Deployment -> Compiler 설정에서 Configure annotations
 - Nullable annotations에 org.springframework.lang.Nullable 추가
@@ -2409,9 +2207,6 @@ public @interface PerfLogging {
 - IntelliJ 재시작
 - 보내는 쪽이 null일 경우 : `Passing 'null' argument to parameter annotated as @NotNull`
 - 받는 쪽이 null일 경우 : `'null' is returned by the method declared as @NonNull`
-
-
-
 
 ### 예시 코드
 

@@ -196,7 +196,7 @@
       "current": {
         "year": 2022,
         "month": 8,
-        "day": 19
+        "day": 22
       },
       "events": [
         {
@@ -392,7 +392,7 @@
           "category": "miscellaneous-events"
         },
         {
-          "id": "ID_99899a5a49e9",
+          "id": "ID_1baafaa93b4b",
           "name": "2022-08-30",
           "note": "private/daily-note/2022-08-30.md",
           "date": {
@@ -405,33 +405,7 @@
           "auto": true
         },
         {
-          "id": "ID_fa8bc9291a79",
-          "name": "stream",
-          "note": "permanent/stream.md",
-          "date": {
-            "year": 2022,
-            "month": 7,
-            "day": 11
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_fb68c8dbbb98",
-          "name": "HTML",
-          "note": "permanent/HTML.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 7
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_3bb89bcb9b69",
+          "id": "ID_79489baa88aa",
           "name": "Git Command",
           "note": "permanent/Git Command.md",
           "date": {
@@ -444,7 +418,20 @@
           "auto": true
         },
         {
-          "id": "ID_685a1b5a9aaa",
+          "id": "ID_283898c92ae8",
+          "name": "HTML",
+          "note": "permanent/HTML.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 7
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_292b8be9c9eb",
           "name": "interface_change",
           "note": "permanent/interface_change.md",
           "date": {
@@ -457,20 +444,20 @@
           "auto": true
         },
         {
-          "id": "ID_d9d83ac828b9",
-          "name": "CSS",
-          "note": "permanent/CSS.md",
+          "id": "ID_c8c9a9b89a19",
+          "name": "stream",
+          "note": "permanent/stream.md",
           "date": {
             "year": 2022,
-            "month": 8,
-            "day": 8
+            "month": 7,
+            "day": 11
           },
           "end": null,
           "description": "",
           "auto": true
         },
         {
-          "id": "ID_dafa081b781b",
+          "id": "ID_0a689b881bc8",
           "name": "optional",
           "note": "permanent/optional.md",
           "date": {
@@ -483,7 +470,20 @@
           "auto": true
         },
         {
-          "id": "ID_c85a5b5bf819",
+          "id": "ID_ba29d80a7be9",
+          "name": "CSS",
+          "note": "permanent/CSS.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 8
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_4ae9b97bdbaa",
           "name": "java basic",
           "note": "fleeting/java basic.md",
           "date": {
@@ -496,85 +496,7 @@
           "auto": true
         },
         {
-          "id": "ID_dbf8581a3828",
-          "name": "spring mvc 활용",
-          "note": "fleeting/spring mvc 활용.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 13
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_1b3ba9086b8a",
-          "name": "spring boot data",
-          "note": "fleeting/spring boot data.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 13
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_482be8682adb",
-          "name": "spring boot 원리",
-          "note": "fleeting/spring boot 원리.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 13
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_db1a18eb7a6a",
-          "name": "spring boot core",
-          "note": "fleeting/spring boot core.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 13
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_7b4988998958",
-          "name": "spring boot mvc",
-          "note": "fleeting/spring boot mvc.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 13
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_0b9ac8cb9adb",
-          "name": "spring mvc 설정",
-          "note": "fleeting/spring mvc 설정.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 13
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_cb1abab9ea7b",
+          "id": "ID_bb9a989ae84b",
           "name": "spring core",
           "note": "fleeting/spring core.md",
           "date": {
@@ -587,9 +509,9 @@
           "auto": true
         },
         {
-          "id": "ID_eb49ba9babd8",
-          "name": "spring boot - spring security",
-          "note": "fleeting/spring boot - spring security.md",
+          "id": "ID_586a891b9a58",
+          "name": "spring intro",
+          "note": "fleeting/spring intro.md",
           "date": {
             "year": 2022,
             "month": 8,
@@ -600,7 +522,124 @@
           "auto": true
         },
         {
-          "id": "ID_18b82888aa4b",
+          "id": "ID_382ab8196849",
+          "name": "spring mvc 동작 원리",
+          "note": "fleeting/spring mvc 동작 원리.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 13
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_0b7838fba82a",
+          "name": "spring mvc 설정",
+          "note": "fleeting/spring mvc 설정.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 13
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_08681b389a5a",
+          "name": "spring mvc 활용",
+          "note": "fleeting/spring mvc 활용.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 13
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_7a18b8fac96b",
+          "name": "spring boot core",
+          "note": "fleeting/spring boot core.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 13
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_8a7b89e889da",
+          "name": "spring boot mvc",
+          "note": "fleeting/spring boot mvc.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 13
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_08d9886baaa8",
+          "name": "spring boot 원리",
+          "note": "fleeting/spring boot 원리.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 13
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_bb9b0b985b0a",
+          "name": "spring boot data",
+          "note": "fleeting/spring boot data.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 13
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_08492a98189b",
+          "name": "다차원 배열 비교하기",
+          "note": "permanent/다차원 배열 비교하기.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 9
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_599b0aebe999",
+          "name": "spring boot - spring security",
+          "note": "permanent/spring boot - spring security.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 13
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_692bc8cba9f9",
           "name": "함수형 인터페이스와 람다",
           "note": "permanent/함수형 인터페이스와 람다.md",
           "date": {
@@ -613,13 +652,143 @@
           "auto": true
         },
         {
-          "id": "ID_49aae86a7a1b",
-          "name": "다차원 배열 비교하기",
-          "note": "permanent/다차원 배열 비교하기.md",
+          "id": "ID_19c9ca3969a8",
+          "name": "JPA_Intro",
+          "note": "fleeting/JPA_Intro.md",
           "date": {
             "year": 2022,
             "month": 8,
-            "day": 9
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_4879997bdb5b",
+          "name": "JPA_start",
+          "note": "fleeting/JPA_start.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_1a8bf84a0849",
+          "name": "persistence context",
+          "note": "fleeting/persistence context.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_09f8dbcb5b3a",
+          "name": "entity mapping",
+          "note": "fleeting/entity mapping.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_3b98f9ca593a",
+          "name": "relation mapping",
+          "note": "fleeting/relation mapping.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_ca3a5a982bdb",
+          "name": "다양한 연관관계 맵핑",
+          "note": "fleeting/다양한 연관관계 맵핑.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_6bbb08691bc9",
+          "name": "고급 맵핑",
+          "note": "fleeting/고급 맵핑.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_2be8db994b39",
+          "name": "프록시와 연관관계 관리",
+          "note": "fleeting/프록시와 연관관계 관리.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_39f8c91978da",
+          "name": "값 타입",
+          "note": "fleeting/값 타입.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_2bd9bb7a886a",
+          "name": "JPQL 1",
+          "note": "fleeting/JPQL 1.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_58184b0ada38",
+          "name": "JPQL 2",
+          "note": "fleeting/JPQL 2.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
           },
           "end": null,
           "description": "",
@@ -654,7 +823,7 @@
           "color": "#0288D1"
         }
       ],
-      "date": 1663078047890
+      "date": 1663208467635
     }
   ],
   "configDirectory": null,

@@ -11,13 +11,9 @@ fc-date: 2022-09-13 15:57
 
 # 스프링 데이터
 
-
-
 ## 소개
 
 <p align="center"><img src = "https://github.com/khy07181/TIL/blob/master/Spring_SpringBoot/img/SpringBootSpringData_1.jpg"></p>
-
-
 
 ## 인메모리 데이터베이스
 
@@ -26,17 +22,11 @@ fc-date: 2022-09-13 15:57
 * DataSource
 * JdbcTemplate
 
-
-
-
 ### 스프링 부트가 지원하는 인메모리 데이터베이스
 
 - H2
 - HSQL
 - Derby
-
-
-
 
 ### 인 메모리 데이터베이스 기본 연결 정보 확인 방법
 
@@ -44,18 +34,12 @@ fc-date: 2022-09-13 15:57
 - username : "sa"
 - password : ""
 
-
-
-
 ### H2 콘솔 사용하는 방법
 
 1. pom.xml에 spring-boot-devtools 의존성 추가
 2. application.properties에 spring.h2.console.enalbed=true 추가
 
 - /h2-console로 접속(이 path도 바꿀 수 있다)
-
-
-
 
 ### 실습 코드
 
@@ -111,12 +95,7 @@ jdbcTemplate.execute("INSERT INTO USER VALUES (1, 'hayoung')");
 
 ```
 
-
-
-
 ## DBCP와 MySQL
-
-
 
 ### DBCP(DataBase Connection Pool)
 
@@ -125,9 +104,6 @@ jdbcTemplate.execute("INSERT INTO USER VALUES (1, 'hayoung')");
 - DBCP가 애플리케이션 성능에 아주 핵심적인 역할을 하므로 DBCP에 버그가 있으면 애플리케이션에 아주 심각한 문제가 발생한다.
 
 * DBCP에 대해서 충분히 알고 사용을 해야 한다.
-
-
-
 
 ### 스프링 부트가 지원하는 DBCP
 
@@ -142,9 +118,6 @@ jdbcTemplate.execute("INSERT INTO USER VALUES (1, 'hayoung')");
 
 * 3가지 DBCP가 classpath에 있는 경우 HikariCP를 먼저 사용한다.
 
-
-
-
 ### 스프링 부트에서 DBCP 설정 방법
 
 - application.properties에서 spring.datasource뒤에 사용하는 DBCP 이름, DBCP가 제공하는 설정값들을 설정한다.
@@ -154,9 +127,6 @@ jdbcTemplate.execute("INSERT INTO USER VALUES (1, 'hayoung')");
 - spring.datasource.hikari.*
 - spring.datasource.tomcat.*
 - spring.datasource.dbcp2.*
-
-
-
 
 ### 스프링 부트에서의 MySQL
 
@@ -174,9 +144,6 @@ jdbcTemplate.execute("INSERT INTO USER VALUES (1, 'hayoung')");
 
 ```
 
-
-
-
 ### MySQL 추가 (도커 사용)
 
 - 위의 의존성만 추가하면 사용가능한 것이 아니라 MySQL을 설치해야 한다.
@@ -188,17 +155,11 @@ jdbcTemplate.execute("INSERT INTO USER VALUES (1, 'hayoung')");
 - MySQL 접속 : `docker exec -i -t mysql_boot bash` (컨테이너 안에 들어가 bash를 실행하라는 명령어)
 - `mysql -u hayoung -p`
 
-
-
-
 ### MySQL용 Datasource 설정
 
 - `spring.datasource.url=jdbc:mysql://localhost:3306/springboot?useSSL=false`
 - `spring.datasource.username=hayoung`
 - `spring.datasource.password=pass`
-
-
-
 
 ### MySQL 접속시 에러
 
@@ -207,18 +168,11 @@ jdbcTemplate.execute("INSERT INTO USER VALUES (1, 'hayoung')");
 
 <p align="center"><img src = "https://github.com/khy07181/TIL/blob/master/Spring_SpringBoot/img/SpringBootSpringData_2.jpg"></p>
 
-
-
-
-
 ### MySQL 라이센스 (GPL) 주의
 
 - 라이센스 비용을 내고 싶지 않으면 MySQL 대신 MariaDB 사용하면 된다.
 - 소스 코드 공개 의무 여부 확인
 - 사실 가장 좋은건 라이센스 비용도 없고 소스 코드 공개 의무도 없는 Postgre이다.
-
-
-
 
 ## PostgreSQL 설정
 
@@ -286,18 +240,11 @@ SELECT * FROM account;
 
 ```
 
-
-
-
 ### PostgreSQL 경고 메세지
 
 - 해결 메세지를 application.properties에 추가
 
 <p align="center"><img src = "https://github.com/khy07181/TIL/blob/master/Spring_SpringBoot/img/SpringBootSpringData_3.jpg"></p>
-
-
-
-
 
 ## 스프링 데이터 JPA
 
@@ -315,9 +262,6 @@ SELECT * FROM account;
 * 쿼리 메소드 자동 구현
 * @EnableJpaRepositories (스프링 부트가 자동으로 설정 해줌.)
 * SDJ(스프링데이터 JPA) -> JPA -> Hibernate -> Datasource
-
-
-
 
 ### 스프링 데이터 JPA 연동
 
@@ -573,12 +517,7 @@ assertThat(notExistingAccount).isEmpty();
 
 ```
 
-
-
-
 ## 데이터 베이스 초기화
-
-
 
 ### JPA를 사용한 데이터베이스 초기화
 
@@ -599,9 +538,6 @@ assertThat(notExistingAccount).isEmpty();
 - `spring.jpa.show-sql=true`로 설정하면 스키마가 생성되는 것을 볼 수 있다.
 
 * console에 hibernate 로그를 보여준다.
-
-
-
 
 ### SQL 스크립트를 사용한 데이터베이스 초기화
 
@@ -633,15 +569,10 @@ create table account (id bigint not null, email varchar(255), password varchar(2
 
 - src/resources 경로에 schema.sql 파일을 생성하고 SQL을 붙여넣는다.
 
-
-
-
 ## 데이터베이스 마이그레이션
 
 - Flyway와 Liquibase가 대표적이다. (강의에서는 Flyway마 사용)
 - DB 스키마 변경, 데이터 변경을 버전 관리하듯이 관리할 수 있다.
-
-
 
 ### [Flayway](https://docs.spring.io/spring-boot/docs/2.0.3.RELEASE/reference/htmlsingle/#howto-execute-flyway-database-migrations-on-startup)
 
@@ -660,16 +591,10 @@ create table account (id bigint not null, email varchar(255), password varchar(2
 
 ```
 
-
-
-
 ### 마이그레이션 디렉토리
 
 - db/migration 또는 db/migration/{vendor}
 - spring.flyway.locations로 변경 가능
-
-
-
 
 ### 마이그레이션 파일 이름
 
@@ -678,9 +603,6 @@ create table account (id bigint not null, email varchar(255), password varchar(2
 - 숫자는 순차적으로 (타임스탬프 권장)
 - 숫자와 이름 사이에 언더바 두 개(__).​
 - 이름은 가능한 서술적으로
-
-
-
 
 ### 마이그레이션 실습
 
@@ -795,9 +717,6 @@ ALTER TABLE account ADD COLUMN active BOOLEAN;
 
 ```
 
-
-
-
 ## Redis
 
 - 캐시, 메세지 브로커, key-value 스토어 등으로 사용 가능
@@ -815,9 +734,6 @@ ALTER TABLE account ADD COLUMN active BOOLEAN;
 
 ```
 
-
-
-
 ### 스프링 데이터 [Redis](https://spring.io/projects/spring-data-redis)
 
 - 기본적으로 Reids를 사용하는 2가지 방법
@@ -825,9 +741,6 @@ ALTER TABLE account ADD COLUMN active BOOLEAN;
 * StringRedisTemplate 또는 RedisTemplate
 
 - extends CrudRepository
-
-
-
 
 ### Redis 설치 및 실행(도커 사용)
 
@@ -840,18 +753,12 @@ ALTER TABLE account ADD COLUMN active BOOLEAN;
 
 * `docker exec -i -t redis_boot redis-cli`
 
-
-
-
 ### [Redis 주요 커맨드](https://redis.io/commands)
 
 - keys *
 - get {key}
 - hgetall {key}
 - hget {key} {column}
-
-
-
 
 ### Redis 커스터마이징
 
@@ -862,9 +769,6 @@ ALTER TABLE account ADD COLUMN active BOOLEAN;
 
 - 만약 다른 포트에 연결 했다면 포트 번호를, localhost가 아니라 다른 위치에 있는 Redis에 접속한다면 url도 바꿔야 한다.
 - `spring.redis.*`
-
-
-
 
 ### Redis 실습
 
@@ -1016,9 +920,6 @@ hgetall accounts:해쉬값
 
 ```
 
-
-
-
 ## [MongoDB](https://www.mongodb.com/)
 
 - JSON 기반의 도큐먼트 데이터베이스이다.
@@ -1039,9 +940,6 @@ hgetall accounts:해쉬값
 
 ```
 
-
-
-
 ### 스프링 데이터 MongoDB
 
 - bean들을 자동으로 설정해주고 지원해줘서 바로 주입받아 사용할 수 있다.
@@ -1057,17 +955,11 @@ hgetall accounts:해쉬값
 
 * MongoRepository에 관련된 bean들만 등록
 
-
-
-
 ### MongoDB 설치 및 실행 (도커)
 
 - `docker run -p 27017:27017 --name mongo_boot -d mongo`
 - `docker exec -i -t mongo_boot bash`
 - `mongo`
-
-
-
 
 ### MongoDB 실습
 
@@ -1209,9 +1101,6 @@ System.out.println("finished");
 
 ```
 
-
-
-
 ### 내장형 MongoDB (테스트용)을 사용한 Slicing Test
 
 - 테스트용 코드가 운영용 MongoDB에 데이터를 조회하면 문제가 번거롭기 때문에 내장형 MongoDB를 사용하면 된다.
@@ -1296,9 +1185,6 @@ assertThat(byEmail.get().getUsername()).isEqualTo("hayoung");
 
 ```
 
-
-
-
 ## [Neo4j](https://neo4j.com/)
 
 - 노드간의 연관 관계를 영속화하는데 유리한 그래프 데이터베이스이다.
@@ -1321,17 +1207,11 @@ assertThat(byEmail.get().getUsername()).isEqualTo("hayoung");
 
 ```
 
-
-
-
 ### 스프링 데이터 Neo4J
 
 - Neo4jTemplate (Deprecated)
 - SessionFactory
 - Neo4jRepository
-
-
-
 
 ### Neo4j 설치 및 실행 (도커)
 
@@ -1353,9 +1233,6 @@ spring.data.neo4j.password=1111
 spring.data.neo4j.username=neo4j
 
 ```
-
-
-
 
 ### Neo4j 실습
 
