@@ -4,15 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "7851727037ba44aa",
+        "id": "e55d524b9c3cded3",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "fleeting/spring boot 원리.md",
+            "file": "fleeting/spring mvc 활용.md",
             "mode": "source",
             "backlinks": false,
             "source": false
+          }
+        }
+      },
+      {
+        "id": "b50cc04ff5341ca6",
+        "type": "leaf",
+        "state": {
+          "type": "image",
+          "state": {
+            "file": "img/SpringMVCPrinciple_1.jpg"
           }
         }
       }
@@ -79,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fleeting/spring boot 원리.md",
+                "file": "fleeting/spring mvc 활용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fleeting/spring boot 원리.md",
+                "file": "fleeting/spring mvc 활용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fleeting/spring boot 원리.md"
+                "file": "fleeting/spring mvc 활용.md"
               }
             }
           },
@@ -156,24 +166,24 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "7851727037ba44aa",
+  "active": "e55d524b9c3cded3",
   "lastOpenFiles": [
-    "fleeting/relation mapping.md",
-    "fleeting/persistence context.md",
+    "permanent/spring mvc 설정.md",
+    "permanent/spring mvc 동작 원리.md",
+    "img/SpringMVCPrinciple_1.jpg",
+    "permanent/spring boot 원리.md",
     "permanent/stream.md",
-    "permanent/spring boot - spring security.md",
-    "permanent/README.md",
-    "permanent/optional.md",
-    "permanent/interface_change.md",
-    "permanent/HTML.md",
-    "permanent/Git Command.md",
-    "permanent/CSS.md"
+    "permanent/spring intro.md",
+    "permanent/spring boot mvc.md",
+    "permanent/spring boot data.md",
+    "permanent/spring boot core.md",
+    "permanent/spring boot - spring security.md"
   ]
 }
