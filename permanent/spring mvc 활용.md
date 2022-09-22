@@ -4,7 +4,7 @@ aliases: spring mvc 활용
 categories: spring
 tags: spring, java, framework
 created: 2022-09-13 15:54
-updated: 2022-09-13 15:54
+updated: 2022-09-20 13:23
 fc-calendar: Gregorian Calendar
 fc-date: 2022-09-13 15:54
 ---
@@ -426,28 +426,13 @@ public class SampleControllerTest {
 ### 핸들러 메소드 아규먼트
 
 - 주로 요청 그 자체 또는 요청에 들어있는 정보를 받아오는데 사용한다.
+![SpringMVCUtilization_1](../img/SpringMVCUtilization_1.png)
 - [Handler Methods - Method Arguments](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc-ann-arguments)
 
 ### 핸들러 메소드 리턴
 
 - 주로 응답 또는 모델을 랜더링할 뷰에 대한 정보를 제공하는데 사용한다.
-
-| 핸들러 메소드 리턴 | 설명 |
-
-|:--------|:--------|
-
-| @ResponseBody | 리턴 값을 HttpMessageConverter를 사용해 응답 본문으로 사용한다. |
-
-| HttpEntity ReponseEntity | 응답 본문 뿐 아니라 헤더 정보까지, 전체 응답을 만들 때 사용한다. |
-
-| String | ViewResolver를 사용해서 뷰를 찾을 때 사용할 뷰 이름. |
-
-| View | 암묵적인 모델 정보를 랜더링할 뷰 인스턴스 |
-
-| MapModel | (RequestToViewNameTranslator를 통해서) 암묵적으로 판단한 뷰 랜더링할 때 사용할 모델 정보 |
-
-| @ModelAttribute | (RequestToViewNameTranslator를 통해서) 암묵적으로 판단한 뷰 랜더링할 때 사용할 모델 정보에 추가한다. 이 애노테이션은 생략할 수 있다. |
-
+![SpringMVCUtilization_2](../img/SpringMVCUtilization_2.png)
 - [Return Values](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc-ann-return-types)
 
 ## 핸들러 메소드 2. URI 패턴
@@ -462,91 +447,51 @@ public class SampleControllerTest {
 ### @PathVariable 실습
 
 ```java
-
 public class Event {
 
-  
+    private Integer id;
 
-private Integer id;
+    private String name;
 
-  
-
-private String name;
-
-  
-
-...getter and setter...
-
+    ...getter and setter...
 }
-
 ```
 
 ```java
-
 @Controller
-
 @RequestMapping(method = RequestMethod.GET)
-
 public class SampleController {
 
-  
-
-@GetMapping("/events/{id}")
-
-@ResponseBody
-
-public Event getEvent(@PathVariable Integer id) {
-
-Event event = new Event();
-
-event.setId(id);
-
-return event;
-
+    @GetMapping("/events/{id}")
+    @ResponseBody
+    public Event getEvent(@PathVariable Integer id) {
+        Event event = new Event();
+        event.setId(id);
+        return event;
+    }
 }
-
-}
-
 ```
 
 - 테스트
 
 ```java
-
 @RunWith(SpringRunner.class)
-
 @WebMvcTest
-
 public class SampleControllerTest {
 
-  
+    @Autowired
+    MockMvc mockMvc;
 
-@Autowired
-
-MockMvc mockMvc;
-
-  
-
-@Test
-
-public void helloTest() throws Exception {
-
-mockMvc.perform(get("/events/1")) // 넘겨준 값은 문자열이지만 int형으로 자동으로 타입 변환을 지원해준다.
-
-.andDo(print())
-
-.andExpect(status().isOk())
-
-.andExpect(jsonPath("id").value(1))
-
-;
+    @Test
+    public void helloTest() throws Exception {
+        mockMvc.perform(get("/events/1"))   // 넘겨준 값은 문자열이지만 int형으로 자동으로 타입 변환을 지원해준다.
+                .andDo(print())
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("id").value(1))
+        ;
+    }
 
 }
-
-  
-
-}
-
 ```
 
 ### @MatrixVariable
@@ -556,125 +501,72 @@ mockMvc.perform(get("/events/1")) // 넘겨준 값은 문자열이지만 int형�
 - (기본)값이 반드시 있어야 한다.
 - Optional을 지원한다.
 - 이 기능은 기본적으로 비활성화 되어 있다.
-
-* 활성화 하려면 추가 설정을 해야 한다.(실습에 있음)
+	* 활성화 하려면 추가 설정을 해야 한다.(실습에 있음)
 
 ### @MatrixVariable 실습
 
 ```java
-
 public class Event {
 
-  
+    private Integer id;
 
-private Integer id;
+    private String name;
 
-  
-
-private String name;
-
-  
-
-...getter and setter...
-
+    ...getter and setter...
 }
-
 ```
 
 ```java
-
 @Controller
-
 @RequestMapping(method = RequestMethod.GET)
-
 public class SampleController {
 
-  
-
-@GetMapping("/events/{id}")
-
-@ResponseBody
-
-public Event getEvent(@PathVariable Integer id, @MatrixVariable String name) {
-
-Event event = new Event();
-
-event.setId(id);
-
-event.setName(name);
-
-return event;
-
+    @GetMapping("/events/{id}")
+    @ResponseBody
+    public Event getEvent(@PathVariable Integer id, @MatrixVariable String name) {
+        Event event = new Event();
+        event.setId(id);
+        event.setName(name);
+        return event;
+    }
 }
-
-}
-
 ```
 
 - @MatrixVariable 사용을 위한 추가 설정
 
 ```java
-
 @Configuration
-
 public class WebConfig implements WebMvcConfigurer {
 
-  
-
-@Override
-
-public void configurePathMatch(PathMatchConfigurer configurer) {
-
-UrlPathHelper urlPathHelper = new UrlPathHelper();
-
-urlPathHelper.setRemoveSemicolonContent(false); // 세미콜론을 제거하지 않도록
-
-configurer.setUrlPathHelper(urlPathHelper);
-
+    @Override
+    public void configurePathMatch(PathMatchConfigurer configurer) {
+        UrlPathHelper urlPathHelper = new UrlPathHelper();
+        urlPathHelper.setRemoveSemicolonContent(false); // 세미콜론을 제거하지 않도록
+        configurer.setUrlPathHelper(urlPathHelper);
+    }
 }
-
-}
-
 ```
 
 - 테스트
 
 ```java
-
 @RunWith(SpringRunner.class)
-
 @WebMvcTest
-
 public class SampleControllerTest {
 
-  
+    @Autowired
+    MockMvc mockMvc;
 
-@Autowired
-
-MockMvc mockMvc;
-
-  
-
-@Test
-
-public void helloTest() throws Exception {
-
-mockMvc.perform(get("/events/1;name=hayoung"))
-
-.andDo(print())
-
-.andExpect(status().isOk())
-
-.andExpect(jsonPath("id").value(1))
-
-;
+    @Test
+    public void helloTest() throws Exception {
+        mockMvc.perform(get("/events/1;name=hayoung"))   
+                .andDo(print())
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("id").value(1))
+        ;
+    }
 
 }
-
-  
-
-}
-
 ```
 
 ## 핸들러 메소드 3. 요청 매개변수
@@ -690,11 +582,9 @@ mockMvc.perform(get("/events/1;name=hayoung"))
 
 - 요청 매개변수에 들어있는 단순 타입 데이터를 메소드 아규먼트로 받아올 수 있다.
 - 값이 반드시 있어야 한다.
-
-* required=false 또는 Optional을 사용해서 부가적인 값으로 설정할 수도 있다.
-* `required= "true"`가 기본값이다.
-* `defaultValue = "원하는이름"`으로 기본값을 정할 수 있다.
-
+	* required=false 또는 Optional을 사용해서 부가적인 값으로 설정할 수도 있다.
+	* `required= "true"`가 기본값이다.
+	* `defaultValue = "원하는이름"`으로 기본값을 정할 수 있다.
 - String이 아닌 값들은 타입 컨버전을 지원한다.
 - Map<String, String> 또는 MultiValueMap<String, String>에 사용해서 모든 요청 매개변수를 받아 올 수도 있다.
 - 이 애노테이션은 생략 할 수 있다. (헷갈릴 수가 있기 때문에 명시적으로 적어주는 것도 좋다.)
@@ -702,101 +592,56 @@ mockMvc.perform(get("/events/1;name=hayoung"))
 ### 요청 매개변수 실습(쿼리 파라미터)
 
 ```java
-
 public class Event {
 
-  
+    private Integer id;
 
-private Integer id;
+    private String name;
 
-  
+    private Integer limit;
 
-private String name;
-
-  
-
-private Integer limit;
-
-  
-
-...getter and setter...
-
+    ...getter and setter...
 }
-
 ```
 
 ```java
-
 @Controller
-
 @RequestMapping(method = RequestMethod.GET)
-
 public class SampleController {
 
-  
-
-@PostMapping("/events")
-
-@ResponseBody
-
-public Event getEvent(@RequestParam String name, @RequestParam Integer limit) {
-
-Event event = new Event();
-
-event.setName(name);
-
-event.setLimit(limit);
-
-return event;
-
+    @PostMapping("/events")
+    @ResponseBody
+    public Event getEvent(@RequestParam String name, @RequestParam Integer limit) {
+        Event event = new Event();
+        event.setName(name);
+        event.setLimit(limit);
+        return event;
+    }
 }
-
-}
-
 ```
 
 - 테스트
 
 ```java
-
 @RunWith(SpringRunner.class)
-
 @WebMvcTest
-
 public class SampleControllerTest {
 
-  
+    @Autowired
+    MockMvc mockMvc;
 
-@Autowired
-
-MockMvc mockMvc;
-
-  
-
-@Test
-
-public void helloTest() throws Exception {
-
-mockMvc.perform(post("/events")
-
-.param("name", "hayoung")
-
-.param("limit", "20"))
-
-.andDo(print())
-
-.andExpect(status().isOk())
-
-.andExpect(jsonPath("name").value("hayoung"))
-
-;
+    @Test
+    public void helloTest() throws Exception {
+        mockMvc.perform(post("/events")
+                    .param("name", "hayoung")
+                    .param("limit", "20"))
+                .andDo(print())
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("name").value("hayoung"))
+        ;
+    }
 
 }
-
-  
-
-}
-
 ```
 
 ## 핸들러 메소드 4. 폼 서브밋
@@ -806,135 +651,77 @@ mockMvc.perform(post("/events")
 ### 요청 매개변수 실습(폼 데이터)
 
 - 폼을 보여줄 요청 처리
-
-* 컨트롤러 : GET /events/form
-* 뷰 : events/form.html
-* 모델 : "event", new Event()
-
+	* 컨트롤러 : GET /events/form
+	* 뷰 : events/form.html
+	* 모델 : "event", new Event()
 - 타임리프
-
-* @{}: URL 표현식
-* ${}: variable 표현식
-* *{}: selection 표현식
-
+	* @{}: URL 표현식
+	* ${}: variable 표현식
+	* *{}: selection 표현식
 - 컨트롤러 작성
 
 ```java
-
 @Controller
-
 public class SampleController {
 
-  
+    @GetMapping("/events/form")
+    public String eventsForm(Model model) {
+        Event newEvent = new Event();
+        newEvent.setLimit(50);
+        model.addAttribute("event", newEvent);
+        return "/events/form";
+    }
 
-@GetMapping("/events/form")
-
-public String eventsForm(Model model) {
-
-Event newEvent = new Event();
-
-newEvent.setLimit(50);
-
-model.addAttribute("event", newEvent);
-
-return "/events/form";
-
+    @PostMapping("/events")
+    public @ResponseBody Event events(@RequestParam String name, @RequestParam Integer id) {
+        Event event = new Event();
+        event.setId(id);
+        event.setName(name);
+        return event;
+    }
 }
-
-  
-
-@PostMapping("/events")
-
-public @ResponseBody Event events(@RequestParam String name, @RequestParam Integer id) {
-
-Event event = new Event();
-
-event.setId(id);
-
-event.setName(name);
-
-return event;
-
-}
-
-}
-
 ```
 
 - 뷰 작성
 
 ```html
-
 <!DOCTYPE html>
-
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-
 <head>
-
-<meta charset="UTF-8">
-
-<title>Create New Event</title>
-
+    <meta charset="UTF-8">
+    <title>Create New Event</title>
 </head>
-
 <body>
-
 <form action="#" th:action="@{/events}" method="post" th:object="${event}">
-
-<input type="text" title="name" th:field="*{name}"/>
-
-<input type="text" title="limit" th:field="*{limit}"/>
-
-<input type="submit" value="Create"/>
-
+    <input type="text" title="name" th:field="*{name}"/>
+    <input type="text" title="limit" th:field="*{limit}"/>
+    <input type="submit" value="Create"/>
 </form>
-
 </body>
-
-</html>
-
+</html> 
 ```
 
 - 테스트
-
-* 타임리프 html은 test코드를 작성하여 어떻게 렌더링되는지 확인이 가능하다. (jsp는 불가능)
+	* 타임리프 html은 test코드를 작성하여 어떻게 렌더링되는지 확인이 가능하다. (jsp는 불가능)
 
 ```java
-
 @RunWith(SpringRunner.class)
-
 @WebMvcTest
-
 public class SampleControllerTest {
 
-  
+    @Autowired
+    MockMvc mockMvc;
 
-@Autowired
-
-MockMvc mockMvc;
-
-  
-
-@Test
-
-public void eventForm() throws Exception {
-
-mockMvc.perform(get("/events/form"))
-
-.andDo(print())
-
-.andExpect(view().name("/events/form"))
-
-.andExpect(model().attributeExists("event"))
-
-;
+    @Test
+    public void eventForm() throws Exception {
+        mockMvc.perform(get("/events/form"))
+                .andDo(print())
+                .andExpect(view().name("/events/form"))
+                .andExpect(model().attributeExists("event"))
+        ;
+    }
 
 }
-
-  
-
-}
-
 ```
 
 ## 핸들러 메소드 5. @ModelAttribute
@@ -943,41 +730,25 @@ mockMvc.perform(get("/events/form"))
 - 여러 곳(URI 패스, 요청 매개변수, 세션 등)에 있는 단순 타입 데이터를 복합 타입의 객체로 받아오거나 해당 객체를 새로 만들 때 사용할 수 있다.
 - 생략 가능하다.
 - 값을 바인딩 할 수 없는 경우
-
-* BindException이 발생하고 400에러가 발생한다.
+	* BindException이 발생하고 400에러가 발생한다.
 
 ```java
-
 // @PostMapping("/events")
-
 // public @ResponseBody Event events(@RequestParam String name, @RequestParam Integer id) {
-
-// Event event = new Event();
-
-// event.setId(id);
-
-// event.setName(name);
-
-// return event;
-
+//     Event event = new Event();
+//     event.setId(id);
+//     event.setName(name);
+//     return event;
 // }
-
 @Controller
-
 public class SampleController {
-
-@PostMapping("/events")
-
-@ResponseBody
-
-public Event postEvent(@ModelAttribute Event event) {
-
-return event;
-
+    
+  @PostMapping("/events")
+  @ResponseBody
+  public Event postEvent(@ModelAttribute Event event) {
+    return event;
+  }
 }
-
-}
-
 ```
 
 ### 바인딩 에러를 직접 다루고 싶은 경우
@@ -987,33 +758,20 @@ return event;
 - 요청은 처리된다. (바인딩은 제대로 되지 않는다.)
 
 ```java
-
 @Controller
-
 public class SampleController {
-
-@PostMapping("/events")
-
-@ResponseBody
-
-public Event postEvent(@ModelAttribute Event event, BindingResult bindResult) {
-
-if(bindingReuslt.hasError()) {
-
-bindingResult.getAllErrors().forEach(c -> {
-
-System.out.println(c.toString());
-
-});
-
+    
+  @PostMapping("/events")
+  @ResponseBody
+  public Event postEvent(@ModelAttribute Event event, BindingResult bindResult) {
+    if(bindingReuslt.hasError()) {
+      bindingResult.getAllErrors().forEach(c -> {
+        System.out.println(c.toString());
+      });
+    }
+    return event;
+  }
 }
-
-return event;
-
-}
-
-}
-
 ```
 
 ### 바인딩 이후에 검증 작업을 추가로 하고 싶은 경우
@@ -1023,33 +781,20 @@ return event;
 - `@Validated`는 group validation을 지원한다.
 
 ```java
-
 @Controller
-
 public class SampleController {
-
-@PostMapping("/events")
-
-@ResponseBody
-
-public Event postEvent(@Valid @ModelAttribute Event event, BindingResult bindResult) {
-
-if(bindingReuslt.hasError()) {
-
-bindingResult.getAllErrors().forEach(c -> {
-
-System.out.println(c.toString());
-
-});
-
+    
+  @PostMapping("/events")
+  @ResponseBody
+  public Event postEvent(@Valid @ModelAttribute Event event, BindingResult bindResult) {
+    if(bindingReuslt.hasError()) {
+      bindingResult.getAllErrors().forEach(c -> {
+        System.out.println(c.toString());
+      });
+    }
+    return event;
+  }
 }
-
-return event;
-
-}
-
-}
-
 ```
 
 ## 핸들러 메소드 6. @Validated
@@ -1061,65 +806,37 @@ return event;
 ### @Validated 실습
 
 ```java
-
 public class Event {
 
-  
+    interface ValidateLimit {}
+    interface ValidateName{}
 
-interface ValidateLimit {}
+    private Integer id;
 
-interface ValidateName{}
+    @NotBlank(groups = ValidateName.class)
+    private String name;
 
-  
-
-private Integer id;
-
-  
-
-@NotBlank(groups = ValidateName.class)
-
-private String name;
-
-  
-
-@Min(value = 0, groups = ValidateLimit.class)
-
-private Integer limit;
-
-...getter and setter...
-
+    @Min(value = 0, groups = ValidateLimit.class)
+    private Integer limit;
+    
+    ...getter and setter...
 }
-
 ```
 
 ```java
-
 @Controller
-
 public class SampleController {
-
-@PostMapping("/events")
-
-@ResponseBody
-
-// ValidateLimit이라는 그룹으로 검증을 하겠다고 했으므로 Event클래스의 @NotBlank 애노테이션은 적용되지 않고 @Min 애노테이션만 검증에 사용된다.
-
-public Event postEvent(@Validated(Event.ValidateName.class) @ModelAttribute Event event, BindingResult bindResult) {
-
-if(bindingReuslt.hasError()) {
-
-bindingResult.getAllErrors().forEach(c -> {
-
-System.out.println(c.toString());
-
-});
-
+    
+  @PostMapping("/events")
+  @ResponseBody
+  // ValidateLimit이라는 그룹으로 검증을 하겠다고 했으므로 Event클래스의 @NotBlank 애노테이션은 적용되지 않고 @Min 애노테이션만 검증에 사용된다.
+  public Event postEvent(@Validated(Event.ValidateName.class) @ModelAttribute Event event, BindingResult bindResult) {
+    if(bindingReuslt.hasError()) {
+      bindingResult.getAllErrors().forEach(c -> {
+        System.out.println(c.toString());
+      });
+    }
+    return event;
+  }
 }
-
-return event;
-
-}
-
-}
-
 ```

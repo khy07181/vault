@@ -195,8 +195,8 @@
       },
       "current": {
         "year": 2022,
-        "month": 8,
-        "day": 28
+        "month": 9,
+        "day": 3
       },
       "events": [
         {
@@ -496,19 +496,6 @@
           "auto": true
         },
         {
-          "id": "ID_08681b389a5a",
-          "name": "spring mvc 활용",
-          "note": "fleeting/spring mvc 활용.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 13
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
           "id": "ID_08492a98189b",
           "name": "다차원 배열 비교하기",
           "note": "permanent/다차원 배열 비교하기.md",
@@ -542,149 +529,6 @@
             "year": 2022,
             "month": 8,
             "day": 8
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_19c9ca3969a8",
-          "name": "JPA_Intro",
-          "note": "fleeting/JPA_Intro.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 15
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_4879997bdb5b",
-          "name": "JPA_start",
-          "note": "fleeting/JPA_start.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 15
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_1a8bf84a0849",
-          "name": "persistence context",
-          "note": "fleeting/persistence context.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 15
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_09f8dbcb5b3a",
-          "name": "entity mapping",
-          "note": "fleeting/entity mapping.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 15
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_3b98f9ca593a",
-          "name": "relation mapping",
-          "note": "fleeting/relation mapping.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 15
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_ca3a5a982bdb",
-          "name": "다양한 연관관계 맵핑",
-          "note": "fleeting/다양한 연관관계 맵핑.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 15
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_6bbb08691bc9",
-          "name": "고급 맵핑",
-          "note": "fleeting/고급 맵핑.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 15
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_2be8db994b39",
-          "name": "프록시와 연관관계 관리",
-          "note": "fleeting/프록시와 연관관계 관리.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 15
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_39f8c91978da",
-          "name": "값 타입",
-          "note": "fleeting/값 타입.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 15
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_2bd9bb7a886a",
-          "name": "JPQL 1",
-          "note": "fleeting/JPQL 1.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 15
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_58184b0ada38",
-          "name": "JPQL 2",
-          "note": "fleeting/JPQL 2.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 15
           },
           "end": null,
           "description": "",
@@ -806,6 +650,162 @@
           "end": null,
           "description": "",
           "auto": true
+        },
+        {
+          "id": "ID_9a8b8a9b89db",
+          "name": "spring mvc 활용",
+          "note": "permanent/spring mvc 활용.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 13
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_69c89828b9fb",
+          "name": "자바 ORM 표준 JPA 프로그래밍 - 4.  Entity 맵핑",
+          "note": "fleeting/자바 ORM 표준 JPA 프로그래밍 - 4.  Entity 맵핑.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_ab9aeaa98a79",
+          "name": "자바 ORM 표준 JPA 프로그래밍 - 5. 연관관계 맵핑 기초",
+          "note": "fleeting/자바 ORM 표준 JPA 프로그래밍 - 5. 연관관계 맵핑 기초.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_2809bb7a9938",
+          "name": "자바 ORM 표준 JPA 프로그래밍 - 6. 다양한 연관관계 맵핑",
+          "note": "fleeting/자바 ORM 표준 JPA 프로그래밍 - 6. 다양한 연관관계 맵핑.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_297be8099869",
+          "name": "자바 ORM 표준 JPA 프로그래밍 -  7. 고급 맵핑",
+          "note": "fleeting/자바 ORM 표준 JPA 프로그래밍 -  7. 고급 맵핑.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_4928681a1828",
+          "name": "자바 ORM 표준 JPA 프로그래밍 - 8. 프록시와 연관관계 관리",
+          "note": "fleeting/자바 ORM 표준 JPA 프로그래밍 - 8. 프록시와 연관관계 관리.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_cb597a89ca1b",
+          "name": "자바 ORM 표준 JPA 프로그래밍 - 9. 값 타입",
+          "note": "fleeting/자바 ORM 표준 JPA 프로그래밍 - 9. 값 타입.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_b888bb9899b9",
+          "name": "자바 ORM 표준 JPA 프로그래밍 - 10. JPQL",
+          "note": "fleeting/자바 ORM 표준 JPA 프로그래밍 - 10. JPQL.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_f828ca4b9ba8",
+          "name": "자바 ORM 표준 JPA 프로그래밍 - 11. JPQL2",
+          "note": "fleeting/자바 ORM 표준 JPA 프로그래밍 - 11. JPQL2.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_eab9ab7b190a",
+          "name": "자바 ORM 표준 JPA 프로그래밍 - 1. JPA 소개",
+          "note": "permanent/자바 ORM 표준 JPA 프로그래밍 - 1. JPA 소개.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_7b990b5aa829",
+          "name": "자바 ORM 표준 JPA 프로그래밍 - 2. JPA 시작하기",
+          "note": "permanent/자바 ORM 표준 JPA 프로그래밍 - 2. JPA 시작하기.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_7928eabb9af8",
+          "name": "자바 ORM 표준 JPA 프로그래밍 - 3. 영속성 관리",
+          "note": "permanent/자바 ORM 표준 JPA 프로그래밍 - 3. 영속성 관리.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
         }
       ],
       "id": "ID_69eaa9e9a948",
@@ -836,7 +836,7 @@
           "color": "#0288D1"
         }
       ],
-      "date": 1663636868574
+      "date": 1663858903187
     }
   ],
   "configDirectory": null,

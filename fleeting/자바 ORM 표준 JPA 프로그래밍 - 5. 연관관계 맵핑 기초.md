@@ -1,12 +1,12 @@
 ---
-title: relation mapping
-aliases: relation mapping
-categories: JPA
-tags: Java, Spring, JPA, ORM
-created: 2022-09-15 11:30
-updated: 2022-09-15 11:30
+title: 자바 ORM 표준 JPA 프로그래밍 - 5. 연관관계 맵핑 기초
+aliases: 자바 ORM 표준 JPA 프로그래밍 - 5. 연관관계 맵핑 기초
+categories: 
+tags: 
+created: 2022-09-15 17:06
+updated: 2022-09-20 14:36
 fc-calendar: Gregorian Calendar
-fc-date: 2022-09-15 11:30
+fc-date: 2022-09-15 17:06
 ---
 
 # 연관관계 맵핑 기초

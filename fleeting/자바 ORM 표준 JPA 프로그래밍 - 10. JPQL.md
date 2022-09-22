@@ -1,8 +1,8 @@
 ---
 title: JPQL 1
 aliases: JPQL 1
-categories: 
-tags: 
+categories: JPA
+tags: JPA, ORM
 created: 2022-09-15 11:36
 updated: 2022-09-15 11:36
 fc-calendar: Gregorian Calendar

@@ -1,8 +1,8 @@
 ---
 title: java basic
 aliases: java basic
-categories: 
-tags: 
+categories: JPA
+tags: JPA, ORM
 created: 2022-09-08 23:45
 updated: 2022-09-08 23:49
 fc-calendar: Gregorian Calendar

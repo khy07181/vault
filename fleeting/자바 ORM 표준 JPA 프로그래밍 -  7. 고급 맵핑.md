@@ -1,8 +1,8 @@
 ---
 title: 고급 맵핑
 aliases: 고급 맵핑
-categories: 
-tags: 
+categories: JPA
+tags: JPA, ORM
 created: 2022-09-15 11:34
 updated: 2022-09-15 11:34
 fc-calendar: Gregorian Calendar

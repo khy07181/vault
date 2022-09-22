@@ -4,25 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e55d524b9c3cded3",
+        "id": "5dd17b184defbf77",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "fleeting/spring mvc 활용.md",
+            "file": "fleeting/자바 ORM 표준 JPA 프로그래밍 - 4.  Entity 맵핑.md",
             "mode": "source",
             "backlinks": false,
             "source": false
-          }
-        }
-      },
-      {
-        "id": "b50cc04ff5341ca6",
-        "type": "leaf",
-        "state": {
-          "type": "image",
-          "state": {
-            "file": "img/SpringMVCPrinciple_1.jpg"
           }
         }
       }
@@ -89,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fleeting/spring mvc 활용.md",
+                "file": "fleeting/자바 ORM 표준 JPA 프로그래밍 - 4.  Entity 맵핑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fleeting/spring mvc 활용.md",
+                "file": "fleeting/자바 ORM 표준 JPA 프로그래밍 - 4.  Entity 맵핑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fleeting/spring mvc 활용.md"
+                "file": "fleeting/자바 ORM 표준 JPA 프로그래밍 - 4.  Entity 맵핑.md"
               }
             }
           },
@@ -173,17 +163,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e55d524b9c3cded3",
+  "active": "5dd17b184defbf77",
   "lastOpenFiles": [
-    "permanent/spring mvc 설정.md",
-    "permanent/spring mvc 동작 원리.md",
-    "img/SpringMVCPrinciple_1.jpg",
-    "permanent/spring boot 원리.md",
-    "permanent/stream.md",
-    "permanent/spring intro.md",
-    "permanent/spring boot mvc.md",
-    "permanent/spring boot data.md",
-    "permanent/spring boot core.md",
-    "permanent/spring boot - spring security.md"
+    "fleeting/자바 ORM 표준 JPA 프로그래밍 - 5. 연관관계 맵핑 기초.md",
+    "permanent/다차원 배열 비교하기.md",
+    "permanent/자바 ORM 표준 JPA 프로그래밍 - 2. JPA 시작하기.md",
+    "permanent/자바 ORM 표준 JPA 프로그래밍 - 1. JPA 소개.md",
+    "permanent/자바 ORM 표준 JPA 프로그래밍 - 3. 영속성 관리.md",
+    "fleeting/자바 ORM 표준 JPA 프로그래밍 - 10. JPQL.md",
+    "fleeting/자바 ORM 표준 JPA 프로그래밍 - 11. JPQL2.md",
+    "fleeting/자바 ORM 표준 JPA 프로그래밍 - 9. 값 타입.md",
+    "fleeting/자바 ORM 표준 JPA 프로그래밍 - 8. 프록시와 연관관계 관리.md",
+    "fleeting/자바 ORM 표준 JPA 프로그래밍 -  7. 고급 맵핑.md"
   ]
 }

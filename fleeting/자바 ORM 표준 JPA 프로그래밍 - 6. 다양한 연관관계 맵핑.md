@@ -2,7 +2,7 @@
 title: 다양한 연관관계 맵핑
 aliases: 다양한 연관관계 맵핑
 categories: JPA
-tags: Java, Spring, JPA, ORM
+tags: JPA, ORM
 created: 2022-09-15 11:31
 updated: 2022-09-15 11:32
 fc-calendar: Gregorian Calendar

@@ -1,8 +1,8 @@
 ---
 title: 프록시와 연관관계 관리
 aliases: 프록시와 연관관계 관리
-categories: 
-tags: 
+categories: JPA
+tags: JPA, ORM
 created: 2022-09-15 11:35
 updated: 2022-09-15 11:35
 fc-calendar: Gregorian Calendar

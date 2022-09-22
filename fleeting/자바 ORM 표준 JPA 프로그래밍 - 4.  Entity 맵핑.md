@@ -1,32 +1,25 @@
 ---
-title: entity mapping
-aliases: entity mapping
-categories: JPA
-tags: Java, Spring, JPA, ORM
-created: 2022-09-15 11:24
-updated: 2022-09-15 11:24
+title: 자바 ORM 표준 JPA 프로그래밍 - 4.  Entity 맵핑
+aliases: 자바 ORM 표준 JPA 프로그래밍 - 4.  Entity 맵핑
+categories: 
+tags: 
+created: 2022-09-15 17:06
+updated: 2022-09-23 00:06
 fc-calendar: Gregorian Calendar
-fc-date: 2022-09-15 11:24
+fc-date: 2022-09-15 17:06
 ---
 
 # 엔티티 맵핑
 
 - 객체와 테이블 맵핑
-
-* `@Entity`, `@Table`
-
+	* `@Entity`, `@Table`
 - 필드와 컬럼 맵핑
-
-* `@Column`
-
+	* `@Column`
 - 기본 키 맵핑
-
-* `@Id`
-
+	* `@Id`
 - 연관관계 맵핑
-
-* `@ManyToOne`, `@JoinColumn`
-* 관계가 있는 것들 끼리의 맵핑
+	* `@ManyToOne`, `@JoinColumn`
+	* 관계가 있는 것들 끼리의 맵핑
 
 ## 객체와 테이블 맵핑
 
@@ -35,18 +28,15 @@ fc-date: 2022-09-15 11:24
 - `@Entity`가 붙은 클래스는 JPA가 관리하며 엔티티라고 한다.
 - JPA를 사용해서 테이블과 맵핑할 클래스는 `@Entity` 필수
 - 주의점
-
-* 기본 생성자가 꼭 있어야 한다.(파라미터가 없는 public 또는 protected 생성자)
-* final 클래스, enum, interface, inner 클래스는 사용하지 못한다.
-* 저장할 필드에 final을 사용할 수 없다.
+	* 기본 생성자가 꼭 있어야 한다.(파라미터가 없는 public 또는 protected 생성자)
+	* final 클래스, enum, interface, inner 클래스는 사용하지 못한다.
+	* 저장할 필드에 final을 사용할 수 없다.
 
 - @Entity 속성
-
-* `@Entity(name = "Member")`
-
-- JPA에서 사용할 엔티티 이름 지정
-- 기본값은 클래스 이름을 그대로 사용
-- 다른 패키지에 같은 클래스 이름이 없으면, 가급적 기본값을 사용한다.
+	* `@Entity(name = "Member")`
+		- JPA에서 사용할 엔티티 이름 지정
+		- 기본값은 클래스 이름을 그대로 사용
+		- 다른 패키지에 같은 클래스 이름이 없으면, 가급적 기본값을 사용한다.
 
 ### @Table
 
