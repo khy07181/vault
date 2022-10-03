@@ -5,5 +5,6 @@
   "newFileLocation": "folder",
   "trashOption": "system",
   "showFrontmatter": true,
-  "newFileFolderPath": "fleeting"
+  "newFileFolderPath": "fleeting",
+  "readableLineLength": true
 }

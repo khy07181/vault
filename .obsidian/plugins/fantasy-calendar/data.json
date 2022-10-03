@@ -196,7 +196,7 @@
       "current": {
         "year": 2022,
         "month": 9,
-        "day": 3
+        "day": 7
       },
       "events": [
         {
@@ -483,19 +483,6 @@
           "auto": true
         },
         {
-          "id": "ID_4ae9b97bdbaa",
-          "name": "java basic",
-          "note": "fleeting/java basic.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 8
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
           "id": "ID_08492a98189b",
           "name": "다차원 배열 비교하기",
           "note": "permanent/다차원 배열 비교하기.md",
@@ -665,110 +652,6 @@
           "auto": true
         },
         {
-          "id": "ID_69c89828b9fb",
-          "name": "자바 ORM 표준 JPA 프로그래밍 - 4.  Entity 맵핑",
-          "note": "fleeting/자바 ORM 표준 JPA 프로그래밍 - 4.  Entity 맵핑.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 15
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_ab9aeaa98a79",
-          "name": "자바 ORM 표준 JPA 프로그래밍 - 5. 연관관계 맵핑 기초",
-          "note": "fleeting/자바 ORM 표준 JPA 프로그래밍 - 5. 연관관계 맵핑 기초.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 15
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_2809bb7a9938",
-          "name": "자바 ORM 표준 JPA 프로그래밍 - 6. 다양한 연관관계 맵핑",
-          "note": "fleeting/자바 ORM 표준 JPA 프로그래밍 - 6. 다양한 연관관계 맵핑.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 15
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_297be8099869",
-          "name": "자바 ORM 표준 JPA 프로그래밍 -  7. 고급 맵핑",
-          "note": "fleeting/자바 ORM 표준 JPA 프로그래밍 -  7. 고급 맵핑.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 15
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_4928681a1828",
-          "name": "자바 ORM 표준 JPA 프로그래밍 - 8. 프록시와 연관관계 관리",
-          "note": "fleeting/자바 ORM 표준 JPA 프로그래밍 - 8. 프록시와 연관관계 관리.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 15
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_cb597a89ca1b",
-          "name": "자바 ORM 표준 JPA 프로그래밍 - 9. 값 타입",
-          "note": "fleeting/자바 ORM 표준 JPA 프로그래밍 - 9. 값 타입.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 15
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_b888bb9899b9",
-          "name": "자바 ORM 표준 JPA 프로그래밍 - 10. JPQL",
-          "note": "fleeting/자바 ORM 표준 JPA 프로그래밍 - 10. JPQL.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 15
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_f828ca4b9ba8",
-          "name": "자바 ORM 표준 JPA 프로그래밍 - 11. JPQL2",
-          "note": "fleeting/자바 ORM 표준 JPA 프로그래밍 - 11. JPQL2.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 15
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
           "id": "ID_eab9ab7b190a",
           "name": "자바 ORM 표준 JPA 프로그래밍 - 1. JPA 소개",
           "note": "permanent/자바 ORM 표준 JPA 프로그래밍 - 1. JPA 소개.md",
@@ -798,6 +681,123 @@
           "id": "ID_7928eabb9af8",
           "name": "자바 ORM 표준 JPA 프로그래밍 - 3. 영속성 관리",
           "note": "permanent/자바 ORM 표준 JPA 프로그래밍 - 3. 영속성 관리.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_d998c8b90bdb",
+          "name": "자바 ORM 표준 JPA 프로그래밍 - 4.  Entity 맵핑",
+          "note": "permanent/자바 ORM 표준 JPA 프로그래밍 - 4.  Entity 맵핑.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_3bea4b29f88a",
+          "name": "자바 ORM 표준 JPA 프로그래밍 - 5. 연관관계 맵핑 기초",
+          "note": "permanent/자바 ORM 표준 JPA 프로그래밍 - 5. 연관관계 맵핑 기초.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_08cb8b3a3bcb",
+          "name": "자바 ORM 표준 JPA 프로그래밍 - 6. 다양한 연관관계 맵핑",
+          "note": "permanent/자바 ORM 표준 JPA 프로그래밍 - 6. 다양한 연관관계 맵핑.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_4b1989199aa9",
+          "name": "자바 ORM 표준 JPA 프로그래밍 -  7. 고급 맵핑",
+          "note": "permanent/자바 ORM 표준 JPA 프로그래밍 -  7. 고급 맵핑.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_18aaba79b94b",
+          "name": "자바 ORM 표준 JPA 프로그래밍 - 8. 프록시와 연관관계 관리",
+          "note": "permanent/자바 ORM 표준 JPA 프로그래밍 - 8. 프록시와 연관관계 관리.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_5afaea396a29",
+          "name": "자바 ORM 표준 JPA 프로그래밍 - 9. 값 타입",
+          "note": "permanent/자바 ORM 표준 JPA 프로그래밍 - 9. 값 타입.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_1b7b7a989959",
+          "name": "자바 ORM 표준 JPA 프로그래밍 - 10. JPQL",
+          "note": "permanent/자바 ORM 표준 JPA 프로그래밍 - 10. JPQL.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_295aa85b1978",
+          "name": "자바 ORM 표준 JPA 프로그래밍 - 11. JPQL2",
+          "note": "permanent/자바 ORM 표준 JPA 프로그래밍 - 11. JPQL2.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_38c91b7a9bc8",
+          "name": "java basic",
+          "note": "permanent/java basic.md",
           "date": {
             "year": 2022,
             "month": 8,
@@ -836,7 +836,7 @@
           "color": "#0288D1"
         }
       ],
-      "date": 1663858903187
+      "date": 1664153657822
     }
   ],
   "configDirectory": null,
