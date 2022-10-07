@@ -196,7 +196,7 @@
       "current": {
         "year": 2022,
         "month": 9,
-        "day": 7
+        "day": 17
       },
       "events": [
         {
@@ -652,7 +652,7 @@
           "auto": true
         },
         {
-          "id": "ID_eab9ab7b190a",
+          "id": "ID_ab0b8aa9fa6a",
           "name": "자바 ORM 표준 JPA 프로그래밍 - 1. JPA 소개",
           "note": "permanent/자바 ORM 표준 JPA 프로그래밍 - 1. JPA 소개.md",
           "date": {
@@ -665,7 +665,7 @@
           "auto": true
         },
         {
-          "id": "ID_7b990b5aa829",
+          "id": "ID_580ac9c83989",
           "name": "자바 ORM 표준 JPA 프로그래밍 - 2. JPA 시작하기",
           "note": "permanent/자바 ORM 표준 JPA 프로그래밍 - 2. JPA 시작하기.md",
           "date": {
@@ -678,7 +678,7 @@
           "auto": true
         },
         {
-          "id": "ID_7928eabb9af8",
+          "id": "ID_7b69fb9b8b6a",
           "name": "자바 ORM 표준 JPA 프로그래밍 - 3. 영속성 관리",
           "note": "permanent/자바 ORM 표준 JPA 프로그래밍 - 3. 영속성 관리.md",
           "date": {
@@ -691,7 +691,7 @@
           "auto": true
         },
         {
-          "id": "ID_d998c8b90bdb",
+          "id": "ID_0aba9a1b7bd9",
           "name": "자바 ORM 표준 JPA 프로그래밍 - 4.  Entity 맵핑",
           "note": "permanent/자바 ORM 표준 JPA 프로그래밍 - 4.  Entity 맵핑.md",
           "date": {
@@ -704,7 +704,7 @@
           "auto": true
         },
         {
-          "id": "ID_3bea4b29f88a",
+          "id": "ID_e839eaabd8fb",
           "name": "자바 ORM 표준 JPA 프로그래밍 - 5. 연관관계 맵핑 기초",
           "note": "permanent/자바 ORM 표준 JPA 프로그래밍 - 5. 연관관계 맵핑 기초.md",
           "date": {
@@ -717,7 +717,7 @@
           "auto": true
         },
         {
-          "id": "ID_08cb8b3a3bcb",
+          "id": "ID_18b9aab8a829",
           "name": "자바 ORM 표준 JPA 프로그래밍 - 6. 다양한 연관관계 맵핑",
           "note": "permanent/자바 ORM 표준 JPA 프로그래밍 - 6. 다양한 연관관계 맵핑.md",
           "date": {
@@ -730,20 +730,7 @@
           "auto": true
         },
         {
-          "id": "ID_4b1989199aa9",
-          "name": "자바 ORM 표준 JPA 프로그래밍 -  7. 고급 맵핑",
-          "note": "permanent/자바 ORM 표준 JPA 프로그래밍 -  7. 고급 맵핑.md",
-          "date": {
-            "year": 2022,
-            "month": 8,
-            "day": 15
-          },
-          "end": null,
-          "description": "",
-          "auto": true
-        },
-        {
-          "id": "ID_18aaba79b94b",
+          "id": "ID_d9f9180bfbb9",
           "name": "자바 ORM 표준 JPA 프로그래밍 - 8. 프록시와 연관관계 관리",
           "note": "permanent/자바 ORM 표준 JPA 프로그래밍 - 8. 프록시와 연관관계 관리.md",
           "date": {
@@ -756,7 +743,7 @@
           "auto": true
         },
         {
-          "id": "ID_5afaea396a29",
+          "id": "ID_da69caab99c8",
           "name": "자바 ORM 표준 JPA 프로그래밍 - 9. 값 타입",
           "note": "permanent/자바 ORM 표준 JPA 프로그래밍 - 9. 값 타입.md",
           "date": {
@@ -769,7 +756,7 @@
           "auto": true
         },
         {
-          "id": "ID_1b7b7a989959",
+          "id": "ID_994b990be86a",
           "name": "자바 ORM 표준 JPA 프로그래밍 - 10. JPQL",
           "note": "permanent/자바 ORM 표준 JPA 프로그래밍 - 10. JPQL.md",
           "date": {
@@ -782,7 +769,7 @@
           "auto": true
         },
         {
-          "id": "ID_295aa85b1978",
+          "id": "ID_c918599b284a",
           "name": "자바 ORM 표준 JPA 프로그래밍 - 11. JPQL2",
           "note": "permanent/자바 ORM 표준 JPA 프로그래밍 - 11. JPQL2.md",
           "date": {
@@ -795,9 +782,22 @@
           "auto": true
         },
         {
-          "id": "ID_38c91b7a9bc8",
+          "id": "ID_bb88497baa78",
           "name": "java basic",
           "note": "permanent/java basic.md",
+          "date": {
+            "year": 2022,
+            "month": 8,
+            "day": 15
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_eb5a2968daf8",
+          "name": "자바 ORM 표준 JPA 프로그래밍 - 7. 고급 맵핑",
+          "note": "permanent/자바 ORM 표준 JPA 프로그래밍 - 7. 고급 맵핑.md",
           "date": {
             "year": 2022,
             "month": 8,
@@ -836,7 +836,7 @@
           "color": "#0288D1"
         }
       ],
-      "date": 1664153657822
+      "date": 1665126321304
     }
   ],
   "configDirectory": null,
