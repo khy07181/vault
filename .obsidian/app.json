@@ -6,5 +6,6 @@
   "trashOption": "system",
   "showFrontmatter": true,
   "newFileFolderPath": "fleeting",
-  "readableLineLength": true
+  "readableLineLength": true,
+  "showInlineTitle": false
 }
