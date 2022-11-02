@@ -1,7 +1,7 @@
 {
   "theme": "moonstone",
   "baseFontSize": 17,
-  "cssTheme": "Minimal",
+  "cssTheme": "",
   "accentColor": "",
   "showViewHeader": true,
   "nativeMenus": true
