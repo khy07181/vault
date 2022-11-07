@@ -16,7 +16,8 @@ INNER JOIN table2
 ON table1.column_name = table2.column_name;
 ```
 
-Left Join
+### Left Join
+
 - The `LEFT JOIN` keyword returns all records from the left table (table1), and the matching records from the right table (table2). The result is 0 records from the right side, if there is no match.
 
 ```sql
@@ -37,7 +38,8 @@ RIGHT JOIN table2
 ON table1.column_name = table2.column_name;
 ```
 
-Full Join
+### Full Join
+
 - The `FULL OUTER JOIN` keyword returns all records when there is a match in left (table1) or right (table2) table records.
 - `FULL OUTER JOIN` and `FULL JOIN` are the same.
 
@@ -58,7 +60,8 @@ FROM table1 T1, table1 T2
 WHERE condition;
 ```
 
-Cross Join
+### Cross Join
+
 - The `CROSS JOIN` keyword returns all records from both tables (table1 and table2).
 
 ```sql
