@@ -85,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 343.5,
+    "collapsed": true
   },
   "right": {
     "id": "0c90cd3b41f4518d",
@@ -178,24 +179,24 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "8f853ba623cfaede",
+  "active": "b4399156f42855f6",
   "lastOpenFiles": [
-    "permanent/자바 ORM 표준 JPA 프로그래밍 - 9. 값 타입.md",
+    "permanent/자바 ORM 표준 JPA 프로그래밍 - 7. 고급 맵핑.md",
     "fleeting/Docker.md",
+    "fleeting/Untitled.md",
+    "img/API_dev_basic_5.jpg",
     "fleeting/SQL Join.md",
+    "permanent/자바 ORM 표준 JPA 프로그래밍 - 9. 값 타입.md",
     "permanent/자바 ORM 표준 JPA 프로그래밍 - 1. JPA 소개.md",
     "permanent/spring mvc 활용.md",
     "img/SQL_Join_1.png",
-    "img/join.png",
-    "permanent/spring mvc 설정.md",
-    "fleeting/spring m.md",
-    "fleeting/Untitled 1.md"
+    "img/join.png"
   ]
 }

@@ -1,6 +1,7 @@
 # Docker
 
 - 컨테이너 기반의 오픈소스 가상화 플랫폼
+- 다른 모든 프로세스와 격리된 시스템의 샌드박스 프로세서
 - 다양한 프로그램, 실행 환경을 컨테이너로 추상화하고 동일한 인터페이스를 제공하여 프로그램의 배포 및 관리를 단순하게 해준다.
 - 백엔드 프로그램, DB 서버, 메시지 큐 등 어떤 프로그램도 컨테이너로 추상화 할 수 있다.
 
@@ -21,57 +22,90 @@
 
 ---
 
-### Docker 설치하기
+## Containerize an application
 
-Linux
-- `curl -fsSL https://get.docker.com/ | sudo sh`
+### Build the app’s container image
 
-Docker for Mac
-- [Docker for Mac](https://docs.docker.com/desktop/get-started/)
-- 네이티브처럼 보이지만 가상머신에 설치된다.
+clone example code
+- `git clone https://github.com/docker/getting-started.git`
 
-설치 확인
-- `docker version`
+Dockerfile 생성
 
-### Container 실행하기
+```shell
+# syntax=docker/dockerfile:1
+FROM node:12-alpine
+RUN apk add --no-cache python2 g++ make
+WORKDIR /app
+COPY . .
+RUN yarn install --production
+CMD ["node", "src/index.js"]
+EXPOSE 3000
+```
 
-- `docker run [OPTIONS] IMAGE[:TAG|@DIGEST] [COMMAND] [ARG...]`
+컨테이너 이미지 빌드
+- `docker build -t getting-started .`
 
-| 옵션  | 설명                                                   |
-| ----- | ------------------------------------------------------ |
-| -d    | detached mode : 백그라운드 모드                        |
-| -p    | 호스트와 컨테이너의 포트를 연결(포워딩)                |
-| -v    | 호스트와 컨테이너의 디렉토리를 연결(마운트)            |
-| -e    | 컨테이너 내에서 사용할 환경변수 설정                   |
-| -name | 컨테이너 이름 설정                                     |
-| -rm   | 프로세스 종료 시 컨테이너 자동 제거                    |
-| -it   | -i와 -t를 동시에 사용한 것으로 터미널 입력을 위한 옵션 |
-| -link | 컨테이너 연결                                          |
+### Start an app container
 
-### Docker 기본 명령어
+docker 이름 지정 및 run
+- `docker run -dp 3000:3000 getting-started`
 
-container 목록 확인
-- `docker ps [OPTIONS]`
+http://localhost:3000/ 에 접속하면 다음과 같은 화면이 정상적으로 나온다.
+![docker_1](../img/docker_1.png)
 
-container 중지
-- `docker stop [OPTIONS] CONTAINER [CONTAINER...]`
+Docker Desktop의 Dashboard에도 `getting-started` 이미지를 사용하고 3000 포트에서 실행 중인 컨테이너가 표시된다.
+![docker_2](../img/docker_2.png)
 
-container 제거
-- `docker rm [OPTIONS] CONTAINER [CONTAINER...]`
+## Update the application
 
-image 목록 확인
-- `docker images [OPTIONS] [REPOSITORY[:TAG]]`
+### Update the source code
 
-image 다운로드
-- `docker pull [OPTIONS] NAME[:TAG|@DIGEST]`
+- 예제 코드 기준 line 56 수정
 
-image 삭제
-- `docker rmi [OPTIONS] IMAGE [IMAGE...]`
+```
+ - <p className="text-center">No items yet! Add one above!</p>
+ + <p className="text-center">You have no todo items yet! Add one above!</p>
+ ...
+```
 
-### Container 둘러보기
+image의 업데이트 된 버전 build
+- `docker build -t getting-started .`
 
-container 로그 보기
-- `docker logs [OPTIONS] CONTAINER`
+새로운 컨테이너 시작
+- `docker run -dp 3000:3000 getting-started`
 
-container 명령어 실행하기
-- `docker exec [OPTIONS] CONTAINER COMMAN [ARG...]`
+그러면 포트가 사용중이라는 오류가 난다.
+- `port is already allocated`
+- 이전 컨테이너가 실행되는 동안 새로운 컨테이너를 시작할 수 없다.
+	- 이전 컨테이너가 호스트의 3000 포트를 사용하고 있기 때문
+
+### Remove the old container
+
+컨테이너 확인
+- `docker ps`
+
+컨테이너 중지
+- `docker stop <the-container-id>`
+
+컨테이너 삭제
+- `docker rm <the-container-id>`
+
+### Start the updated app container
+
+새로운 컨테이너 실행
+`docker run -dp 3000:3000 getting-started`
+
+http://localhost:3000/ 에 접속하면 다음과 같은 수정된 화면이 정상적으로 나온다.
+![docker_3](../img/docker_3.png)
+
+## Share the application
+
+### 저장소 생성
+
+1. [Docker Hub](https://hub.docker.com/)
+2. 저장소 생성
+3. repository 이름은 `getting-started`로 설정한다.
+
+### image push
+
+### 새 인스턴스에서 image 실행
