@@ -1,3 +1,12 @@
+---
+title: Docker - Get started
+aliases: Docker - Get started
+categories: devOps
+tags: docker
+fc-calendar: Gregorian Calendar
+fc-date: 2022-11-07 15:28
+---
+
 # Docker - Get started
 
 ### Docker
@@ -162,3 +171,71 @@ http://localhost:3000/ 에 접속하면 다음과 같은 수정된 화면이 정
 - `docker volume inspect` 명령을 사용하면 Docker가 실제로 데이터를 어디에 저장하는지 알 수 있다.
 	- `Mountpoint` : 데이터가 저장되는 실제 위치이다.
 ![docker_7](../img/docker_7.png)
+
+## Multi-container apps
+
+- 컨테이너는 기본적으로 격리되어 실행되기 때문에 다른 컨테이너에 대해 전혀 알지 못한다.
+- 다른 컨테이너와 통신하도록 하려면 네트워킹을 사용해야 한다.
+
+### 네트워크 생성
+
+- `docker network create test-net`
+
+### Postgresql에 연결하기
+
+- `docker run -d --name test-postgres -p 5432:5432 -v postgres:/var/lib/postgresql/data --rm --network test-net khy07181/postgres`
+
+docker inspect 를 사용하면 세부정보를 확인할 수 있다.
+- `docker inspect test-postgres`
+- network 설정이 `test-net`으로 설정되어 있다.
+
+### 다른 컨테이너와 통신하기
+
+- `docker run -d --name batch-practice -e PROFILE=prod --network test-net spring-batch-practice`
+- 다른 컨테이너도 network에 연결하면 test-net에 연결된 컨테이너는 서로 통신이 가능하다.
+
+## Docker compose
+
+- docker compose는 multi container를 정의하고 설정하는 데 편리한 서비스를 제공한다.
+
+### compost 파일 생성
+
+- 프로젝트 root 경로에 `docker-compose.yml` 생성
+
+```yml
+services:  
+  batch:  
+    image: spring-batch-practice  
+    container_name: batch  
+    environment:  
+      - SPRING_PROFILES_ACTIVE=prod  
+    volumes:  
+      - postgres:/var/lib/postgresql/data  
+    networks:  
+      - test-net  
+  
+  postgresql:  
+    image: khy07181/postgres  
+    container_name: postgres  
+    ports:  
+      - "5432:5432"  
+    volumes:  
+      - postgres:/var/lib/postgresql/data  
+    networks:  
+      - test-net  
+  Docker 
+volumes:  
+  postgres:  
+#    driver: local -- create new volume  
+    external: true  
+  
+networks:  
+  test-net:  
+#    driver: bridge -- create new network  
+    external: true
+```
+
+### docker compose 실행
+
+- `docker compose up -d`
+- docker compose logs -f
