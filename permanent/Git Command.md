@@ -184,3 +184,7 @@ ex) `git reset HEAD hello.txt`
 - 원격 브랜치 정보를 가져오면 FETCH_HEAD라는 브랜치로 가져온다. (`git checkout FETCH_HEAD`)
 - fetch한 후에 최신 커밋을 현재 브랜치에 합치려면 `git pull`, FETCH_HEAD에 있던 커밋을 병합하려면 `git merge`를 사용한다.
 - 즉 `git pull` 명령은 `git fetch`와 `git merge FETCH_HEAD`를 합친 기능이다.
+
+### 지난 커밋 서명하기
+
+- `git rebase -i --root --exec 'git commit --amend --no-edit --no-verify -S'
