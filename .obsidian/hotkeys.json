@@ -104,5 +104,15 @@
       ],
       "key": "W"
     }
+  ],
+  "templater-obsidian:templates/book.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "B"
+    }
   ]
 }

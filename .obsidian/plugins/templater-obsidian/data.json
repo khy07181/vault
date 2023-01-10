@@ -25,9 +25,11 @@
     "templates/table.md",
     "templates/br.md",
     "templates/daily-note.md",
-    "templates/weekly-planner.md"
+    "templates/weekly-planner.md",
+    "templates/book.md"
   ],
   "startup_templates": [
     ""
-  ]
+  ],
+  "enable_ribbon_icon": true
 }
