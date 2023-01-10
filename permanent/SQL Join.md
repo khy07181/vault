@@ -1,3 +1,13 @@
+---
+title: SQL Join
+aliases: SQL Join
+categories: sql
+tags: db, sql, join, query
+created: 2022-11-02 17:35
+fc-calendar: Gregorian Calendar
+fc-date: 2022-11-02 17:35
+---
+
 # SQL Join
 
 ## Join
