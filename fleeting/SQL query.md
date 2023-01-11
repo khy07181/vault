@@ -21,6 +21,7 @@ order by day desc;
 ### timestamp 간의 시간 차이
 
 ```sql
+-- second
 select abs(extract(epoch from timestamp1) - extract(epoch from timestamp1));
 ```
 
@@ -35,4 +36,22 @@ postgis의 geom 데이터가 다른 geom 데이터를 포함하는 지 확인
 ```sql
 -- geom1이 geom2를 포함하면 true
 select st_contains(geom1, geom2);
+```
+
+날짜의 원하는 시간 추출
+
+```sql
+-- year-month
+select to_char(now(), 'yyyy-mm');
+-- year-week
+select to_char(now(), 'IYYY-IW');
+```
+
+테이블 인덱스 조회
+
+```sql
+select *
+from pg_indexes
+where schemaname = 'schemaname'
+and tablename = 'tablename'
 ```
