@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "library/Library Home.md",
+                "file": "fleeting/Jenkins.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "library/Library Home.md",
+                "file": "templates/book.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,20 +34,19 @@
             }
           },
           {
-            "id": "d73e154188038b86",
+            "id": "e6a11d83e1deebf6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fleeting/Vim.md",
+                "file": "permanent/자바 ORM 표준 JPA 프로그래밍 - 6. 다양한 연관관계 맵핑.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fleeting/Vim.md",
+                "file": "fleeting/Jenkins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fleeting/Vim.md",
+                "file": "fleeting/Jenkins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fleeting/Vim.md"
+                "file": "fleeting/Jenkins.md"
               }
             }
           },
@@ -195,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,17 +213,17 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "d73e154188038b86",
+  "active": "b1834eb2fc2a83b4",
   "lastOpenFiles": [
-    "permanent/자바 ORM 표준 JPA 프로그래밍 - 3. 영속성 관리.md",
-    "permanent/자바 ORM 표준 JPA 프로그래밍 - 1. JPA 소개.md",
-    "permanent/자바 ORM 표준 JPA 프로그래밍 - 4.  Entity 맵핑.md",
-    "permanent/다차원 배열 비교하기.md",
-    "fleeting/Vim.md",
-    "permanent/자바 ORM 표준 JPA 프로그래밍 - 2. JPA 시작하기.md",
     "library/Library Home.md",
+    "templates/book.md",
+    "fleeting/Jenkins.md",
+    "library/book/가상 면접 사례로 배우는 대규모 시스템 설계 기초.md",
+    "fleeting/Vim.md",
     "permanent/Spring Batch Listener.md",
-    "fleeting/regex.md",
-    "permanent/자바 ORM 표준 JPA 프로그래밍 - 5. 연관관계 맵핑 기초.md"
+    "permanent/spring boot core.md",
+    "permanent/자바 ORM 표준 JPA 프로그래밍 - 6. 다양한 연관관계 맵핑.md",
+    "permanent/자바 ORM 표준 JPA 프로그래밍 - 3. 영속성 관리.md",
+    "permanent/자바 ORM 표준 JPA 프로그래밍 - 1. JPA 소개.md"
   ]
 }

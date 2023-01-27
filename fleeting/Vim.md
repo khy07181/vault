@@ -1,12 +1,10 @@
-x - 한글자 지우기
-i - insert 모드
-a - 단어 끝부터 입력 추가(insert mode)
-A - 줄 끝부터 입력 추가(insert mode)
-:q - 종료
-:wq - 저장 후 종료
-:q!
+### Vim 파일
 
-삭제
+`i` - insert mode
+`vim filename` - 열기
+`:q` - 종료
+`:wq` 저장 후 종료
+`:q!` - 변경 사항 무시 후 종료
 
 ### 이동
 
@@ -23,12 +21,8 @@ A - 줄 끝부터 입력 추가(insert mode)
 `CTRL-G` 파일 내 현재 위치와 파일의 상태 확인
 `LINENUM G` - LINENUM 줄로 이동
 
-### Vim 파일
 
-`vim filename` - 열기
-`:q` - 종료
-`:wq` 저장 후 종료
-`:q!` - 변경 사항 무시 후 종료
+## 편집
 
 ### delete
 
@@ -39,14 +33,14 @@ A - 줄 끝부터 입력 추가(insert mode)
 `dd` - 한 줄 지우기
 `d$` - 커서로부터 한 줄 지우기
 
-### insertion
-
-`i` - insert mode
-`esc` - mode 종료
-
 ### 추가
 
-`A` - 해당 줄 끝에서부터 insert
+a - 단어 끝부터 입력 추가(insert mode)
+A - 줄 끝부터 입력 추가(insert mode)
+
+### 새 줄 열기
+`o` - 아래로 새 줄 열기(insert mode)
+`O` - 위로 새 줄 열기(insert mode)
 
 ### 반복
 
@@ -61,7 +55,7 @@ A - 줄 끝부터 입력 추가(insert mode)
 `U` - 한 줄 명령 취소
 `CRTL-R` - 취로한 것을 다시 실행
 
-복사
+### 복사
 `y`
 
 ### 붙여넣기
@@ -99,7 +93,6 @@ A - 줄 끝부터 입력 추가(insert mode)
 - `:set ic` - 대소문자 구별 안함, ignore case
 - `:set hls is` - highlight
 - `:set noic`, `noh` - highlight 끄기
-ㅓ
 
 ### 외부 명령 실행하기
 
@@ -110,6 +103,20 @@ ex) `:! ls`
 
 `:w FILENAME`
 
-새 줄 열기
-`o` - 아래로 새 줄 열기(insert mode)
-`O` - 위로 새 줄 열기(insert mode)
+
+
+## surround.vim
+
+### 감싸기(surround)
+- `ys`
+삭제(delete)
+- `ds`
+바꾸기(change)
+- `cs`
+
+한 단어 감싸기
+- `ysiw` + 괄호
+	- `ysiw(`
+	- `ysiw)`
+	- `ysiwB`
+	- `ysiwb`
