@@ -7,5 +7,6 @@
   "showFrontmatter": true,
   "newFileFolderPath": "fleeting",
   "readableLineLength": true,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "vimMode": true
 }
