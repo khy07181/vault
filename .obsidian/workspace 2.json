@@ -1,40 +1,48 @@
 {
   "main": {
-    "id": "26c2322e5f29a4c3",
+    "id": "fc2c92b8593ded8b",
     "type": "split",
     "children": [
       {
-        "id": "6818924bcbbc17e7",
+        "id": "de653961ef39f0ec",
         "type": "tabs",
         "children": [
           {
-            "id": "893571f193725630",
+            "id": "baa056a7bbba6cb1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "64772be26f77b033",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "permanent/java basic.md",
+                "file": "mac.md",
                 "mode": "source",
-                "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "105b51a922951206",
+    "id": "a78c2f9bd3ef0cc7",
     "type": "split",
     "children": [
       {
-        "id": "20d247b3ecd6f588",
+        "id": "339d231bba2b998c",
         "type": "tabs",
         "children": [
           {
-            "id": "6c432912ff986969",
+            "id": "8ccd5105a5535dc0",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,15 +52,7 @@
             }
           },
           {
-            "id": "142e97d491656ada",
-            "type": "leaf",
-            "state": {
-              "type": "file-tree-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "3408bc47d7523767",
+            "id": "cfed6feaa45f3336",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -67,7 +67,7 @@
             }
           },
           {
-            "id": "e07f45e39920cb82",
+            "id": "c30e87ae2a24b904",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -81,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "aaaa26e2a5f2d686",
+    "id": "06de3cc3ffda1d62",
     "type": "split",
     "children": [
       {
-        "id": "40002d2e0a351166",
+        "id": "9dc391917fc92f5f",
         "type": "tabs",
         "children": [
           {
-            "id": "70528d04aa75bc1f",
+            "id": "b1efa1a6c233c364",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "permanent/java basic.md",
+                "file": "mac.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,19 +106,19 @@
             }
           },
           {
-            "id": "d865e34841d2c58e",
+            "id": "b39c0fd3e3f454d7",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "permanent/java basic.md",
+                "file": "mac.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "87f2363a1a93a3af",
+            "id": "dead539536e48456",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -129,33 +129,16 @@
             }
           },
           {
-            "id": "664de2ea4223c092",
+            "id": "e5fc88c939c1134c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "permanent/java basic.md"
+                "file": "mac.md"
               }
             }
-          },
-          {
-            "id": "264ff3de78e0e841",
-            "type": "leaf",
-            "state": {
-              "type": "FANTASY_CALENDAR",
-              "state": {}
-            }
-          },
-          {
-            "id": "ce5aaed2bb1691bb",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -164,32 +147,14 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:Open graph view": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
-      "templater-obsidian:Templater": false,
-      "daily-notes:Open today's daily note": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "fantasy-calendar:Open Large Fantasy Calendar": false,
-      "kr-book-info-plugin:Add Book Info": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "893571f193725630",
-  "lastOpenFiles": [
-    "fleeting/Vim.md",
-    "library/Library Home.md",
-    "permanent/다차원 배열 비교하기.md",
-    "fleeting/Untitled.md",
-    "private/daily-note/2022-08-31.md",
-    "permanent/자바 ORM 표준 JPA 프로그래밍 - 2. JPA 시작하기.md",
-    "fleeting/SQL query.md",
-    "fleeting/regex.md",
-    "fleeting/psql.md",
-    "permanent/자바 ORM 표준 JPA 프로그래밍 - 1. JPA 소개.md"
-  ]
+  "active": "64772be26f77b033",
+  "lastOpenFiles": []
 }

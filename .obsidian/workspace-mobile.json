@@ -1,0 +1,128 @@
+{
+  "main": {
+    "id": "99fa326943c3703e",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b7907ea6392e451",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dfddefab3f49d178",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "86c7829835747b85",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "37ece5901cf079e9",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "e1176ff43618dfb9",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "05a9ce87a9995e2f",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "306f95294449c4f3",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "eeef7b43e77b986e",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "0bd6989da3d4fdd2",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "051089539fad4de3",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "210cb81638eda24e",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "dfddefab3f49d178",
+  "lastOpenFiles": [
+    "asdassadsadsa.md",
+    "permanent/자바 ORM 표준 JPA 프로그래밍 - 3. 영속성 관리.md",
+    "library/Library Home.md",
+    "Untitled.md",
+    "README.md",
+    "permanent/자바 ORM 표준 JPA 프로그래밍 - 5. 연관관계 맵핑 기초.md",
+    "library/book/만들면서 배우는 클린 아키텍처.md",
+    "library/book/코스모스.md",
+    "library/book/객체지향의 사실과 오해.md"
+  ]
+}

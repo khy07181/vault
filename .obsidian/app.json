@@ -1,12 +1,8 @@
 {
   "promptDelete": false,
+  "showFrontmatter": true,
   "showLineNumber": true,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
-  "trashOption": "system",
-  "showFrontmatter": true,
-  "newFileFolderPath": "fleeting",
-  "readableLineLength": true,
-  "showInlineTitle": false,
-  "vimMode": true
+  "newFileFolderPath": "fleeting"
 }
