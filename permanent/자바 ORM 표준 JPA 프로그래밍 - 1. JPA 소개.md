@@ -472,3 +472,8 @@ Member member = memberDAO.find(memberId);  // SELECT M.*, T.* FROM MEMBER JOIN T
 Team team = member.getTeam();
 String teamName = team.getName();
 ```
+
+
+[[obsidian|옵시디언]]
+
+[[obsidian|abc]]

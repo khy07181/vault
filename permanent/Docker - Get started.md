@@ -170,7 +170,7 @@ http://localhost:3000/ 에 접속하면 다음과 같은 수정된 화면이 정
 
 - `docker volume inspect` 명령을 사용하면 Docker가 실제로 데이터를 어디에 저장하는지 알 수 있다.
 	- `Mountpoint` : 데이터가 저장되는 실제 위치이다.
-![docker_7](../img/docker_7.png)
+	![docker_7](../img/docker_7.png)
 
 ## Multi-container apps
 

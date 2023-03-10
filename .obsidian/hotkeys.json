@@ -1,12 +1,5 @@
 {
-  "file-explorer:open": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "1"
-    }
-  ],
+  "file-explorer:open": [],
   "app:delete-file": [
     {
       "modifiers": [

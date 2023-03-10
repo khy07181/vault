@@ -1,0 +1,30 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "FasBolt",
+      "FasAngle-right",
+      "FasBorder-none",
+      "FasAnkh",
+      "FasAlign-justify"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    }
+  },
+  "library": "FasBook",
+  "img": "FasBrush",
+  "permanent": "FasAlign-justify",
+  "private": "FasAnkh",
+  "templates": "FasBorder-none",
+  "fleeting": "FasBolt"
+}
