@@ -13,7 +13,7 @@ fc-date: 2022-09-13 15:57
 
 ## 소개
 
-![spring_data_1](spring_data_1.jpg)
+![spring_data_1](../attachment/img/spring_data_1.jpg)
 
 ## 인메모리 데이터베이스
 
@@ -124,7 +124,7 @@ public class H2Runner implements ApplicationRunner {
 
 - 특정 버전 이상부터 SSL connection을 강제(추천)화 한다.
 - useSSL=false를 하거나 useSSL=true로 주고 truststore를 줘서 SSL 접속을 할 수 있게끔 만들어주면 된다.
-![spring_data_2](spring_data_2.jpg)
+![spring_data_2](../attachment/img/spring_data_2.jpg)
 
 ### MySQL 라이센스 (GPL) 주의
 
@@ -175,7 +175,7 @@ SELECT * FROM account;
 ### PostgreSQL 경고 메세지
 
 - 해결 메세지를 application.properties에 추가
-![spring_data_3](spring_data_3.jpg)
+![spring_data_3](../attachment/img/spring_data_3.jpg)
 
 ## 스프링 데이터 JPA
 

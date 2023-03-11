@@ -13,8 +13,7 @@ jenkins 설치
 
 jenkins 실행
 - `docker run -d --name jenkins -p 8080:8080 jenkins/jenkins:lts`
-![jenkins_1](jenkins_1.png)
-
+![jenkins_1](../attachment/img/jenkins_1.png)
 
 password를 찾기 위해 jenkins container 접속
 - `docker exec -it jenkins /bin/bash`

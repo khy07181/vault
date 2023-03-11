@@ -20,7 +20,7 @@ fc-date: 2022-09-15 17:06
 
 ### 프록시 기초
 
-![JPA_Proxy_RelationManaging_1](JPA_Proxy_RelationManaging_1.jpg)
+![JPA_Proxy_RelationManaging_1](../attachment/img/JPA_Proxy_RelationManaging_1.jpg)
 - JPA에서는 `em.find()` 말고도 `em.getReference()`라는 메소드도 제공 된다.
 	* 이름 그대로 참조를 가져온다.
 - `em.find()`는 DB를 통해서 실제 엔티티 객체를 조회하는 메소드이고
@@ -52,7 +52,7 @@ tx.commit();
 
 ### 프록시의 특징
 
-![JPA_Proxy_RelationManaging_2](JPA_Proxy_RelationManaging_2.jpg)
+![JPA_Proxy_RelationManaging_2](../attachment/img/JPA_Proxy_RelationManaging_2.jpg)
 - 실제 클래스를 상속 받아서 만들어지기 때문에 실제 클래스와 겉모양이 같다.
 	* 하이버네이트가 내부적으로 라이브러리를 사용해 만든다.
 - 사용하는 입장에서 진짜 객체인지 프록시 객체인지 구분하지 않고 사용하면 된다.(이론상)
@@ -61,7 +61,7 @@ tx.commit();
 
 ### 프록시 객체의 초기화
 
-![JPA_Proxy_RelationManaging_3](JPA_Proxy_RelationManaging_3.jpg)
+![JPA_Proxy_RelationManaging_3](../attachment/img/JPA_Proxy_RelationManaging_3.jpg)
 
 ```java
 Member member = em.getReference(Member.class, member.getId());
@@ -181,7 +181,7 @@ Hibernate.initialize(referenceMamber);
 
 ### 지연로딩 LAZY를 사용해서 프록시로 조회
 
-![JPA_Proxy_RelationManaging_4](JPA_Proxy_RelationManaging_4.jpg)
+![JPA_Proxy_RelationManaging_4](../attachment/img/JPA_Proxy_RelationManaging_4.jpg)
 - 그림과 같이 지연로딩을 사용하면 로딩되는 시점에 Lazy 로딩 설정이 되어있는 Team 엔티티는 프록시 객체로 가져온다.
 	* Member를 가져올 때는 Member만 가져오고 Team은 프록시로 가져온다.
 	* Member를 가져올 때 대부분 Team이 필요없을 때 주로 사용한다.
@@ -226,7 +226,7 @@ tx.commit();
 
 ### 즉시로딩 EAGER를 사용해 함께 조회
 
-![JPA_Proxy_RelationManaging_5](JPA_Proxy_RelationManaging_5.jpg)
+![JPA_Proxy_RelationManaging_5](../attachment/img/JPA_Proxy_RelationManaging_5.jpg)
 - Member와 Team을 자주 함께 사용해야 할 때 사용한다.
 - Member와 Team을 JOIN해서 한번에 가져온다.
 	* 둘 다 프록시가 아니라 실제 객체를 가져온다.
@@ -268,7 +268,7 @@ public class Member extends BaseEntity {
 
 ### 지연로딩 활용
 
-![JPA_Proxy_RelationManaging_6](JPA_Proxy_RelationManaging_6.jpg)
+![JPA_Proxy_RelationManaging_6](../attachment/img/JPA_Proxy_RelationManaging_6.jpg)
 - Member와 Team을 자주 함께 사용한다 -> 즉시로딩
 - Member와 Order는 가끔 사용한다 -> 지연로딩
 - Order와 Product는 자주 함께 사용한다 -> 즉시로딩

@@ -60,7 +60,7 @@ fc-date: 2022-09-15 17:06
 
 ### 예제로 이해하기
 
-![JPA_ValueType_1](JPA_ValueType_1.jpg)
+![JPA_ValueType_1](../attachment/img/JPA_ValueType_1.jpg)
 - 회원 엔티티는 이름, 근무 시작일, 근무 종료일, 주소 도시, 주소 번지, 주소 우편번호를 가진다.
 	* 공통적인 속성들이 보인다.
 	* 근무 시작일과 근무 종료일, 그리고 주소의 도시, 번지, 우편번호는 묶어서 시스템에서 공통으로 쓸 수 있다.
@@ -85,7 +85,7 @@ fc-date: 2022-09-15 17:06
 
 ### 임베디드 타입과 테이블 맵핑
 
-![JPA_ValueType_2](JPA_ValueType_2.jpg)
+![JPA_ValueType_2](../attachment/img/JPA_ValueType_2.jpg)
 - DB입장에서는 바뀔 것이 없다.
 	* DB는 데이터를 잘 관리하는 것이 목적이기 때문에, 그림과 같이 설계되는 것이 맞다.
 - 객체는 데이터뿐만 아니라 메소드라는 기능까지 다 가지고 있기 때문에, 공통 요소를 묶었을 때 가져갈 수 있는 이득이 많다.
@@ -139,7 +139,7 @@ public class Address {
 
 ### 임베디드 타입과 연관관계
 
-![JPA_ValueType_3](JPA_ValueType_3.jpg)
+![JPA_ValueType_3](../attachment/img/JPA_ValueType_3.jpg)
 - Member 엔티티는 Address와 PhoneNumber라는 임베디드 값 타입을 가진다.
 - Address는 Zipcode라는 임베디드 타입을 가지고 있다.(임베디드 타입이 임베디드 타입을 가질 수 있다.)
 - PhoneNumber라는 임베디드 타입이 PhoneEntity라는 Entity를 가질 수 있다.
@@ -339,7 +339,7 @@ Address b = new Address("서울시");
 - 값 타입을 하나 이상 저장할 때 사용한다.
 - `@ElementCollection`, `@CollectionTable` 어노테이션을 사용해서 맵핑한다.
 - 데이터베이스는 컬렉션을 같은 테이블에 저장할 수 없기 때문에 컬렉션을 저장하기 위한 별도의 테이블이 필요하다.
-![JPA_ValueType_4](JPA_ValueType_4.jpg)
+![JPA_ValueType_4](../attachment/img/JPA_ValueType_4.jpg)
 - 예를 들어 Member가 그림과 같은 값 타입을 가지고 있다고 가정하자.
 - 그런데 DB테이블로 구현할 때 문제가 발생한다.
 	* 단순하게 값 타입이 하나이면 Member에 필드 속성으로 넣으면 되지만

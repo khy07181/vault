@@ -242,7 +242,7 @@ class 클래스이름 implements 인터페이스이름 {
 - 런타임 에러를 에러(error)와 예외(exception)로 구분
 - 에러(error) : 프로그램 코드에 의해서 수습될 수 없는 심각한 오류
 - 예외(exception) : 프로그램 코드에 의해서 수습될 수 있는 다소 미약한 오류
-![java_basic_8_1](java_basic_8_1.png)
+![java_basic_8_1](../attachment/img/java_basic_8_1.png)
 - Exception 클래스들(checked exception) : 사용자의 실수와 같은 외적인 요인에 의해 발생하는 예외 (예외처리 필수)
 - RuntimeException 클래스들(unchecked exception) : 프로그래머의 실수로 발생하는 예외 (예외처리 선택)
 
@@ -352,7 +352,7 @@ public class Exception {
 
 ### Object 클래스
 
-![java_basic_9_1](java_basic_9_1.png)
+![java_basic_9_1](../attachment/img/java_basic_9_1.png)
 
 #### equals(Object obj)
 
@@ -425,7 +425,7 @@ Class cobj = Class.forName("Card");		// 클래스 이름으로부터 얻는 방�
 - 자바는 내용이 없는 문자열. 즉 크기가 0인 char 배열을 저장하는 문자열을 사용하는 것이 가능하다.
 - String을 참조형의 기본값인 null로 초기화하고 char를 기본값인 '\u0000'으로 초기화하는 것보다 String을 빈 문자열(" ")로 초기화하고 char를 공백(' ')으로 초기화하는 것이 바람직하다.
 - String은 참조형의 기본값인 null 보다 빈 문자열로 초기화하고 char형은 기본값인 ‘\u0000’보다 공백으로 초기화하자.
-![java_basic_9_2](java_basic_9_2.png)
+![java_basic_9_2](../attachment/img/java_basic_9_2.png)
 
 #### 문자열과 기본형 간의 변환
 
@@ -446,7 +446,7 @@ int i2 = Integer.valueOf("100");		// 방법2 : "100"을 100으로 변환(JDK1.5 
 char c = "A".charAt(0);				// 문자열 "A"를 문자 'A'로 변환하는 방법
 ```
 
-![java_basic_9_3](java_basic_9_3.png)
+![java_basic_9_3](../attachment/img/java_basic_9_3.png)
 
 ### StringBuffer 클래스
 
@@ -641,12 +641,12 @@ Duration du = Duration.between(time1, time2);
 - 컬렉션(다수의 객체)을 다루기 위한 표준화된 프로그래밍 방식이다.
 - 컬렉션을 쉽고 편리하게 다룰 수 있는 다양한 클래스를 제공한다
 - java.util패키지에 포함되어 있으며 JDK1.2부터 제공되었다
-![java_basic_11_1](java_basic_11_1.png)
+![java_basic_11_1](../attachment/img/java_basic_11_1.png)
 
 ### List 인터페이스
 
 - 중복을 허용하면서 저장 순서가 유지되는 컬렉션을 구현하는 데 사용된다.
-![java_basic_11_2](java_basic_11_2.png)
+![java_basic_11_2](../attachment/img/java_basic_11_2.png)
 
 ### ArrayList
 
@@ -656,10 +656,10 @@ Duration du = Duration.between(time1, time2);
 
 #### ArrayList에 저장된 객체의 삭제 과정
 
-![java_basic_11_5](java_basic_11_5.png)
-![java_basic_11_6](java_basic_11_6.png)
-![java_basic_11_7](java_basic_11_7.png)
-![java_basic_11_8](java_basic_11_8.png)
+![java_basic_11_5](../attachment/img/java_basic_11_5.png)
+![java_basic_11_6](../attachment/img/java_basic_11_6.png)
+![java_basic_11_7](../attachment/img/java_basic_11_7.png)
+![java_basic_11_8](../attachment/img/java_basic_11_8.png)
 ※ 마지막 데이터를 삭제하는 경우, ①의 과정(배열의 복사)은 필요없다.
 
 (1) ArrayList에 저장된 첫 번째 객체부터 삭제하는 경우(배열 복사 발생)
@@ -670,7 +670,7 @@ for(int i = 0; i < list.size(); i++) {
 }
 ```
 
-![java_basic_11_9](java_basic_11_9.png)
+![java_basic_11_9](../attachment/img/java_basic_11_9.png)
 
 (2) ArrayList에 저장된 마지막 객체부터 삭제하는 경우(배열 복사 발생안함)
 
@@ -680,11 +680,11 @@ for(int i = list.size()-1; i <= 0; i--) {
 }
 ```
 
-![java_basic_11_10](java_basic_11_10.png)
+![java_basic_11_10](../attachment/img/java_basic_11_10.png)
 
 ### LinkedList
 
-![java_basic_11_3](java_basic_11_3.png)
+![java_basic_11_3](../attachment/img/java_basic_11_3.png)
 - 실제로 LinkedList클래스는 이름과 달리 linked list가 아닌 doubly linked list로 구현되어 있다.
 - 순차적으로 추가/삭제하는 경우에는 ArrayList가 LinkedList보다 빠르다
 - 중간 데이터를 추가/삭제하는 경우에는 LinkedList가 ArrayList보다 빠르다.
@@ -760,7 +760,7 @@ while(it.hasNext()) {
 
 ### 컬렉션 클래스 정리
 
-![java_basic_11_4](java_basic_11_4.png)
+![java_basic_11_4](../attachment/img/java_basic_11_4.png)
 
 ## Generics
 
@@ -1036,7 +1036,7 @@ class EnumEx1 {
 ### java.lang.Enum
 
 - 모든 열거형은 Enum의 자손이며, 아래의 메서드를 상속받는다.
-![java_basic_12_1](java_basic_12_1.png)
+![java_basic_12_1](../attachment/img/java_basic_12_1.png)
 
 ### 열거형에 멤버 추가하기
 
@@ -1122,12 +1122,12 @@ void setDaemon(boolean on) // 쓰레드를 데몬 쓰레드로 또는 사용자 
 
 #### 쓰레드의 상태
 
-![java_basic_13_1](java_basic_13_1.png)
-![java_basic_13_2](java_basic_13_2.png)
+![java_basic_13_1](../attachment/img/java_basic_13_1.png)
+![java_basic_13_2](../attachment/img/java_basic_13_2.png)
 
 #### 쓰레드의 스케쥴링
 
-![java_basic_13_3](java_basic_13_3.png)
+![java_basic_13_3](../attachment/img/java_basic_13_3.png)
 - `sleep(long millis)` : 일정 시간 동안 쓰레드를 멈추게 한다.
 
 ```java

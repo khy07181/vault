@@ -426,13 +426,13 @@ public class SampleControllerTest {
 ### 핸들러 메소드 아규먼트
 
 - 주로 요청 그 자체 또는 요청에 들어있는 정보를 받아오는데 사용한다.
-![SpringMVCUtilization_1](SpringMVCUtilization_1.png)
+![SpringMVCUtilization_1](../attachment/img/SpringMVCUtilization_1.png)
 - [Handler Methods - Method Arguments](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc-ann-arguments)
 
 ### 핸들러 메소드 리턴
 
 - 주로 응답 또는 모델을 랜더링할 뷰에 대한 정보를 제공하는데 사용한다.
-![SpringMVCUtilization_2](SpringMVCUtilization_2.png)
+![SpringMVCUtilization_2](../attachment/img/SpringMVCUtilization_2.png)
 - [Return Values](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc-ann-return-types)
 
 ## 핸들러 메소드 2. URI 패턴

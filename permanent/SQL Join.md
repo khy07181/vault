@@ -13,7 +13,7 @@ fc-date: 2022-11-02 17:35
 ## Join
 
 - A `JOIN` clause is used to combine rows from two or more tables, based on a related column between them.
-![SQL_Join_1](SQL_Join_1.png)
+![SQL_Join_1](../attachment/img/SQL_Join_1.png)
 
 ### Inner Join
 

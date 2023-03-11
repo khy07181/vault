@@ -21,11 +21,11 @@
       "left": 0
     }
   },
-  "library": "FasBook",
   "permanent": "FasAlign-justify",
   "private": "FasAnkh",
   "templates": "FasBorder-none",
   "fleeting": "FasBolt",
-  "attachments": "FasBrush",
-  "anki": "FasBorderAll"
+  "anki": "FasBorderAll",
+  "library": "FasBook",
+  "attachment": "FasBrush"
 }
