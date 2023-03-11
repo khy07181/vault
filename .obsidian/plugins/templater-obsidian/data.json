@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "",
+  "templates_folder": "templates",
   "templates_pairs": [
     [
       "",
@@ -8,7 +8,7 @@
     ]
   ],
   "trigger_on_file_creation": false,
-  "auto_jump_to_cursor": false,
+  "auto_jump_to_cursor": true,
   "enable_system_commands": false,
   "shell_path": "",
   "user_scripts_folder": "",
@@ -26,7 +26,8 @@
     "templates/br.md",
     "templates/daily-note.md",
     "templates/weekly-planner.md",
-    "templates/book.md"
+    "templates/book.md",
+    "templates/anki.md"
   ],
   "startup_templates": [
     ""

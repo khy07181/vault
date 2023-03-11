@@ -4,6 +4,11 @@
   "statusBar_trigger_indicator": true,
   "folder_tag_pattern": [
     {
+      "folder": "anki/voca",
+      "tag": "#voca",
+      "pattern": ""
+    },
+    {
       "folder": "library/book",
       "tag": "#book",
       "pattern": ""
@@ -20,5 +25,12 @@
     }
   ],
   "use_regex_to_check_for_excluded_folder": false,
-  "excluded_folder": []
+  "excluded_folder": [
+    {
+      "folder": "private"
+    },
+    {
+      "folder": "templates"
+    }
+  ]
 }

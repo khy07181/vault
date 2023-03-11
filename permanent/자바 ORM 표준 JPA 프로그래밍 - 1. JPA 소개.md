@@ -68,7 +68,7 @@ UPDATE MEMBER SET ... TEL = ?
 - 객체에는 상속 관계가 있지만 관계형 DB에는 상속 관계가 없다.
 - 객체의 상속 관계와 그나마 유사한 것이 Table의 슈퍼타입-서브타입 관계라는 논리 모델이다.
 - 예를 들어 다음과 같이 객체와 table을 설계했다고 했을 때
-![JPA_Intro_1](../img/JPA_Intro_1.jpg)
+![JPA_Intro_1](JPA_Intro_1.jpg)
 - Album 객체를 저장하는 경우
 	* Item을 상속받았으므로 Album이 데이터를 다 가지고 있다.
 	* DB에 저장하려면 INSERT 쿼리를 2번 작성해야 한다.
@@ -83,7 +83,7 @@ UPDATE MEMBER SET ... TEL = ?
 
 #### 연관관계
 
-![JPA_Intro_2](../img/JPA_Intro_2.jpg)
+![JPA_Intro_2](JPA_Intro_2.jpg)
 - 객체는 참조를 사용한다.
 	* 객체는 **단방향**으로, Member에서 Team으로 갈 수 있지만 Team에서 Member로 갈 수 없다.
 - 테이블은 외래 키를 사용한다.
@@ -177,7 +177,7 @@ public Member find(Strubg memberId) {
 
 ### 객체 그래프 탐색
 
-![JPA_Intro_3](../img/JPA_Intro_3.jpg)
+![JPA_Intro_3](JPA_Intro_3.jpg)
 
 - 객체는 자유롭게 객체 그래프를 탐색할 수 있어야 한다.
 	* 예를 들어, `member.getOrder()`,`member.getTeam()`와 같이 호출할 수 있어야 한다.
@@ -287,14 +287,14 @@ member1 == member2; // 같다.
 
 ### JPA의 동작
 
-![JPA_Intro_4](../img/JPA_Intro_4.jpg)
+![JPA_Intro_4](JPA_Intro_4.jpg)
 
 - JPA는 애플리케이션과 JDBC 사이에서 동작한다.
 - 개발자가 직접 JDBC API를 사용하는 것이 아니라 JPA에게 명령하면 JPA가 JDBC API를 사용해서 SQL을 호출하고 결과를 받아서 동작한다.
 
 #### 저장
 
-![JPA_Intro_5](../img/JPA_Intro_5.jpg)
+![JPA_Intro_5](JPA_Intro_5.jpg)
 - memberDAO에서 객체를 저장하고 싶은 경우
 	* JPA에게 Member객체를 넘기면 JPA가 객체를 분석한다.
 	* JPA가 적절한 INSERT 쿼리 생성한다.(**개발자가 쿼리를 작성하는 것이 아니라 JPA가 만들어준다.** )
@@ -303,7 +303,7 @@ member1 == member2; // 같다.
 
 #### 조회
 
-![JPA_Intro_6](../img/JPA_Intro_6.jpg)
+![JPA_Intro_6](JPA_Intro_6.jpg)
 - JPA에게 PK값으로 find 요청하면 JPA는 SELECT 쿼리를 만든다.
 - JDBC API를 통해 DB에 보내고 결과를 받는다.
 - ResultSet 결과를 가지고 객체에 맵핑을 해준다.
@@ -333,7 +333,7 @@ member1 == member2; // 같다.
 
 **JPA와 상속**
 
-![JPA_Intro_7](../img/JPA_Intro_7.jpg)
+![JPA_Intro_7](JPA_Intro_7.jpg)
 
 - 저장
 	* 개발자가 할 일

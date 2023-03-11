@@ -53,7 +53,7 @@ fc-date: 2022-09-15 17:06
 
 ### 다대일 관계 단방향 맵핑
 
-![JPA_VariousrelationalMapping_1](../img/JPA_VariousrelationalMapping_1.jpg)
+![JPA_VariousrelationalMapping_1](JPA_VariousRelationalMapping_1.jpg)
 - JPA에서 지원하는 `@ManyToOne` 어노테이션을 사용해서 다대일 관계를 맵핑한다.
 - `@JoinColumn`은 외래키를 맵핑할 때 사용한다.
 	* name속성은 맵핑할 외래키 이름이다.
@@ -77,7 +77,7 @@ public class Member {
 
 ### 다대일 관계 양방향 맵핑
 
-![JPA_VariousrelationalMapping_2](../img/JPA_VariousrelationalMapping_2.jpg)
+![JPA_VariousrelationalMapping_2](JPA_VariousRelationalMapping_2.jpg)
 - 다대일 관계에서 단방향 맵핑을 진행하고, 양방향 맵핑을 진행할 때 반대쪽에서 일대다 단방향 맵핑을 해주면 된다.
 	* 객체에서 컬렉션만 추가해주면 된다.
 - 반대에서 단방향 맵핑을 한다고 해서 DB 테이블에 영향을 전혀 주지 않는다.
@@ -107,7 +107,7 @@ public class Team {
 
 ### 일대다 단방향 맵핑
 
-![JPA_VariousrelationalMapping_3](../img/JPA_VariousrelationalMapping_3.jpg)
+![JPA_VariousrelationalMapping_3](JPA_VariousRelationalMapping_3.jpg)
 - Team은 Member를 참조하는데 Member는 Team을 참조하지 않아도 된다는 설계가 나올 순 있다.
 	* 객체 입장에서는 충분히 나올 수 있는 설계이다.
 - 그러나 DB입장에서는 무조건 일대다의 다쪽에 외래키가 들어가야한다.
@@ -144,7 +144,7 @@ tx.commit();
 ```
 
 - 실행하면 다음과 같이 member와 team INSERT 쿼리문이 나가고 트랜잭션 커밋 시점에 MEMBER 테이블을 UPDATE 쿼리가 한번 더 나간다.
-![JPA_VariousrelationalMapping_4](../img/JPA_VariousrelationalMapping_4.jpg)
+![JPA_VariousrelationalMapping_4](JPA_VariousRelationalMapping_4.jpg)
 
 #### 일대다 단방향 정리
 
@@ -161,7 +161,7 @@ tx.commit();
 
 ### 일대다 양방향 맵핑
 
-![JPA_VariousrelationalMapping_5](../img/JPA_VariousrelationalMapping_5.jpg)
+![JPA_VariousrelationalMapping_5](JPA_VariousRelationalMapping_5.jpg)
 - 스펙 상 가능한 것은 아니지만 억지로 하려면 가능하다.
 - 아래와 같이 @ManyToOne과 @JoinColumn을 사용해서 연관관계를 맵핑하면, 다대일 단방향 맵핑이 되어버린다. 근데 반대쪽 Team에서 이미 일대다 단방향 맵핑이 설정되어있다. 이런 상황에서는 두 엔티티에서 모두 테이블의 FK 키를 관리 하게 되는 상황이 벌어진다.
 - 그런 다음 insertable, updatable 옵션을 false로 설정해 읽기 전용 필드으로 만들어 버린다.
@@ -201,7 +201,7 @@ public class Member {
 
 ### 일대일 - 주 테이블에 외래키 단방향 맵핑
 
-![JPA_VariousrelationalMapping_6](../img/JPA_VariousrelationalMapping_6.jpg)
+![JPA_VariousrelationalMapping_6](JPA_VariousRelationalMapping_6.jpg)
 - Member가 하나의 Locker를 가지고 반대로 Locker도 하나의 Member만 가질 수 있다고 비즈니스 룰을 가정할 때, 일대일 연관관계가 된다.
 - MEMBER에 LOCKER_ID를 외래키로 가지고 UNI 제약조건을 걸어도 되고, 반대로 LOCKER에 MEMBER_ID를 외래키로 가지고 UNI 제약조건을 걸어도 된다.
 
@@ -235,7 +235,7 @@ public class Locker {
 
 ### 일대일 - 주 테이블에 외래키 양방향 맵핑
 
-![JPA_VariousrelationalMapping_7](../img/JPA_VariousrelationalMapping_7.jpg)
+![JPA_VariousrelationalMapping_7](JPA_VariousRelationalMapping_7.jpg)
 - 주 테이블에 외래키 단방향 맵핑에서 Locker 클래스에 member를 추가하면 된다.
 	* 읽기 전용이 된다.
 	* mappedBy가 다대일과 똑같이 적용된다.
@@ -275,7 +275,7 @@ public class Locker {
 
 ### 일대일 - 대상 테이블에 외래키 단방향 맵핑
 
-![JPA_VariousrelationalMapping_8](../img/JPA_VariousrelationalMapping_8.jpg)
+![JPA_VariousrelationalMapping_8](JPA_VariousRelationalMapping_8.jpg)
 - 대일관계에서 대상 테이블에 외래키를 저장하는 단방향 관계는 JPA에서 지원도 방법도 없다.
 	* Member에 있는 locker로 LOCKER테이블의 MEMBER_ID(FK)를 관리할 수 없다.
 
@@ -286,7 +286,7 @@ public class Locker {
 
 ### 일대일 - 대상 테이블에 외래키 단방향 맵핑
 
-![JPA_VariousrelationalMapping_9](../img/JPA_VariousrelationalMapping_9.jpg)
+![JPA_VariousrelationalMapping_9](JPA_VariousRelationalMapping_9.jpg)
 - 일대일 주 테이블에 외래키 양방향 맵핑을 반대로 뒤집었다고 생각하면 된다.
 - Locker의 member를 연관관계의 주인으로 잡고 LOCKER의 MEMBER_ID와 맵핑을 하면 된다.
 	* Member를 읽기 전용으로 만들어야 한다.
@@ -317,7 +317,7 @@ public class Locker {
 
 ## 다대다[N:M]
 
-![JPA_VariousrelationalMapping_10](../img/JPA_VariousrelationalMapping_10.jpg)
+![JPA_VariousrelationalMapping_10](JPA_VariousRelationalMapping_10.jpg)
 - 실무에서는 사용하지 않는게 좋다.
 - 관계형 데이터베이스는 정규화된 테이블 2개로 다대다 관계를 표현할 수 없다.
 - 연결 테이블(조인 테이블)을 추가해서 일대다, 다대일 관계로 풀어내야 한다.
@@ -325,7 +325,7 @@ public class Locker {
 	* ORM 입장에서는 객체는 되고 테이블은 안되는 것을 지원해줘야 한다.
 	* 따라서, 아래의 그림에서와 같이 객체는 Member와 Product 서로의 list를 가질 수 있기 때문에
 	* 그림의 테이블처럼 일대다, 다대일 맵핑을 연결 테이블을 넣어서 맵핑해준다.
-![JPA_VariousrelationalMapping_11](../img/JPA_VariousrelationalMapping_11.jpg)
+![JPA_VariousrelationalMapping_11](JPA_VariousRelationalMapping_11.jpg)
 - `@ManyToMany` 어노테이션을 사용하고 `@JoinTable`로 연결 테이블을 지정해줄 수 있다.
 
 ### 다대다 단방향 맵핑
@@ -380,7 +380,7 @@ public class Product {
 
 ### 다대다 맵핑의 한계
 
-![JPA_VariousrelationalMapping_12](../img/JPA_VariousrelationalMapping_12.jpg)
+![JPA_VariousrelationalMapping_12](JPA_VariousRelationalMapping_12.jpg)
 - 편리해 보이지만 실무에서 사용할 수 없다.
 - 연결 테이블이 단순히 연결만 하고 끝나지 않는다.
 - 주문시간, 수량 같은 데이터가 들어올 수 있다.
@@ -389,7 +389,7 @@ public class Product {
 
 ### 다대다 한계 극복
 
-![JPA_VariousrelationalMapping_13](../img/JPA_VariousrelationalMapping_13.jpg)
+![JPA_VariousrelationalMapping_13](JPA_VariousRelationalMapping_13.jpg)
 - `@ManyToMany`를 `@OneToMany`와 `@ManyToOne`으로 바꾸고
 - 연결 테이블용 엔티티를 추가한다. (연결 테이블을 엔티티로 승격)
 

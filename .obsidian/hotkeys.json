@@ -107,5 +107,14 @@
       ],
       "key": "B"
     }
+  ],
+  "obsidian-to-anki-plugin:anki-scan-vault": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "A"
+    }
   ]
 }

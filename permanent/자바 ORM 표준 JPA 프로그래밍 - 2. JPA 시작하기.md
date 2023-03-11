@@ -93,7 +93,7 @@ fc-date: 2022-09-15 17:06
 
 ### 데이터베이스 방언(Dialect)
 
-![JPA_Start_1](../img/JPA_Start_1.jpg)
+![JPA_Start_1](JPA_Start_1.jpg)
 - 방언 : SQL 표준을 지키지 않거나 특정 데이터베이스 만의 고유한 기능
 - JPA는 특정 데이터베이스에 종속적이지 않은 기술이다.
 - 각각의 데이터베이스가 제공하는 SQL 문법과 함수는 조금씩 다르다.
@@ -112,7 +112,7 @@ fc-date: 2022-09-15 17:06
 
 ### JPA 구동 방식
 
-![JPA_Start_2](../img/JPA_Start_2.jpg)
+![JPA_Start_2](JPA_Start_2.jpg)
 - JPA의 Persistence 클래스가 persistence.xml의 설정 정보를 읽어서 EntityManagerFactory라는 클래스를 만든다.
 - EntityManagerFactory 클래스에서 필요할 때마다 EntityManager를 만든다.
 
@@ -181,11 +181,11 @@ public class JpaMain {
 
 - main을 실행하면 다음과 같이 쿼리가 나온다.
 
-![JPA_Start_3](../img/JPA_Start_3.jpg)
+![JPA_Start_3](JPA_Start_3.jpg)
 
 - DB에서도 데이터(member)가 잘 저장된 것을 볼 수 있다.
 
-![JPA_Start_4](../img/JPA_Start_4.jpg)
+![JPA_Start_4](JPA_Start_4.jpg)
 
 - 이렇게 쿼리를 작성하지 않아도 JPA가 맵핑 정보를 보고 쿼리를 만든 것이다.
 - Member가 MEMBER 테이블에 저장된 것은 관례를 따른 것으로 만약 DB에 테이블 이름이 다르거나 DB 컬럼의 이름이 다를 경우 다음 코드와 같이 작성하면 된다.

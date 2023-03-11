@@ -11,7 +11,7 @@ fc-date: 2022-09-08 13:00
 
 ### 웹페이지에 CSS를 사용하는 방법
 
-![CSS_1](../img/CSS_1.png)
+![CSS_1](CSS_1.png)
 
 #### 1. inline
 
@@ -219,7 +219,7 @@ color: red;
 
 ### CSS box model
 
-![CSS_2](../img/CSS_2.png)
+![CSS_2](CSS_2.png)
 - Margin, Padding 을 top, right, bottom, left 등으로 조절할 수 있다.
 - block level element : 화면 전체를 크기로 가지는 태그
 	ex) `<p>`, `<hn>`, `<ul>`, `<ol>`, `<div>`, `<blockquote>`, `<form>`, `<hr>`, `<table>`, `<fieldset>`, `<address>` 등
@@ -496,7 +496,7 @@ border:5px solid gray;
 
 ```
 
-![CSS_3](../img/CSS_3.png)
+![CSS_3](CSS_3.png)
 - grid layout을 사용하여 선택자들 간의 배치를 다양하게 할 수 있다.
 - 위의 코드에서 NAVIGATION은 150px을 가지고 나머지를 ARTICLE이 채운다.
 

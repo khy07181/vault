@@ -1191,7 +1191,7 @@ public class WebConfig implements WebMvcConfigurer {
 	* FormatterRegistry 기능 구현
 	* ConversionService 기능 구현
 	* 여러 기본 Converter와 Formatter를 등록 해 준다.
-![SpringFrameWorkCore_1](../img/SpringFrameWorkCore_1.png)
+![SpringFrameWorkCore_1](SpringFrameworkCore_1.png)
 - 스프링 부트
 	- 웹 애플리케이션인 경우에 DefaultFormattingConversionSerivce를 상속하여 만든 WebConversionService를 빈으로 등록해 준다. (더 많은 기능 가능)
 	- Formatter와 Converter 빈을 찾아 자동으로 등록해 준다.
@@ -1290,7 +1290,7 @@ public class AppRunner implements ApplicationRunner {
 - Spring AOP는 AOP의 구현체 제공
 - Java의 AOP구현체인 AspectJ와 연동해서 사용할 수 있는 기능 제공
 - 해야할 일과 그 일을 어디에 적용해야하는 지를 묶어서 모듈화 하는 것
-![SpringFrameWorkCore_2](../img/SpringFrameWorkCore_2.jpg)
+![SpringFrameWorkCore_2](SpringFrameworkCore_2.jpg)
 
 ### AOP 주요 용어
 
@@ -1406,7 +1406,7 @@ public @interface PerfLogging {
 
 ### 툴에서 적용 방법
 
-![SpringFrameWorkCore_3](../img/SpringFrameWorkCore_3.jpg)
+![SpringFrameWorkCore_3](SpringFrameworkCore_3.jpg)
 - Build, Excution, Deployment -> Compiler 설정에서 Configure annotations
 - Nullable annotations에 org.springframework.lang.Nullable 추가
 - NotNull annotations에 org.springframework.lang.NonNull 추가

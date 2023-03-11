@@ -48,7 +48,7 @@ public class SpringinitApplication {
 	* 일부는 manifest 파일이 생성이 되어야 사용 가능한 변수가 있다.
 	* 그런 변수들은 mvn package를 해서 jar 파일을 만들면 manifest파일도 만들기 때문에 사용 가능하다.
 
-![SpringBootCore_1](../img/SpringBootCore_1.jpg)
+![SpringBootCore_1](SpringBootCore_1.jpg)
 
 - 배너를 코딩으로 구현하기
 	* 배너를 코딩으로 구현하면 gif, jpg, png 등 이미지 파일도 사용 가능하다.

@@ -35,7 +35,7 @@ fc-date: 2022-09-15 17:06
 
 ### 객체를 테이블에 맞춰 모델링
 
-![JPA_RelationalMapping_1](../img/JPA_RelationalMapping_1.jpg)
+![JPA_RelationalMapping_1](JPA_RelationalMapping_1.jpg)
 
 - 참조 대신 외래키를 그대로 사용한다.
 
@@ -115,7 +115,7 @@ public Class Main {
 
 ### 객체지향 모델링
 
-![JPA_RelationalMapping_2](../img/JPA_RelationalMapping_2.jpg)
+![JPA_RelationalMapping_2](JPA_RelationalMapping_2.jpg)
 - 객체의 참조와 테이블의 외래키를 맵핑한다.
 
 * teamId 대신 객체 Team을 넣고 TEMA_ID에 맵핑한다.
@@ -242,16 +242,16 @@ for(Member m : members) {
 	* Team -> Member 연관관계 1개(단방향)
 	* 객체의 양방향 관계는 사실 양방향 관계가 아니라 서로 다른 단방향 관계 2개다.
 	* 따라서 객체를 양방향으로 참조하려면 억지로 단방향 관계 2개를 만들어야 한다.
-![JPA_RelationalMapping_3](../img/JPA_RelationalMapping_3.jpg)
+![JPA_RelationalMapping_3](JPA_RelationalMapping_3.jpg)
 - 테이블 연관관계
 	* Member <-> Team의 연관관계 1개(양방향)
 	* 테이블은 외래키 하나로 두 테이블의 연관관계를 관리한다.
 	* MEMBER>TEAM_ID 외래키 하나로 양쪽으로 JOIN할 수 있다.
-![JPA_RelationalMapping_4](../img/JPA_RelationalMapping_4.jpg)
+![JPA_RelationalMapping_4](JPA_RelationalMapping_4.jpg)
 
 ### 딜레마 - 둘 중 하나로 외래 키를 관리해야 한다.
 
-![JPA_RelationalMapping_5](../img/JPA_RelationalMapping_5.jpg)
+![JPA_RelationalMapping_5](JPA_RelationalMapping_5.jpg)
 - 그림과 같이 객체의 참조를 양방향으로 만들었을 때 둘 중에 어느것으로 맵핑해야할까?
 	* Member의 team값이 바뀌었을 때 외래키값이 수정되어야 할지 Team의 members값이 바뀌었을 때 외래키값이 수정되어야할지 딜레마에 빠진다.
 - DB 입장에서는 객체의 참조가 어떻든, MEMBER의 TEAM_ID(FK)값만 UPDATE되면 된다.
@@ -272,7 +272,7 @@ for(Member m : members) {
 
 ### 누구를 주인으로 정해야 할까
 
-![JPA_RelationalMapping_6](../img/JPA_RelationalMapping_6.jpg)
+![JPA_RelationalMapping_6](JPA_RelationalMapping_6.jpg)
 - 외래키가 있는 곳을 주인으로 정해야 한다.(권장)
 	* Team.members를 주인으로 설정했다고 가정하면, Team의 members의 값을 바꿨을 때 TEAM테이블이 아니라 MEMBER 테이블의 UPDATE 쿼리가 나간다(?)
 	* 다른 테이블의 UPDATE쿼리가 나가면 JPA를 잘한다고하더라도 헷갈린다. (성능이슈도 있다.)

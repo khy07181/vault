@@ -1,6 +1,6 @@
 {
   "promptDelete": false,
-  "showFrontmatter": true,
+  "showFrontmatter": false,
   "showLineNumber": true,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
@@ -8,5 +8,9 @@
   "vimMode": false,
   "readableLineLength": true,
   "foldHeading": true,
-  "spellcheck": true
+  "spellcheck": true,
+  "userIgnoreFilters": [
+    "private/",
+    "private/daily-note/"
+  ]
 }

@@ -57,7 +57,7 @@ for( Member member : result) {
 
 - 다음과 같이 주석으로 JPQL이 보이고 실제 SQL로 번역되어 실행되는 것을 볼 수 있다.
 	* 엔티티를 대상으로 쿼리를 한 것이고 엔티티 맵핑 정보를 읽어서 적절한 SQL을 만들어 낸다.
-![JPA_JPQL1_1](../img/JPA_JPQL1_1.jpg)
+![JPA_JPQL1_1](JPA_JPQL1_1.jpg)
 
 ### Criteria 소개
 
@@ -124,7 +124,7 @@ tx.commit();
 - JPQL은 SQL을 추상화해서 특정 데이터베이스 SQL에 의존하지 않는다.
 - JPQL은 결국 SQL로 변환된다.
 - 예제 객체 모델과 DB모델
-![JPA_JPQL1_2](../img/JPA_JPQL1_2.jpg)
+![JPA_JPQL1_2](JPA_JPQL1_2.jpg)
 
 ### JPQL 문법
 
@@ -376,7 +376,7 @@ for (Member member : members) {
 
 - Spring Data JPA를 쓰면 생각보다 페이징이 쉽게 되는데, 결과적으로 JPA가 해주는 것이다.
 - 참고) 페이징 API - MySQL, Oracle 방언
-![JPA_JPQL1_3](../img/JPA_JPQL1_3.jpg)
+![JPA_JPQL1_3](JPA_JPQL1_3.jpg)
 
 ## 조인
 

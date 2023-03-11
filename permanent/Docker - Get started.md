@@ -62,10 +62,10 @@ docker 이름 지정 및 run
 - `docker run -dp 3000:3000 getting-started`
 
 http://localhost:3000/ 에 접속하면 다음과 같은 화면이 정상적으로 나온다.
-![docker_1](../img/docker_1.png)
+![docker_1](docker_1.png)
 
 Docker Desktop의 Dashboard에도 `getting-started` 이미지를 사용하고 3000 포트에서 실행 중인 컨테이너가 표시된다.
-![docker_2](../img/docker_2.png)
+![docker_2](docker_2.png)
 
 ## Update the application
 
@@ -107,7 +107,7 @@ image의 업데이트 된 버전 build
 `docker run -dp 3000:3000 getting-started`
 
 http://localhost:3000/ 에 접속하면 다음과 같은 수정된 화면이 정상적으로 나온다.
-![docker_3](../img/docker_3.png)
+![docker_3](docker_3.png)
 
 ## Share the application
 
@@ -116,7 +116,7 @@ http://localhost:3000/ 에 접속하면 다음과 같은 수정된 화면이 정
 1. [Docker Hub](https://hub.docker.com/)
 2. Create Repository
 3. repository 이름은 `getting-started`로 설정한다.
-![docker_4](../img/docker_4.png)
+![docker_4](docker_4.png)
 
 ### image push
 
@@ -129,7 +129,7 @@ http://localhost:3000/ 에 접속하면 다음과 같은 수정된 화면이 정
 	- `docker tag getting-started khy07181/getting-started`
 - docker push
 	- `docker push khy07181/getting-started`
-![docker_5](../img/docker_5.png)
+![docker_5](docker_5.png)
 
 ### 새 인스턴스에서 image 실행
 
@@ -164,13 +164,13 @@ http://localhost:3000/ 에 접속하면 다음과 같은 수정된 화면이 정
 - `docker run -dp 3000:3000 -v todo-db:/etc/todos getting-started
 
 이제 todo를 추가하고 컨테이너를 제거 후 다시 시작하더라도 todo 앱의 db 데이터는 그대로 유지된다!
-![docker_6](../img/docker_6.png)
+![docker_6](docker_6.png)
 
 ### Dive into the volume
 
 - `docker volume inspect` 명령을 사용하면 Docker가 실제로 데이터를 어디에 저장하는지 알 수 있다.
 	- `Mountpoint` : 데이터가 저장되는 실제 위치이다.
-	![docker_7](../img/docker_7.png)
+	![docker_7](docker_7.png)
 
 ## Multi-container apps
 

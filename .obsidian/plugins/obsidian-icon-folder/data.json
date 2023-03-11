@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasBorderAll",
+      "FasBahtSign",
       "FasBolt",
       "FasAngle-right",
-      "FasBorder-none",
-      "FasAnkh",
-      "FasAlign-justify"
+      "FasBorder-none"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -22,9 +22,10 @@
     }
   },
   "library": "FasBook",
-  "img": "FasBrush",
   "permanent": "FasAlign-justify",
   "private": "FasAnkh",
   "templates": "FasBorder-none",
-  "fleeting": "FasBolt"
+  "fleeting": "FasBolt",
+  "attachments": "FasBrush",
+  "anki": "FasBorderAll"
 }

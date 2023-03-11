@@ -1,7 +1,7 @@
 
 ---
 created: <% tp.file.creation_date() %>
-tag: book
+tags: book
 cover_url:
 title: <% tp.file.title %>
 author:
