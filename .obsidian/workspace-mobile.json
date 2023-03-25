@@ -11,8 +11,10 @@
             "id": "dfddefab3f49d178",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "객체지향의 사실과 오해.pdf"
+              }
             }
           }
         ]
@@ -81,6 +83,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "객체지향의 사실과 오해.pdf",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,6 +100,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "객체지향의 사실과 오해.pdf",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -107,7 +111,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "객체지향의 사실과 오해.pdf"
+          }
         }
       },
       {
@@ -131,6 +137,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-extract-pdf-highlights:PDF Highlights": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "kr-book-info-plugin:Add Book Info": false,
       "fantasy-calendar:Open Large Fantasy Calendar": false,
@@ -147,6 +154,9 @@
   },
   "active": "dfddefab3f49d178",
   "lastOpenFiles": [
+    "객체지향의 사실과 오해.pdf",
+    "templates/daily-note.md",
+    "templates/book.md",
     "library/book/이펙티브 자바 Effective Java 3／E.md",
     "private/Day Planners/Day Planner-20230225.md",
     "private/obsidian.md",

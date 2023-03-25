@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "21f4821622c83037",
+        "id": "a7e5f4bcad5e047f",
         "type": "tabs",
         "children": [
           {
-            "id": "4459ad2d068037ac",
+            "id": "fe70f2543f60d04b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "permanent/SQL Join.md",
+                "file": "fleeting/postgresql.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,8 +49,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "png",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "permanent/SQL Join.md",
+                "file": "fleeting/postgresql.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "permanent/SQL Join.md",
+                "file": "fleeting/postgresql.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "permanent/SQL Join.md"
+                "file": "fleeting/postgresql.md"
               }
             }
           },
@@ -155,41 +154,70 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false,
-      "canvas:Create new canvas": false,
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "markdown-importer:마크다운 형식 가져오기 열기": false,
+      "workspaces:작업 공간 레이아웃 관리": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "kr-book-info-plugin:Add Book Info": false,
       "fantasy-calendar:Open Large Fantasy Calendar": false,
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
+      "obsidian-extract-pdf-highlights:PDF Highlights": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "4459ad2d068037ac",
+  "active": "8ccd5105a5535dc0",
   "lastOpenFiles": [
+    "attachment/img/img/Preparing_Application_Deployment_1.jpg",
+    "attachment/img/img/API_dev_basic_3.jpg",
+    "attachment/img/img/JPA_PersistenceContext_3.jpg",
+    "attachment/img/img/web_layer_development_2.jpg",
+    "attachment/img/img/API_collection_readOptimization_1.jpg",
+    "attachment/img/img/ex_domain_1.png",
+    "attachment/img/img/JPA_Proxy_RelationManaging_4.jpg",
+    "attachment/img/img/JPA_Proxy_RelationManaging_2.jpg",
+    "attachment/img/img/JPA_Intro_5.jpg",
+    "attachment/img/img/JPA_JPQL2_2.jpg",
+    "attachment/img/img/SpringBootCore_1.jpg",
+    "attachment/img/img",
+    "anki/voca",
+    "anki",
+    "fleeting/psql.md",
+    "fleeting/regex.md",
+    "library/book/만들면서 배우는 클린 아키텍처.md",
+    "library/Library Home.md",
+    "fleeting/postgresql.md",
+    "객체지향의 사실과 오해.pdf",
+    "Highlights for 객체지향의 사실과 오해.md",
+    "library/book/코스모스.md",
+    "library/book/가상 면접 사례로 배우는 대규모 시스템 설계 기초.md",
+    "library/book/개발자 원칙.md",
+    "library/book/객체지향의 사실과 오해.md",
+    "library/book/공간의 미래.md",
+    "library/book/역행자.md",
+    "library/book/이펙티브 자바 Effective Java 3／E.md",
+    "library/book/해커와 화가.md",
+    "fleeting/무제 파일 1.md",
+    "permanent/SQL Join.md",
     "permanent/spring mvc 활용.md",
     "permanent/spring core.md",
-    "fleeting/regex.md",
     "fleeting/Jenkins.md",
     "permanent/java basic.md",
     "permanent/Docker - Get started.md",
     "permanent/CSS.md",
-    "library/book/만들면서 배우는 클린 아키텍처.md",
-    "attachment/img/clean_architecture_1.png",
     "permanent/자바 ORM 표준 JPA 프로그래밍 - 9. 값 타입.md"
   ]
 }
