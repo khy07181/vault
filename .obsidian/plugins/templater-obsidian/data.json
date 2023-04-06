@@ -26,8 +26,7 @@
     "templates/br.md",
     "templates/daily-note.md",
     "templates/weekly-planner.md",
-    "templates/book.md",
-    "templates/anki.md"
+    "templates/book.md"
   ],
   "startup_templates": [
     ""

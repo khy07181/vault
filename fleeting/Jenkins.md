@@ -20,3 +20,6 @@ password를 찾기 위해 jenkins container 접속
 
 password 조회
 `cat /var/jenkins_home/secrets/initialAdminPassword`
+
+
+

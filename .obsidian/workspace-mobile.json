@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "0b7907ea6392e451",
+        "id": "64b4f8df4a39dc45",
         "type": "tabs",
         "children": [
           {
-            "id": "dfddefab3f49d178",
+            "id": "00620cf1bceb07ec",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "객체지향의 사실과 오해.pdf"
+                "file": "anki/voca/voca2023.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -83,7 +86,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "객체지향의 사실과 오해.pdf",
+            "file": "anki/voca/voca2023.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "객체지향의 사실과 오해.pdf",
+            "file": "anki/voca/voca2023.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -112,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "객체지향의 사실과 오해.pdf"
+            "file": "anki/voca/voca2023.md"
           }
         }
       },
@@ -137,7 +140,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-extract-pdf-highlights:PDF Highlights": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "kr-book-info-plugin:Add Book Info": false,
       "fantasy-calendar:Open Large Fantasy Calendar": false,
@@ -152,8 +154,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "dfddefab3f49d178",
+  "active": "00620cf1bceb07ec",
   "lastOpenFiles": [
+    "개발자 원칙.pdf",
+    "fleeting/Untitled.md",
+    "contents.md",
+    "test.md",
     "객체지향의 사실과 오해.pdf",
     "templates/daily-note.md",
     "templates/book.md",
@@ -176,7 +182,6 @@
     "README.md",
     "permanent/자바 ORM 표준 JPA 프로그래밍 - 5. 연관관계 맵핑 기초.md",
     "library/book/만들면서 배우는 클린 아키텍처.md",
-    "library/book/코스모스.md",
-    "library/book/객체지향의 사실과 오해.md"
+    "library/book/코스모스.md"
   ]
 }
