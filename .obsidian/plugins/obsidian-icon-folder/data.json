@@ -25,7 +25,6 @@
   "private": "FasAnkh",
   "templates": "FasBorder-none",
   "fleeting": "FasBolt",
-  "anki": "FasBorderAll",
-  "library": "FasBook",
-  "attachment": "FasBrush"
+  "attachment": "FasBrush",
+  "anki": "FasBorderAll"
 }

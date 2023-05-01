@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "0cf915c27d23cebc",
+        "id": "eb312cf79d7adc1a",
         "type": "tabs",
         "children": [
           {
-            "id": "c8ff20687ae1ab5d",
+            "id": "97372b6992d20aab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "anki/voca/voca2023.md",
+                "file": "library/Library Home.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7ff6e7624fca5371",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "library/Library Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "png",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "anki/voca/voca2023.md",
+                "file": "library/Library Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "anki/voca/voca2023.md",
+                "file": "library/Library Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "anki/voca/voca2023.md"
+                "file": "library/Library Home.md"
               }
             }
           },
@@ -147,71 +161,86 @@
             }
           },
           {
-            "id": "1722cba188a4c4cc",
+            "id": "6abc29cf72c78708",
             "type": "leaf",
             "state": {
-              "type": "FANTASY_CALENDAR",
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "faff62cfcf2ce087",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
               "state": {}
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "workspaces:Manage workspace layouts": false,
-      "canvas:Create new canvas": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "kr-book-info-plugin:Add Book Info": false,
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
-      "fantasy-calendar:Open Large Fantasy Calendar": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "c8ff20687ae1ab5d",
+  "active": "7ff6e7624fca5371",
   "lastOpenFiles": [
-    "private/mac setting.md",
-    "private/obsidian.md",
-    "private/Untitled 1.md",
-    "test.md",
-    "contents.md",
-    "fleeting/Jenkins.md",
+    "library/book/세컨드 브레인.md",
+    "library/book/역행자.md",
+    "library/Library Home.md",
     "fleeting/Untitled.md",
-    "fleeting/postgresql.md",
+    "library/book/해커와 화가.md",
+    "library/book/코스모스.md",
+    "library/book/만들면서 배우는 클린 아키텍처.md",
+    "library/book/공간의 미래.md",
+    "library/book/객체지향의 사실과 오해.md",
+    "library/book/개발자 원칙.md",
+    "library/book/이펙티브 자바 Effective Java 3／E.md",
+    "library/book/가상 면접 사례로 배우는 대규모 시스템 설계 기초.md",
+    "library/book",
+    "library",
     "anki/voca/voca2023.md",
-    "private/book/logseq/bak/assets/개발자의_글쓰기_복사본_1680506103697_0/2023-04-03T07_20_00.426Z.Desktop.edn",
-    "private/book/logseq/bak/assets/개발자의_글쓰기_복사본_1680506103697_0",
-    "private/book/logseq/bak/assets",
-    "private/book/logseq/bak",
-    "private/book/assets/개발자의_글쓰기_복사본_1680506103697_0.edn",
-    "private/book/assets/개발자의_글쓰기_복사본_1680506103697_0.pdf",
-    "private/book/assets",
-    "private/assets/개발자의_글쓰기_복사본_1680506103697_0.edn",
-    "private/assets/개발자의_글쓰기_복사본_1680506103697_0.pdf",
-    "private/assets",
-    "private/book/pages/contents.md",
-    "private/book/pages/hls__개발자의_글쓰기_복사본_1680506103697_0.md",
-    "private/book/pages/test.md",
-    "hls__개발자의_글쓰기_복사본_1680430741192_0.md",
-    "hls__개발자의_글쓰기_1680421560305_0.md",
-    "hls__개발자_원칙_1680411769654_0.md",
-    "pages/contents.md",
-    "permanent/Docker - Get started.md",
-    "templates/anki.md",
-    "Pasted image 20230327103659.png",
-    "README.md",
-    "Pasted image 20230326231051.png",
+    "fleeting/무제 파일.md",
+    "stopford.md",
+    "fleeting/무제 파일 1.md",
     "fleeting/Docker - with Java.md",
-    "permanent/SQL Join.md"
+    "pdf/test_book.pdf",
+    "fleeting/Vim.md",
+    "pdf",
+    "attachment/img/ex_domain_1.png",
+    "permanent/자바 ORM 표준 JPA 프로그래밍 - 1. JPA 소개.md",
+    "permanent/자바 ORM 표준 JPA 프로그래밍 - 5. 연관관계 맵핑 기초.md",
+    "permanent/Docker - Get started.md",
+    "permanent/자바 ORM 표준 JPA 프로그래밍 - 11. JPQL2.md",
+    "permanent/자바 ORM 표준 JPA 프로그래밍 - 2. JPA 시작하기.md",
+    "permanent/자바 ORM 표준 JPA 프로그래밍 - 3. 영속성 관리.md",
+    "fleeting/postgresql.md",
+    "permanent/spring boot core.md",
+    "private/daily-note.dmg",
+    "무제 파일.canvas",
+    "whiteboards/64290a58-8f32-4ad2-a1b8-4f6290dd027a.edn",
+    "whiteboards",
+    "logseq/config.edn",
+    "logseq/custom.css",
+    "pages",
+    "Pasted image 20230327103659.png",
+    "Pasted image 20230326231051.png"
   ]
 }

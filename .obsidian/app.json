@@ -5,12 +5,14 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "fleeting",
-  "vimMode": false,
+  "vimMode": true,
   "readableLineLength": true,
   "foldHeading": true,
   "spellcheck": true,
   "userIgnoreFilters": [
     "private/",
     "private/daily-note/"
-  ]
+  ],
+  "showUnsupportedFiles": false,
+  "attachmentFolderPath": "attachment"
 }

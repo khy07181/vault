@@ -9,13 +9,9 @@
   "tag-wrangler",
   "obsidian-sortable",
   "periodic-notes",
-  "obsidian-outliner",
   "obsidian-git",
-  "obsidian-minimal-settings",
   "obsidian-linter",
   "kr-book-info-plugin",
-  "obsidian-kanban",
-  "fantasy-calendar",
   "obsidian-emoji-toolbar",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-day-planner",
@@ -24,5 +20,9 @@
   "auto-note-mover",
   "obsidian-icon-folder",
   "obsidian-to-anki-plugin",
-  "various-complements"
+  "various-complements",
+  "obsidian-style-settings",
+  "obsidian-zotero-desktop-connector",
+  "obsidian-citation-plugin",
+  "marginnote-companion"
 ]

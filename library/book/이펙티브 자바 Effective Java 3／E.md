@@ -6,9 +6,9 @@ title: 이펙티브 자바 Effective Java 3／E
 author: 조슈아 블로크, 개앞맵시
 category: 개발
 publish_date: 2018-11-01
-finish_read_date:
+read_date:
 total_page: 520
-status: 읽을 책
+status: unread
 rate:
 format: book
 ---

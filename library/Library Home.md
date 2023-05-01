@@ -2,68 +2,69 @@
 banner: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2790&q=80"
 banner_x: 0.5
 banner_y: 0.05
-banner_icon: 📚
 cssClasses: row-alt, table-small, col-lines, row-lines
 ---
 
-# 독서
+# Library
 
-## 🟦 읽고 있는 책
+## Currently Reading
 
 ```dataview
 TABLE without id
-("![|100](" + cover_url + ")") as image,
+("![|100](" + cover_url + ")") as book,
 file.link as title,
 author as author,
 category as category,
-dateformat(finish_read_date, "yyyy-MM-dd") as 완독일,
+dateformat(read_date, "yyyy-MM-dd") as read_date,
 rate as rate
 FROM "library/book"
-WHERE status = "읽고 있는 책"
+WHERE status = "reading"
 SORT created desc
 ```
 
-## 🟧 읽을 책
+## Unread
 
 ```dataview
 TABLE without id
-("![|100](" + cover_url + ")") as image,
+("![|100](" + cover_url + ")") as book,
 file.link as title,
 author as author,
 category as category,
-dateformat(finish_read_date, "yyyy-MM-dd") as 완독일,
+dateformat(read_date, "yyyy-MM-dd") as read_date,
 rate as rate
 FROM "library/book"
-WHERE status = "읽을 책"
-SORT created desc
+WHERE status = "unread"
+SORT created
 ```
 
-## 🟨 읽다가 미룬 책
+## Read
 
 ```dataview
 TABLE without id
-("![|100](" + cover_url + ")") as image,
+("![|100](" + cover_url + ")") as book,
 file.link as title,
 author as author,
 category as category,
-dateformat(finish_read_date, "yyyy-MM-dd") as 완독일,
+dateformat(read_date, "yyyy-MM-dd") as read_date,
 rate as rate
 FROM "library/book"
-WHERE status = "읽다가 미룬 책"
-SORT created desc
+WHERE status = "read"
+SORT read_date desc
 ```
 
-## 🟩 완독
+## List of Read Books
+
+### 2023
 
 ```dataview
 TABLE without id
-("![|100](" + cover_url + ")") as image,
+("![|100](" + cover_url + ")") as book,
 file.link as title,
 author as author,
 category as category,
-dateformat(finish_read_date, "yyyy-MM-dd") as 완독일,
+dateformat(read_date, "yyyy-MM-dd") as read_date,
 rate as rate
 FROM "library/book"
-WHERE status = "완독"
-SORT finish_read_date desc
+WHERE status = "read" and read_date >= date(2023-01-01) AND read_date < date(2024-01-01)
+SORT read_date asc
 ```
