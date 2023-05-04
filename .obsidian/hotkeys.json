@@ -24,33 +24,6 @@
       "key": "E"
     }
   ],
-  "templater-obsidian:templates/metadata.md": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "M"
-    }
-  ],
-  "templater-obsidian:templates/table.md": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "T"
-    }
-  ],
-  "templater-obsidian:templates/br.md": [
-    {
-      "modifiers": [
-        "Alt",
-        "Ctrl",
-        "Mod",
-        "Shift"
-      ],
-      "key": "Enter"
-    }
-  ],
   "obsidian-emoji-toolbar:emoji-picker:open-picker": [
     {
       "modifiers": [
@@ -80,32 +53,6 @@
         "Shift"
       ],
       "key": "`"
-    }
-  ],
-  "templater-obsidian:templates/daily-note.md": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "D"
-    }
-  ],
-  "templater-obsidian:templates/weekly-planner.md": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "W"
-    }
-  ],
-  "templater-obsidian:templates/book.md": [
-    {
-      "modifiers": [
-        "Alt",
-        "Ctrl",
-        "Mod"
-      ],
-      "key": "B"
     }
   ],
   "obsidian-to-anki-plugin:anki-scan-vault": [

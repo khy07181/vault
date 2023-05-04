@@ -2,5 +2,6 @@
   "accentColor": "",
   "theme": "system",
   "cssTheme": "Maple",
-  "translucency": false
+  "translucency": false,
+  "baseFontSize": 14
 }

@@ -171,27 +171,11 @@
         }
       }
     },
-    "book": {
-      "book": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1682944909550
-        }
-      }
-    },
-    "자기 계발": {
-      "자기 계발": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1682944930760
-        }
-      }
-    },
     "세컨드 브레인": {
       "세컨드 브레인": {
         "internalLink": {
-          "count": 2,
-          "lastUpdated": 1682945029939
+          "count": 1,
+          "lastUpdated": 1683090065000
         }
       }
     }

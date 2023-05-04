@@ -54,7 +54,14 @@
       "cfgs": {
         "default": {
           "templates": {
-            "sel": "{{Selection}}"
+            "sel": "{{Selection}}}"
+          },
+          "pin": true,
+          "cmd": true
+        },
+        "1683089596269": {
+          "templates": {
+            "sel": "{{DocTitle}}"
           },
           "pin": true,
           "cmd": true
@@ -77,14 +84,6 @@
     "toc": {
       "cfgs": {
         "default": {
-          "templates": {
-            "item": "- {{Summary}} {{Link}}"
-          },
-          "pin": true,
-          "indentChar": true,
-          "cmd": true
-        },
-        "1682773873449": {
           "templates": {
             "item": "- {{Summary}} {{Link}}"
           },
