@@ -1,4 +1,5 @@
-.obsidian/plugins/fantasy-calendar/data.json
 private/
 .obsidian/workspace
 .DS_Store
+.trash
+.obsidian/plugins/google-calendar/data.json

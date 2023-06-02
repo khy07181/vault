@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fleeting/Annotations.md",
+                "file": "anki/voca/voca2023.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -72,6 +72,14 @@
           "type": "starred",
           "state": {}
         }
+      },
+      {
+        "id": "45b565dcb7f3d601",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
       }
     ],
     "currentTab": 0
@@ -86,7 +94,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "fleeting/Annotations.md",
+            "file": "anki/voca/voca2023.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +111,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "fleeting/Annotations.md",
+            "file": "anki/voca/voca2023.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -115,7 +123,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "fleeting/Annotations.md"
+            "file": "anki/voca/voca2023.md"
           }
         }
       },
@@ -155,29 +163,31 @@
   },
   "active": "00620cf1bceb07ec",
   "lastOpenFiles": [
+    "private/daily-note/2023-04-13.md",
+    "library/book/세컨드 브레인.md",
+    "private/portInsight.md",
+    "attachment/Pasted image 20230504234244.png",
+    "attachment/Pasted image 20230504234223.png",
+    "attachment/18682051b0a6999a438eef2a84a66463.png",
+    "attachment/18682051b0a6999a438eef2a84a66463 1.png",
+    "private/daily-note/2023-05-02.md",
+    "templates/daily-note.md",
+    "private/daily-note/2023-04-11.md",
     "attachment/img/SpringMVCPrinciple_2.jpg",
     "attachment/img/JPA_ValueType_4.jpg",
     "attachment/img/spring_data_3.jpg",
     "attachment/img/JPA_RelationalMapping_1.jpg",
     "attachment/img/JPA_PersistenceContext_8.jpg",
     "attachment/img/JPA_ValueType_1.jpg",
-    "attachment/img/regex_1.png",
-    "attachment/img/JPA_Proxy_RelationManaging_2.jpg",
-    "attachment/img/API_collection_readOptimization_1.jpg",
-    "attachment/img/Domain_Analysis_Design_3.jpg",
-    "attachment/img/API_dev_Intro_3.jpg",
     "private/mac setting.md",
     "fleeting/Annotations.md",
     "anki/voca/voca2023.md",
-    "private/daily-note/2023-04-11.md",
-    "private/daily-note/2023-04-13.md",
     "fleeting/Pasted image 20230327103659.png.md",
     "개발자 원칙.pdf",
     "fleeting/Untitled.md",
     "contents.md",
     "test.md",
     "객체지향의 사실과 오해.pdf",
-    "templates/daily-note.md",
     "templates/book.md",
     "library/book/이펙티브 자바 Effective Java 3／E.md",
     "private/Day Planners/Day Planner-20230225.md",
@@ -190,8 +200,6 @@
     "Day Planners/Day Planner-20230302.md",
     "Day Planners/Day Planner-20230301.md",
     "Day Planners/Day Planner-20230228.md",
-    "Day Planners/Day Planner-20230227.md",
-    "asdassadsadsa.md",
-    "permanent/자바 ORM 표준 JPA 프로그래밍 - 3. 영속성 관리.md"
+    "Day Planners/Day Planner-20230227.md"
   ]
 }

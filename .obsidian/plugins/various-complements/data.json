@@ -63,119 +63,107 @@
   "disableOnMobile": false,
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "postgresql": {
-      "postgresql": {
+    "세컨드 브레인": {
+      "세컨드 브레인": {
         "internalLink": {
-          "count": 2,
-          "lastUpdated": 1680745306645
+          "count": 1,
+          "lastUpdated": 1683090065000
         }
       }
     },
-    "asdmk": {
-      "asdmk": {
-        "currentFile": {
-          "count": 7,
-          "lastUpdated": 1680745278048
-        }
-      }
-    },
-    "password": {
-      "password": {
+    "column": {
+      "column": {
         "currentFile": {
           "count": 1,
-          "lastUpdated": 1680745328857
+          "lastUpdated": 1683777781881
         }
       }
     },
-    "pdf/객체지향의 사실과 오해": {
-      "pdf/객체지향의 사실과 오해": {
+    "daily-note": {
+      "daily-note": {
         "frontMatter": {
-          "count": 3,
-          "lastUpdated": 1682054739917
+          "count": 1,
+          "lastUpdated": 1685685864720
+        }
+      }
+    },
+    "private": {
+      "private": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1685686503038
+        }
+      }
+    },
+    "diary": {
+      "diary": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1685686511411
         }
       }
     },
     "Thread.sleep() vs TimeUnit.sleep()": {
       "Thread.sleep() vs TimeUnit.sleep()": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1682054822685
-        },
         "internalLink": {
           "count": 1,
-          "lastUpdated": 1682057828067
+          "lastUpdated": 1685688898323
         }
       }
     },
-    "2021-01-01": {
-      "2021-01-01": {
-        "currentFile": {
+    "개발자 원칙": {
+      "개발자 원칙": {
+        "frontMatter": {
           "count": 1,
-          "lastUpdated": 1682063360939
+          "lastUpdated": 1685689966420
         }
       }
     },
-    "finish_read_date": {
-      "finish_read_date": {
-        "currentFile": {
+    "자기 계발": {
+      "자기 계발": {
+        "frontMatter": {
           "count": 1,
-          "lastUpdated": 1682063406893
-        }
-      }
-    },
-    "reading": {
-      "reading": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1682063629409
+          "lastUpdated": 1685691556252
         }
       }
     },
     "unread": {
       "unread": {
         "frontMatter": {
-          "count": 4,
-          "lastUpdated": 1682063715689
+          "count": 1,
+          "lastUpdated": 1685691568173
         }
       }
     },
-    "2023-04-13": {
-      "2023-04-13": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1682063823047
+    "ebook": {
+      "ebook": {
+        "frontMatter": {
+          "count": 2,
+          "lastUpdated": 1685693314453
         }
       }
     },
-    "Library": {
-      "Library": {
-        "currentFile": {
+    "2022-12-20": {
+      "2022-12-20": {
+        "frontMatter": {
           "count": 1,
-          "lastUpdated": 1682063866224
+          "lastUpdated": 1685691881456
         }
       }
     },
-    "cover_url": {
-      "cover_url": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1682064696536
+    "개발": {
+      "개발": {
+        "frontMatter": {
+          "count": 3,
+          "lastUpdated": 1685691892029
         }
       }
     },
-    "created": {
-      "created": {
-        "currentFile": {
+    "reading": {
+      "reading": {
+        "frontMatter": {
           "count": 1,
-          "lastUpdated": 1682068005638
-        }
-      }
-    },
-    "세컨드 브레인": {
-      "세컨드 브레인": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1683090065000
+          "lastUpdated": 1685692862017
         }
       }
     }

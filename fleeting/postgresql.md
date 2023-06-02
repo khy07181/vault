@@ -104,3 +104,15 @@ where relname not like '%key%'
   and relname not like '%index%'  
 order by reltuples desc;
 ```
+
+### 컬럼 타입 변경
+
+```sql
+ALTER TABLE table_name ALTER COLUMN column TYPE type;
+```
+
+- varchar 타입을 integer 타입으로 변경 시 오류 해결
+
+```sql
+ALTER TABLE table_name ALTER COLUMN column TYPE type USING column::integer;
+```

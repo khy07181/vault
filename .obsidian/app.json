@@ -1,11 +1,11 @@
 {
-  "promptDelete": false,
+  "promptDelete": true,
   "showFrontmatter": false,
   "showLineNumber": true,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "fleeting",
-  "vimMode": true,
+  "vimMode": false,
   "readableLineLength": true,
   "foldHeading": true,
   "spellcheck": true,

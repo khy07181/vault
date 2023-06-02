@@ -14,13 +14,13 @@
       "pattern": ""
     },
     {
-      "folder": "private/daily-note",
-      "tag": "#daily-note",
+      "folder": "private",
+      "tag": "#private",
       "pattern": ""
     },
     {
-      "folder": "private",
-      "tag": "#private",
+      "folder": "private/diary",
+      "tag": "#diary",
       "pattern": ""
     }
   ],

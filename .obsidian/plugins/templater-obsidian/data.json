@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "templates",
+  "templates_folder": "",
   "templates_pairs": [
     [
       "",
@@ -23,10 +23,8 @@
   "enabled_templates_hotkeys": [
     "templates/metadata.md",
     "templates/table.md",
-    "templates/br.md",
-    "templates/daily-note.md",
-    "templates/weekly-planner.md",
-    "templates/book.md"
+    "templates/book.md",
+    "templates/diary.md"
   ],
   "startup_templates": [
     ""

@@ -1,13 +1,13 @@
 
 ---
-created: <% tp.file.creation_date() %>
-tags: book
 cover_url:
 title: <% tp.file.title %>
 author:
 category:
+tags: book
 publish_date:
-finish_read_date:
+created: <% tp.file.creation_date() %>
+read_date:
 total_page:
 status:
 rate:
