@@ -4,8 +4,8 @@
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
     "format": "",
-    "template": "",
-    "folder": "",
+    "template": "templates/epiphany.md",
+    "folder": "epiphany",
     "enabled": true
   },
   "weekly": {

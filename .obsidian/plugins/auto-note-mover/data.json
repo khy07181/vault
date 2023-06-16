@@ -4,8 +4,13 @@
   "statusBar_trigger_indicator": true,
   "folder_tag_pattern": [
     {
-      "folder": "anki/voca",
-      "tag": "#voca",
+      "folder": "private/diary",
+      "tag": "#diary",
+      "pattern": ""
+    },
+    {
+      "folder": "epiphany",
+      "tag": "#epiphany",
       "pattern": ""
     },
     {
@@ -14,13 +19,13 @@
       "pattern": ""
     },
     {
-      "folder": "private",
-      "tag": "#private",
+      "folder": "anki/voca",
+      "tag": "#voca",
       "pattern": ""
     },
     {
-      "folder": "private/diary",
-      "tag": "#diary",
+      "folder": "private",
+      "tag": "#private",
       "pattern": ""
     }
   ],

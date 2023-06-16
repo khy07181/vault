@@ -1,4 +1,5 @@
 {
-  "folder": "daily-note",
-  "template": "templates/daily-note"
+  "folder": "epiphany",
+  "template": "templates/epiphany",
+  "autorun": true
 }

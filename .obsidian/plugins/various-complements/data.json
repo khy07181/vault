@@ -63,22 +63,6 @@
   "disableOnMobile": false,
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "세컨드 브레인": {
-      "세컨드 브레인": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1683090065000
-        }
-      }
-    },
-    "column": {
-      "column": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1683777781881
-        }
-      }
-    },
     "daily-note": {
       "daily-note": {
         "frontMatter": {
@@ -90,8 +74,8 @@
     "private": {
       "private": {
         "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1685686503038
+          "count": 2,
+          "lastUpdated": 1686624908072
         }
       }
     },
@@ -162,8 +146,40 @@
     "reading": {
       "reading": {
         "frontMatter": {
+          "count": 2,
+          "lastUpdated": 1685926304988
+        }
+      }
+    },
+    "Encrypt": {
+      "Encrypt": {
+        "currentFile": {
           "count": 1,
-          "lastUpdated": 1685692862017
+          "lastUpdated": 1685954637652
+        }
+      }
+    },
+    "findAny": {
+      "findAny": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1686725685137
+        }
+      }
+    },
+    "findFirst": {
+      "findFirst": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1686725702080
+        }
+      }
+    },
+    "element를": {
+      "element를": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1686725697904
         }
       }
     }

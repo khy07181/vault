@@ -11,12 +11,9 @@
             "id": "00620cf1bceb07ec",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "anki/voca/voca2023.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "attachment/pdf/세컨드 브레인_withMarginNotes.pdf"
               }
             }
           }
@@ -94,7 +91,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "anki/voca/voca2023.md",
+            "file": "attachment/pdf/세컨드 브레인_withMarginNotes.pdf",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -111,7 +108,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "anki/voca/voca2023.md",
+            "file": "attachment/pdf/세컨드 브레인_withMarginNotes.pdf",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -123,7 +120,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "anki/voca/voca2023.md"
+            "file": "attachment/pdf/세컨드 브레인_withMarginNotes.pdf"
           }
         }
       },
@@ -148,6 +145,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-full-calendar:Open Full Calendar": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "kr-book-info-plugin:Add Book Info": false,
       "switcher:Open quick switcher": false,
@@ -163,15 +161,24 @@
   },
   "active": "00620cf1bceb07ec",
   "lastOpenFiles": [
-    "private/daily-note/2023-04-13.md",
+    "library/Library Home.md",
     "library/book/세컨드 브레인.md",
+    "anki/voca/voca2023.md",
+    "fleeting/gpg program configuration.md",
     "private/portInsight.md",
+    "templates/daily-note.md",
+    "permanent/git cached 삭제.md",
+    "fleeting/admonition.md",
+    "private/daily-note/2023-05-02.md",
+    "library/book/시작의 기술.md",
+    "private/현실에 안주하는 게으른 개발자.md",
+    "templates/diary.md",
+    "attachment/pdf/세컨드 브레인_withMarginNotes.pdf",
+    "private/daily-note/2023-04-13.md",
     "attachment/Pasted image 20230504234244.png",
     "attachment/Pasted image 20230504234223.png",
     "attachment/18682051b0a6999a438eef2a84a66463.png",
     "attachment/18682051b0a6999a438eef2a84a66463 1.png",
-    "private/daily-note/2023-05-02.md",
-    "templates/daily-note.md",
     "private/daily-note/2023-04-11.md",
     "attachment/img/SpringMVCPrinciple_2.jpg",
     "attachment/img/JPA_ValueType_4.jpg",
@@ -181,7 +188,6 @@
     "attachment/img/JPA_ValueType_1.jpg",
     "private/mac setting.md",
     "fleeting/Annotations.md",
-    "anki/voca/voca2023.md",
     "fleeting/Pasted image 20230327103659.png.md",
     "개발자 원칙.pdf",
     "fleeting/Untitled.md",
@@ -193,13 +199,6 @@
     "private/Day Planners/Day Planner-20230225.md",
     "private/obsidian.md",
     "private/daily-note/2023-03-02.md",
-    "private/daily-note/2023-03-01.md",
-    "private/daily-note/2023-02-25.md",
-    "private/daily-note/2023-03-03.md",
-    "Day Planners/Day Planner-20230303.md",
-    "Day Planners/Day Planner-20230302.md",
-    "Day Planners/Day Planner-20230301.md",
-    "Day Planners/Day Planner-20230228.md",
-    "Day Planners/Day Planner-20230227.md"
+    "private/daily-note/2023-03-01.md"
   ]
 }
