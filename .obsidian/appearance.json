@@ -3,5 +3,6 @@
   "theme": "system",
   "cssTheme": "Maple",
   "translucency": false,
-  "baseFontSize": 14
+  "baseFontSize": 15,
+  "baseFontSizeAction": false
 }
