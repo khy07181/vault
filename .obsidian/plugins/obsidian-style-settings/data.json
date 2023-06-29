@@ -39,5 +39,6 @@
   "maple-workspace@@modal-animation": true,
   "maple-basic@@color-active-light": "color-active-default-light",
   "maple-editor@@heading-underline-thin": false,
-  "maple-editor@@setting-line-height": 2.1
+  "maple-editor@@setting-line-height": 2.1,
+  "maple-basic@@setting-accent-h-dark": 120
 }

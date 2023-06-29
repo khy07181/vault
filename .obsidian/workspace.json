@@ -26,14 +26,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "anki/voca/voca2023.md",
+                "file": "epiphany/2023-06-29.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "epiphany/2023-06-05.md",
+                "file": "epiphany/2023-06-29.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "epiphany/2023-06-05.md",
+                "file": "epiphany/2023-06-29.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "epiphany/2023-06-05.md"
+                "file": "epiphany/2023-06-29.md"
               }
             }
           },
@@ -185,21 +186,28 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5d62f714dd3465da",
+  "active": "6dae4249694d0393",
   "lastOpenFiles": [
+    "epiphany/2023-06-15.md",
+    "epiphany/2023-06-29.md",
+    "epiphany/2023-06-27.md",
+    "epiphany/2023-06-21.md",
+    "fleeting/postgresql.md",
+    "epiphany/2023-06-26.md",
+    "fleeting/psql.md",
+    "fleeting/Docker - with Java.md",
+    "fleeting/Fixture Monkey.md",
+    "fleeting/gpg program configuration.md",
+    "anki/voca/voca2023.md",
+    "epiphany/2023-06-05.md",
     "private/Untitled.md",
     "fleeting/무제 파일.md",
-    "fleeting/Fixture Monkey.md",
     "epiphany/2023-06-16.md",
-    "epiphany/2023-06-21.md",
     "epiphany/2023-06-20.md",
     "epiphany/2023-06-19.md",
     "epiphany/2023-06-18.md",
-    "epiphany/2023-06-15.md",
-    "epiphany/2023-06-05.md",
     "epiphany/2023-06-14.md",
     "permanent/자바 ORM 표준 JPA 프로그래밍 - 6. 다양한 연관관계 맵핑.md",
-    "anki/voca/voca2023.md",
     "private/epiphany/2023-06-13.md",
     "private/Obsidian Note Encryption.md",
     "private/mac setting.md"
