@@ -116,3 +116,19 @@ ALTER TABLE table_name ALTER COLUMN column TYPE type;
 ```sql
 ALTER TABLE table_name ALTER COLUMN column TYPE type USING column::integer;
 ```
+
+### 두 좌표간의 거리 계산
+
+```sql
+-- degree
+select st_distance(st_point(longitude_1, latitude_1), st_point(longitude_2, latitude_2));
+
+-- km
+select st_distancesphere(st_point(longitude_1, latitude_1), st_point(longitude_2, latitude_2)) / 1000.0;
+```
+
+### 유사도
+
+```sql
+select similarity(text, text);
+```
