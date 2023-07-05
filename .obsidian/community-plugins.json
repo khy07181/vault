@@ -1,6 +1,5 @@
 [
   "table-editor-obsidian",
-  "obsidian-admonition",
   "obsidian-banners",
   "calendar",
   "dataview",
@@ -12,15 +11,15 @@
   "obsidian-git",
   "obsidian-linter",
   "kr-book-info-plugin",
-  "obsidian-emoji-toolbar",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-day-planner",
-  "better-word-count",
   "file-explorer-note-count",
   "auto-note-mover",
   "obsidian-to-anki-plugin",
   "various-complements",
   "obsidian-style-settings",
   "marginnote-companion",
+  "obsidian-admonition",
+  "better-word-count",
   "meld-encrypt"
 ]

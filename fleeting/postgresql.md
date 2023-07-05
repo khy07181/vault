@@ -1,7 +1,7 @@
 ---
 title: postgresql
 aliases: postgresql
-categories: postgresql, sql
+categories: db
 tags: postgresql, sql
 created: 2023-01-10 20:35
 fc-calendar: Gregorian Calendar

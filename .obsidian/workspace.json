@@ -8,12 +8,38 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c4f86fc3a9fdc38f",
+            "id": "d5636b82fa035a79",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "epiphany/2023-06-30.md",
+                "file": "fleeting/postgresql - function 생성.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f1281519b57591b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "epiphany/2023-07-05.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2dc26fa2eb0fdaee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "anki/voca/voca2023.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "postgresql",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "epiphany/2023-06-30.md",
+                "file": "fleeting/postgresql - function 생성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "epiphany/2023-06-30.md",
+                "file": "fleeting/postgresql - function 생성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "epiphany/2023-06-30.md"
+                "file": "fleeting/postgresql - function 생성.md"
               }
             }
           },
@@ -151,15 +177,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "kr-book-info-plugin:Add Book Info": false,
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
-      "meld-encrypt:Create new encrypted note": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -168,22 +192,29 @@
       "command-palette:명령어 팔레트 열기": false,
       "markdown-importer:마크다운 형식 가져오기 열기": false,
       "workspaces:작업 공간 레이아웃 관리": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "meld-encrypt:Create new encrypted note": false
     }
   },
-  "active": "c4f86fc3a9fdc38f",
+  "active": "d5636b82fa035a79",
   "lastOpenFiles": [
-    "private/diary/무지 비용.encrypted",
-    "private/diary/현실에 안주하는 게으른 개발자.md",
-    "epiphany/2023-06-30.md",
+    "fleeting/postgresql.md",
+    "epiphany/2023-07-05.md",
     "anki/voca/voca2023.md",
-    "fleeting/무제 파일.md",
+    "fleeting/Jenkins.md",
+    "fleeting/postgresql - function 생성.md",
+    "epiphany/2023-06-30.md",
+    "epiphany/2023-07-04.md",
+    "epiphany/2023-07-03.md",
+    "private/diary/무지 비용.encrypted",
+    "private/diary/현실에 안주하는 게으른 개발자.encrypted",
+    "private/diary/현실에 안주하는 게으른 개발자.md",
+    "fleeting/Untitled.md",
     "fleeting/Untitled 20230630 062102.encrypted",
     "private/Obsidian Note Encryption.md",
     "epiphany/2023-06-05.md",
     "private/diary/Untitled 20230630 061820.encrypted",
     "fleeting/Fixture Monkey.md",
-    "fleeting/postgresql.md",
     "epiphany/2023-06-29.md",
     "permanent/SQL Join.md",
     "epiphany/2023-06-27.md",
@@ -196,10 +227,6 @@
     "epiphany/2023-06-16.md",
     "epiphany/2023-06-14.md",
     "epiphany/2023-06-15.md",
-    "epiphany/2023-06-20.md",
-    "epiphany/2023-06-19.md",
-    "epiphany/2023-06-18.md",
-    "permanent/자바 ORM 표준 JPA 프로그래밍 - 6. 다양한 연관관계 맵핑.md",
-    "private/epiphany/2023-06-13.md"
+    "epiphany/2023-06-20.md"
   ]
 }

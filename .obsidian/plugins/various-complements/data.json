@@ -90,8 +90,8 @@
     "Thread.sleep() vs TimeUnit.sleep()": {
       "Thread.sleep() vs TimeUnit.sleep()": {
         "internalLink": {
-          "count": 2,
-          "lastUpdated": 1688116820435
+          "count": 1,
+          "lastUpdated": 1685688898323
         }
       }
     },
@@ -183,19 +183,11 @@
         }
       }
     },
-    "2023-06-13": {
-      "2023-06-13": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1687136274122
-        }
-      }
-    },
-    "Monkey": {
-      "Monkey": {
+    "%%🔐α": {
+      "%%🔐α": {
         "currentFile": {
           "count": 1,
-          "lastUpdated": 1687331106664
+          "lastUpdated": 1688193965117
         }
       }
     }
