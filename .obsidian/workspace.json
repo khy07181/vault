@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "permanent/함수형 인터페이스와 람다.md",
+                "file": "epiphany/2023/2023-07-11.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a576872e32205ab6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "anki/voca/voca2023.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -66,8 +79,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "permanent/함수형 인터페이스와 람다.md",
+                "file": "epiphany/2023/2023-07-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "permanent/함수형 인터페이스와 람다.md",
+                "file": "epiphany/2023/2023-07-11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "permanent/함수형 인터페이스와 람다.md"
+                "file": "epiphany/2023/2023-07-11.md"
               }
             }
           },
@@ -175,13 +187,23 @@
   },
   "active": "6a4428ebc62104a2",
   "lastOpenFiles": [
-    "permanent/interface_change.md",
+    "library/book/시작의 기술.md",
+    "epiphany/2023/2023-07-11.md",
+    "anki/voca/voca2023.md",
+    "library/book/개발자 원칙.md",
+    "private/temp - 개발자 원칙 read note.md",
+    "Clippings/네이버.md",
+    "Clippings/3. 좋은 함수 만들기 - Null 을 다루는 방법.md",
+    "Clippings/밀리의 서재님의 서재.md",
+    "Clippings",
+    "private/epiphany/2023/2023-07-11.md",
     "private/epiphany/2023/2023-07-10.md",
+    "permanent/함수형 인터페이스와 람다.md",
+    "permanent/interface_change.md",
     "epiphany/2023/2023-07-10.md",
     "library/Library Home.md",
     "private/epiphany/2023-06-13.md",
     "private/epiphany/2023-07-08.md",
-    "anki/voca/voca2023.md",
     "epiphany/2023/2023-07-08.md",
     "private/epiphany/2023",
     "epiphany/2023-07-08.md",
@@ -193,16 +215,7 @@
     "epiphany/2023/2023-07-03.md",
     "epiphany/2023/2023-06-30.md",
     "epiphany/2023/2023-06-29.md",
-    "epiphany/2023/2023-06-21.md",
-    "epiphany/2023/2023-06-15.md",
-    "epiphany/2023/2023-06-14.md",
-    "epiphany/2023/2023-06-05.md",
-    "epiphany/2023/2023-07-05.md",
-    "epiphany/2023/2023-07-04.md",
     "epiphany/2023",
-    "epiphany/2023-07-06 2.md",
-    "epiphany/2023-07-06.md",
-    "fleeting/무제 파일 2.md",
     "private/diary/무지 비용.encrypted",
     "private/diary/현실에 안주하는 게으른 개발자.encrypted",
     "private/diary/Untitled 20230630 061820.encrypted",
