@@ -146,8 +146,8 @@
     "reading": {
       "reading": {
         "frontMatter": {
-          "count": 2,
-          "lastUpdated": 1685926304988
+          "count": 3,
+          "lastUpdated": 1689079912708
         }
       }
     },
@@ -188,6 +188,14 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1688193965117
+        }
+      }
+    },
+    "Settings": {
+      "Settings": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1689085618652
         }
       }
     }
