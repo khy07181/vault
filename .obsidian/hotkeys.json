@@ -64,23 +64,20 @@
       "key": "A"
     }
   ],
-  "auto-note-mover:Move-the-note": [
+  "app:go-forward": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "M"
-    }
-  ],
-  "theme:use-dark": [
-    {
-      "modifiers": [
-        "Alt",
-        "Ctrl",
         "Mod"
       ],
-      "key": "D"
+      "key": "]"
+    }
+  ],
+  "app:go-back": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "["
     }
   ]
 }

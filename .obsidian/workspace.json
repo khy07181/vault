@@ -4,23 +4,63 @@
     "type": "split",
     "children": [
       {
-        "id": "c4cbbda05bfc807f",
+        "id": "3ba45e3365a0e775",
         "type": "tabs",
         "children": [
           {
-            "id": "6a4428ebc62104a2",
+            "id": "9e7a67af28f631a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "library/book/개발자 원칙.md",
+                "file": "anki/voca/voca2023.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "76f0cbcd5352611e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "epiphany/2023/2023-07-12.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1c1e4df9af8b7a69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "private/epiphany/2023/2023-07-12.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "65ac5785b357f85d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fleeting/Effective-Java Item01.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -49,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "img",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "library/book/개발자 원칙.md",
+                "file": "fleeting/Effective-Java Item01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "library/book/개발자 원칙.md",
+                "file": "fleeting/Effective-Java Item01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "library/book/개발자 원칙.md"
+                "file": "fleeting/Effective-Java Item01.md"
               }
             }
           },
@@ -156,55 +196,59 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false,
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "markdown-importer:마크다운 형식 가져오기 열기": false,
+      "workspaces:작업 공간 레이아웃 관리": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "kr-book-info-plugin:Add Book Info": false,
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "periodic-notes:Open today": false,
       "meld-encrypt:Create new encrypted note": false
     }
   },
-  "active": "6a4428ebc62104a2",
+  "active": "65ac5785b357f85d",
   "lastOpenFiles": [
+    "fleeting/SOLID 원칙.md",
     "fleeting/Effective-Java Item01.md",
-    "fleeting/Flyweight Pattern.md",
-    "private/epiphany/2023/2023-07-11.md",
-    "anki/voca/voca2023.md",
-    "epiphany/2023/2023-07-11.md",
     "fleeting/Enum.md",
     "fleeting/인터페이스 변화점(Java 8 -> 9).md",
-    "epiphany/2023/2023-07-12.md",
-    "fleeting/SOLID 원칙.md",
-    "private/epiphany/2023/2023-07-12.md",
-    "library/book/개발자 원칙.md",
-    "fleeting/Reflection.md",
-    "fleeting/HashMap, HashSet vs EnumMap, EnumSet.md",
-    "fleeting/postgresql - function 생성.md",
+    "fleeting/Docker - with Java.md",
     "fleeting/Fixture Monkey.md",
-    "permanent/자바 ORM 표준 JPA 프로그래밍 - 1. JPA 소개.md",
-    "permanent/함수형 인터페이스와 람다.md",
-    "library/Library Home.md",
-    "epiphany/2023/2023-07-11 2.md",
-    "library/book/시작의 기술.md",
+    "fleeting/Flyweight Pattern.md",
+    "fleeting/gpg program configuration.md",
+    "fleeting/Jenkins.md",
+    "fleeting/Nagle Algorithm.md",
+    "fleeting/postgresql.md",
+    "fleeting/postgresql - function 생성.md",
+    "fleeting/psql.md",
+    "fleeting/Reflection.md",
+    "fleeting/Vim.md",
+    "library/book/만들면서 배우는 클린 아키텍처.md",
+    "private/epiphany/2023/2023-07-12.md",
+    "attachment/Pasted image 20230712132411.png",
+    "attachment/Pasted image 20230712132417.png",
+    "attachment/img/nagle.png",
+    "epiphany/2023/2023-07-12.md",
+    "epiphany/2023/2023-07-11.md",
+    "anki/voca/voca2023.md",
+    "private/attachment/img/null 쓰기 전에 생각했나요?.png",
+    "attachment/pdf/세컨드 브레인_withMarginNotes.pdf",
+    "private/attachment/img",
+    "private/attachment",
+    "private/wish book.md",
+    "private/mac setting.md",
+    "private/Obsidian Note Encryption.md",
+    "private/portInsight.md",
     "private/temp - 개발자 원칙 read note.md",
-    "Clippings/네이버.md",
-    "Clippings/3. 좋은 함수 만들기 - Null 을 다루는 방법.md",
-    "Clippings/밀리의 서재님의 서재.md",
-    "Clippings",
-    "private/epiphany/2023/2023-07-10.md",
-    "permanent/interface_change.md",
+    "library/Library Home.md",
+    "private/diary/현실에 안주하는 게으른 개발자.encrypted",
     "private/epiphany/2023",
     "epiphany/2023",
     "private/diary/무지 비용.encrypted",
-    "private/diary/현실에 안주하는 게으른 개발자.encrypted",
     "private/diary/Untitled 20230630 061820.encrypted",
     "fleeting/Untitled 20230630 061911.encrypted",
     "fleeting/Untitled 20230630 061820.encrypted"

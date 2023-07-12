@@ -2,3 +2,5 @@ private/
 .obsidian/workspace
 .DS_Store
 .trash
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
