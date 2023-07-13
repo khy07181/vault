@@ -6,7 +6,7 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "fleeting",
   "vimMode": false,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "foldHeading": true,
   "spellcheck": true,
   "userIgnoreFilters": [
@@ -14,5 +14,6 @@
     "private/daily-note/"
   ],
   "showUnsupportedFiles": false,
-  "attachmentFolderPath": "attachment"
+  "attachmentFolderPath": "attachment",
+  "strictLineBreaks": false
 }

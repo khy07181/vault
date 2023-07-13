@@ -4,9 +4,6 @@ aliases: 자바 ORM 표준 JPA 프로그래밍 - 4.  Entity 맵핑
 categories: JPA
 tags: JPA, ORM
 created: 2022-09-15 17:06
-updated: 2022-09-23 13:47
-fc-calendar: Gregorian Calendar
-fc-date: 2022-09-15 17:06
 ---
 
 # 엔티티 맵핑
@@ -77,7 +74,7 @@ fc-date: 2022-09-15 17:06
 
 ### 데이터베이스 스키마 자동 생성 - 주의점
 
-- **운영 장비에는 절대 create, create-drop, update를 사용하면 안된다.**
+- **운영에는 절대 create, create-drop, update를 사용하면 안된다.**
 - 개발 초기 단계는 create 또는 update로 로컬과 개발 서버에서 쓰면 된다.
 - 어느정도 개발 진행 후 테스트 서버는 update 또는 validate를 쓰면 된다.
 	* 여러 명의 개발자가 같이 쓰는 테스트 서버에서는 create를 쓰면 안된다.
@@ -165,7 +162,7 @@ public class Member {
 
 - 자바의 Enum 타입 맵핑을 지원한다.
 - EnumType.STRING은 enum의 이름을 DB에 저장하고 EnumType.ORDINAL은 enum의 순서를 DB에 저장한다.
-- 기본값인 ORDINAL로 설정하면 Enum 순서로 숫자가 맵핑되는데, Enum 중간에 필드가 하나 추가 되어 순서가 꼬이게 되면 매우 위험하다.
+- 기본값인 ORDINAL로 설정하면 Enum 순서로 숫자가 맵핑되는데, Enum 중간에 필드가 하나 추가 되면 순서가 꼬이게 되면 매우 위험하다.
 - EnumType을 반드시 EnumType.STRING으로 지정해야 한다.
 
 #### @Temporal

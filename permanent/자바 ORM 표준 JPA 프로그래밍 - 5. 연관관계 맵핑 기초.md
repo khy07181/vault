@@ -4,9 +4,6 @@ aliases: 자바 ORM 표준 JPA 프로그래밍 - 5. 연관관계 맵핑 기초
 categories: JPA
 tags: JPA, ORM
 created: 2022-09-15 17:06
-updated: 2022-09-26 10:12
-fc-calendar: Gregorian Calendar
-fc-date: 2022-09-15 17:06
 ---
 
 # 연관관계 맵핑 기초
@@ -275,16 +272,16 @@ for(Member m : members) {
 ![JPA_RelationalMapping_6](../attachment/img/JPA_RelationalMapping_6.jpg)
 - 외래키가 있는 곳을 주인으로 정해야 한다.(권장)
 	* Team.members를 주인으로 설정했다고 가정하면, Team의 members의 값을 바꿨을 때 TEAM테이블이 아니라 MEMBER 테이블의 UPDATE 쿼리가 나간다(?)
-	* 다른 테이블의 UPDATE쿼리가 나가면 JPA를 잘한다고하더라도 헷갈린다. (성능이슈도 있다.)
+	* 다른 테이블의 UPDATE 쿼리가 나가면 JPA를 잘한다고 하더라도 헷갈린다. (성능 이슈도 있다.)
 - 외래키가 있는 곳을 주인으로 정하면 많은 고민들이 해결된다.
 	* DB입장에서는 외래키가 있는 곳이 무조건 N이고 없는 곳이 1이다.
 	* 즉, DB의 N쪽이 항상 주인이 된다.
 - 연관관계의 주인은 비즈니스적으로 중요하지 않다.
 	* 그냥 단순하게 DB 테이블로 따져서 N쪽이 주인이 되면 된다.
-	* 그렇게해야 성능이슈도 없고 설계가 깔끔하다.
+	* 그렇게 해야 성능 이슈도 없고 설계가 깔끔하다.
 	* 엔티티와 테이블이 맵핑이 되어있는 테이블에서 FK가 관리가 된다.
 
-### 양방향 맵핑시 가장 많이 하는 실수
+### 양방향 맵핑 시 가장 많이 하는 실수
 
 - 연관관계의 주인에 값을 입력하지 않는다.
 	* `team.getMembers().add(member);`

@@ -4,9 +4,6 @@ aliases: JPA 소개
 categories: JPA
 tags: JPA, ORM
 created: 2022-09-15 17:06
-updated: 2022-09-22 23:48
-fc-calendar: Gregorian Calendar
-fc-date: 2022-09-15 17:06
 ---
 
 # JPA 소개
@@ -472,7 +469,3 @@ Member member = memberDAO.find(memberId);  // SELECT M.*, T.* FROM MEMBER JOIN T
 Team team = member.getTeam();
 String teamName = team.getName();
 ```
-
-[[obsidian|옵시디언]]
-
-[[obsidian|abc]]

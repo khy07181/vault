@@ -4,9 +4,6 @@ aliases: 자바 ORM 표준 JPA 프로그래밍 - 2. JPA 시작하기
 categories: JPA
 tags: JPA, ORM
 created: 2022-09-15 17:06
-updated: 2022-09-23 00:12
-fc-calendar: Gregorian Calendar
-fc-date: 2022-09-15 17:06
 ---
 
 # JPA 시작하기
@@ -311,7 +308,7 @@ try {
 
 - EntityManagerFactory는 애플리케이션 전체에서 하나만 생성이 되어야 한다.
 - EntityManager는 사용자의 요청이 올 때 마다 썼다가 close를 반복해야 한다.
-	* 스레드간에 절대 공유하면 안된다. (사용한후 버려야 한다.)
+	* 스레드간에 절대 공유하면 안된다. (사용한 후 버려야 한다.)
 - JPA의 모든 데이터 변경은 트랜잭션 내에서 이루어 져야한다.
 
 ### JPQL 소개

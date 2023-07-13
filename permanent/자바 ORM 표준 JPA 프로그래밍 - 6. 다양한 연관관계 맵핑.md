@@ -276,7 +276,7 @@ public class Locker {
 ### 일대일 - 대상 테이블에 외래키 단방향 맵핑
 
 ![JPA_VariousrelationalMapping_8](../attachment/img/JPA_VariousRelationalMapping_8.jpg)
-- 대일관계에서 대상 테이블에 외래키를 저장하는 단방향 관계는 JPA에서 지원도 방법도 없다.
+- 일대일관계에서 대상 테이블에 외래키를 저장하는 단방향 관계는 JPA에서 지원도 방법도 없다.
 	* Member에 있는 locker로 LOCKER테이블의 MEMBER_ID(FK)를 관리할 수 없다.
 
 #### 일대일 - 대상 테이블에 외래키 단방향 맵핑 정리
