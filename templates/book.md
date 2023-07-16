@@ -13,5 +13,3 @@ status:
 rate:
 format:
 ---
-
-# <% tp.file.title %>

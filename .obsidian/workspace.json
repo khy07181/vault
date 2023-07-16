@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "epiphany/2023/2023-07-12.md",
+                "file": "library/Library Home.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6bfa3d74125e182",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "library/book/개인주의자 선언 판사 문유석의 일상유감.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "epiphany/2023/2023-07-12.md",
+                "file": "library/book/개인주의자 선언 판사 문유석의 일상유감.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "epiphany/2023/2023-07-12.md",
+                "file": "library/book/개인주의자 선언 판사 문유석의 일상유감.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "epiphany/2023/2023-07-12.md"
+                "file": "library/book/개인주의자 선언 판사 문유석의 일상유감.md"
               }
             }
           },
@@ -172,10 +186,29 @@
       "meld-encrypt:Create new encrypted note": false
     }
   },
-  "active": "6a4428ebc62104a2",
+  "active": "c6bfa3d74125e182",
   "lastOpenFiles": [
+    "library/book/개발자 원칙.md",
+    "library/book/개인주의자 선언 판사 문유석의 일상유감.md",
+    "library/Library Home.md",
+    "library/book/코스모스.md",
+    "library/book/이펙티브 자바 Effective Java 3／E.md",
+    "library/book/개장 전 아직 켜지지 않은 모니터 앞에서 자신이 되고자 했던 시간의 기록.md",
+    "library/book/객체지향의 사실과 오해.md",
+    "library/book/세컨드 브레인.md",
+    "library/book/공간의 미래.md",
+    "library/book/해커와 화가.md",
+    "library/book/오브젝트.md",
     "epiphany/2023/2023-07-11.md",
+    "private/attachment/img/null 쓰기 전에 생각했나요?.png",
+    "private/attachment/img",
     "epiphany/2023/2023-07-12.md",
+    "private/attachment",
+    "private/epiphany/2023/2023-07-14.md",
+    "epiphany/2023/2023-07-14.md",
+    "fleeting/무제 파일.md",
+    "fleeting/GIST and GIN Index Types.md",
+    "fleeting/HashMap, HashSet vs EnumMap, EnumSet 2.md",
     "fleeting/Enum.md",
     "fleeting/Flyweight Pattern.md",
     "fleeting/Fixture Monkey.md",
@@ -184,25 +217,9 @@
     "fleeting/postgresql.md",
     "fleeting/Jenkins.md",
     "fleeting/postgresql - function 생성.md",
-    "fleeting/HashMap, HashSet vs EnumMap, EnumSet.md",
-    "fleeting/obsidian.md",
-    "fleeting/HashMap, HashSet vs EnumMap, EnumSet 4.md",
-    "fleeting/HashMap, HashSet vs EnumMap, EnumSet 3.md",
-    "fleeting/HashMap, HashSet vs EnumMap, EnumSet 2.md",
-    "fleeting/개장 전, 아직 켜지지 않은 모니터 앞에서.md",
-    "fleeting/오브젝트.md",
-    "fleeting/인터페이스 변화점(Java 8 -> 9).md",
-    "library/book/개발자 원칙.md",
-    "fleeting/무제 파일.md",
     "attachment/img/nagle.png",
     "attachment/Pasted image 20230712132417.png",
     "attachment/Pasted image 20230712132411.png",
-    "fleeting/네이글 알고리즘.md",
-    "private/wish book.md",
-    "fleeting/Effective-Java Item01.md",
-    "private/epiphany/2023/2023-07-11.md",
-    "anki/voca/voca2023.md",
-    "fleeting/SOLID 원칙.md",
     "Clippings",
     "private/epiphany/2023",
     "epiphany/2023",
