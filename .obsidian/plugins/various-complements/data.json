@@ -122,8 +122,8 @@
     "ebook": {
       "ebook": {
         "frontMatter": {
-          "count": 2,
-          "lastUpdated": 1685693314453
+          "count": 3,
+          "lastUpdated": 1689486295039
         }
       }
     },
@@ -196,6 +196,14 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1689085618652
+        }
+      }
+    },
+    "⭐⭐⭐⭐": {
+      "⭐⭐⭐⭐": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1689486292190
         }
       }
     }

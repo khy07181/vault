@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "library/book/개인주의자 선언 판사 문유석의 일상유감.md",
+                "file": "library/book/개장 전 아직 켜지지 않은 모니터 앞에서 자신이 되고자 했던 시간의 기록.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "library/book/개인주의자 선언 판사 문유석의 일상유감.md",
+                "file": "library/book/개장 전 아직 켜지지 않은 모니터 앞에서 자신이 되고자 했던 시간의 기록.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "library/book/개인주의자 선언 판사 문유석의 일상유감.md",
+                "file": "library/book/개장 전 아직 켜지지 않은 모니터 앞에서 자신이 되고자 했던 시간의 기록.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "library/book/개인주의자 선언 판사 문유석의 일상유감.md"
+                "file": "library/book/개장 전 아직 켜지지 않은 모니터 앞에서 자신이 되고자 했던 시간의 기록.md"
               }
             }
           },
@@ -188,12 +188,14 @@
   },
   "active": "c6bfa3d74125e182",
   "lastOpenFiles": [
-    "library/book/개발자 원칙.md",
-    "library/book/개인주의자 선언 판사 문유석의 일상유감.md",
+    "Clippings/밀리의 서재님의 서재.md",
+    "library/book/개장 전 아직 켜지지 않은 모니터 앞에서 자신이 되고자 했던 시간의 기록.md",
+    "Clippings",
     "library/Library Home.md",
+    "library/book/개인주의자 선언.md",
+    "library/book/개발자 원칙.md",
     "library/book/코스모스.md",
     "library/book/이펙티브 자바 Effective Java 3／E.md",
-    "library/book/개장 전 아직 켜지지 않은 모니터 앞에서 자신이 되고자 했던 시간의 기록.md",
     "library/book/객체지향의 사실과 오해.md",
     "library/book/세컨드 브레인.md",
     "library/book/공간의 미래.md",
@@ -215,12 +217,9 @@
     "fleeting/gpg program configuration.md",
     "fleeting/Nagle Algorithm.md",
     "fleeting/postgresql.md",
-    "fleeting/Jenkins.md",
-    "fleeting/postgresql - function 생성.md",
     "attachment/img/nagle.png",
     "attachment/Pasted image 20230712132417.png",
     "attachment/Pasted image 20230712132411.png",
-    "Clippings",
     "private/epiphany/2023",
     "epiphany/2023",
     "private/diary/무지 비용.encrypted",
