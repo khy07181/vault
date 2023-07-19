@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "private/epiphany/2023/2023-07-10.md",
+                "file": "epiphany/2023/2023-07-16.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "private/epiphany/2023/2023-07-10.md",
+            "file": "epiphany/2023/2023-07-16.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "private/epiphany/2023/2023-07-10.md",
+            "file": "epiphany/2023/2023-07-16.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -123,7 +123,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "private/epiphany/2023/2023-07-10.md"
+            "file": "epiphany/2023/2023-07-16.md"
           }
         }
       },
@@ -148,6 +148,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "meld-encrypt:Create new encrypted note": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "kr-book-info-plugin:Add Book Info": false,
       "switcher:Open quick switcher": false,
@@ -162,6 +163,22 @@
   },
   "active": "00620cf1bceb07ec",
   "lastOpenFiles": [
+    "private/epiphany/2023/2023-07-14.md",
+    "private/attachment/img/null 쓰기 전에 생각했나요?.png",
+    "fleeting/인터페이스 변화점(Java 8 -> 9).md",
+    "fleeting/Flyweight Pattern.md",
+    "fleeting/Reflection.md",
+    "attachment/img/nagle.png",
+    "fleeting/Nagle Algorithm.md",
+    "fleeting/Effective-Java Item01.md",
+    "epiphany/2023/2023-07-14.md",
+    "fleeting/Enum.md",
+    "fleeting/HashMap, HashSet vs EnumMap, EnumSet.md",
+    "private/wish book.md",
+    "library/book/개장 전 아직 켜지지 않은 모니터 앞에서 자신이 되고자 했던 시간의 기록.md",
+    "library/book/개인주의자 선언.md",
+    "private/epiphany/2023/2023-07-10.md",
+    "epiphany/2023/2023-07-16.md",
     "private/epiphany/2023/2023-07-11.md",
     "epiphany/2023/2023-07-05.md",
     "epiphany/2023/2023-07-07.md",
@@ -176,22 +193,8 @@
     "epiphany/2023/2023-07-11.md",
     "library/book/시작의 기술.md",
     "epiphany/2023/2023-07-11 2.md",
-    "private/epiphany/2023/2023-07-10.md",
     "private/diary/현실에 안주하는 게으른 개발자.encrypted",
-    "epiphany/2023/2023-07-03.md",
-    "epiphany/2023/2023-06-29.md",
-    "fleeting/postgresql - function 생성.md",
-    "epiphany/2023/2023-07-10.md",
-    "epiphany/2023/2023-06-16.md",
-    "epiphany/2023/2023-07-04.md",
     "private/diary/무지 비용.encrypted",
-    "private/temp - 개발자 원칙 read note.md",
-    "epiphany/2023/2023-07-08.md",
-    "epiphany/2023/2023-06-14.md",
-    "library/Library Home.md",
-    "library/book/세컨드 브레인.md",
-    "anki/voca/voca2023.md",
-    "private/portInsight.md",
     "attachment/Pasted image 20230504234244.png",
     "attachment/Pasted image 20230504234223.png",
     "attachment/18682051b0a6999a438eef2a84a66463.png",
@@ -200,8 +203,6 @@
     "attachment/img/JPA_ValueType_4.jpg",
     "attachment/img/spring_data_3.jpg",
     "attachment/img/JPA_RelationalMapping_1.jpg",
-    "attachment/img/JPA_PersistenceContext_8.jpg",
-    "attachment/img/JPA_ValueType_1.jpg",
     "개발자 원칙.pdf",
     "객체지향의 사실과 오해.pdf"
   ]

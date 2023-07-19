@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "library/Library Home.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c6bfa3d74125e182",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "library/book/개장 전 아직 켜지지 않은 모니터 앞에서 자신이 되고자 했던 시간의 기록.md",
+                "file": "epiphany/2023/2023-07-19.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "library/book/개장 전 아직 켜지지 않은 모니터 앞에서 자신이 되고자 했던 시간의 기록.md",
+                "file": "epiphany/2023/2023-07-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "library/book/개장 전 아직 켜지지 않은 모니터 앞에서 자신이 되고자 했던 시간의 기록.md",
+                "file": "epiphany/2023/2023-07-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "library/book/개장 전 아직 켜지지 않은 모니터 앞에서 자신이 되고자 했던 시간의 기록.md"
+                "file": "epiphany/2023/2023-07-19.md"
               }
             }
           },
@@ -186,46 +172,58 @@
       "meld-encrypt:Create new encrypted note": false
     }
   },
-  "active": "c6bfa3d74125e182",
+  "active": "6a4428ebc62104a2",
   "lastOpenFiles": [
-    "Clippings/밀리의 서재님의 서재.md",
-    "library/book/개장 전 아직 켜지지 않은 모니터 앞에서 자신이 되고자 했던 시간의 기록.md",
-    "Clippings",
+    "fleeting/JPA 활용1 - 회원 도메인 개발.md",
+    "epiphany/2023/2023-07-19.md",
+    "fleeting/test_canvas_2.canvas",
+    "fleeting/test_canvas_1.canvas",
+    "library/book/2023/개장 전 아직 켜지지 않은 모니터 앞에서.md",
+    "private/diary/팀장, 리더의 역할.encrypted",
+    "library/book/2023/지적 대화를 위한 넓고 얕은 지식 1 한 권으로 현실 세계를 통달하는 지식 여행서.md",
+    "library/book/2023/거인의 노트.md",
+    "private/epiphany/2023/2023-07-19.md",
+    "fleeting/JPA 활용1 - 도메인 분석 설계.md",
+    "epiphany/2023/2023-07-18.md",
+    "private/diary/temp.encrypted",
+    "fleeting/무제 파일 2.md",
+    "test_canvas.canvas",
+    "test_canvas_2.canvas",
+    "fleeting/JPA 활용1 - 주문 도메인 개발.md",
+    "fleeting/JPA 활용1 - 상품 도메인 개발.md",
+    "fleeting/JPA 활용1 -.md",
+    "private/epiphany/2023/2023-07-19 1.md",
+    "library/book/2023/개발자 원칙.md",
     "library/Library Home.md",
-    "library/book/개인주의자 선언.md",
-    "library/book/개발자 원칙.md",
-    "library/book/코스모스.md",
-    "library/book/이펙티브 자바 Effective Java 3／E.md",
-    "library/book/객체지향의 사실과 오해.md",
-    "library/book/세컨드 브레인.md",
-    "library/book/공간의 미래.md",
-    "library/book/해커와 화가.md",
-    "library/book/오브젝트.md",
-    "epiphany/2023/2023-07-11.md",
-    "private/attachment/img/null 쓰기 전에 생각했나요?.png",
-    "private/attachment/img",
-    "epiphany/2023/2023-07-12.md",
-    "private/attachment",
-    "private/epiphany/2023/2023-07-14.md",
-    "epiphany/2023/2023-07-14.md",
     "fleeting/무제 파일.md",
-    "fleeting/GIST and GIN Index Types.md",
-    "fleeting/HashMap, HashSet vs EnumMap, EnumSet 2.md",
-    "fleeting/Enum.md",
-    "fleeting/Flyweight Pattern.md",
-    "fleeting/Fixture Monkey.md",
-    "fleeting/gpg program configuration.md",
-    "fleeting/Nagle Algorithm.md",
-    "fleeting/postgresql.md",
-    "attachment/img/nagle.png",
-    "attachment/Pasted image 20230712132417.png",
-    "attachment/Pasted image 20230712132411.png",
-    "private/epiphany/2023",
-    "epiphany/2023",
-    "private/diary/무지 비용.encrypted",
-    "private/diary/현실에 안주하는 게으른 개발자.encrypted",
-    "private/diary/Untitled 20230630 061820.encrypted",
-    "fleeting/Untitled 20230630 061911.encrypted",
-    "fleeting/Untitled 20230630 061820.encrypted"
+    "fleeting/Untitled.md",
+    "fleeting/Untitled 3.md",
+    "fleeting/Untitled 2.md",
+    "무제 파일 1.canvas",
+    "무제 파일.canvas",
+    "fleeting/wish book.md",
+    "epiphany/2023/2023-07-19 1.md",
+    "attachment/img/Domain_Analysis_Design_3 1.jpg",
+    "attachment/img/Domain_Analysis_Design_1 1.jpg",
+    "attachment/img/Domain_Analysis_Design_2 1.jpg",
+    "attachment/img/Domain_Analysis_Design_4 1.jpg",
+    "attachment/Domain_Analysis_Design_3.jpg",
+    "attachment/Domain_Analysis_Design_1.jpg",
+    "attachment/Domain_Analysis_Design_2.jpg",
+    "attachment/Domain_Analysis_Design_4.jpg",
+    "fleeting/도메인 분석 설계.md",
+    "private/epiphany/2023/2023-07-18.md",
+    "attachment/img/SCR-20230718-jizf.png",
+    "attachment/SCR-20230718-jizf.png",
+    "fleeting/temp.encrypted",
+    "private/diary/Untitled 20230718 101428.encrypted",
+    "fleeting/Untitled 20230718 101428.encrypted",
+    "library/book/2023/세컨드 브레인.md",
+    "library/book/2023/오브젝트.md",
+    "library/book/2023",
+    "Clippings",
+    "private/attachment/img",
+    "private/attachment",
+    "private/epiphany/2023"
   ]
 }

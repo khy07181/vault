@@ -2,18 +2,15 @@
 title: 자바 ORM 표준 JPA 프로그래밍 -  7. 고급 맵핑
 aliases: 자바 ORM 표준 JPA 프로그래밍 -  7. 고급 맵핑
 categories: JPA
-tags: JPA, ORM
+tags: JPA, ORM, lecture
 created: 2022-09-15 17:06
-updated: 2022-09-26 15:00
-fc-calendar: Gregorian Calendar
-fc-date: 2022-09-15 17:06
 ---
 
 # 고급 맵핑
 
 ## 상속 관계 맵핑
 
-![JPA_AdvancedMapping_1](../attachment/img/JPA_AdvancedMapping_1.jpg)
+![](../attachment/img/JPA_AdvancedMapping_1.jpg)
 - 객체는 상속관계가 있지만 관계형 데이터베이스는 상속 관계가 없다.
 - 그나마 슈퍼타입 서브타입 관계라는 모델링 기법이 객체 상속과 유사하다.
 - 상속관계 맵핑이라는 것은 객체의 상속 구조와 DB의 슈퍼타입 서브타입 관계를 맵핑하는 것이다.
@@ -24,7 +21,7 @@ fc-date: 2022-09-15 17:06
 
 ### 조인 전략
 
-![JPA_AdvancedMapping_2](../attachment/img/JPA_AdvancedMapping_2.jpg)
+![](../attachment/img/JPA_AdvancedMapping_2.jpg)
 - ITEM, ALBUM, MOVIE, BOOK 테이블을 만들고 필요할 경우 JOIN으로 데이터를 구성한다.
 - NAME, PRICE가 ITEM 테이블에만 저장되고, ALBUM, MOVIE, BOOK이 각자의 데이터만 저장한다.
 	* INSERT 할때는 2번 INSERT한다.
@@ -112,7 +109,7 @@ tx.commit();
 
 ### 단일 테이블 전략
 
-![JPA_AdvancedMapping_3](../attachment/img/JPA_AdvancedMapping_3.jpg)
+![](../attachment/img/JPA_AdvancedMapping_3.jpg)
 - 논리 모델을 한 테이블로 합치는 것이다.
 - ALBUM, MOVIE, BOOK을 구분할 DTYPE 컬럼으로 어떤 것인지 구분한다.
 	* 반드시 구분하는 컬럼이 있어야 한다.
@@ -140,7 +137,7 @@ public class Item {
 
 ### 구현 클래스마다 테이블 전략
 
-![JPA_AdvancedMapping_4](../attachment/img/JPA_AdvancedMapping_4.jpg)
+![](../attachment/img/JPA_AdvancedMapping_4.jpg)
 - ALBUM, MOVIE, BOOK 테이블을 만들어 컬럼들을 각 테이블마다 모두 가지는 방법이다.
 	* NAME, PRICE 컬럼들이 중복되도록 허용한다.
 - 구현 클래스마다 테이블 생성 전략 적
@@ -202,7 +199,7 @@ public abstract class Item { //  ITEM 엔티티는 실제 생성되는 테이블
 
 ## @MappedSuperclass
 
-![JPA_AdvancedMapping_5](../attachment/img/JPA_AdvancedMapping_5.jpg)
+![](../attachment/img/JPA_AdvancedMapping_5.jpg)
 - 객체 입장에서 공통 맵핑 정보가 필요할 때 사용한다.(id, name)
 - 공통 속성을 부모 클래스에 선언하고 속성만 상속 받아서 사용하고 싶을 경우 `@MappedSuperclass`를 사용한다.
 
@@ -246,7 +243,7 @@ public class Team extends BaseEntity {
 ```
 
 - 이렇게 하면 엔티티에 BaseEntity에 선언된 컬럼들이 생성 된다.
-![JPA_AdvancedMapping_6](../attachment/img/JPA_AdvancedMapping_6.jpg)
+![](../attachment/img/JPA_AdvancedMapping_6.jpg)
 
 ### @MappedSuperclass 정리
 
@@ -387,3 +384,7 @@ public class ParendId implements Serializable {
 		- JPA에서 복합키는 별도의 복합키 클래스를 만들어서 사용해야 한다.
 		- 따라서 컬럼이 하나인 키본키를 매핑하는 것보다 많은 노력이 필요하다.
 	* 비식별 관계의 기본키는 주로 대리키를 사용하는데 JPA는 `@GenerateValue`처럼 대리키를 생성하기 위한 편리한 방법을 제공한다.
+
+### Links
+
+[자바 ORM 표준 JPA 프로그래밍 - 기본편](https://www.inflearn.com/course/ORM-JPA-Basic/dashboard)
