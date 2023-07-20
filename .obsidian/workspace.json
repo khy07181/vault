@@ -4,16 +4,81 @@
     "type": "split",
     "children": [
       {
-        "id": "c4cbbda05bfc807f",
+        "id": "04e740ddb1403d7a",
         "type": "tabs",
         "children": [
           {
-            "id": "6a4428ebc62104a2",
+            "id": "a8851a52008bdfa1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "anki/voca/voca2023.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "783f2654283715cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "private/epiphany/2023/2023-07-19.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a34d71b5e61a80d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "epiphany/2023/2023-07-19.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1ae636d4eb1e2813",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fleeting/JPA 활용1 - 회원 도메인 개발.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eab3537154a62da5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fleeting/JPA 활용1 - 상품 도메인 개발.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7ea3b315672e9790",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fleeting/JPA 활용1 - 주문 도메인 개발.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "epiphany/2023/2023-07-19.md",
+                "file": "anki/voca/voca2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "epiphany/2023/2023-07-19.md",
+                "file": "anki/voca/voca2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "epiphany/2023/2023-07-19.md"
+                "file": "anki/voca/voca2023.md"
               }
             }
           },
@@ -147,7 +212,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -156,74 +221,70 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false,
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "markdown-importer:마크다운 형식 가져오기 열기": false,
+      "workspaces:작업 공간 레이아웃 관리": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "kr-book-info-plugin:Add Book Info": false,
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "periodic-notes:Open today": false,
-      "meld-encrypt:Create new encrypted note": false
+      "meld-encrypt:Create new encrypted note": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "6a4428ebc62104a2",
+  "active": "a8851a52008bdfa1",
   "lastOpenFiles": [
-    "fleeting/JPA 활용1 - 회원 도메인 개발.md",
-    "epiphany/2023/2023-07-19.md",
-    "fleeting/test_canvas_2.canvas",
-    "fleeting/test_canvas_1.canvas",
-    "library/book/2023/개장 전 아직 켜지지 않은 모니터 앞에서.md",
-    "private/diary/팀장, 리더의 역할.encrypted",
-    "library/book/2023/지적 대화를 위한 넓고 얕은 지식 1 한 권으로 현실 세계를 통달하는 지식 여행서.md",
-    "library/book/2023/거인의 노트.md",
-    "private/epiphany/2023/2023-07-19.md",
-    "fleeting/JPA 활용1 - 도메인 분석 설계.md",
-    "epiphany/2023/2023-07-18.md",
-    "private/diary/temp.encrypted",
-    "fleeting/무제 파일 2.md",
-    "test_canvas.canvas",
-    "test_canvas_2.canvas",
     "fleeting/JPA 활용1 - 주문 도메인 개발.md",
+    "fleeting/JPA 활용1 - 회원 도메인 개발.md",
+    "fleeting/JPA 활용1 - 도메인 분석 설계.md",
     "fleeting/JPA 활용1 - 상품 도메인 개발.md",
-    "fleeting/JPA 활용1 -.md",
-    "private/epiphany/2023/2023-07-19 1.md",
-    "library/book/2023/개발자 원칙.md",
-    "library/Library Home.md",
-    "fleeting/무제 파일.md",
     "fleeting/Untitled.md",
-    "fleeting/Untitled 3.md",
-    "fleeting/Untitled 2.md",
-    "무제 파일 1.canvas",
-    "무제 파일.canvas",
-    "fleeting/wish book.md",
-    "epiphany/2023/2023-07-19 1.md",
-    "attachment/img/Domain_Analysis_Design_3 1.jpg",
+    "fleeting/test_canvas_1.canvas",
+    "fleeting/Jenkins.md",
+    "fleeting/HashMap, HashSet vs EnumMap, EnumSet.md",
+    "fleeting/test_canvas_2.canvas",
+    "epiphany/2023/2023-07-19.md",
+    "fleeting/regex.md",
+    "fleeting/Nagle Algorithm.md",
+    "private/epiphany/2023/2023-07-19.md",
+    "library/book/2023/배민다움.md",
+    "anki/voca/voca2023.md",
+    "permanent/자바 ORM 표준 JPA 프로그래밍 - 1. JPA 소개.md",
+    "README.md",
+    "fleeting/Docker - with Java.md",
+    "fleeting/Effective-Java Item01.md",
+    "fleeting/Fixture Monkey.md",
+    "fleeting/gpg program configuration.md",
+    "fleeting/psql.md",
+    "fleeting/postgresql - function 생성.md",
+    "fleeting/Reflection.md",
+    "permanent/자바 ORM 표준 JPA 프로그래밍 - 7. 고급 맵핑.md",
+    "templates/metadata.md",
+    "library/book/2023/개장 전 아직 켜지지 않은 모니터 앞에서.md",
+    "templates/book.md",
     "attachment/img/Domain_Analysis_Design_1 1.jpg",
-    "attachment/img/Domain_Analysis_Design_2 1.jpg",
     "attachment/img/Domain_Analysis_Design_4 1.jpg",
-    "attachment/Domain_Analysis_Design_3.jpg",
-    "attachment/Domain_Analysis_Design_1.jpg",
-    "attachment/Domain_Analysis_Design_2.jpg",
-    "attachment/Domain_Analysis_Design_4.jpg",
-    "fleeting/도메인 분석 설계.md",
-    "private/epiphany/2023/2023-07-18.md",
+    "attachment/img/Domain_Analysis_Design_3 1.jpg",
+    "attachment/img/Domain_Analysis_Design_2 1.jpg",
+    "private/diary/팀장, 리더의 역할.encrypted",
     "attachment/img/SCR-20230718-jizf.png",
-    "attachment/SCR-20230718-jizf.png",
     "fleeting/temp.encrypted",
-    "private/diary/Untitled 20230718 101428.encrypted",
-    "fleeting/Untitled 20230718 101428.encrypted",
-    "library/book/2023/세컨드 브레인.md",
-    "library/book/2023/오브젝트.md",
     "library/book/2023",
     "Clippings",
+    "private/attachment/img/null 쓰기 전에 생각했나요?.png",
     "private/attachment/img",
     "private/attachment",
-    "private/epiphany/2023"
+    "attachment/img/nagle.png",
+    "attachment/Pasted image 20230712132417.png",
+    "attachment/Pasted image 20230712132411.png",
+    "private/epiphany/2023",
+    "epiphany/2023",
+    "private/diary/무지 비용.encrypted",
+    "private/diary/현실에 안주하는 게으른 개발자.encrypted"
   ]
 }
