@@ -41,8 +41,7 @@ public class Order {
 	- [[Flyweight Pattern]]도 이와 비슷한 기법이다.
 
 ```java
-public final class Boolean implements java.io.Serializable,  
-Comparable<Boolean>, Constable {  
+public final class Boolean implements java.io.Serializable,  sComparable<Boolean>, Constable {   
   
 	/**  
 	* The {@code Boolean} object corresponding to the primitive  

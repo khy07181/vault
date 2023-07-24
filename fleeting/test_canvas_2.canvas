@@ -1,9 +1,0 @@
-{
-	"nodes":[
-		{"id":"a9f02529e35f9f6b","x":-10100,"y":1740,"width":290,"height":221,"type":"group","label":"group1"},
-		{"type":"file","file":"fleeting/test_canvas_1.canvas","id":"77a844a395f8affc","x":-10600,"y":1700,"width":400,"height":400},
-		{"id":"b098672d2e3a29af","x":-10080,"y":1881,"width":250,"height":60,"type":"text","text":"card4"},
-		{"type":"text","text":"card3","id":"ee7705a5b49d4edb","x":-10080,"y":1760,"width":250,"height":60}
-	],
-	"edges":[]
-}

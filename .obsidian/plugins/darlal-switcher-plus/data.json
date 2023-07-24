@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "onOpenPreferNewTab": true,
+  "onOpenPreferNewTab": false,
   "alwaysNewTabForSymbols": false,
   "useActiveTabForSymbolsOnMobile": false,
   "symbolsInLineOrder": true,

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "04e740ddb1403d7a",
+        "id": "5bb2d08109b98316",
         "type": "tabs",
         "children": [
           {
-            "id": "a8851a52008bdfa1",
+            "id": "5cf4e1c409cbff0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "783f2654283715cc",
+            "id": "78f9d167afeb883e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "private/epiphany/2023/2023-07-19.md",
+                "file": "private/epiphany/2023/2023-07-24.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "9a34d71b5e61a80d",
+            "id": "0166b13532fb5ca4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "epiphany/2023/2023-07-19.md",
+                "file": "epiphany/2023/2023-07-24.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,45 +47,20 @@
             }
           },
           {
-            "id": "1ae636d4eb1e2813",
+            "id": "461df8909e268d1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fleeting/JPA 활용1 - 회원 도메인 개발.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eab3537154a62da5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "fleeting/JPA 활용1 - 상품 도메인 개발.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ea3b315672e9790",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "fleeting/JPA 활용1 - 주문 도메인 개발.md",
+                "file": "library/Library Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -159,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "anki/voca/voca2023.md",
+                "file": "epiphany/2023/2023-07-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "anki/voca/voca2023.md",
+                "file": "epiphany/2023/2023-07-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "anki/voca/voca2023.md"
+                "file": "epiphany/2023/2023-07-24.md"
               }
             }
           },
@@ -232,46 +207,48 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "kr-book-info-plugin:Add Book Info": false,
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
-      "meld-encrypt:Create new encrypted note": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false
+      "meld-encrypt:Create new encrypted note": false
     }
   },
-  "active": "a8851a52008bdfa1",
+  "active": "0166b13532fb5ca4",
   "lastOpenFiles": [
-    "fleeting/JPA 활용1 - 주문 도메인 개발.md",
-    "fleeting/JPA 활용1 - 회원 도메인 개발.md",
-    "fleeting/JPA 활용1 - 도메인 분석 설계.md",
-    "fleeting/JPA 활용1 - 상품 도메인 개발.md",
-    "fleeting/Untitled.md",
-    "fleeting/test_canvas_1.canvas",
-    "fleeting/Jenkins.md",
-    "fleeting/HashMap, HashSet vs EnumMap, EnumSet.md",
-    "fleeting/test_canvas_2.canvas",
-    "epiphany/2023/2023-07-19.md",
-    "fleeting/regex.md",
-    "fleeting/Nagle Algorithm.md",
-    "private/epiphany/2023/2023-07-19.md",
+    "library/Library Home.md",
     "library/book/2023/배민다움.md",
+    "library/book/2023/지적 대화를 위한 넓고 얕은 지식 1.md",
+    "epiphany/2023/2023-07-24.md",
     "anki/voca/voca2023.md",
-    "permanent/자바 ORM 표준 JPA 프로그래밍 - 1. JPA 소개.md",
-    "README.md",
-    "fleeting/Docker - with Java.md",
-    "fleeting/Effective-Java Item01.md",
-    "fleeting/Fixture Monkey.md",
-    "fleeting/gpg program configuration.md",
-    "fleeting/psql.md",
+    "private/diary/Regret Minimization Framework.encrypted",
+    "epiphany/2023/2023-06-29.md",
+    "private/diary/무지 비용.encrypted",
+    "private/diary/팀장, 리더의 역할.encrypted",
+    "private/epiphany/2023/2023-07-24.md",
+    "private/epiphany/2023/2023-07-11.md",
+    "private/epiphany/2023/2023-07-18.md",
+    "private/epiphany/2023/2023-07-19.md",
+    "private/epiphany/2023/2023-07-21.md",
+    "epiphany/2023/2023-07-18.md",
+    "epiphany/2023/2023-07-19.md",
+    "epiphany/2023/2023-07-21.md",
     "fleeting/postgresql - function 생성.md",
-    "fleeting/Reflection.md",
-    "permanent/자바 ORM 표준 JPA 프로그래밍 - 7. 고급 맵핑.md",
-    "templates/metadata.md",
-    "library/book/2023/개장 전 아직 켜지지 않은 모니터 앞에서.md",
-    "templates/book.md",
+    "fleeting/JPA lecture.canvas",
+    "epiphany/2023/2023-07-20.md",
+    "permanent/JPA 활용2 - API 개발 고급 - 지연 로딩과 조회 성능 최적화.md",
+    "fleeting/JPA lecture.md",
+    "permanent/자바 ORM 표준 JPA 프로그래밍 - 8. 프록시와 연관관계 관리.md",
+    "fleeting/Effective-Java Item01.md",
+    "permanent/JPA 활용2 - API 개발 고급 준비.md",
+    "permanent/JPA 활용2 - API 개발 기본.md",
+    "permanent/JPA 활용1 - 웹 개층 개발.md",
+    "permanent/JPA 활용1 - 회원 도메인 개발.md",
+    "fleeting/Enum.md",
+    "fleeting/Fixture Monkey.md",
+    "fleeting/test_canvas_1.canvas",
+    "fleeting/test_canvas_2.canvas",
+    "attachment/img/API_dev_basic_1.jpg",
     "attachment/img/Domain_Analysis_Design_1 1.jpg",
     "attachment/img/Domain_Analysis_Design_4 1.jpg",
     "attachment/img/Domain_Analysis_Design_3 1.jpg",
     "attachment/img/Domain_Analysis_Design_2 1.jpg",
-    "private/diary/팀장, 리더의 역할.encrypted",
     "attachment/img/SCR-20230718-jizf.png",
     "fleeting/temp.encrypted",
     "library/book/2023",
@@ -283,8 +260,6 @@
     "attachment/Pasted image 20230712132417.png",
     "attachment/Pasted image 20230712132411.png",
     "private/epiphany/2023",
-    "epiphany/2023",
-    "private/diary/무지 비용.encrypted",
-    "private/diary/현실에 안주하는 게으른 개발자.encrypted"
+    "epiphany/2023"
   ]
 }
