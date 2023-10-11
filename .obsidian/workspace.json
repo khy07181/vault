@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "04e740ddb1403d7a",
+        "id": "42d5c7ad6bf41281",
         "type": "tabs",
         "children": [
           {
-            "id": "783f2654283715cc",
+            "id": "84ceaceb6d9bc396",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fleeting/Effective-Java Item01.md",
+                "file": "private/diary/diary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,51 +21,12 @@
             }
           },
           {
-            "id": "57d1cf8c1f51f689",
+            "id": "4ca404c466159170",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "epiphany/2023/2023-07-26.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "04caf9251aaa21a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "fleeting/Effective-Java Item01.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53e2811c948d86eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "epiphany/2023/2023-07-26.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b59eaae7c31ecd7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "fleeting/Effective-Java Item02.md",
+                "file": "epiphany/2023/2023-07-14.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,8 +79,17 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "879273622af60d47",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -147,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fleeting/Effective-Java Item02.md",
+                "file": "epiphany/2023/2023-07-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fleeting/Effective-Java Item02.md",
+                "file": "epiphany/2023/2023-07-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fleeting/Effective-Java Item02.md"
+                "file": "epiphany/2023/2023-07-14.md"
               }
             }
           },
@@ -197,6 +167,16 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
+            }
+          },
+          {
+            "id": "ebad2547639fbe3e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ],
@@ -209,6 +189,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "kr-book-info-plugin:Add Book Info": false,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -216,63 +199,59 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "kr-book-info-plugin:Add Book Info": false,
-      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
-      "meld-encrypt:Create new encrypted note": false
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "b59eaae7c31ecd7a",
+  "active": "4ca404c466159170",
   "lastOpenFiles": [
-    "epiphany/2023/2023-07-28.md",
-    "private/epiphany/2023/2023-07-28.md",
-    "epiphany/2023/2023-07-26.md",
-    "fleeting/Effective-Java Item02.md",
-    "fleeting/Effective-Java Item01.md",
-    "library/book/2023/개발자 원칙.md",
-    "private/epiphany/2023/2023-07-27 2.md",
-    "private/epiphany/2023/2023-07-27.md",
-    "epiphany/2023/2023-07-27.md",
+    "private/epiphany/2023/2023-10-11.md",
+    "anki/voca/voca2023.md",
+    "anki/voca",
+    "anki",
+    "epiphany/2023/2023-10-11.md",
+    "private/epiphany/2023-10-11.md",
+    "fleeting/2023-10-11.md",
+    "fleeting/Untitled.md",
+    "private/epiphany/2023/2023-10-10 1.md",
+    "epiphany/2023/2023-10-10 1.md",
+    "fleeting/2023-10-10.md",
+    "epiphany/2023/2023-10-10.md",
+    "fleeting/Untitled 1.md",
+    "permanent/anki/voca/voca2023.md",
+    "permanent/anki/voca",
+    "permanent/anki",
+    "library/library.md",
+    "templates/templates.md",
+    "epiphany/2023/2023-10-09.md",
+    "epiphany/2023/2023.md",
+    "library/Library Home.md",
+    "library/book/2023/2023.md",
+    "private/epiphany/2023/2023.md",
+    "private/mac setting.md",
+    "private/attachment/img/null 쓰기 전에 생각했나요?.png",
+    "private/diary/diary.md",
+    "private/Obsidian Note Encryption.md",
+    "epiphany/2023/2023-09-25.md",
+    "private/epiphany/2023/2023-07-25.md",
+    "private/portInsight.md",
+    "private/wish book.md",
+    "private/diary/Regret Minimization Framework.encrypted",
+    "Context/spacesLastSync.log",
+    "Context",
+    "fleeting/JPA lecture.canvas",
     "attachment/pdf/세컨드 브레인_withMarginNotes.pdf",
     "attachment/SCR-20230726-bpvu.png",
-    "fleeting/SOLID 원칙.md",
-    "epiphany/2023/2023-07-19.md",
-    "private/epiphany/2023/2023-07-26.md",
     "무제 파일.canvas",
-    "library/Library Home.md",
-    "fleeting/DDD.md",
-    "fleeting/JPA lecture.canvas",
-    "private/diary/Regret Minimization Framework.encrypted",
     "private/diary/밀린 숙제.encrypted",
-    "private/epiphany/2023/2023-07-19.md",
     "fleeting/Untitled 20230725 041726.encrypted",
-    "fleeting/Spring Batch ItemWriter에서 데이터 삭제하기.md",
-    "fleeting/무제 파일.md",
-    "private/epiphany/2023/2023-07-25 2.md",
-    "private/epiphany/2023/2023-07-25.md",
-    "epiphany/2023/2023-07-25.md",
-    "library/book/2023/지적 대화를 위한 넓고 얕은 지식 1.md",
-    "fleeting/Untitled 20230724 095201.encrypted",
-    "private/epiphany/2023/2023-07-24.md",
-    "private/epiphany/2023/2023-07-24 2.md",
-    "epiphany/2023/2023-07-24.md",
     "fleeting/무제 파일.canvas",
-    "fleeting/JPA lecture.md",
-    "permanent/JPA 활용2 - API 개발 기본.md",
     "fleeting/test_canvas_1.canvas",
     "fleeting/test_canvas_2.canvas",
     "attachment/img/Domain_Analysis_Design_1 1.jpg",
     "attachment/img/Domain_Analysis_Design_4 1.jpg",
     "attachment/img/Domain_Analysis_Design_3 1.jpg",
     "attachment/img/Domain_Analysis_Design_2 1.jpg",
-    "private/diary/팀장, 리더의 역할.encrypted",
     "attachment/img/SCR-20230718-jizf.png",
-    "fleeting/temp.encrypted",
-    "library/book/2023",
-    "Clippings",
-    "private/attachment/img/null 쓰기 전에 생각했나요?.png",
-    "private/attachment/img",
     "attachment/img/nagle.png",
     "attachment/Pasted image 20230712132417.png",
     "attachment/Pasted image 20230712132411.png"
