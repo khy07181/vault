@@ -1,19 +1,32 @@
 {
   "main": {
-    "id": "0b3e7a583e31bc21",
+    "id": "b2b7f5a8eae4c35b",
     "type": "split",
     "children": [
       {
-        "id": "42d5c7ad6bf41281",
+        "id": "76456b5f9b603b5b",
         "type": "tabs",
         "children": [
           {
-            "id": "84ceaceb6d9bc396",
+            "id": "187f1798a023d0e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "private/diary/diary.md",
+                "file": "private/library/Library.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aa25ac71b51c0ecb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/book.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,34 +34,36 @@
             }
           },
           {
-            "id": "4ca404c466159170",
+            "id": "bb24ad1ebcfd78a1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "epiphany/2023/2023-07-14.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": -125.69999999999997,
+                  "y": -1082.6800000000003,
+                  "zoom": 0
+                }
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "f2b94d45efb455ef",
+    "id": "b32b6144f5c1e1e8",
     "type": "split",
     "children": [
       {
-        "id": "f3eee5f979d517e8",
+        "id": "c6b345650db7ec74",
         "type": "tabs",
         "children": [
           {
-            "id": "c1742ea953c1e6c9",
+            "id": "45e0ba43a6a3a31c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -58,12 +73,12 @@
             }
           },
           {
-            "id": "e736f751482a2c54",
+            "id": "e1b977d456479086",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:국제경제/금융/화폐",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,38 +88,29 @@
             }
           },
           {
-            "id": "ae0a6be2cbd80baa",
+            "id": "ff809377d01783fd",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "879273622af60d47",
-            "type": "leaf",
-            "state": {
-              "type": "mk-file-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "right": {
-    "id": "fff71eec2a25a053",
+    "id": "a052a91c236be199",
     "type": "split",
     "children": [
       {
-        "id": "4ff2a6bac2530e52",
+        "id": "88ec600218748c58",
         "type": "tabs",
         "children": [
           {
-            "id": "5aeaf5b431d71636",
+            "id": "7c75731f0280b8ae",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -112,12 +118,12 @@
             }
           },
           {
-            "id": "e15059ab9d3b2686",
+            "id": "368fe1ec1a3460f7",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "epiphany/2023/2023-07-14.md",
+                "file": "Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,19 +135,19 @@
             }
           },
           {
-            "id": "2420861bc5cf0444",
+            "id": "f62059e81ea56bdb",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "epiphany/2023/2023-07-14.md",
+                "file": "Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "c9f551956eecf85c",
+            "id": "ed83f01091e3a1b2",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -152,25 +158,7 @@
             }
           },
           {
-            "id": "4e03b69e7ea7cf57",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "epiphany/2023/2023-07-14.md"
-              }
-            }
-          },
-          {
-            "id": "15168dfc32253bc7",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "ebad2547639fbe3e",
+            "id": "7481da5226d62fea",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -178,9 +166,27 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "4709cf664c82d194",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Untitled.canvas"
+              }
+            }
+          },
+          {
+            "id": "bdebe5eec16eba5e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -199,61 +205,45 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "meld-encrypt:New encrypted note": false,
+      "meld-encrypt:Convert to or from an Encrypted note": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "4ca404c466159170",
+  "active": "bb24ad1ebcfd78a1",
   "lastOpenFiles": [
-    "private/epiphany/2023/2023-10-11.md",
-    "anki/voca/voca2023.md",
-    "anki/voca",
-    "anki",
-    "epiphany/2023/2023-10-11.md",
-    "private/epiphany/2023-10-11.md",
-    "fleeting/2023-10-11.md",
-    "fleeting/Untitled.md",
-    "private/epiphany/2023/2023-10-10 1.md",
-    "epiphany/2023/2023-10-10 1.md",
-    "fleeting/2023-10-10.md",
-    "epiphany/2023/2023-10-10.md",
-    "fleeting/Untitled 1.md",
-    "permanent/anki/voca/voca2023.md",
-    "permanent/anki/voca",
-    "permanent/anki",
-    "library/library.md",
+    "README.md",
+    "templates/daily.md",
+    "private/library/book/2023/자본주의.md",
+    "templates/book.md",
     "templates/templates.md",
-    "epiphany/2023/2023-10-09.md",
-    "epiphany/2023/2023.md",
-    "library/Library Home.md",
-    "library/book/2023/2023.md",
-    "private/epiphany/2023/2023.md",
-    "private/mac setting.md",
-    "private/attachment/img/null 쓰기 전에 생각했나요?.png",
-    "private/diary/diary.md",
-    "private/Obsidian Note Encryption.md",
-    "epiphany/2023/2023-09-25.md",
-    "private/epiphany/2023/2023-07-25.md",
-    "private/portInsight.md",
-    "private/wish book.md",
-    "private/diary/Regret Minimization Framework.encrypted",
-    "Context/spacesLastSync.log",
-    "Context",
-    "fleeting/JPA lecture.canvas",
+    "templates/metadata.md",
+    "templates/diary.md",
+    "private/library/Library.md",
+    "fleeting/UNTITLED.md",
+    "fleeting/레버리지 자본주의 속에 숨겨진 부의 비밀.md",
+    "private/daily/2023/2023-07-27.md",
+    "private/daily/2023/2023-12-08.md",
+    "private/daily/2023/2023-07-26.md",
+    "private/daily/2023/2023-07-25.md",
+    "private/daily/2023/2023-07-24.md",
+    "private/daily/2023/2023-07-18.md",
+    "private/daily/2023/2023-07-14.md",
+    "private/daily/2023/2023-07-11.md",
+    "private/daily/2023/2023-07-10.md",
+    "private/daily/2023/2023-07-05.md",
+    "private/daily/2023/2023-07-04.md",
+    "private/daily/2023/2023-07-03.md",
+    "private/daily/2023/2023-06-30.md",
+    "private/daily/2023/2023-06-29.md",
+    "private/daily/2023/2023-06-21.md",
+    "private/daily/2023/2023-06-16.md",
     "attachment/pdf/세컨드 브레인_withMarginNotes.pdf",
-    "attachment/SCR-20230726-bpvu.png",
-    "무제 파일.canvas",
-    "private/diary/밀린 숙제.encrypted",
-    "fleeting/Untitled 20230725 041726.encrypted",
-    "fleeting/무제 파일.canvas",
-    "fleeting/test_canvas_1.canvas",
-    "fleeting/test_canvas_2.canvas",
-    "attachment/img/Domain_Analysis_Design_1 1.jpg",
-    "attachment/img/Domain_Analysis_Design_4 1.jpg",
-    "attachment/img/Domain_Analysis_Design_3 1.jpg",
-    "attachment/img/Domain_Analysis_Design_2 1.jpg",
-    "attachment/img/SCR-20230718-jizf.png",
-    "attachment/img/nagle.png",
-    "attachment/Pasted image 20230712132417.png",
-    "attachment/Pasted image 20230712132411.png"
+    "private/attachment/img/null 쓰기 전에 생각했나요?.png",
+    "Untitled.canvas",
+    "Untitled 2.canvas",
+    "Excalidraw"
   ]
 }

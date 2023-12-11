@@ -4,19 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "64b4f8df4a39dc45",
+        "id": "7bb8db7f486cb634",
         "type": "tabs",
         "children": [
           {
-            "id": "00620cf1bceb07ec",
+            "id": "afc08fab6dec913a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "epiphany/2023/2023-07-16.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Excalidraw/Drawing 2023-12-11 14.48.48.excalidraw.md"
               }
             }
           }
@@ -80,6 +77,16 @@
           "type": "bookmarks",
           "state": {}
         }
+      },
+      {
+        "id": "e4eb71ab74b2316a",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency"
+          }
+        }
       }
     ],
     "currentTab": 0
@@ -94,7 +101,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "epiphany/2023/2023-07-16.md",
+            "file": "Excalidraw/Drawing 2023-12-11 14.48.48.excalidraw.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -111,7 +118,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "epiphany/2023/2023-07-16.md",
+            "file": "Excalidraw/Drawing 2023-12-11 14.48.48.excalidraw.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -123,7 +130,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "epiphany/2023/2023-07-16.md"
+            "file": "Excalidraw/Drawing 2023-12-11 14.48.48.excalidraw.md"
           }
         }
       },
@@ -148,9 +155,11 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "meld-encrypt:Create new encrypted note": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "kr-book-info-plugin:Add Book Info": false,
+      "meld-encrypt:New encrypted note": false,
+      "meld-encrypt:Convert to or from an Encrypted note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -158,51 +167,55 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "00620cf1bceb07ec",
+  "active": "afc08fab6dec913a",
   "lastOpenFiles": [
-    "private/epiphany/2023/2023-07-14.md",
-    "private/attachment/img/null 쓰기 전에 생각했나요?.png",
-    "fleeting/인터페이스 변화점(Java 8 -> 9).md",
-    "fleeting/Flyweight Pattern.md",
-    "fleeting/Reflection.md",
-    "attachment/img/nagle.png",
-    "fleeting/Nagle Algorithm.md",
-    "fleeting/Effective-Java Item01.md",
-    "epiphany/2023/2023-07-14.md",
-    "fleeting/Enum.md",
-    "fleeting/HashMap, HashSet vs EnumMap, EnumSet.md",
-    "private/wish book.md",
-    "library/book/개장 전 아직 켜지지 않은 모니터 앞에서 자신이 되고자 했던 시간의 기록.md",
-    "library/book/개인주의자 선언.md",
-    "private/epiphany/2023/2023-07-10.md",
-    "epiphany/2023/2023-07-16.md",
+    "epiphany/2023/2023-12-11.md",
+    "permanent/JPA 활용1 - 주문 도메인 개발.md",
+    "permanent/자바 ORM 표준 JPA 프로그래밍 - 3. 영속성 관리.md",
+    "attachment/img/spring_data_2.jpg",
+    "attachment/img/clean_architecture_2.png",
+    "attachment/img/SpringFrameworkCore_1.png",
+    "attachment/img/web_layer_development_2.jpg",
+    "attachment/img/JPA_RelationalMapping_1.jpg",
+    "attachment/img/JPA_Proxy_RelationManaging_6.jpg",
+    "attachment/img/clean_architecture_3.png",
+    "attachment/img/API_dev_Intro_2.jpg",
+    "attachment/img/API_delayLoading_and_readOptimization_2.jpg",
+    "attachment/img/API_dev_basic_4.jpg",
+    "library/book/2023/거인의 노트.md",
     "private/epiphany/2023/2023-07-11.md",
-    "epiphany/2023/2023-07-05.md",
-    "epiphany/2023/2023-07-07.md",
-    "epiphany/2023/2023-06-30.md",
-    "epiphany/2023/2023-06-21.md",
-    "fleeting/gpg program configuration.md",
-    "permanent/git cached 삭제.md",
+    "library/book/2023/시작의 기술.md",
+    "library/book/2023/객체지향의 사실과 오해.md",
+    "library/book/2023/개장 전 아직 켜지지 않은 모니터 앞에서.md",
+    "library/book/2023/코스모스.md",
+    "library/book/2023/해커와 화가.md",
+    "library/book/2023/개발자 원칙.md",
+    "library/book/2023/오브젝트.md",
+    "private/epiphany/2023/2023-07-10.md",
+    "Untitled.canvas",
+    "library/book/2023/배민다움.md",
+    "private/epiphany/2023/2023-07-25.md",
+    "library/book/2023/개인주의자 선언.md",
+    "private/epiphany/2023/2023-10-11.md",
+    "Untitled 2.canvas",
+    "private/epiphany/2023/2023-07-24.md",
+    "library/book/2023/이펙티브 자바 Effective Java 3／E.md",
+    "library/book/2023/지적 대화를 위한 넓고 얕은 지식 1.md",
+    "epiphany/2023/2023-12-08.md",
+    "epiphany/2023/2023-12-07.md",
+    "library/book/2023/세컨드 브레인.md",
+    "library/book/2023/가상 면접 사례로 배우는 대규모 시스템 설계 기초.md",
+    "library/book/2023/도메인 주도 개발 시작하기.md",
+    "library/book/2023/만들면서 배우는 클린 아키텍처.md",
+    "fleeting/JPA lecture.canvas",
     "private/encrypt.dmg",
-    "templates/diary.md",
     "attachment/pdf/세컨드 브레인_withMarginNotes.pdf",
-    "permanent/font - TTF vs OTF.md",
-    "epiphany/2023/2023-07-11.md",
-    "library/book/시작의 기술.md",
-    "epiphany/2023/2023-07-11 2.md",
     "private/diary/현실에 안주하는 게으른 개발자.encrypted",
     "private/diary/무지 비용.encrypted",
-    "attachment/Pasted image 20230504234244.png",
-    "attachment/Pasted image 20230504234223.png",
-    "attachment/18682051b0a6999a438eef2a84a66463.png",
-    "attachment/18682051b0a6999a438eef2a84a66463 1.png",
-    "attachment/img/SpringMVCPrinciple_2.jpg",
-    "attachment/img/JPA_ValueType_4.jpg",
-    "attachment/img/spring_data_3.jpg",
-    "attachment/img/JPA_RelationalMapping_1.jpg",
     "개발자 원칙.pdf",
     "객체지향의 사실과 오해.pdf"
   ]
