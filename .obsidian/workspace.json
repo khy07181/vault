@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "76456b5f9b603b5b",
+        "id": "095f735d57357e65",
         "type": "tabs",
         "children": [
           {
-            "id": "187f1798a023d0e2",
+            "id": "3c4f35c84b4a4ede",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "private/library/Library.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aa25ac71b51c0ecb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/book.md",
+                "file": "fleeting/신경 가소성 이론.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,22 +21,48 @@
             }
           },
           {
-            "id": "bb24ad1ebcfd78a1",
+            "id": "38c11bb49c0c1ef8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "private/library/book/2023/역행자.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f71204a6d81e2cd3",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "fleeting/JPA lecture.canvas",
                 "viewState": {
-                  "x": -125.69999999999997,
-                  "y": -1082.6800000000003,
-                  "zoom": 0
+                  "x": 896.1035921532847,
+                  "y": -1004.4714562043796,
+                  "zoom": -2.1515850988872742
                 }
+              }
+            }
+          },
+          {
+            "id": "bbbdbace913facdd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "private/library/book/2023/부의 추월차선.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -123,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "private/library/book/2023/부의 추월차선.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "private/library/book/2023/부의 추월차선.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.canvas"
+                "file": "private/library/book/2023/부의 추월차선.md"
               }
             }
           },
@@ -212,16 +225,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bb24ad1ebcfd78a1",
+  "active": "bbbdbace913facdd",
   "lastOpenFiles": [
-    "README.md",
-    "templates/daily.md",
-    "private/library/book/2023/자본주의.md",
+    "fleeting/JPA lecture.canvas",
+    "private/library/book/2023/부의 추월차선.md",
+    "fleeting/Heuristic.md",
+    "private/library/book/2023/역행자.md",
+    "fleeting/신경 가소성 이론.md",
+    "fleeting/Sisyphus.md",
+    "private/library/Library.md",
+    "fleeting/역행자 확장판 유니버스 에디션 돈·시간·운명으로부터 완전한 자유를 얻는 7단계 인생 공략집.md",
     "templates/book.md",
+    "private/library/book/2023/자본주의.md",
+    "README.md",
+    "Untitled.canvas",
+    "templates/daily.md",
     "templates/templates.md",
     "templates/metadata.md",
     "templates/diary.md",
-    "private/library/Library.md",
     "fleeting/UNTITLED.md",
     "fleeting/레버리지 자본주의 속에 숨겨진 부의 비밀.md",
     "private/daily/2023/2023-07-27.md",
@@ -233,16 +254,8 @@
     "private/daily/2023/2023-07-14.md",
     "private/daily/2023/2023-07-11.md",
     "private/daily/2023/2023-07-10.md",
-    "private/daily/2023/2023-07-05.md",
-    "private/daily/2023/2023-07-04.md",
-    "private/daily/2023/2023-07-03.md",
-    "private/daily/2023/2023-06-30.md",
-    "private/daily/2023/2023-06-29.md",
-    "private/daily/2023/2023-06-21.md",
-    "private/daily/2023/2023-06-16.md",
     "attachment/pdf/세컨드 브레인_withMarginNotes.pdf",
     "private/attachment/img/null 쓰기 전에 생각했나요?.png",
-    "Untitled.canvas",
     "Untitled 2.canvas",
     "Excalidraw"
   ]

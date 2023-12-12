@@ -99,5 +99,15 @@
       ],
       "key": "T"
     }
+  ],
+  "deepl:deepl-translate-selection": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "T"
+    }
   ]
 }

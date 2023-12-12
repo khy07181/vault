@@ -1,5 +1,5 @@
 {
-  "folder": "epiphany/2023",
-  "template": "templates/epiphany",
+  "folder": "private/daily/2023",
+  "template": "templates/daily",
   "autorun": true
 }
