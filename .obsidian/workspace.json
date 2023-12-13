@@ -54,7 +54,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "private/library/book/2023/부의 추월차선.md",
+                "file": "private/daily/2023/2023-12-13.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "private/library/book/2023/부의 추월차선.md",
+                "file": "private/daily/2023/2023-12-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "private/library/book/2023/부의 추월차선.md",
+                "file": "private/daily/2023/2023-12-13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "private/library/book/2023/부의 추월차선.md"
+                "file": "private/daily/2023/2023-12-13.md"
               }
             }
           },
@@ -227,8 +227,9 @@
   },
   "active": "bbbdbace913facdd",
   "lastOpenFiles": [
-    "fleeting/JPA lecture.canvas",
     "private/library/book/2023/부의 추월차선.md",
+    "private/daily/2023/2023-12-13.md",
+    "fleeting/JPA lecture.canvas",
     "fleeting/Heuristic.md",
     "private/library/book/2023/역행자.md",
     "fleeting/신경 가소성 이론.md",
