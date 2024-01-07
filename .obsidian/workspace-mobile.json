@@ -11,9 +11,12 @@
             "id": "afc08fab6dec913a",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2023-12-11 14.48.48.excalidraw.md"
+                "file": "private/library/Library.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -101,7 +104,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Excalidraw/Drawing 2023-12-11 14.48.48.excalidraw.md",
+            "file": "private/library/Library.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -118,7 +121,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Excalidraw/Drawing 2023-12-11 14.48.48.excalidraw.md",
+            "file": "private/library/Library.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -130,7 +133,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Excalidraw/Drawing 2023-12-11 14.48.48.excalidraw.md"
+            "file": "private/library/Library.md"
           }
         }
       },
@@ -167,12 +170,29 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false,
-      "periodic-notes:Open today": false
+      "workspaces:Manage workspace layouts": false
     }
   },
   "active": "afc08fab6dec913a",
   "lastOpenFiles": [
+    "private/daily/2023/2023-12-29.md",
+    "fleeting/신경 가소성 이론.md",
+    "fleeting/Heuristic.md",
+    "private/daily/2023/2023-12-19.md",
+    "private/diary/직무 면접 질문지.md",
+    "fleeting/excalidraw.md",
+    "private/diary/뒤쳐졌다는 두려움.mdenc",
+    "private/attachment/img/SCR-20231221-mnhd.png",
+    "private/daily/2023/2023-12-20.md",
+    "fleeting/TEST NOTE.md",
+    "private/Obsidian.md",
+    "private/daily/2023/2023-12-18.md",
+    "private/library/book/2023/자본주의.md",
+    "private/daily/2023/2023-12-13.md",
+    "private/daily/2023/2023-12-27.md",
+    "private/library/book/2023/부의 추월차선.md",
+    "private/library/book/2023/역행자.md",
+    "Excalidraw/Drawing 2023-12-11 14.48.48.excalidraw.md",
     "epiphany/2023/2023-12-11.md",
     "permanent/JPA 활용1 - 주문 도메인 개발.md",
     "permanent/자바 ORM 표준 JPA 프로그래밍 - 3. 영속성 관리.md",
@@ -185,7 +205,6 @@
     "attachment/img/clean_architecture_3.png",
     "attachment/img/API_dev_Intro_2.jpg",
     "attachment/img/API_delayLoading_and_readOptimization_2.jpg",
-    "attachment/img/API_dev_basic_4.jpg",
     "library/book/2023/거인의 노트.md",
     "private/epiphany/2023/2023-07-11.md",
     "library/book/2023/시작의 기술.md",
@@ -193,24 +212,8 @@
     "library/book/2023/개장 전 아직 켜지지 않은 모니터 앞에서.md",
     "library/book/2023/코스모스.md",
     "library/book/2023/해커와 화가.md",
-    "library/book/2023/개발자 원칙.md",
-    "library/book/2023/오브젝트.md",
-    "private/epiphany/2023/2023-07-10.md",
     "Untitled.canvas",
-    "library/book/2023/배민다움.md",
-    "private/epiphany/2023/2023-07-25.md",
-    "library/book/2023/개인주의자 선언.md",
-    "private/epiphany/2023/2023-10-11.md",
     "Untitled 2.canvas",
-    "private/epiphany/2023/2023-07-24.md",
-    "library/book/2023/이펙티브 자바 Effective Java 3／E.md",
-    "library/book/2023/지적 대화를 위한 넓고 얕은 지식 1.md",
-    "epiphany/2023/2023-12-08.md",
-    "epiphany/2023/2023-12-07.md",
-    "library/book/2023/세컨드 브레인.md",
-    "library/book/2023/가상 면접 사례로 배우는 대규모 시스템 설계 기초.md",
-    "library/book/2023/도메인 주도 개발 시작하기.md",
-    "library/book/2023/만들면서 배우는 클린 아키텍처.md",
     "fleeting/JPA lecture.canvas",
     "private/encrypt.dmg",
     "attachment/pdf/세컨드 브레인_withMarginNotes.pdf",

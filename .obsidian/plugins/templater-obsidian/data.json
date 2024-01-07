@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "",
+  "templates_folder": "templates",
   "templates_pairs": [
     [
       "",
@@ -23,7 +23,6 @@
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
     "templates/metadata.md",
-    "templates/table.md",
     "templates/book.md",
     "templates/diary.md",
     "templates/daily.md"

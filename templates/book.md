@@ -1,4 +1,3 @@
-
 ---
 cover_url:
 title: <% tp.file.title %>

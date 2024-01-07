@@ -1,0 +1,29 @@
+{
+  "token": "HdStGRq7xYKHQjyYzLSQTrFZPlvK3c0QyzRYtwlPrVrDtb385c",
+  "readwiseDir": "readwise",
+  "frequency": "0",
+  "triggerOnLoad": true,
+  "isSyncing": false,
+  "lastSyncFailed": false,
+  "lastSavedStatusID": 12118040,
+  "currentSyncStatusID": 12184771,
+  "refreshBooks": false,
+  "booksToRefresh": [
+    "36058132",
+    "35967969",
+    "36058132",
+    "35967969",
+    "36058132",
+    "35967969",
+    "36058132",
+    "35967969",
+    "35967969",
+    "36058132"
+  ],
+  "booksIDsMap": {
+    "readwise/articles/2023년 Cto 회고.md": "35967969",
+    "readwise/articles/지향하는 개발 문화.md": "36058132",
+    "readwise/articles/스타트업 나쁜 개발 리더 종특.md": "36107454"
+  },
+  "reimportShowConfirmation": true
+}

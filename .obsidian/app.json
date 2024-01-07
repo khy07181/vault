@@ -10,10 +10,14 @@
   "foldHeading": true,
   "spellcheck": true,
   "userIgnoreFilters": [
-    "private/",
-    "private/daily-note/"
+    "private/daily/",
+    "private/diary/",
+    "readwise/"
   ],
   "showUnsupportedFiles": false,
   "attachmentFolderPath": "attachment",
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "foldIndent": true,
+  "rightToLeft": false,
+  "showInlineTitle": false
 }

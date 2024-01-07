@@ -1,8 +1,9 @@
 {
   "accentColor": "",
   "theme": "moonstone",
-  "cssTheme": "Things",
+  "cssTheme": "",
   "translucency": false,
   "baseFontSize": 17,
-  "baseFontSizeAction": false
+  "baseFontSizeAction": false,
+  "showViewHeader": true
 }

@@ -1,5 +1,4 @@
 {
-  "file-explorer:open": [],
   "app:delete-file": [
     {
       "modifiers": [
@@ -16,7 +15,6 @@
       "key": "O"
     }
   ],
-  "switcher:open": [],
   "obsidian-emoji-toolbar:emoji-picker:open-picker": [
     {
       "modifiers": [
@@ -65,14 +63,6 @@
       "key": "]"
     }
   ],
-  "app:go-back": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "["
-    }
-  ],
   "darlal-switcher-plus:switcher-plus:open": [
     {
       "modifiers": [
@@ -91,15 +81,6 @@
       "key": "T"
     }
   ],
-  "templater-obsidian:create-new-note-from-template": [],
-  "editor:toggle-checklist-status": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "T"
-    }
-  ],
   "deepl:deepl-translate-selection": [
     {
       "modifiers": [
@@ -109,5 +90,45 @@
       ],
       "key": "T"
     }
-  ]
+  ],
+  "editor:open-search-replace": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
+  "editor:open-search": [],
+  "workspace:toggle-pin": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "P"
+    }
+  ],
+  "daily-notes": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ],
+  "app:go-back": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "["
+    }
+  ],
+  "switcher:open": [],
+  "obsidian-excalidraw-plugin:insert-link-to-element": []
 }

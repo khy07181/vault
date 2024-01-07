@@ -5,7 +5,6 @@
   "dataview",
   "cm-typewriter-scroll-obsidian",
   "templater-obsidian",
-  "tag-wrangler",
   "obsidian-sortable",
   "obsidian-git",
   "obsidian-linter",
@@ -13,17 +12,14 @@
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-day-planner",
   "file-explorer-note-count",
-  "auto-note-mover",
   "obsidian-to-anki-plugin",
   "various-complements",
-  "obsidian-style-settings",
-  "marginnote-companion",
-  "obsidian-admonition",
   "better-word-count",
   "meld-encrypt",
   "darlal-switcher-plus",
   "obsidian-tasks-plugin",
-  "periodic-notes",
   "obsidian-excalidraw-plugin",
-  "deepl"
+  "deepl",
+  "tag-wrangler",
+  "readwise-official"
 ]
