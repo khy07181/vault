@@ -4,54 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "d8dbe11faa66958f",
+        "id": "8595cfcfe34ac37c",
         "type": "tabs",
         "children": [
           {
-            "id": "23421517c5755d89",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "anki/voca/voca2024.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "ef1d54fc5e70ecd1",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "private/daily/2024/2024-01-04.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "064adda6b6af4bf0",
+            "id": "d19d2c56a9849e26",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "private/daily/2024/2024-01-07.md",
+                "file": "readwise/articles/2023년 개인 회고.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "private/daily/2024/2024-01-07.md",
+                "file": "readwise/articles/2023년 개인 회고.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "private/daily/2024/2024-01-07.md",
+                "file": "readwise/articles/2023년 개인 회고.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "private/daily/2024/2024-01-07.md"
+                "file": "readwise/articles/2023년 개인 회고.md"
               }
             }
           },
@@ -215,11 +184,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "064adda6b6af4bf0",
+  "active": "d19d2c56a9849e26",
   "lastOpenFiles": [
-    "private/daily/2024/2024-01-04.md",
+    "readwise/articles/2023년 개인 회고.md",
     "anki/voca/voca2024.md",
+    "private/daily/2024/2024-01-08.md",
+    "fleeting/Effective-Java Item01.md",
     "private/daily/2024/2024-01-07.md",
+    "private/daily/2024/2024-01-04.md",
     "fleeting/신경 가소성 이론.md",
     "private/직무 면접 질문지.md",
     "private/daily/2024/2024-01-06.md",
@@ -240,9 +212,6 @@
     "private/library/book/거인의 노트.md",
     "private/library/book/객체지향의 사실과 오해.md",
     "private/library/book/개발자 원칙.md",
-    "private/library/book/개인주의자 선언.md",
-    "private/library/book/개장 전 아직 켜지지 않은 모니터 앞에서.md",
-    "private/library/book/가상 면접 사례로 배우는 대규모 시스템 설계 기초.md",
     "private/library/book/unread",
     "readwise/articles",
     "readwise",
