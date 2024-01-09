@@ -4,23 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "8595cfcfe34ac37c",
+        "id": "d8dbe11faa66958f",
         "type": "tabs",
         "children": [
           {
-            "id": "d19d2c56a9849e26",
+            "id": "23421517c5755d89",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "anki/voca/voca2024.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "5baafc6922d4398e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "private/daily/2024/2024-01-09.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "e8255e766d506a13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "readwise/articles/2023년 개인 회고.md",
+                "file": "fleeting/Effective-Java Item03.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d1aff8fb5716f2b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fleeting/Effective-Java Item02.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -49,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "부의",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "readwise/articles/2023년 개인 회고.md",
+                "file": "fleeting/Effective-Java Item03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "readwise/articles/2023년 개인 회고.md",
+                "file": "fleeting/Effective-Java Item03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "readwise/articles/2023년 개인 회고.md"
+                "file": "fleeting/Effective-Java Item03.md"
               }
             }
           },
@@ -184,34 +228,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d19d2c56a9849e26",
+  "active": "e8255e766d506a13",
   "lastOpenFiles": [
-    "readwise/articles/2023년 개인 회고.md",
+    "fleeting/Effective-Java Item02.md",
+    "fleeting/Effective-Java Item03.md",
+    "private/library/book/부의 추월차선.md",
+    "private/library/book/인간관계론.md",
+    "private/daily/2024/2024-01-09.md",
     "anki/voca/voca2024.md",
-    "private/daily/2024/2024-01-08.md",
     "fleeting/Effective-Java Item01.md",
-    "private/daily/2024/2024-01-07.md",
+    "fleeting/Effective-Java Item01 1.md",
+    "private/library/book/평균의 종말.md",
+    "private/library/Library.md",
+    "private/daily/2024/2024-01-08.md",
     "private/daily/2024/2024-01-04.md",
-    "fleeting/신경 가소성 이론.md",
-    "private/직무 면접 질문지.md",
     "private/daily/2024/2024-01-06.md",
+    "private/daily/2024/2024-01-07.md",
+    "readwise/articles/2023년 개인 회고.md",
+    "private/직무 면접 질문지.md",
     "readwise/articles/2023년 Cto 회고.md",
     "readwise/articles/지향하는 개발 문화.md",
     "readwise/articles/스타트업 나쁜 개발 리더 종특.md",
     "private/daily/2024/2024-01-03.md",
-    "private/library/Library.md",
     "private/library/book/지적 대화를 위한 넓고 얕은 지식 1.md",
     "private/library/book/역행자.md",
     "private/library/book/시작의 기술.md",
     "private/library/book/오브젝트.md",
     "private/library/book/이펙티브 자바 Effective Java 3／E.md",
-    "private/library/book/부의 추월차선.md",
     "private/library/book/배민다움.md",
-    "private/library/book/도메인 주도 개발 시작하기.md",
-    "private/library/book/공간의 미래.md",
-    "private/library/book/거인의 노트.md",
-    "private/library/book/객체지향의 사실과 오해.md",
-    "private/library/book/개발자 원칙.md",
     "private/library/book/unread",
     "readwise/articles",
     "readwise",
