@@ -5,7 +5,7 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 12273466,
+  "lastSavedStatusID": 12324429,
   "currentSyncStatusID": 0,
   "refreshBooks": false,
   "booksToRefresh": [
@@ -23,9 +23,7 @@
   "booksIDsMap": {
     "readwise/articles/2023년 Cto 회고.md": "35967969",
     "readwise/articles/지향하는 개발 문화.md": "36058132",
-    "readwise/articles/스타트업 나쁜 개발 리더 종특.md": "36107454",
-    "readwise/articles/Mockito @Mock @MockBean @Spy @SpyBean 차이점.md": "36510354",
-    "readwise/articles/Spring Boot & JPA에서 Java와 Kotlin을 함께 사용하기.md": "36543730"
+    "readwise/articles/스타트업 나쁜 개발 리더 종특.md": "36107454"
   },
   "reimportShowConfirmation": true
 }

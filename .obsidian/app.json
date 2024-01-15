@@ -9,11 +9,7 @@
   "readableLineLength": false,
   "foldHeading": true,
   "spellcheck": true,
-  "userIgnoreFilters": [
-    "private/daily/",
-    "private/diary/",
-    "readwise/"
-  ],
+  "userIgnoreFilters": null,
   "showUnsupportedFiles": false,
   "attachmentFolderPath": "attachment",
   "strictLineBreaks": false,
