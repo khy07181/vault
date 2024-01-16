@@ -73,14 +73,6 @@
   ],
   "templater-obsidian:replace-in-file-templater": [],
   "workspace:new-tab": [],
-  "templater-obsidian:insert-templater": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "T"
-    }
-  ],
   "deepl:deepl-translate-selection": [
     {
       "modifiers": [
@@ -130,5 +122,16 @@
     }
   ],
   "switcher:open": [],
-  "obsidian-excalidraw-plugin:insert-link-to-element": []
+  "obsidian-excalidraw-plugin:insert-link-to-element": [],
+  "templater-obsidian:insert-templater": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ]
 }
