@@ -137,5 +137,11 @@ created: 2024-01-12 16:39
 - code editor
 - 가볍고 빠르다
 - 공동 작업, AI
+[Alacritty](https://github.com/alacritty/alacritty)
+- 가볍고 빠른 터미널
+[dolt](https://www.dolthub.com/)
+- git처럼 버전 관리가 되는 데이터 베이스 서비스
+[rmlint](https://github.com/sahib/rmlint)
+- 파일 시스템에서 중복, 빈 파일 등 필요없는 파일을 제거해주는 서비스
 
 ### Links
