@@ -5,7 +5,7 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 12360138,
+  "lastSavedStatusID": 12377821,
   "currentSyncStatusID": 0,
   "refreshBooks": false,
   "booksToRefresh": [
@@ -25,7 +25,8 @@
     "readwise/articles/지향하는 개발 문화.md": "36058132",
     "readwise/articles/스타트업 나쁜 개발 리더 종특.md": "36107454",
     "readwise/articles/모든 계획은 쓸모없다.md": "36687523",
-    "readwise/articles/악마😈같은 시니어 개발자👨‍💻의 매니징 기법.md": "36729439"
+    "readwise/articles/악마😈같은 시니어 개발자👨‍💻의 매니징 기법.md": "36729439",
+    "readwise/articles/지속가능한 코드리뷰 문화를 만드는 여정.md": "36766586"
   },
   "reimportShowConfirmation": true
 }
