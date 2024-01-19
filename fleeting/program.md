@@ -148,5 +148,10 @@ created: 2024-01-12 16:39
 - 가장 유명하고 평이 좋다.
 [Ulysses](https://ulysses.app/)
 - scrivener 대체
-
-### Links
+[Todoist](https://todoist.com/ko)
+- todo app
+[Ticktick](https://ticktick.com/)
+- todo app
+[Micosoft Todo](https://www.microsoft.com/ko-kr/microsoft-365/microsoft-to-do-list-app)
+- todo app
+[Things](https://culturedcode.com/things/)
