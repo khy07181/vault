@@ -155,3 +155,6 @@ created: 2024-01-12 16:39
 [Micosoft Todo](https://www.microsoft.com/ko-kr/microsoft-365/microsoft-to-do-list-app)
 - todo app
 [Things](https://culturedcode.com/things/)
+- mac/ios 환경 todo app
+[NotePlan](https://noteplan.co/)
+- markdown 노트 기반의 todo app

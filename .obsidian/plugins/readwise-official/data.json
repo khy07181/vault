@@ -5,7 +5,7 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 12394003,
+  "lastSavedStatusID": 12409471,
   "currentSyncStatusID": 0,
   "refreshBooks": false,
   "booksToRefresh": [
@@ -29,7 +29,8 @@
     "readwise/articles/지속가능한 코드리뷰 문화를 만드는 여정.md": "36766586",
     "readwise/articles/Ai에 대한 세 가지 질문 ‘공평, 창의, 소통’.md": "36818424",
     "readwise/articles/기술 문서 사이트로 Docusaurus 활용하기.md": "36818591",
-    "readwise/articles/스타트업, Si를 해도 되나요.md": "36818696"
+    "readwise/articles/스타트업, Si를 해도 되나요.md": "36818696",
+    "readwise/articles/거인의_포트폴리오.md": "36850683"
   },
   "reimportShowConfirmation": true
 }
