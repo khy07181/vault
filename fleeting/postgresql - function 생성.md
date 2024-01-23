@@ -28,7 +28,7 @@ CREATE FUNCTION add(a integer, b integer) RETURNS integer
     IMMUTABLE
     RETURNS NULL ON NULL INPUT
     RETURN a + b;
- ```
+```
 
  ```sql
  CREATE OR REPLACE FUNCTION calculate_sum(a integer, b integer)  

@@ -158,3 +158,7 @@ created: 2024-01-12 16:39
 - mac/ios 환경 todo app
 [NotePlan](https://noteplan.co/)
 - markdown 노트 기반의 todo app
+[Better-commit](https://github.com/Everduin94/better-commits)
+- 프롬프트를 통한 대화형 git message 작성
+[Plash](https://github.com/sindresorhus/Plash)
+- 웹 사이트를 배경화면으로
