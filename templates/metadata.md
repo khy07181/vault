@@ -5,5 +5,3 @@ categories:
 tags: 
 created: <% tp.file.creation_date() %>
 ---
-
-### Links
