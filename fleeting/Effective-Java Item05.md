@@ -82,9 +82,9 @@ class SpellCheckerTest {
 ```java
 public class DictionaryFactory {  
   
-public static DefaultDictionary get() {  
-return new DefaultDictionary();  
-}  
+	public static DefaultDictionary get() {  
+		return new DefaultDictionary();  
+	}  
   
 }
 ```
@@ -92,23 +92,23 @@ return new DefaultDictionary();
 ```java
 public class SpellChecker {  
   
-private final Dictionary dictionary;  
+	private final Dictionary dictionary;  
   
-public SpellChecker(Dictionary dictionary) {  
-this.dictionary = dictionary;  
-}  
+	public SpellChecker(Dictionary dictionary) {  
+		this.dictionary = dictionary;  
+	}  
   
-public SpellChecker(Supplier<Dictionary> dictionarySupplier) {  
-this.dictionary = dictionarySupplier.get();  
-}  
+	public SpellChecker(Supplier<Dictionary> dictionarySupplier) {  
+		this.dictionary = dictionarySupplier.get();  
+	}  
   
-public boolean isValid(String word) {  
-return dictionary.contains(word);  
-}  
+	public boolean isValid(String word) {  
+		return dictionary.contains(word);  
+	}  
   
-public List<String> suggestions(String typo) {  
-return dictionary.closeWordsTo(typo);  
-}  
+	public List<String> suggestions(String typo) {  
+		return dictionary.closeWordsTo(typo);  
+	}  
   
 }
 ```
@@ -122,7 +122,7 @@ return dictionary.closeWordsTo(typo);
 ```java
 public interface DictionaryFactory {  
   
-Dictionary getDictionary();  
+	Dictionary getDictionary();  
   
 }
 ```
@@ -130,10 +130,10 @@ Dictionary getDictionary();
 ```java
 public class DefaultDictionaryFactory implements DictionaryFactory {  
   
-@Override  
-public Dictionary getDictionary() {  
-return new DefaultDictionary();  
-}  
+	@Override  
+	public Dictionary getDictionary() {  
+		return new DefaultDictionary();  
+	}  
   
 }
 ```
@@ -141,19 +141,19 @@ return new DefaultDictionary();
 ```java
 public class SpellChecker {  
   
-private Dictionary dictionary;  
+	private Dictionary dictionary;  
   
-public SpellChecker(DictionaryFactory dictionaryFactory) {  
-this.dictionary = dictionaryFactory.getDictionary();  
-}  
+	public SpellChecker(DictionaryFactory dictionaryFactory) {  
+		this.dictionary = dictionaryFactory.getDictionary();  
+	}  
   
-public boolean isValid(String word) {  
-return dictionary.contains(word);  
-}  
+	public boolean isValid(String word) {  
+		return dictionary.contains(word);  
+	}  
   
-public List<String> suggestions(String typo) {  
-return dictionary.closeWordsTo(typo);  
-}  
+	public List<String> suggestions(String typo) {  
+		return dictionary.closeWordsTo(typo);  
+	}  
   
 }
 ```
@@ -163,10 +163,10 @@ return dictionary.closeWordsTo(typo);
 ```java
 public class MockDictionaryFactory implements DictionaryFactory {  
   
-@Override  
-public Dictionary getDictionary() {  
-return new MockDictionary();  
-}  
+	@Override  
+	public Dictionary getDictionary() {  
+		return new MockDictionary();  
+	}  
   
 }
 ```
@@ -181,16 +181,16 @@ return new MockDictionary();
 @Component  
 public class SpringDictionary implements Dictionary {  
   
-@Override  
-public boolean contains(String word) {  
-System.out.println("contains " + word);  
-return false;  
-}  
+	@Override  
+	public boolean contains(String word) {  
+		System.out.println("contains " + word);  
+		return false;  
+	}  
   
-@Override  
-public List<String> closeWordsTo(String typo) {  
-return null;  
-}  
+	@Override  
+		public List<String> closeWordsTo(String typo) {  
+		return null;  
+	}  
   
 }
 ```
@@ -199,19 +199,19 @@ return null;
 @Component  
 public class SpellChecker {  
   
-private Dictionary dictionary;  
+	private Dictionary dictionary;  
   
-public SpellChecker(Dictionary dictionary) {  
-this.dictionary = dictionary;  
-}  
+	public SpellChecker(Dictionary dictionary) {  
+		this.dictionary = dictionary;  
+	}  
   
-public boolean isValid(String word) {  
-return dictionary.contains(word);  
-}  
+	public boolean isValid(String word) {  
+		return dictionary.contains(word);  
+	}  
   
-public List<String> suggestions(String typo) {  
-return dictionary.closeWordsTo(typo);  
-}  
+	public List<String> suggestions(String typo) {  
+		return dictionary.closeWordsTo(typo);  
+	}  
 }
 ```
 
@@ -226,11 +226,11 @@ public class AppConfig {
 ```java
 public class App {  
   
-public static void main(String[] args) {  
-ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);  
-SpellChecker spellChecker = applicationContext.getBean(SpellChecker.class);  
-spellChecker.isValid("test");  
-}  
+	public static void main(String[] args) {  
+		ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);  
+		SpellChecker spellChecker = applicationContext.getBean(SpellChecker.class);  
+		spellChecker.isValid("test");  
+	}  
 }
 
 ```
