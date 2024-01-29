@@ -100,7 +100,6 @@ created: 2024-01-12 16:39
 - 프로세스 모니터링 툴
 [lolcat]()
 - terminal 출력에 색을 입혀주는 프로그램
-
 [m-cli](https://github.com/rgcr/m-cli)
 - mac os command line tool
 [mas](https://github.com/mas-cli/mas)
@@ -111,6 +110,8 @@ created: 2024-01-12 16:39
 - 로컬 네트워크 내에서 직접 연결된 것처럼 리모트 컴퓨터에 로그온하여 사용할 수 있도록 하는 프로토콜
 [zoxide](https://github.com/ajeetdsouza/zoxide)
 - smarter cd command
+[calibre](https://calibre-ebook.com/)
+- ebook 관리 서비스
 
 ### unuse
 
@@ -132,7 +133,7 @@ created: 2024-01-12 16:39
 [Devonthink](https://www.devontechnologies.com/apps/devonthink)
 - 개인용 데이터 베이스
 [Keep It](https://reinventedsoftware.com/keepit/)
-- Devonthink 보다 가볍고 러닝커브가 낮은 서비스
+- Devonthink 보다 가볍고 러닝 커브가 낮은 서비스
 [Zed](https://zed.dev/)
 - code editor
 - 가볍고 빠르다
