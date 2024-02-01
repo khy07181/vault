@@ -5,7 +5,7 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 12552761,
+  "lastSavedStatusID": 12559239,
   "currentSyncStatusID": 0,
   "refreshBooks": false,
   "booksToRefresh": [
@@ -19,7 +19,8 @@
     "35967969",
     "35967969",
     "36058132",
-    "36990899"
+    "36990899",
+    "37173646"
   ],
   "booksIDsMap": {
     "readwise/articles/2023년 Cto 회고.md": "35967969",
@@ -34,7 +35,8 @@
     "readwise/articles/거인의_포트폴리오.md": "36850683",
     "readwise/articles/좋은 리더가 되는 방법.md": "36911757",
     "readwise/articles/그 많은 개발 문서는 누가 다 만들었을까 (1) 토스페이먼츠 테크니컬 라이터가 하는 일.md": "36991626",
-    "readwise/articles/성장하는 조직의 기술 부채는 언제 갚을까.md": "37070935"
+    "readwise/articles/성장하는 조직의 기술 부채는 언제 갚을까.md": "37070935",
+    "readwise/articles/@Transactional의 해로움.md": "37183132"
   },
   "reimportShowConfirmation": true
 }
