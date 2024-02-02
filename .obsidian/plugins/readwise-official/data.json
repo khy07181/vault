@@ -5,23 +5,10 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 12559239,
+  "lastSavedStatusID": 12624939,
   "currentSyncStatusID": 0,
-  "refreshBooks": false,
-  "booksToRefresh": [
-    "36058132",
-    "35967969",
-    "36058132",
-    "35967969",
-    "36058132",
-    "35967969",
-    "36058132",
-    "35967969",
-    "35967969",
-    "36058132",
-    "36990899",
-    "37173646"
-  ],
+  "refreshBooks": true,
+  "booksToRefresh": [],
   "booksIDsMap": {
     "readwise/articles/2023년 Cto 회고.md": "35967969",
     "readwise/articles/지향하는 개발 문화.md": "36058132",
@@ -32,11 +19,14 @@
     "readwise/articles/Ai에 대한 세 가지 질문 ‘공평, 창의, 소통’.md": "36818424",
     "readwise/articles/기술 문서 사이트로 Docusaurus 활용하기.md": "36818591",
     "readwise/articles/스타트업, Si를 해도 되나요.md": "36818696",
-    "readwise/articles/거인의_포트폴리오.md": "36850683",
     "readwise/articles/좋은 리더가 되는 방법.md": "36911757",
     "readwise/articles/그 많은 개발 문서는 누가 다 만들었을까 (1) 토스페이먼츠 테크니컬 라이터가 하는 일.md": "36991626",
     "readwise/articles/성장하는 조직의 기술 부채는 언제 갚을까.md": "37070935",
-    "readwise/articles/@Transactional의 해로움.md": "37183132"
+    "readwise/articles/PM의 생산적인 일정관리 방법, Time Blocking.md": "37316562",
+    "readwise/articles/PM의 생산적인 일정관리 방법, Day Theming.md": "37316587",
+    "readwise/articles/생산성 있는 Review 문화가 되기까지.md": "37319694",
+    "readwise/articles/물고기는_존재하지_않는다.md": "37173646",
+    "readwise/articles/고르곤졸라는 되지만 고르곤 졸라는 안 돼! 배달의민족에서 금칙어를 관리하는 방법.md": "36990899"
   },
   "reimportShowConfirmation": true
 }

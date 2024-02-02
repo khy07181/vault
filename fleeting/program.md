@@ -73,8 +73,6 @@ created: 2024-01-12 16:39
 - 지리 정보 프로그램
 [raycast](https://www.raycast.com/)
 - spotlight + Alfred
-[rize](https://rize.io/)
-- mac 시간 관리 트래킹
 [shottr](https://shottr.cc/)
 - mac 캡쳐 프로그램
 - 스크롤 캡쳐, 블러 처리 기능
@@ -163,3 +161,9 @@ created: 2024-01-12 16:39
 - 프롬프트를 통한 대화형 git message 작성
 [Plash](https://github.com/sindresorhus/Plash)
 - 웹 사이트를 배경화면으로
+[Sumsama](https://www.sunsama.com/)
+- Time blocking
+[MOBA](https://www.moba.works/#Feature)
+- Time blocking
+[rize](https://rize.io/)
+- mac 시간 관리 트래킹
