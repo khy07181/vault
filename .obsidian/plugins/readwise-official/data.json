@@ -5,10 +5,13 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 12624939,
+  "lastSavedStatusID": 12656519,
   "currentSyncStatusID": 0,
-  "refreshBooks": true,
-  "booksToRefresh": [],
+  "refreshBooks": false,
+  "booksToRefresh": [
+    "36990899",
+    "37173646"
+  ],
   "booksIDsMap": {
     "readwise/articles/2023년 Cto 회고.md": "35967969",
     "readwise/articles/지향하는 개발 문화.md": "36058132",
@@ -25,8 +28,7 @@
     "readwise/articles/PM의 생산적인 일정관리 방법, Time Blocking.md": "37316562",
     "readwise/articles/PM의 생산적인 일정관리 방법, Day Theming.md": "37316587",
     "readwise/articles/생산성 있는 Review 문화가 되기까지.md": "37319694",
-    "readwise/articles/물고기는_존재하지_않는다.md": "37173646",
-    "readwise/articles/고르곤졸라는 되지만 고르곤 졸라는 안 돼! 배달의민족에서 금칙어를 관리하는 방법.md": "36990899"
+    "readwise/books/개인주의자 선언.md": "37381391"
   },
   "reimportShowConfirmation": true
 }

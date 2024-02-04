@@ -30,6 +30,5 @@ git config --global gpg.program /usr/local/MacGPG2/bin/gpg
 
 로 변경하니 다시 커밋이 된다.
 
-```ad-question
-아직도 gpg 경로가 갑자기 바뀐 이유는 모르겠다.
-```
+>[!question]
+>아직도 gpg 경로가 갑자기 바뀐 이유는 모르겠다.
