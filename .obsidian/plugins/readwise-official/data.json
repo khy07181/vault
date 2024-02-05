@@ -5,7 +5,7 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 12670333,
+  "lastSavedStatusID": 12656519,
   "currentSyncStatusID": 0,
   "refreshBooks": false,
   "booksToRefresh": [
@@ -28,13 +28,7 @@
     "readwise/articles/PM의 생산적인 일정관리 방법, Time Blocking.md": "37316562",
     "readwise/articles/PM의 생산적인 일정관리 방법, Day Theming.md": "37316587",
     "readwise/articles/생산성 있는 Review 문화가 되기까지.md": "37319694",
-    "readwise/books/개인주의자 선언.md": "37381391",
-    "readwise/articles/15초의 승부  이력서 작성의 세계 — 1.md": "37407306",
-    "readwise/articles/15초의 승부  이력서 검토의 세계 — 2.md": "37407352",
-    "readwise/articles/진정한 실험 조직의 탄생.md": "37415413",
-    "readwise/articles/코드 리뷰 in 뱅크샐러드 개발 문화.md": "37415385",
-    "readwise/articles/하루에 1000번 배포하는 조직 되기.md": "37416093",
-    "readwise/articles/뱅크샐러드의 특별한 스펙, '테크 스펙'.md": "37416256"
+    "readwise/books/개인주의자 선언.md": "37381391"
   },
   "reimportShowConfirmation": true
 }
