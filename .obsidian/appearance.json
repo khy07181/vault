@@ -1,9 +1,14 @@
 {
   "accentColor": "",
-  "theme": "moonstone",
+  "theme": "obsidian",
   "cssTheme": "",
   "translucency": false,
   "baseFontSize": 17,
   "baseFontSizeAction": false,
-  "showViewHeader": true
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "calendar",
+    "palette",
+    "properties"
+  ]
 }

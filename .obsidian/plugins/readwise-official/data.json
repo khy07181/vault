@@ -5,7 +5,7 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 12656519,
+  "lastSavedStatusID": 12707091,
   "currentSyncStatusID": 0,
   "refreshBooks": false,
   "booksToRefresh": [
@@ -28,7 +28,11 @@
     "readwise/articles/PM의 생산적인 일정관리 방법, Time Blocking.md": "37316562",
     "readwise/articles/PM의 생산적인 일정관리 방법, Day Theming.md": "37316587",
     "readwise/articles/생산성 있는 Review 문화가 되기까지.md": "37319694",
-    "readwise/books/개인주의자 선언.md": "37381391"
+    "readwise/books/개인주의자 선언.md": "37381391",
+    "readwise/articles/신입 엔지니어를 채용하는 것.md": "37470330",
+    "readwise/articles/후회하지 않으며 살아간다는 것.md": "37474261",
+    "readwise/articles/채용 한파에 카카오뱅크 최종 합격 후기.md": "37474346",
+    "readwise/articles/일의 난이도 높이기.md": "37474461"
   },
   "reimportShowConfirmation": true
 }
