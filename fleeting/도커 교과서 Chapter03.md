@@ -53,14 +53,14 @@ CMD ["node", "/web-ping/app.js"]
 	- 도커가 이미지로부터 컨테이너를 실행했을 때 실행할 명령을 지정하는 instruction
 
 이미지 레이어를 여러 이미지가 공유한다면, 공유되는 레이어는 수정할 수 없어야 한다.
-만약 이미지의 레이어를 수정할 수 있다면 그 수정이 레이러를 공유하는 다른 이미지에도 영향을 미치게 된다.
+만약 이미지의 레이어를 수정할 수 있다면 그 수정이 레이어를 공유하는 다른 이미지에도 영향을 미치게 된다.
 도커는 이미지 레이어를 읽기 전용으로 만들어서 문제를 방지한다. 이미지를 빌드하면서 레이어가 만들어지면 레이어는 다른 이미지에서 재사용될 수 있다. 그러나 수정할 수는 없다.
 
 #### Dockerfile script optimize
 
 도커는 캐시에 일치하는 레이어가 있는지 확인하기 위해 해시값을 이용한다. 기존 이미지 레이어에 해시값이 일치하는 것이 없다면 캐시 미스가 발생하고 해당 instruction 이 실행된다. 따라서 중간에 instruction 결과가 다르다면 그 이후 instruction 들은 수정된 것이 없더라도 모두 실행된다.
 **Dockerfile 의 instruction 은 수정이 자주 일어나지 않는 것이 앞으로 오고 수정이 자주 일어나는 것이 뒤에 오도록 배치해야 한다.
-캐시에 저장된 이미지 레이어를 많이 재사용하고, 시간, 디스크 용량, 네트워크 대여폭을 모두 절약할 수 있다.**
+캐시에 저장된 이미지 레이어를 많이 재사용하고, 시간, 디스크 용량, 네트워크 대역폭을 모두 절약할 수 있다.**
 
 위 Dockerfile을 최적화하면 다음과 같다.
 
@@ -80,5 +80,5 @@ COPY app.js .
 
 ### Links
 
-[도커 교과서 - 3장 도커 이미지 만들기](https://read.readwise.io/read/01hnryq9qrm1cq52ccj5ey6cwa)
+[Readwise - 도커 교과서](https://read.readwise.io/read/01hnryq9qrm1cq52ccj5ey6cwa)
 [DockerFile reference](https://docs.docker.com/engine/reference/builder/#format)

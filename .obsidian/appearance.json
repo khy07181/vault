@@ -1,7 +1,7 @@
 {
-  "accentColor": "",
-  "theme": "obsidian",
-  "cssTheme": "",
+  "accentColor": "#8a5cf5",
+  "theme": "moonstone",
+  "cssTheme": "Minimal",
   "translucency": false,
   "baseFontSize": 17,
   "baseFontSizeAction": false,
@@ -9,6 +9,6 @@
   "enabledCssSnippets": [
     "calendar",
     "palette",
-    "properties"
+    "inline-code"
   ]
 }
