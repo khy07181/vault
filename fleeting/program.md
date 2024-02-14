@@ -33,7 +33,7 @@ created: 2024-01-12 16:39
 - API platform
 [vscode](https://code.visualstudio.com/)
 - code editor
-[fork](https://git-fork.com/)
+[git kraken](https://www.gitkraken.com/)
 - git GUI
 [arc](https://arc.net/)
 - web browser
@@ -115,8 +115,6 @@ created: 2024-01-12 16:39
 
 [dbeaver](https://dbeaver.io/)
 - database tool
-[git kraken](https://www.gitkraken.com/)
-- git GUI
 [lsd](https://github.com/lsd-rs/lsd)
 - terminal ls 명령어 대체
 [pcloud](https://www.pcloud.com/)
@@ -167,3 +165,8 @@ created: 2024-01-12 16:39
 - Time blocking
 [rize](https://rize.io/)
 - mac 시간 관리 트래킹
+[fork](https://git-fork.com/)
+- git GUI
+[GitButler](https://gitbutler.com/)
+- git GUI
+- 가상 브랜치

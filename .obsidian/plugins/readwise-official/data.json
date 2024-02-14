@@ -5,7 +5,7 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 12707091,
+  "lastSavedStatusID": 12812847,
   "currentSyncStatusID": 0,
   "refreshBooks": false,
   "booksToRefresh": [
@@ -32,7 +32,9 @@
     "readwise/articles/신입 엔지니어를 채용하는 것.md": "37470330",
     "readwise/articles/후회하지 않으며 살아간다는 것.md": "37474261",
     "readwise/articles/채용 한파에 카카오뱅크 최종 합격 후기.md": "37474346",
-    "readwise/articles/일의 난이도 높이기.md": "37474461"
+    "readwise/articles/일의 난이도 높이기.md": "37474461",
+    "readwise/articles/혼란함에 익숙해지기.md": "37657564",
+    "readwise/articles/거인의_노트.md": "37673238"
   },
   "reimportShowConfirmation": true
 }
