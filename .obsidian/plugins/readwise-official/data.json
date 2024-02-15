@@ -5,7 +5,7 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 12812847,
+  "lastSavedStatusID": 12828574,
   "currentSyncStatusID": 0,
   "refreshBooks": false,
   "booksToRefresh": [
@@ -34,7 +34,9 @@
     "readwise/articles/채용 한파에 카카오뱅크 최종 합격 후기.md": "37474346",
     "readwise/articles/일의 난이도 높이기.md": "37474461",
     "readwise/articles/혼란함에 익숙해지기.md": "37657564",
-    "readwise/articles/거인의_노트.md": "37673238"
+    "readwise/articles/거인의_노트.md": "37673238",
+    "readwise/articles/거인의 노트.md": "37673238",
+    "readwise/articles/세상에서 가장 빠른 이메일 경험, 슈퍼휴먼.md": "37724615"
   },
   "reimportShowConfirmation": true
 }

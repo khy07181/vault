@@ -170,3 +170,8 @@ created: 2024-01-12 16:39
 [GitButler](https://gitbutler.com/)
 - git GUI
 - 가상 브랜치
+[HEY](https://www.hey.com/?ref=canda.blog)
+- email
+[SUPERHUMAN](https://superhuman.com/)
+- email
+- 아무나 쓸 수 없는(?) 이메일 서비스

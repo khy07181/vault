@@ -29,6 +29,6 @@
   "minimal-advanced@@hide-markdown": false,
   "minimal-advanced@@cursor": "default",
   "minimal-style@@bold-color@@light": "#8A5CF5",
-  "minimal-style@@code-normal@@light": "#8A5CF5",
-  "minimal-style@@h4-size": "1.1em"
+  "minimal-style@@h4-size": "1.1em",
+  "minimal-style@@code-normal@@light": "#97B11C"
 }
