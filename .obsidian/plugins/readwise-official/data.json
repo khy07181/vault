@@ -3,10 +3,10 @@
   "readwiseDir": "readwise",
   "frequency": "0",
   "triggerOnLoad": true,
-  "isSyncing": false,
+  "isSyncing": true,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 12888965,
-  "currentSyncStatusID": 0,
+  "lastSavedStatusID": 12828574,
+  "currentSyncStatusID": 12912099,
   "refreshBooks": false,
   "booksToRefresh": [
     "36990899",

@@ -11,7 +11,7 @@
   "spellcheck": true,
   "userIgnoreFilters": null,
   "showUnsupportedFiles": false,
-  "attachmentFolderPath": "attachment",
+  "attachmentFolderPath": "attachment/img",
   "strictLineBreaks": false,
   "foldIndent": true,
   "rightToLeft": false,
