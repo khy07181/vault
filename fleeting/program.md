@@ -110,6 +110,8 @@ created: 2024-01-12 16:39
 - smarter cd command
 [calibre](https://calibre-ebook.com/)
 - ebook 관리 서비스
+[Superlist](https://www.superlist.com/)
+- 마크다운 기반의 todo + note
 
 ### unuse
 
