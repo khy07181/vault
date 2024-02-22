@@ -5,7 +5,7 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 12929813,
+  "lastSavedStatusID": 12947521,
   "currentSyncStatusID": 0,
   "refreshBooks": false,
   "booksToRefresh": [
@@ -36,10 +36,7 @@
     "readwise/articles/혼란함에 익숙해지기.md": "37657564",
     "readwise/articles/거인의_노트.md": "37673238",
     "readwise/articles/거인의 노트.md": "37673238",
-    "readwise/articles/세상에서 가장 빠른 이메일 경험, 슈퍼휴먼.md": "37724615",
-    "readwise/articles/캐시 문제 해결 가이드 - Db 과부하 방지 실전 팁.md": "37894995",
-    "readwise/articles/2.1 살아남는 놈이 강한 놈이다.md": "37897215",
-    "readwise/articles/고전 돌아보기, C10K 문제.md": "37900027"
+    "readwise/articles/세상에서 가장 빠른 이메일 경험, 슈퍼휴먼.md": "37724615"
   },
   "reimportShowConfirmation": true
 }
