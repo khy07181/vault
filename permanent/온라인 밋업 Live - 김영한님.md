@@ -1,5 +1,5 @@
 ---
-title: 김영한님 온라인 밋업 Live
+title: 온라인 밋업 Live - 김영한님
 aliases: 
 categories: 
 tags: 
