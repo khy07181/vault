@@ -5,7 +5,7 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 12999250,
+  "lastSavedStatusID": 13014267,
   "currentSyncStatusID": 0,
   "refreshBooks": false,
   "booksToRefresh": [
@@ -36,7 +36,11 @@
     "readwise/articles/혼란함에 익숙해지기.md": "37657564",
     "readwise/articles/거인의_노트.md": "37673238",
     "readwise/articles/거인의 노트.md": "37673238",
-    "readwise/articles/세상에서 가장 빠른 이메일 경험, 슈퍼휴먼.md": "37724615"
+    "readwise/articles/세상에서 가장 빠른 이메일 경험, 슈퍼휴먼.md": "37724615",
+    "readwise/articles/게으른 완벽주의자를 위한 심리학.md": "38112973",
+    "readwise/articles/AMA와 Anonymous 질문.md": "38114861",
+    "readwise/articles/말할려면 어떻게든 들어야 한다..md": "38114882",
+    "readwise/articles/개발자가 문제 해결 과정에서 마주치는 어려움의 유형 3가지.md": "38114995"
   },
   "reimportShowConfirmation": true
 }
