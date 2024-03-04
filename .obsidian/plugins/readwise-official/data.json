@@ -5,7 +5,7 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 13118805,
+  "lastSavedStatusID": 13136627,
   "currentSyncStatusID": 0,
   "refreshBooks": false,
   "booksToRefresh": [
@@ -36,7 +36,9 @@
     "readwise/articles/혼란함에 익숙해지기.md": "37657564",
     "readwise/articles/거인의_노트.md": "37673238",
     "readwise/articles/거인의 노트.md": "37673238",
-    "readwise/articles/세상에서 가장 빠른 이메일 경험, 슈퍼휴먼.md": "37724615"
+    "readwise/articles/세상에서 가장 빠른 이메일 경험, 슈퍼휴먼.md": "37724615",
+    "readwise/articles/좋은 오프보딩.md": "38359663",
+    "readwise/articles/초거대 Ai 시대, 대체불가 개발자로 살아남기.md": "38359679"
   },
   "reimportShowConfirmation": true
 }
