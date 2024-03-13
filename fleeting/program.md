@@ -112,6 +112,11 @@ created: 2024-01-12 16:39
 - ebook 관리 서비스
 [Superlist](https://www.superlist.com/)
 - 마크다운 기반의 todo + note
+[1Password](https://1password.com/ko)
+- password 관리
+
+
+---
 
 ### unuse
 
@@ -124,8 +129,6 @@ created: 2024-01-12 16:39
 - Lifetime 요금이 있다.
 [Homerow](https://www.homerow.app/)
 - 키보드로 모든 프로그램 제어할 수 있는 app
-[1Password](https://1password.com/ko)
-- password 관리
 [bitwarden](https://bitwarden.com/)
 - password 관리
 [Devonthink](https://www.devontechnologies.com/apps/devonthink)
