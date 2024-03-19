@@ -5,7 +5,7 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 13290903,
+  "lastSavedStatusID": 13387308,
   "currentSyncStatusID": 0,
   "refreshBooks": false,
   "booksToRefresh": [
@@ -39,7 +39,8 @@
     "readwise/articles/세상에서 가장 빠른 이메일 경험, 슈퍼휴먼.md": "37724615",
     "readwise/articles/좋은 오프보딩.md": "38359663",
     "readwise/articles/초거대 Ai 시대, 대체불가 개발자로 살아남기.md": "38359679",
-    "readwise/articles/글쓰기 특강.md": "38376656"
+    "readwise/articles/글쓰기 특강.md": "38376656",
+    "readwise/articles/동기부여의 어려움.md": "38810205"
   },
   "reimportShowConfirmation": true
 }
