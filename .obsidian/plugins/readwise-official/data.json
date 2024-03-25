@@ -5,7 +5,7 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 13387308,
+  "lastSavedStatusID": 13483926,
   "currentSyncStatusID": 0,
   "refreshBooks": false,
   "booksToRefresh": [
@@ -40,7 +40,9 @@
     "readwise/articles/좋은 오프보딩.md": "38359663",
     "readwise/articles/초거대 Ai 시대, 대체불가 개발자로 살아남기.md": "38359679",
     "readwise/articles/글쓰기 특강.md": "38376656",
-    "readwise/articles/동기부여의 어려움.md": "38810205"
+    "readwise/articles/동기부여의 어려움.md": "38810205",
+    "readwise/articles/평균의 종말.md": "39000960",
+    "readwise/articles/셸 스크립트를 몰라도 자동화는 하고 싶어, ChatGPT를 활용한 Git Flow 관리 스크립트 자동화 진행기.md": "39004734"
   },
   "reimportShowConfirmation": true
 }
