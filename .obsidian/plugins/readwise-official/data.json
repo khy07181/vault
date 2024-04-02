@@ -5,13 +5,12 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 13501715,
+  "lastSavedStatusID": 13617802,
   "currentSyncStatusID": 0,
   "refreshBooks": false,
   "booksToRefresh": [
     "36990899",
-    "37173646",
-    "39004734"
+    "37173646"
   ],
   "booksIDsMap": {
     "readwise/articles/2023년 Cto 회고.md": "35967969",
@@ -41,8 +40,8 @@
     "readwise/articles/좋은 오프보딩.md": "38359663",
     "readwise/articles/초거대 Ai 시대, 대체불가 개발자로 살아남기.md": "38359679",
     "readwise/articles/글쓰기 특강.md": "38376656",
-    "readwise/articles/동기부여의 어려움.md": "38810205",
-    "readwise/articles/평균의 종말.md": "39000960"
+    "readwise/articles/객체지향의_사실과_오해.md": "37412429",
+    "readwise/articles/혼란하게 진행하기.md": "39210516"
   },
   "reimportShowConfirmation": true
 }
