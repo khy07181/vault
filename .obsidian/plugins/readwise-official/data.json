@@ -5,7 +5,7 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 13635368,
+  "lastSavedStatusID": 13668711,
   "currentSyncStatusID": 0,
   "refreshBooks": false,
   "booksToRefresh": [
@@ -41,7 +41,8 @@
     "readwise/articles/초거대 Ai 시대, 대체불가 개발자로 살아남기.md": "38359679",
     "readwise/articles/글쓰기 특강.md": "38376656",
     "readwise/articles/객체지향의_사실과_오해.md": "37412429",
-    "readwise/articles/혼란하게 진행하기.md": "39210516"
+    "readwise/articles/혼란하게 진행하기.md": "39210516",
+    "readwise/articles/입사 2개월차 백엔드 개발자의 우당탕탕 개발 성장기.md": "39335875"
   },
   "reimportShowConfirmation": true
 }
