@@ -3,6 +3,7 @@
   "cedictPath": "./cedict_ts.u8",
   "matchStrategy": "prefix",
   "fuzzyMatch": true,
+  "minFuzzyMatchScore": 0.5,
   "matchingWithoutEmoji": true,
   "treatAccentDiacriticsAsAlphabeticCharacters": false,
   "maxNumberOfSuggestions": 5,
@@ -14,19 +15,48 @@
   "disableSuggestionsDuringImeOn": false,
   "insertAfterCompletion": true,
   "firstCharactersDisableSuggestions": ":/^",
-  "useCommonPrefixCompletionOfSuggestion": false,
   "patternsToSuppressTrigger": [
     "^~~~.*",
     "^```.*"
   ],
+  "phrasePatternsToSuppressTrigger": [],
+  "noAutoFocusUntilCycle": false,
   "showMatchStrategy": true,
   "showComplementAutomatically": true,
   "showIndexingStatus": true,
   "descriptionOnSuggestion": "Short",
-  "selectSuggestionKeys": "Enter",
-  "additionalCycleThroughSuggestionsKeys": "None",
-  "disableUpDownKeysForCycleThroughSuggestionsKeys": false,
-  "openSourceFileKey": "None",
+  "hotkeys": {
+    "select": [
+      {
+        "modifiers": [],
+        "key": "Enter"
+      }
+    ],
+    "up": [
+      {
+        "modifiers": [],
+        "key": "ArrowUp"
+      }
+    ],
+    "down": [
+      {
+        "modifiers": [],
+        "key": "ArrowDown"
+      }
+    ],
+    "select 1st": [],
+    "select 2nd": [],
+    "select 3rd": [],
+    "select 4th": [],
+    "select 5th": [],
+    "select 6th": [],
+    "select 7th": [],
+    "select 8th": [],
+    "select 9th": [],
+    "open": [],
+    "completion": [],
+    "insert as text": []
+  },
   "propagateEsc": false,
   "enableCurrentFileComplement": true,
   "currentFileMinNumberOfCharacters": 0,
@@ -53,159 +83,22 @@
     "beforeRegExp": "",
     "after": ""
   },
+  "frontMatterKeyForExclusionInternalLink": "",
   "enableFrontMatterComplement": true,
   "frontMatterComplementMatchStrategy": "inherit",
   "insertCommaAfterFrontMatterCompletion": false,
   "intelligentSuggestionPrioritization": {
+    "enabled": true,
+    "historyFilePath": "",
     "maxDaysToKeepHistory": 30,
     "maxNumberOfHistoryToKeep": 0
   },
   "disableOnMobile": false,
   "showLogAboutPerformanceInConsole": false,
-  "selectionHistoryTree": {
-    "daily-note": {
-      "daily-note": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1685685864720
-        }
-      }
-    },
-    "private": {
-      "private": {
-        "frontMatter": {
-          "count": 2,
-          "lastUpdated": 1686624908072
-        }
-      }
-    },
-    "diary": {
-      "diary": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1685686511411
-        }
-      }
-    },
-    "Thread.sleep() vs TimeUnit.sleep()": {
-      "Thread.sleep() vs TimeUnit.sleep()": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1685688898323
-        }
-      }
-    },
-    "개발자 원칙": {
-      "개발자 원칙": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1685689966420
-        }
-      }
-    },
-    "자기 계발": {
-      "자기 계발": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1685691556252
-        }
-      }
-    },
-    "unread": {
-      "unread": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1685691568173
-        }
-      }
-    },
-    "ebook": {
-      "ebook": {
-        "frontMatter": {
-          "count": 3,
-          "lastUpdated": 1689486295039
-        }
-      }
-    },
-    "2022-12-20": {
-      "2022-12-20": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1685691881456
-        }
-      }
-    },
-    "개발": {
-      "개발": {
-        "frontMatter": {
-          "count": 3,
-          "lastUpdated": 1685691892029
-        }
-      }
-    },
-    "reading": {
-      "reading": {
-        "frontMatter": {
-          "count": 3,
-          "lastUpdated": 1689079912708
-        }
-      }
-    },
-    "Encrypt": {
-      "Encrypt": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1685954637652
-        }
-      }
-    },
-    "findAny": {
-      "findAny": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1686725685137
-        }
-      }
-    },
-    "findFirst": {
-      "findFirst": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1686725702080
-        }
-      }
-    },
-    "element를": {
-      "element를": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1686725697904
-        }
-      }
-    },
-    "%%🔐α": {
-      "%%🔐α": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1688193965117
-        }
-      }
-    },
-    "Settings": {
-      "Settings": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1689085618652
-        }
-      }
-    },
-    "⭐⭐⭐⭐": {
-      "⭐⭐⭐⭐": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1689486292190
-        }
-      }
-    }
-  }
+  "selectionHistoryTree": {},
+  "useCommonPrefixCompletionOfSuggestion": false,
+  "selectSuggestionKeys": "Enter",
+  "additionalCycleThroughSuggestionsKeys": "None",
+  "disableUpDownKeysForCycleThroughSuggestionsKeys": false,
+  "openSourceFileKey": "None"
 }

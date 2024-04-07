@@ -114,7 +114,12 @@ created: 2024-01-12 16:39
 - 마크다운 기반의 todo + note
 [1Password](https://1password.com/ko)
 - password 관리
-
+[Across](https://alabaster-muse-a91.notion.site/Across-Modern-Calendar-4c1c677b81fb43b796139fb102e5782e)
+- calendar + todo
+- 구글 캘린더, 미리 알림 연동
+[Espanso](https://espanso.org/docs/get-started/)
+- text expander
+- snippet
 
 ---
 
