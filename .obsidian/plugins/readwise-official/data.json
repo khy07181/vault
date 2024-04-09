@@ -3,9 +3,9 @@
   "readwiseDir": "readwise",
   "frequency": "0",
   "triggerOnLoad": true,
-  "isSyncing": true,
+  "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 13727829,
+  "lastSavedStatusID": 13733464,
   "currentSyncStatusID": 0,
   "refreshBooks": false,
   "booksToRefresh": [
@@ -43,7 +43,8 @@
     "readwise/articles/객체지향의_사실과_오해.md": "37412429",
     "readwise/articles/혼란하게 진행하기.md": "39210516",
     "readwise/articles/입사 2개월차 백엔드 개발자의 우당탕탕 개발 성장기.md": "39335875",
-    "readwise/articles/원격 근무 개발자와 협업 하기, a to Z.md": "39422126"
+    "readwise/articles/원격 근무 개발자와 협업 하기, a to Z.md": "39422126",
+    "readwise/articles/일의 힘듦.md": "39446377"
   },
   "reimportShowConfirmation": true
 }
