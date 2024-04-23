@@ -25,5 +25,6 @@
   "obsidian-minimal-settings",
   "obsidian-style-settings",
   "merge-notes",
-  "settings-search"
+  "settings-search",
+  "find-unlinked-files"
 ]
