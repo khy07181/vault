@@ -186,3 +186,6 @@ created: 2024-01-12 16:39
 [SUPERHUMAN](https://superhuman.com/)
 - email
 - 아무나 쓸 수 없는(?) 이메일 서비스
+[Akiflow](https://akiflow.com/)
+- 할일 관리, 일정 관리 서비스
+- 연동성이 좋음
