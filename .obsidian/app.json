@@ -15,7 +15,7 @@
   "strictLineBreaks": false,
   "foldIndent": true,
   "rightToLeft": false,
-  "showInlineTitle": true,
+  "showInlineTitle": false,
   "pdfExportSettings": {
     "pageSize": "Letter",
     "landscape": false,
