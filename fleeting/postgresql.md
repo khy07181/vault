@@ -132,3 +132,14 @@ select st_distancesphere(st_point(longitude_1, latitude_1), st_point(longitude_2
 ```sql
 select similarity(text, text);
 ```
+
+### 테이블 생성 순서
+```sql
+SELECT schemaname,  
+       tablename  
+FROM pg_tables  
+         JOIN  
+     pg_class ON pg_tables.tablename = pg_class.relname  
+WHERE schemaname NOT IN ('pg_catalog', 'information_schema')  
+ORDER BY relfilenode desc;
+```
