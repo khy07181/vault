@@ -5,7 +5,7 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 14607451,
+  "lastSavedStatusID": 14626775,
   "currentSyncStatusID": 0,
   "refreshBooks": false,
   "booksToRefresh": [
@@ -47,7 +47,8 @@
     "readwise/articles/일의 힘듦.md": "39446377",
     "readwise/articles/두뇌(Brain)의 엑기스를 담은 BRAIN 노트 템플릿.md": "40385674",
     "readwise/articles/시니어를 위한 기술, 제론테크의 미래.md": "40826679",
-    "readwise/articles/운송 관리 시스템(tms)의 탄생부터 현장에서 사용하기까지.md": "40826745"
+    "readwise/articles/운송 관리 시스템(tms)의 탄생부터 현장에서 사용하기까지.md": "40826745",
+    "readwise/articles/너무 똑똑한 사람이 되지 않기.md": "41172325"
   },
   "reimportShowConfirmation": true
 }
