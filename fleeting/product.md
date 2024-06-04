@@ -193,7 +193,7 @@ created: 2024-01-12 16:39
 - app 실행 전 일정 시간 딜레이
 [unhook](https://unhook.app/)
 - 크롬 익스텐션
-- 유튜브의 관련 동영상, 쇼츠, 추천과 같은 방해 요소를 안보이게 해주는 서비스
+- 유튜브의 관련 동영상, 쇼츠, 추천과 같은 방해 요소를 안보이게 해주는 서비스b
 [Beeper](https://www.beeper.com/)
 - All your chats in one app
 - i-Message 관련 논란이 있다.
