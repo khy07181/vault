@@ -1,0 +1,20 @@
+{
+  "seekSeconds": 10,
+  "verticalPlayerHeight": 40,
+  "horizontalPlayerWidth": 40,
+  "defaultSplitMode": "Horizontal",
+  "pauseOnTimestampInsert": false,
+  "displayProgressBar": true,
+  "displayTimestamp": true,
+  "timestampOffsetSeconds": 6,
+  "backgroundColor": "#000000",
+  "progressBarColor": "#FF0000",
+  "timestampTemplate": "[{ts}]({link})\n",
+  "mediaData": {
+    "6bbotX_hr70": {
+      "mediaLink": "https://www.youtube.com/watch?v=6bbotX_hr70&t=582",
+      "lastUpdated": "2024-06-07T02:38:30.218Z",
+      "lastTimestampSeconds": 405
+    }
+  }
+}

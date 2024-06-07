@@ -197,3 +197,7 @@ created: 2024-01-12 16:39
 [Beeper](https://www.beeper.com/)
 - All your chats in one app
 - i-Message 관련 논란이 있다.
+[dropover]()
+- 파일 임시 위치
+[TextSniper](https://textsniper.app/)
+- 이미지 안의 텍스트를 추출
