@@ -315,13 +315,13 @@
           "textItalic": true
         },
         "languageTag": {
-          "display": "always",
+          "display": "none",
           "textFont": "",
-          "textBold": false,
+          "textBold": true,
           "textItalic": false
         },
         "languageIcon": {
-          "display": "always",
+          "display": "none",
           "displayColour": true
         },
         "externalReference": {
@@ -329,7 +329,7 @@
           "displayVersion": true,
           "displayTimestamp": true
         },
-        "fontSize": 15,
+        "fontSize": 14,
         "foldPlaceholder": ""
       },
       "highlights": {
@@ -351,13 +351,13 @@
         "gradientHighlightsColourStop": "70%",
         "languageBorderColour": false,
         "languageBorderWidth": 5,
-        "iconSize": 15
+        "iconSize": 28
       }
     },
     "colours": {
       "light": {
         "codeblock": {
-          "backgroundColour": "#fdf6e3",
+          "backgroundColour": "#282C34",
           "textColour": "#bababa"
         },
         "gutter": {

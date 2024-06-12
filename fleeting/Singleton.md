@@ -18,7 +18,8 @@ public class Settings1 {
     private static Settings1 instance;  
   
     private Settings1() {  
-    }  
+    }
+    
     public static Settings1 getInstance() {  
         if (instance == null) {  
             instance = new Settings1();  
@@ -125,7 +126,7 @@ public class Settings4 {
 
 ### Singleton 패턴을 깨트리는 방법
 
-1. Relection
+1. Reflection
 - reflection 을 통해 private 생성자에 접근하면 singleton 이 깨질 수 있다.
 
 ```java

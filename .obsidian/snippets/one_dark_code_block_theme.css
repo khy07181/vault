@@ -1,0 +1,38 @@
+/* One Dark Theme for Obsidian Code Blocks in Light Mode */
+.theme-light .cm-s-obsidian pre.HyperMD-codeblock {
+    background-color: #f5f5f5;  /* Light background */
+    color: #383a42;  /* Default text color */
+}
+
+.theme-light .cm-s-obsidian pre.HyperMD-codeblock .cm-comment {
+    color: #a0a1a7;  /* Comments */
+}
+
+.theme-light .cm-s-obsidian pre.HyperMD-codeblock .cm-keyword {
+    color: #a626a4;  /* Keywords */
+}
+
+.theme-light .cm-s-obsidian pre.HyperMD-codeblock .cm-string {
+    color: #50a14f;  /* Strings */
+}
+
+.theme-light .cm-s-obsidian pre.HyperMD-codeblock .cm-number {
+    color: #986801;  /* Numbers */
+}
+
+.theme-light .cm-s-obsidian pre.HyperMD-codeblock .cm-variable {
+    color: #e45649;  /* Variables */
+}
+
+.theme-light .cm-s-obsidian pre.HyperMD-codeblock .cm-operator {
+    color: #0184bc;  /* Operators */
+}
+
+.theme-light .cm-s-obsidian pre.HyperMD-codeblock .cm-function {
+    color: #4078f2;  /* Functions */
+}
+
+.theme-light .cm-s-obsidian pre.HyperMD-codeblock .cm-error {
+    color: #e45649;  /* Error */
+    background: #f5f5f5;  /* Error background */
+}
