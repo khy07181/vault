@@ -10,9 +10,8 @@ fc-date: 2023-01-10 20:35
 
 # postgresql
 
-```ad-info
-Postgresql 기준으로 작성되었습니다.
-```
+>[!info]
+>Postgresql 기준으로 작성되었습니다.
 
 ### sequence 재설정
 
@@ -134,6 +133,7 @@ select similarity(text, text);
 ```
 
 ### 테이블 생성 순서
+
 ```sql
 SELECT schemaname,  
        tablename  

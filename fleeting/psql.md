@@ -12,8 +12,6 @@ fc-date: 2022-09-16 13:42
 # psql 명령어
 
 ### psql 접속
+
 psql
 - postgres DB
-
-```ad-
-```

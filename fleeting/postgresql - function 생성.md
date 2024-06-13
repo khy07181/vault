@@ -15,10 +15,9 @@ CREATE [OR REPLACE] FUNCTION function_name ([parameter1 data_type [, parameter2 
 AS $$ -- Function body goes here $$;
 ```
 
-```ad-tip
-CREATE 대신 CREATE OR REPLACE를 사용하면 이미 같은 이름의 함수가 있을 경우 대체된다.
+>[!tip]
+>CREATE 대신 CREATE OR REPLACE를 사용하면 이미 같은 이름의 함수가 있을 경우 대체된다.
 기존 함수가 사라지기 때문에 주의해서 사용해야 한다.
-```
 
 숫자 2개를 받아 합을 반환하는 간단한 함수
 

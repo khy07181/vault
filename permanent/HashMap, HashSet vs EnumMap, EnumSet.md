@@ -12,10 +12,9 @@ EnumMap은 사용 가능한 모든 키를 이미 알고 있고, 내부적으로 
 Set의 경우에도 EnumSet은 모든 메소드가 산술 비트 연산을 사용하여 구현되기 때문에 HashSet 보다는 EnumSet을 사용하는 것이 좋다.
 >A specialized Set implementation for use with enum types. All of the elements in an enum set must come from a single enum type that is specified, explicitly or implicitly, when the set is created. Enum sets are represented internally as bit vectors. This representation is extremely compact and efficient. The space and time performance of this class should be good enough to allow its use as a high-quality, typesafe alternative to traditional int-based "bit flags." Even bulk operations (such as `containsAll` and `retainAll`) should run very quickly if their argument is also an enum set.
 
-```ad-info
-EnumMap, EnumSet 모두 Thread-safe 하지 않기 때문에
-필요하다면 다음과 같이 wrap하여 사용하는 것이 권장된다.
-```
+>[!info]
+>EnumMap, EnumSet 모두 Thread-safe 하지 않기 때문에
+>필요하다면 다음과 같이 wrap하여 사용하는 것이 권장된다.
 
 ```java
 Map<EnumKey, V> m = Collections.synchronizedMap(new EnumMap<EnumKey, V>(...));

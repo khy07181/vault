@@ -7,9 +7,8 @@ created: 2023-06-02 18:15
 ---
 obsidian git 실행 중 발생 에러
 
-```ad-error
-cannot run gpg no such file or directory
-```
+>[!error]
+>cannot run gpg no such file or directory
 
 `which gpg` 로 gpg 경로 확인 후
 
