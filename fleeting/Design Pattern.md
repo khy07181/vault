@@ -17,7 +17,7 @@ created: 2024-04-10 10:30
 - [[Abstract Factory]]
 - [[Buider]]
 - [[Prototype]]
-- [[Singleton]]
+- [[Singleton parttern|Singleton]]
 
 ### 구조 패턴
 
