@@ -12,32 +12,29 @@ created: 2024-04-10 10:30
 모든 패턴은 의도 또는 목저에 따라 분류할 수 있으며 주로 세가지 그룹으로 분류된다.
 
 ### 생성 패턴
-
-- [[Factory Method]]
-- [[Abstract Factory]]
-- [[Buider]]
-- [[Prototype]]
+- [[Factory Method Pattern|Factory Method]]
+- [[Abstract Factory Pattern|Abstract Factory]]
+- [[Builder Pattern|Builder]]
+- [[Prototype Pattern|Prototype]]
 - [[Singleton parttern|Singleton]]
 
 ### 구조 패턴
-
-- [[Adapter]]
-- [[Bridge]]
-- [[Composite]]
-- [[Decorator]]
-- [[Facade]]
-- [[Flyweight]]
-- [[Proxy]]
+- [[Adapter Pattern|Adapter]]
+- [[Bridge Pattern|Bridge]]
+- [[Composite Pattern|Composite]]
+- [[Decorator Pattern|Decorator]]
+- [[Facade Pattern|Facade]]
+- [[Flyweight Pattern|Flyweight]]
+- [[Proxy Pattern|Proxy]]
 
 ### 행동 패턴
-
-[[Chain of Responsibility]]
-[[Command]]
-[[Iterator]]
-[[Mediator]]
-[[Memento]]
-[[Observer]]
-[[State]]
-[[Strategy]]
-[[Template Method Pattern|Template Method]]
-[[Visitor]]
+- [[Chain of Responsibility Pattern|Chain of Responsibility]]
+- [[Command Pattern|Command]]
+- [[Iterator Pattern|Iterator]]
+- [[Mediator Pattern|Mediator]]
+- [[Memento Pattern|Memento]]
+- [[Observer Pattern|Observer]]
+- [[State Pattern|State]]
+- [[Strategy Pattern|Strategy]]
+- [[Template Method Pattern|Template Method]]
+- [[Visitor Pattern|Visitor]]

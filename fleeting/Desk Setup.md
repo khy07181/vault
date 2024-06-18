@@ -7,6 +7,8 @@ created: 2024-06-09 22:42
 ---
 [베스트피스 모션 데스크](https://brand.naver.com/bestpiece/products/4833046512)
 - 143
+[시크릿랩 매그너스 프로](https://secretlabchairs.co.kr/products/magnus-pro?sku=MPB2-17F,MMAT17PU-BLACK)
+- 145
 
 스트림덱
 - 노브 있는 제품 없는 제품 결정
@@ -19,9 +21,9 @@ created: 2024-06-09 22:42
 데스크 선반
 - 15
 
-[CalDigit TS4](https://search.danawa.com/dsearch.php?module=goods&act=dispMain&k1=%EC%B9%BC%EB%94%94%EC%A7%93+ts4)
-- 55.9
-
 ---
 
 스피커
+- 8
+[CalDigit TS4](https://search.danawa.com/dsearch.php?module=goods&act=dispMain&k1=%EC%B9%BC%EB%94%94%EC%A7%93+ts4)
+- 55.9
