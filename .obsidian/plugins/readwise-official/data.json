@@ -5,7 +5,7 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 14769891,
+  "lastSavedStatusID": 14858798,
   "currentSyncStatusID": 0,
   "refreshBooks": false,
   "booksToRefresh": [
@@ -50,7 +50,8 @@
     "readwise/articles/운송 관리 시스템(tms)의 탄생부터 현장에서 사용하기까지.md": "40826745",
     "readwise/articles/너무 똑똑한 사람이 되지 않기.md": "41172325",
     "readwise/articles/좋은 회고란 무엇일까.md": "41349540",
-    "readwise/articles/4년 차 개발자의 Si 대기업 이직기 ① 이직 결심부터 코딩테스트까지.md": "41439153"
+    "readwise/articles/4년 차 개발자의 Si 대기업 이직기 ① 이직 결심부터 코딩테스트까지.md": "41439153",
+    "readwise/articles/유저 인터뷰, 기본기는 항상 당연한데 가장 어렵다..md": "41602718"
   },
   "reimportShowConfirmation": true
 }
