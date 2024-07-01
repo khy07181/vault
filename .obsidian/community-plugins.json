@@ -17,7 +17,6 @@
   "better-word-count",
   "meld-encrypt",
   "darlal-switcher-plus",
-  "obsidian-tasks-plugin",
   "obsidian-excalidraw-plugin",
   "deepl",
   "tag-wrangler",
@@ -30,5 +29,10 @@
   "cmdr",
   "media-notes",
   "obsidian-imgur-plugin",
-  "code-styler"
+  "code-styler",
+  "remember-cursor-position",
+  "slash-commander",
+  "obsidian-tasks-plugin",
+  "homepage",
+  "fleeting-notes-obsidian"
 ]
