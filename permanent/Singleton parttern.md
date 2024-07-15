@@ -41,7 +41,9 @@ public class Settings2 {
     private static Settings2 instance;  
   
     private Settings2() {  
-    }    // synchronized 사용해서 동기화 처리  
+    }
+        
+    // synchronized 사용해서 동기화 처리  
     public static synchronized Settings2 getInstance() {  
         if (instance == null) {  
             instance = new Settings2();  
@@ -209,7 +211,7 @@ public class Settings4 implements Serializable {
 - Best Practice
 - Singleton 이 깨지지 않도록 안전하고 간단하게 사용할 수 있다.
 - 상속을 사용하지 못한다.
-	- 상속이 필요하거나 lazy loading이 필요한 경우 [[Singleton parttern#static inner class holder]] 사용하는 것이 좋다.
+	- 상속이 필요하거나 lazy loading이 필요한 경우 [[Singleton parttern#static inner class holder|static inner class holder]] 사용하는 것이 좋다.
 
 ```java
 public enum Settings5 {  

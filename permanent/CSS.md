@@ -188,7 +188,7 @@ color: red;
 - 색상 이름 표기법
 	* red, yellow, black 과 같이 알려진 색상 이름으로 표시
 - 색상 추출 사이트 활용
-	- [Color Picker](www.colorpicker.com) 과 같은 사이트를 이용하면 사용할 때 마다 원하는 색상의 정확한 값을 얻을 수 있다.
+	- [Color Picker](https://www.webfx.com/web-design/color-picker/) 과 같은 사이트를 이용하면 사용할 때 마다 원하는 색상의 정확한 값을 얻을 수 있다.
 
 #### 배경색과 배경 이미지
 
@@ -419,7 +419,6 @@ color: red;
 
 	* 특정 요소의 내용 앞(`::before`) 또는 뒤(`::after`)에 지정한 내용을 넣을 수 있다.
 <!--ID: 1679924265822-->
-
 
 ### 반응형 디자인
 
