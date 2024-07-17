@@ -1,3 +1,10 @@
+---
+title: figlet + lolcat 으로 터미널 꾸미기
+aliases: 
+categories: 
+tags: 
+created: 2024-02-05 23:43
+---
 
 figlet & lolcat 설치
 `brew install figlet`
