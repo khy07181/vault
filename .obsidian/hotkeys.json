@@ -182,5 +182,14 @@
       ],
       "key": "1"
     }
+  ],
+  "file-explorer:new-file": [],
+  "create-note-in-folder:quickSwitcher-creator": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
   ]
 }

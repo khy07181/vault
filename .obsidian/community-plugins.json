@@ -34,5 +34,8 @@
   "slash-commander",
   "obsidian-tasks-plugin",
   "homepage",
-  "fleeting-notes-obsidian"
+  "fleeting-notes-obsidian",
+  "obsidian-plugin-update-tracker",
+  "create-note-in-folder",
+  "quickadd"
 ]
