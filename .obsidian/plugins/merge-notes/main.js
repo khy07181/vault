@@ -27511,6 +27511,7 @@ var Files = (props) => {
   const [isExcludeProperties, setIsExcludeProperties] = (0, import_react7.useState)(false);
   const [isExcludeEachNoteName, setIsExcludeEachNoteName] = (0, import_react7.useState)(false);
   const [isMoveNotes, setIsMoveNotes] = (0, import_react7.useState)(false);
+  const [isNoBackup, setIsNoBackup] = (0, import_react7.useState)(false);
   const getNormalizedTitle = (title2) => {
     if (!title2 || title2.length === 0) {
       return "unnamed";
@@ -27683,6 +27684,20 @@ ${fileContent}`;
         })
       );
     }
+    if (isNoBackup) {
+      await Promise.all(
+        Array.from(items).map(async (item) => {
+          const exportFile = files.find((file) => file.path === item);
+          if (exportFile) {
+            try {
+              await app.vault.delete(exportFile);
+            } catch (e) {
+              console.error(e);
+            }
+          }
+        })
+      );
+    }
     new import_obsidian.Notice("Merge completed", 3e3);
     modal.close();
   };
@@ -27716,28 +27731,43 @@ ${fileContent}`;
         }
       );
     }))
-  )), /* @__PURE__ */ import_react7.default.createElement("div", { className: "mergeNotesExplain" }, "*drag and drop to change order"), /* @__PURE__ */ import_react7.default.createElement("div", { className: "mergeNotesMergeOptions" }, /* @__PURE__ */ import_react7.default.createElement("div", null, /* @__PURE__ */ import_react7.default.createElement(
+  )), /* @__PURE__ */ import_react7.default.createElement("div", { className: "mergeNotesExplain" }, "*Drag and drop to change order"), /* @__PURE__ */ import_react7.default.createElement("div", { className: "mergeNotesMergeOptions" }, /* @__PURE__ */ import_react7.default.createElement("div", null, /* @__PURE__ */ import_react7.default.createElement(
     "input",
     {
       type: "checkbox",
       id: "isExcludeProperties",
       onChange: (e) => setIsExcludeProperties(e.target.checked)
     }
-  ), /* @__PURE__ */ import_react7.default.createElement("label", { htmlFor: "isExcludeProperties" }, "exclude properties")), /* @__PURE__ */ import_react7.default.createElement("div", null, /* @__PURE__ */ import_react7.default.createElement(
+  ), /* @__PURE__ */ import_react7.default.createElement("label", { htmlFor: "isExcludeProperties" }, "Exclude properties")), /* @__PURE__ */ import_react7.default.createElement("div", null, /* @__PURE__ */ import_react7.default.createElement(
     "input",
     {
       type: "checkbox",
       id: "isExcludeEachNoteName",
       onChange: (e) => setIsExcludeEachNoteName(e.target.checked)
     }
-  ), /* @__PURE__ */ import_react7.default.createElement("label", { htmlFor: "isExcludeEachNoteName" }, "exclude each note name")), /* @__PURE__ */ import_react7.default.createElement("div", null, /* @__PURE__ */ import_react7.default.createElement(
+  ), /* @__PURE__ */ import_react7.default.createElement("label", { htmlFor: "isExcludeEachNoteName" }, "Exclude each note name")), /* @__PURE__ */ import_react7.default.createElement("div", null, /* @__PURE__ */ import_react7.default.createElement(
     "input",
     {
       type: "checkbox",
       id: "isMoveNotes",
-      onChange: (e) => setIsMoveNotes(e.target.checked)
+      checked: isMoveNotes,
+      onChange: (e) => {
+        setIsMoveNotes(e.target.checked);
+        setIsNoBackup(false);
+      }
     }
-  ), /* @__PURE__ */ import_react7.default.createElement("label", { htmlFor: "isMoveNotes" }, "the original notes are moved to the `_merged_notes` directory"))), /* @__PURE__ */ import_react7.default.createElement("div", { className: "mergeNotesButton" }, /* @__PURE__ */ import_react7.default.createElement("button", { onClick: mergeNotes }, "Merge notes")));
+  ), /* @__PURE__ */ import_react7.default.createElement("label", { htmlFor: "isMoveNotes" }, "The original notes are moved to the `_merged_notes` directory")), /* @__PURE__ */ import_react7.default.createElement("div", null, /* @__PURE__ */ import_react7.default.createElement(
+    "input",
+    {
+      type: "checkbox",
+      id: "isNoBackup",
+      checked: isNoBackup,
+      onChange: (e) => {
+        setIsNoBackup(e.target.checked);
+        setIsMoveNotes(false);
+      }
+    }
+  ), /* @__PURE__ */ import_react7.default.createElement("label", { htmlFor: "isNoBackup" }, "!!Danger!! Do not back up the original notes"))), /* @__PURE__ */ import_react7.default.createElement("div", { className: "mergeNotesButton" }, /* @__PURE__ */ import_react7.default.createElement("button", { onClick: mergeNotes }, "Merge notes")));
 };
 
 // src/components/MergeNotesView.tsx
