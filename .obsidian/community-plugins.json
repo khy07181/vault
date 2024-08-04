@@ -36,6 +36,7 @@
   "homepage",
   "fleeting-notes-obsidian",
   "obsidian-plugin-update-tracker",
-  "create-note-in-folder",
-  "quickadd"
+  "quickadd",
+  "metadata-menu",
+  "obsidian-timestamp-notes"
 ]

@@ -143,14 +143,6 @@
       "key": "]"
     }
   ],
-  "media-notes:insert-media-timestamp": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "T"
-    }
-  ],
   "media-notes:toggle-play-pause": [
     {
       "modifiers": [
@@ -185,6 +177,46 @@
   ],
   "file-explorer:new-file": [],
   "create-note-in-folder:quickSwitcher-creator": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "obsidian-timestamp-notes:seek-backward": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "H"
+    }
+  ],
+  "obsidian-timestamp-notes:seek-forward": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "L"
+    }
+  ],
+  "obsidian-timestamp-notes:pause-player": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "J"
+    }
+  ],
+  "obsidian-timestamp-notes:timestamp-insert": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "T"
+    }
+  ],
+  "quickadd:runQuickAdd": [
     {
       "modifiers": [
         "Mod"

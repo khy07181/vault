@@ -10,6 +10,10 @@ created: 2024-06-09 22:42
 [시크릿랩 매그너스 프로](https://secretlabchairs.co.kr/products/magnus-pro?sku=MPB2-17F,MMAT17PU-BLACK)
 - 145
 
+이런 느낌으로 설치하면 좋을듯
+![](https://i.imgur.com/Ue810Nf.png)
+
+
 스트림덱
 - 노브 있는 제품 없는 제품 결정
 - [MK.2](https://prod.danawa.com/info/?pcode=14930345&keyword=%EC%8A%A4%ED%8A%B8%EB%A6%BC%EB%8D%B1&cate=112810)

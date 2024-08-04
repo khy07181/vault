@@ -15,8 +15,8 @@ rate:
 format:
 ---
 
-### Summary
-
 ### Highlights
 
 ### Quotes
+
+### Summary
