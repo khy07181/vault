@@ -69,19 +69,35 @@ public class Coffee extends Beverage {
 ```
 
 ```java
-class TemplateMethodTest {  
+class CafeTest {  
   
     @Test  
     void templateMethodTest() {  
         Beverage tea = new Tea();  
-        Beverage coffee = new Coffee();  
-  
-        System.out.println("\nMaking tea...");  
+        System.out.println("Making tea...");  
         tea.prepareRecipe();  
-        System.out.println("\nMaking coffee...");  
+  
+        System.out.println();  
+  
+        Beverage coffee = new Coffee();  
+        System.out.println("Making coffee...");  
         coffee.prepareRecipe();  
     }  
 }
+```
+
+```
+Making tea...
+Boiling water
+Steeping the tea
+Pouring into cup
+Adding lemon
+
+Making coffee...
+Boiling water
+Dripping Coffee through filter
+Pouring into cup
+Adding Sugar and Milk
 ```
 
 ---
@@ -170,4 +186,10 @@ class DataProcessorTest {
                 .hasMessage("Data is invalid, processing aborted.");
     }
 }
+```
+
+```java
+Loading data from CSV file: CSV data
+Processing CSV data
+Saving CSV data to database
 ```

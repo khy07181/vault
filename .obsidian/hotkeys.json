@@ -71,7 +71,14 @@
       "key": "E"
     }
   ],
-  "templater-obsidian:replace-in-file-templater": [],
+  "templater-obsidian:replace-in-file-templater": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ],
   "workspace:new-tab": [],
   "deepl:deepl-translate-selection": [
     {
