@@ -171,16 +171,16 @@ class CompressionStrategyTest {
 ### Strategy vs Temaplate Method
 
 유사점
-- 전략 패턴과 템플릿 메서드 패턴은 알고리즘을 때에 따라 적용한다는 컨셉으로써, 둘이 공통점을 가지고 있다.
-- 전략 및 템플릿 메서드 패턴은 개방형 폐쇄 원칙을 충족하고 코드를 변경하지 않고 소프트웨어 모듈을 쉽게 확장할 수 있도록 하는 데 사용할 수 있다. 
+- Strategy pattern 과 [[Template Method Pattern]]은 알고리즘을 때에 따라 적용한다는 컨셉으로써, 둘이 공통점을 가지고 있다.
+- 전략 및 Template Method Pattern은 개방형 폐쇄 원칙을 충족하고 코드를 변경하지 않고 소프트웨어 모듈을 쉽게 확장할 수 있도록 하는 데 사용할 수 있다. 
 
 패턴 차이점
 
-1. 전략 패턴은 합성(composition)을 통해 해결책을 강구하며, 템플릿 메서드 패턴은 상속(inheritance)을 통해 해결책을 제시한다.
-2. 그래서 전략 패턴은 클라이언트와 객체 간의 결합이 느슨한 반면, 템플릿 메서드 패턴에서는 두 모듈이 더 밀접하게 결합된다. (결합도가 높으면 안좋음)
-3. 전략 패턴에서는 대부분 인터페이스를 사용하지만, 템플릿 메서드 패턴서는 주로 추상 클래스나 구체적인 클래스를 사용한다.
-4. 전략 패턴에서는 전체 전략 알고리즘을 변경할 수 있지만, 템플릿 메서드 패턴에서는 알고리즘의 일부만 변경되고 나머지는 변경되지 않은 상태로 유지된다. (템플릿에 종속)
-5. 따라서 단일 상속만이 가능한 자바에서 상속 제한이 있는 템플릿 메서드 패턴보다는, 다양하게 많은 전략을 implements 할 수 있는 전략 패턴이 협업에서 많이 사용되는 편이다.
+1. Strategy Pattern은 합성(composition)을 통해 해결책을 강구하며, Template Method Pattern은 상속(inheritance)을 통해 해결책을 제시한다.
+2. 그래서 Strategy Pattern은 클라이언트와 객체 간의 결합이 느슨한 반면, Template Method Pattern에서는 두 모듈이 더 밀접하게 결합된다. (결합도가 높으면 안좋음)
+3. Strategy Pattern에서는 대부분 인터페이스를 사용하지만, Template Method Pattern서는 주로 추상 클래스나 구체적인 클래스를 사용한다.
+4. Strategy Pattern에서는 전체 전략 알고리즘을 변경할 수 있지만, Template Method Pattern에서는 알고리즘의 일부만 변경되고 나머지는 변경되지 않은 상태로 유지된다. (템플릿에 종속)
+5. 따라서 단일 상속만이 가능한 자바에서 상속 제한이 있는 Template Method Pattern보다는, 다양하게 많은 전략을 implements 할 수 있는 Strategy Pattern이 협업에서 많이 사용되는 편이다.
 
 ### Link
 

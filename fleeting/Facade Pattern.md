@@ -48,9 +48,7 @@ public class SmartHomeFacade {
     private Lights lights;
     private CoffeeMaker coffeeMaker;
 
-    public SmartHomeFacade(
-        Thermostat thermostat, Lights lights, CoffeeMaker coffeeMaker
-    ) {
+    public SmartHomeFacade(Thermostat thermostat, Lights lights, CoffeeMaker coffeeMaker) {
         this.thermostat = thermostat;
         this.lights = lights;
         this.coffeeMaker = coffeeMaker;
@@ -103,8 +101,7 @@ Lights are off.
 
 ```java
 class FileReader {
-    public String readFile(String filePath)
-     throws IOException {
+    public String readFile(String filePath) throws IOException {
         return new String(Files.readAllBytes(Paths.get(filePath)));
     }
 }
@@ -112,8 +109,7 @@ class FileReader {
 
 ```java
 class FileWriter {
-    public void writeFile(String filePath, String content)
-     throws IOException {
+    public void writeFile(String filePath, String content) throws IOException {
         Files.write(Paths.get(filePath), content.getBytes());
     }
 }
@@ -121,8 +117,7 @@ class FileWriter {
 
 ```java
 class FileDeleter {
-    public void deleteFile(String filePath)
-     throws IOException {
+    public void deleteFile(String filePath) throws IOException {
         Files.delete(Paths.get(filePath));
     }
 }
