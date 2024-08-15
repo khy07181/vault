@@ -174,14 +174,6 @@
       "key": "`"
     }
   ],
-  "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "1"
-    }
-  ],
   "file-explorer:new-file": [],
   "create-note-in-folder:quickSwitcher-creator": [
     {
@@ -229,6 +221,22 @@
         "Mod"
       ],
       "key": "N"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "1"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "0"
     }
   ]
 }

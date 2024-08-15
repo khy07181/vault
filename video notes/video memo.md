@@ -11,9 +11,13 @@ updated: 2024-08-03 10:29
 ---
 
 ```timestamp-url 
- https://www.youtube.com/watch?v=lr_29vrLBIM
+ https://www.youtube.com/watch?v=lr_29vrLBIM&t=289s
  ```
 
 ```timestamp 
- 01:12
+ 05:19
  ```
+
+timestamp 기록
+- ^ + T
+
