@@ -109,17 +109,6 @@
       "key": "P"
     }
   ],
-  "daily-notes": [
-    {
-      "modifiers": [
-        "Alt",
-        "Ctrl",
-        "Mod",
-        "Shift"
-      ],
-      "key": "D"
-    }
-  ],
   "app:go-back": [
     {
       "modifiers": [
@@ -237,6 +226,15 @@
         "Alt"
       ],
       "key": "0"
+    }
+  ],
+  "editor:delete-paragraph": [],
+  "daily-notes": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "D"
     }
   ]
 }
