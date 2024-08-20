@@ -5,7 +5,7 @@ categories: JPA
 tags: JPA, ORM
 created: 2022-09-15 17:06
 ---
-
+j
 # 엔티티 맵핑
 
 - 객체와 테이블 맵핑

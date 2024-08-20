@@ -10,7 +10,7 @@
   "foldHeading": true,
   "spellcheck": true,
   "userIgnoreFilters": null,
-  "showUnsupportedFiles": false,
+  "showUnsupportedFiles": true,
   "attachmentFolderPath": "private/attachment/img",
   "strictLineBreaks": false,
   "foldIndent": true,
@@ -23,5 +23,6 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "propertiesInDocument": "visible"
+  "propertiesInDocument": "visible",
+  "showRibbon": true
 }
