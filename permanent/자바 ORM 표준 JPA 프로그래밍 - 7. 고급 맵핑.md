@@ -10,7 +10,7 @@ created: 2022-09-15 17:06
 
 ## 상속 관계 맵핑
 
-![](../attachment/img/JPA_AdvancedMapping_1.jpg)
+![|1000](../attachment/img/JPA_AdvancedMapping_1.jpg)
 - 객체는 상속관계가 있지만 관계형 데이터베이스는 상속 관계가 없다.
 - 그나마 슈퍼타입 서브타입 관계라는 모델링 기법이 객체 상속과 유사하다.
 - 상속관계 맵핑이라는 것은 객체의 상속 구조와 DB의 슈퍼타입 서브타입 관계를 맵핑하는 것이다.
@@ -21,7 +21,7 @@ created: 2022-09-15 17:06
 
 ### 조인 전략
 
-![](../attachment/img/JPA_AdvancedMapping_2.jpg)
+![|1000](../attachment/img/JPA_AdvancedMapping_2.jpg)
 - ITEM, ALBUM, MOVIE, BOOK 테이블을 만들고 필요할 경우 JOIN으로 데이터를 구성한다.
 - NAME, PRICE가 ITEM 테이블에만 저장되고, ALBUM, MOVIE, BOOK이 각자의 데이터만 저장한다.
 	* INSERT 할때는 2번 INSERT한다.
@@ -109,7 +109,7 @@ tx.commit();
 
 ### 단일 테이블 전략
 
-![](../attachment/img/JPA_AdvancedMapping_3.jpg)
+![|1000](../attachment/img/JPA_AdvancedMapping_3.jpg)
 - 논리 모델을 한 테이블로 합치는 것이다.
 - ALBUM, MOVIE, BOOK을 구분할 DTYPE 컬럼으로 어떤 것인지 구분한다.
 	* 반드시 구분하는 컬럼이 있어야 한다.
@@ -137,7 +137,7 @@ public class Item {
 
 ### 구현 클래스마다 테이블 전략
 
-![](../attachment/img/JPA_AdvancedMapping_4.jpg)
+![|1000](../attachment/img/JPA_AdvancedMapping_4.jpg)
 - ALBUM, MOVIE, BOOK 테이블을 만들어 컬럼들을 각 테이블마다 모두 가지는 방법이다.
 	* NAME, PRICE 컬럼들이 중복되도록 허용한다.
 - 구현 클래스마다 테이블 생성 전략 적
@@ -199,14 +199,14 @@ public abstract class Item { //  ITEM 엔티티는 실제 생성되는 테이블
 
 ## @MappedSuperclass
 
-![](../attachment/img/JPA_AdvancedMapping_5.jpg)
+![|1000](../attachment/img/JPA_AdvancedMapping_5.jpg)
 - 객체 입장에서 공통 맵핑 정보가 필요할 때 사용한다.(id, name)
 - 공통 속성을 부모 클래스에 선언하고 속성만 상속 받아서 사용하고 싶을 경우 `@MappedSuperclass`를 사용한다.
 
 ### 코드로 이해하기
 
 - 생성자, 생성시간, 수정자, 수정시간을 모든 엔티티에 공통으로 가져가야 하는 상황이라고 가정하면
-
+	
 ```java
 @MappedSuperclass // 맵핑정보만 상속받는 Superclass라는 의미의 @MappedSuperclass 어노테이션 선언해야 한다.
 public abstract class BaseEntity {
@@ -243,7 +243,7 @@ public class Team extends BaseEntity {
 ```
 
 - 이렇게 하면 엔티티에 BaseEntity에 선언된 컬럼들이 생성 된다.
-![](../attachment/img/JPA_AdvancedMapping_6.jpg)
+![|1000 ](../attachment/img/JPA_AdvancedMapping_6.jpg)
 
 ### @MappedSuperclass 정리
 
