@@ -5,7 +5,7 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "private/fleeting",
-  "vimMode": false,
+  "vimMode": true,
   "readableLineLength": false,
   "foldHeading": true,
   "spellcheck": true,
