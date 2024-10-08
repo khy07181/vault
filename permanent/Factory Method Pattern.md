@@ -6,166 +6,336 @@ tags:
   - design-pattern
 created: 2024-06-17 21:56
 ---
-![|1000](https://i.imgur.com/CAunDXA.png)
+객체 생성을 Factory 클래스로 캡슐화하여 대신 생성하게 하는 생성 디자인 패턴
 
-부모 클래스에서 객체들을 생성할 수 있는 인터페이스를 제공하지만, 자식 클래스들이 생성될 객체들의 유형을 변경할 수 있도록 하는 생성 패턴
-객체 생성의 책임을 서브클래스에 위임한다.
 객체 생성 코드를 캡슐화하여 클라이언트 코드가 구체적인 클래스 이름에 의존하지 않도록 한다.
 - 객체 생성 로직의 변경이 필요할 때 클라이언트 코드를 수정하지 않고도 확장할 수 있다.
 
 ```java
-public interface Transport {  
+public interface Vehicle {  
   
-    void deliver();  
+    void drive();  
   
-    int getCapacity();  
-  
-    double getSpeed();  
 }
 ```
 
 ```java
-public class Truck implements Transport {  
-  
-    private int capacity;  
-  
-    private double speed;  
-  
-    public Truck(int capacity, double speed) {  
-        this.capacity = capacity;  
-        this.speed = speed;  
-    }  
-  
+public class Car implements Vehicle {  
     @Override  
-    public void deliver() {  
-        System.out.println("Delivering goods by truck");  
-    }  
-  
-    @Override  
-    public int getCapacity() {  
-        return capacity;  
-    }  
-  
-    @Override  
-    public double getSpeed() {  
-        return speed;  
+    public void drive() {  
+        System.out.println("Driving a car");  
     }  
 }
 ```
 
 ```java
-public class Ship implements Transport {  
-  
-    private int capacity;  
-  
-    private double speed;  
-  
-    public Ship(int capacity, double speed) {  
-        this.capacity = capacity;  
-        this.speed = speed;  
-    }  
-  
+public class Motorcycle implements Vehicle {  
     @Override  
-    public void deliver() {  
-        System.out.println("Delivering goods by ship");  
-    }  
-  
-    @Override  
-    public int getCapacity() {  
-        return capacity;  
-    }  
-  
-    @Override  
-    public double getSpeed() {  
-        return speed;  
+    public void drive() {  
+        System.out.println("Riding a motorcycle");  
     }  
 }
 ```
 
 ```java
-public class Airplane implements Transport {  
+public abstract class VehicleFactory {  
   
-    private int capacity;  
+    abstract Vehicle createVehicle();  
   
-    private double speed;  
-  
-    public Airplane(int capacity, double speed) {  
-        this.capacity = capacity;  
-        this.speed = speed;  
-    }  
-  
-    @Override  
-    public void deliver() {  
-        System.out.println("Delivering goods by airplane");  
-    }  
-  
-    @Override  
-    public int getCapacity() {  
-        return capacity;  
-    }  
-  
-    @Override  
-    public double getSpeed() {  
-        return speed;  
+    public void deliverVehicle() {  
+        Vehicle vehicle = createVehicle();  
+        System.out.println("Delivering the vehicle:");  
+        vehicle.drive();  
     }  
 }
 ```
 
 ```java
-public abstract class TransportFactory {  
+public class CarFactory extends VehicleFactory {
+    @Override
+    Vehicle createVehicle() {
+        return new Car();
+    }
+}
+
+```
+
+```java
+public class MotorcycleFactory extends VehicleFactory {  
+    @Override  
+    Vehicle createVehicle() {  
+        return new Motorcycle();  
+    }  
+}
+```
+
+- Car 와 Motorcycle 객체를 직접 사용하지 않고 Factory 를 통해 생성
+
+```java
+class VehicleFactoryTest {  
   
-    public abstract Transport createTransport(int capacity, double speed);  
-      
+    @Test
+    void factoryMethod() {  
+        VehicleFactory carFactory = new CarFactory();  
+        carFactory.deliverVehicle();  
+  
+        VehicleFactory motorcycleFactory = new MotorcycleFactory();  
+        motorcycleFactory.deliverVehicle();  
+    }  
+  
+}
+```
+
+```
+Delivering the vehicle:
+Driving a car
+Delivering the vehicle:
+Riding a motorcycle
+```
+
+---
+
+```java
+public interface Product {  
+  
+    void create();  
+  
 }
 ```
 
 ```java
-public class TruckFactory extends TransportFactory {  
-  
+public class Electronics implements Product {
+    @Override
+    public void create() {
+        System.out.println("Electronics product created.");
+    }
+}
+
+```
+
+```java
+public class Clothing implements Product {
+    @Override
+    public void create() {
+        System.out.println("Clothing product created.");
+    }
+}
+
+```
+
+```java
+public class Book implements Product {  
     @Override  
-    public Transport createTransport(int capacity, double speed) {  
-        return new Truck(capacity, speed);  
+    public void create() {  
+        System.out.println("Book product created.");  
     }  
 }
 ```
 
 ```java
-public class ShipFactory extends TransportFactory {  
+public abstract class ProductFactory {
+
+    public abstract Product createProduct(String type);
+
+    public Product orderProduct(String type) {
+        Product product = createProduct(type);
+        product.create();
+        return product;
+    }
+
+}
+```
+
+```java
+public class ConcreteProductFactory extends ProductFactory {  
+    @Override  
+    public Product createProduct(String type) {  
+        if (type.equalsIgnoreCase("electronics")) {  
+            return new Electronics();  
+        } else if (type.equalsIgnoreCase("clothing")) {  
+            return new Clothing();  
+        } else if (type.equalsIgnoreCase("book")) {  
+            return new Book();  
+        } else {  
+            throw new IllegalArgumentException("Unknown product type.");  
+        }  
+    }  
+}
+```
+
+- ConcreteProductFactory 만 사용해 어떤 값을 넣는지에 따라 다른 Product 객체를 생성
+- 어떤 클래스의 객체가 만들어져 사용될지를 전적으로 Factory 에 위임함으로써 클라이언트 코드는 객체 종류의 변화에 영향을 받지 않는 독립된 요소로 분리될 수 있다.
+
+```java
+class ProductFactoryTest {  
+  
+    @Test
+    void factoryMethod() {  
+        ProductFactory factory = new ConcreteProductFactory();  
+  
+        Product electronics = factory.orderProduct("electronics");  
+  
+        Product clothing = factory.orderProduct("clothing");  
+  
+        Product book = factory.orderProduct("book");  
+    }  
+  
+}
+```
+
+```
+Electronics product created.
+Clothing product created.
+Book product created.
+
+```
+
+---
+
+```java
+public interface Payment {
+
+    void processPayment(double amount);
+}
+
+```
+
+```java
+public class CreditCardPayment implements Payment {
+
+    private String creditCardNumber;
+
+    public CreditCardPayment(String creditCardNumber) {
+        this.creditCardNumber = creditCardNumber;
+    }
+
+    @Override
+    public void processPayment(double amount) {
+        System.out.println("Credit card: $" + amount);
+    }
+}
+```
+
+```java
+public class PayPalPayment implements Payment {
+
+    private String payPalEmail;
+
+    public PayPalPayment(String payPalEmail) {
+        this.payPalEmail = payPalEmail;
+    }
+
+    @Override
+    public void processPayment(double amount) {
+        System.out.println("PayPal: $" + amount);
+    }
+}
+
+```
+
+```java
+public class BankTransferPayment implements Payment {  
+  
+    private String bankAccountNumber;  
+  
+    public BankTransferPayment(String bankAccountNumber) {  
+        this.bankAccountNumber = bankAccountNumber;  
+    }  
   
     @Override  
-    public Transport createTransport(int capacity, double speed) {  
-        return new Ship(capacity, speed);  
+    public void processPayment(double amount) {  
+        System.out.println("Bank transfer: $" + amount);  
     }  
 }
 ```
 
 ```java
-public class AirplaneFactory extends TransportFactory {  
+public abstract class PaymentFactory {  
   
+    abstract Payment createPayment(FinancialInfo info);  
+  
+}
+```
+
+```java
+public class CreditCardPaymentFactory extends PaymentFactory {
+    @Override
+    Payment createPayment(FinancialInfo info) {
+        return new CreditCardPayment(info.creditCardNumber);
+    }
+}
+
+```
+
+```java
+public class PayPalPaymentFactory extends PaymentFactory {
+    @Override
+    Payment createPayment(FinancialInfo info) {
+        return new PayPalPayment(info.payPalEmail);
+    }
+}
+
+```
+
+```java
+public class BankTransferPaymentFactory extends PaymentFactory {  
     @Override  
-    public Transport createTransport(int capacity, double speed) {  
-        return new Airplane(capacity, speed);  
+    Payment createPayment(FinancialInfo info) {  
+        return new BankTransferPayment(info.bankAccountNumber);  
     }  
 }
 ```
 
 ```java
-class FactoryMethodTest {  
+public class FinancialInfo {  
+  
+    String creditCardNumber;  
+  
+    String payPalEmail;  
+  
+    String bankAccountNumber;  
+  
+    public FinancialInfo(  
+            String creditCardNumber,  
+            String payPalEmail,  
+            String bankAccountNumber  
+    ) {  
+        this.creditCardNumber = creditCardNumber;  
+        this.payPalEmail = payPalEmail;  
+        this.bankAccountNumber = bankAccountNumber;  
+    }  
+}
+```
+
+```java
+class PaymentFactoryTest {  
   
     @Test  
     void factoryMethod() {  
-        TransportFactory truckFactory = new TruckFactory();  
-        TransportFactory shipFactory = new ShipFactory();  
-        TransportFactory airplaneFactory = new AirplaneFactory();  
+        FinancialInfo info = new FinancialInfo(  
+                "1234-5678-9012-3456",  
+                "user@example.com",  
+                "987654321"  
+        );  
   
-        Transport truck = truckFactory.createTransport(10, 80.0);  
-        Transport ship = shipFactory.createTransport(200, 30.0);  
-        Transport airplane = airplaneFactory.createTransport(50, 600.0);  
+        PaymentFactory factory = new CreditCardPaymentFactory();  
+        Payment payment = factory.createPayment(info);  
+        payment.processPayment(100.0);  
   
-        then(truck.getClass()).isEqualTo(Truck.class);  
-        then(ship.getClass()).isEqualTo(Ship.class);  
-        then(airplane.getClass()).isEqualTo(Airplane.class);  
+        factory = new PayPalPaymentFactory();  
+        payment = factory.createPayment(info);  
+        payment.processPayment(200.0);  
+  
+        factory = new BankTransferPaymentFactory();  
+        payment = factory.createPayment(info);  
+        payment.processPayment(300.0);  
     }  
   
 }
+```
+
+```
+Credit card: $100.0
+PayPal: $200.0
+Bank transfer: $300.0
 ```
