@@ -149,8 +149,6 @@ public class Compressor {
 ```
 
 ```java
-import org.junit.jupiter.api.Test;
-
 class CompressionStrategyTest {
 
     @Test
