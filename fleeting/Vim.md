@@ -134,3 +134,7 @@ ex) `:! ls`
 	- `ysiwB`
 	- `ysiwb`
 
+### Links
+
+[au VimEnter * call Bye2023()](https://au-vimenter.github.io/post/2023-12-23-au-vimenter/)
+[How I Setup Neovim To Make It AMAZING in 2024: The Ultimate Guide](https://www.youtube.com/watch?v=6pAG3BHurdM)
