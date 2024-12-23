@@ -2,7 +2,10 @@
 title: Yazi
 aliases: 
 categories: 
-tags: 
+tags:
+  - mac
+  - vim
+  - productivity
 created: 2024-12-22 10:55
 updated: 2024-12-22 10:55
 ---
