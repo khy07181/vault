@@ -149,3 +149,15 @@ opt.cmdheight = 1
 opt.scrolloff = 10
 opt.mouse:append("a")
 ```
+
+---
+toggle neotree
+- space + e
+fuzzy finding
+- space + ff
+live grep
+- space + fg
+
+### Links
+
+https://www.youtube.com/watch?v=u6S71cpMfw8
