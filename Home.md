@@ -13,7 +13,7 @@ table file.mtime as "Modified Time"
 from ""
 where !contains(file.path, "readwise") and !contains(file.path, "private/daily")
 sort file.mtime desc
-limit 20
+limit 50
 ```
 
 ### Currently Reading
