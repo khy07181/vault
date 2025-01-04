@@ -12,11 +12,14 @@ read_date:
 total_page: 
 status: 
 rate: 
-format:
+format: 
+reading_count:
 ---
 
 ### Highlights
 
 ### Quotes
+
+### Knowledge
 
 ### Summary
