@@ -113,7 +113,6 @@ A - 줄 끝부터 입력 추가(insert mode)
 `:!` 을 입력한 후 실행하려는 명령을 입력하면 외부 명령을 실행할 수 있다.
 ex) `:! ls`
 
-
 ### 파일 저장
 
 `:w FILENAME`
@@ -140,3 +139,4 @@ ex) `:! ls`
 [au VimEnter * call Bye2023()](https://au-vimenter.github.io/post/2023-12-23-au-vimenter/)
 [How I Setup Neovim To Make It AMAZING in 2024: The Ultimate Guide](https://www.youtube.com/watch?v=6pAG3BHurdM)
 [neovim 설정](https://www.youtube.com/watch?v=u6S71cpMfw8)
+[John Grib - Vim](https://johngrib.github.io/wiki/vim/)
