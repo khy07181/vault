@@ -1,0 +1,313 @@
+{
+  "main": {
+    "id": "b2b7f5a8eae4c35b",
+    "type": "split",
+    "children": [
+      {
+        "id": "a5b3095501b6f193",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50f587565227d840",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Home"
+            }
+          },
+          {
+            "id": "f72cbee51d26909d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "private/daily/2025/2025-01-14.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-01-14"
+            }
+          },
+          {
+            "id": "49f9843472215789",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "private/fleeting/Prototype Pattern.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Prototype Pattern"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b32b6144f5c1e1e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6b345650db7ec74",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "45e0ba43a6a3a31c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "e1b977d456479086",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "ff809377d01783fd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a052a91c236be199",
+    "type": "split",
+    "children": [
+      {
+        "id": "88ec600218748c58",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7c75731f0280b8ae",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "368fe1ec1a3460f7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "private/daily/2024/2024-10-23.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "2024-10-23의 백링크"
+            }
+          },
+          {
+            "id": "f62059e81ea56bdb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "private/daily/2024/2024-10-23.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "2024-10-23의 나가는 링크"
+            }
+          },
+          {
+            "id": "ed83f01091e3a1b2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7481da5226d62fea",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "4709cf664c82d194",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "private/daily/2024/2024-10-23.md"
+              },
+              "icon": "lucide-list",
+              "title": "2024-10-23 개요"
+            }
+          },
+          {
+            "id": "bdebe5eec16eba5e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "d972a4bc9ee42a6d",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "private/daily/2025/2025-01-05.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for 2025-01-05"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
+      "meld-encrypt:Encrypt/Decrypt": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "vault-size-history:Vault size history": false,
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "markdown-importer:마크다운 형식 가져오기 열기": false,
+      "workspaces:작업 공간 레이아웃 관리": false,
+      "kr-book-info-plugin:Add Book Info": false,
+      "meld-encrypt:New encrypted note": false,
+      "meld-encrypt:Convert to or from an Encrypted note": false,
+      "obsidian-git:Open Git source control": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "50f587565227d840",
+  "lastOpenFiles": [
+    "private/fleeting/Prototype Pattern.md",
+    "fleeting/Design Pattern.md",
+    "private/daily/2025/2025-01-14.md",
+    "private/fleeting/port insight congestion 재정의.md",
+    "private/daily/2025/2025-01-13.md",
+    "private/library/book/내가 틀릴 수도 있습니다.md",
+    "private/fleeting/Shipment 무기한 사용 원인 파악.md",
+    "private/fleeting/TEST.md",
+    "private/fleeting/SVMP v2, 신규 workflow 회고.md",
+    "private/daily/2025/2025-01-06.md",
+    "private/daily/2025/2025-01-12.md",
+    "private/daily/2025/2025-01-10.md",
+    "private/library/book/거인의 노트.md",
+    "readwise/거인의 노트.md",
+    "private/daily/2025/2025-01-09.md",
+    "Home.md",
+    "private/daily/2025/2025-01-08.md",
+    "private/daily/2025/2025-01-07.md",
+    "private/daily/2024/2024-12.md",
+    "fleeting/Observer Pattern.md",
+    "private/fleeting/healthy-jace.tistory.com.md",
+    "permanent/Adapter Pattern.md",
+    "permanent/Bridge Pattern.md",
+    "permanent/gpg program configuration.md",
+    "permanent/Proxy Pattern.md",
+    "permanent/Trie.md",
+    "private/diary/2024/팀장, 리더의 역할.encrypted",
+    "private/recipe",
+    "private/daily/2025",
+    "fleeting/Martin Fowler - Refactoring 2nd edition.canvas",
+    "private/fleeting/salary.mdenc",
+    "attachment/img/JPA_Intro_5.jpg",
+    "private/fleeting/goal",
+    "private/fleeting/무제 폴더",
+    "private/attachment/img/HDMIAdapter.java",
+    "attachment/img/Pasted image 20240426111617.png",
+    "private/fleeting/mobile",
+    "private/fleeting",
+    "private/permanent",
+    "attachment/img/Pasted image 20240221234740.png",
+    "attachment/img/Pasted image 20240204110550.png",
+    "attachment/img/Pasted image 20240112184816.png",
+    "attachment/img/Pasted image 20240220105913.png",
+    "attachment/img/Pasted image 20240112184716.png",
+    "attachment/img/Pasted image 20240215145315.png",
+    "attachment/img/Pasted image 20240112184554.png",
+    "attachment/Pasted image 20240220105913.png",
+    "permanent/JPA lecture.canvas",
+    "Untitled.canvas",
+    "fleeting/JPA lecture.canvas",
+    "Untitled 2.canvas"
+  ]
+}

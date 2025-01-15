@@ -236,5 +236,16 @@
       ],
       "key": "D"
     }
+  ],
+  "obsidian-korean-spellchecker:check-spelling": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
   ]
 }
