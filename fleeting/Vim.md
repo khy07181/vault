@@ -1,7 +1,8 @@
 ---
 created: 2024-09-19T17:45
-updated: 2025-01-05T21:15
+updated: 2025-01-17T07:25
 ---
+
 ### Vim 파일
 
 `i` - insert mode
