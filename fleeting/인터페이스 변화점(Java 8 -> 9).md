@@ -4,6 +4,7 @@ aliases:
 categories: java
 tags: java, interface
 created: 2023-07-12 00:21
+updated: 2024-09-19T17:45
 ---
 
 - 기본 메소드 (default method)와 정적 메소드를 가질 수 있다.

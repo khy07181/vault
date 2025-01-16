@@ -4,6 +4,7 @@ aliases: 자바 ORM 표준 JPA 프로그래밍 - 5. 연관관계 맵핑 기초
 categories: JPA
 tags: JPA, ORM
 created: 2022-09-15 17:06
+updated: 2024-09-19T17:45
 ---
 
 # 연관관계 맵핑 기초

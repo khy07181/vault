@@ -5,6 +5,7 @@ categories:
 tags:
   - design-pattern
 created: 2024-06-18 16:16
+updated: 2024-09-19T17:45
 ---
 ![](https://i.imgur.com/rL5sYe5.png)
 

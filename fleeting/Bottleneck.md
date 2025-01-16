@@ -5,6 +5,7 @@ aliases:
 categories: 
 tags: 
 created: 2024-04-10 12:00
+updated: 2024-09-19T17:45
 ---
 시스템의 성능이나 데이터 흐름을 제한하는 구성 요소나 단계
 

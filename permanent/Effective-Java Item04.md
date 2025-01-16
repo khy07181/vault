@@ -7,6 +7,7 @@ tags:
   - effective-java
   - java
 created: 2024-01-09 23:11
+updated: 2024-09-19T17:45
 ---
 
 ## 인스턴스화를 막으려거든 private 생성자를 사용하라.

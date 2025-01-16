@@ -5,6 +5,7 @@ categories:
 tags:
   - docker
 created: 2024-02-13 15:52
+updated: 2024-09-19T17:45
 ---
 
 ## 애플리케이션 소스 코드에서 도커 이미지까지

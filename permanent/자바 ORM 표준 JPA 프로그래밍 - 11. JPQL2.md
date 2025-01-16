@@ -4,7 +4,7 @@ aliases: 자바 ORM 표준 JPA 프로그래밍 - 11. JPQL2
 categories: JPA
 tags: JPA, ORM
 created: 2022-09-15 17:06
-updated: 2022-09-26 16:54
+updated: 2024-09-19T17:45
 fc-calendar: Gregorian Calendar
 fc-date: 2022-09-15 17:06
 ---

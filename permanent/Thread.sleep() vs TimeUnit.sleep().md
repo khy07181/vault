@@ -6,6 +6,7 @@ tags: java, thread
 created: 2023-01-16 13:24
 fc-calendar: Gregorian Calendar
 fc-date: 2023-01-16 13:24
+updated: 2024-09-19T17:45
 ---
 
 TimeUnit의 sleep은 내부적으로 Thread.sleep을 사용한다.

@@ -4,7 +4,7 @@ aliases: optinal
 categories: java
 tags: java, null, optional
 created: 2022-08-11 15:31
-updated: 2022-09-06 13:26
+updated: 2024-09-19T17:45
 fc-calendar: Gregorian Calendar
 fc-date: 2022-08-11 15:31
 ---

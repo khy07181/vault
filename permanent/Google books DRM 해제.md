@@ -7,6 +7,7 @@ tags:
   - epub
   - drm
 created: 2024-01-29 17:52
+updated: 2024-09-19T17:45
 ---
 
 1. Adobe digital edition 설치

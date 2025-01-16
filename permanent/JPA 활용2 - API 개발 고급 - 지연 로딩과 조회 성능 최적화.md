@@ -4,6 +4,7 @@ aliases:
 categories: jpa
 tags: jpa, orm, lecture
 created: 2023-07-21 11:21
+updated: 2024-09-19T17:45
 ---
 - 주문 + 배송정보 + 회원을 조회하는 API 생성
 - 지연 로딩 때문에 발생하는 성능 문제를 단계적으로 해결해가는 과정

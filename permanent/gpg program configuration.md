@@ -4,6 +4,7 @@ aliases:
 categories: gpg
 tags: gpg
 created: 2023-06-02 18:15
+updated: 2024-09-19T17:45
 ---
 obsidian git 실행 중 발생 에러
 

@@ -5,6 +5,7 @@ categories:
 tags:
   - database
 created: 2024-04-06 08:35
+updated: 2024-09-19T17:45
 ---
 
 ### OLTP(Online Transaction Processing)

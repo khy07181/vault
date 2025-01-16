@@ -4,7 +4,7 @@ aliases: spring boot 원리
 categories: springBoot
 tags: springBoot, java, framework
 created: 2022-09-13 15:56
-updated: 2022-09-16 10:04
+updated: 2024-09-19T17:45
 fc-calendar: Gregorian Calendar
 fc-date: 2022-09-13 15:56
 ---

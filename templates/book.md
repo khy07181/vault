@@ -13,7 +13,8 @@ total_page:
 status: 
 rate: 
 format: 
-reading_count:
+reading_count: 
+updated: 2025-01-04T19:27
 ---
 
 ### Highlights

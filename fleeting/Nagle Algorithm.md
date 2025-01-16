@@ -4,6 +4,7 @@ aliases: nagle
 categories: network
 tags: nagle, tcp
 created: 2023-07-12 13:07
+updated: 2024-09-19T17:45
 ---
 ![nagle](../attachment/img/nagle.png)
 일반적으로 TCP 통신은 패킷을 받았는지 확인하기 위해 데이터를 받은 쪽에서 ACK 신호를 보낸다.

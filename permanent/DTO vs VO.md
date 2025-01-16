@@ -5,6 +5,7 @@ categories:
 tags:
   - java
 created: 2024-04-09 22:51
+updated: 2024-09-19T17:45
 ---
 DTO(Data Transfer Object)
 - 레이어 간 데이터를 전달하는 객체

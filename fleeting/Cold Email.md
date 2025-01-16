@@ -4,6 +4,7 @@ aliases:
 categories: 
 tags: 
 created: 2024-06-13 17:10
+updated: 2024-09-19T17:45
 ---
 Cold Email
 - 이전에 접촉한 적 없는 잠재 고객이나 수신자에게 보내는 이메일

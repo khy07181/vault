@@ -5,7 +5,7 @@ aliases:
 categories: 
 tags: 
 created: 2024-09-14 09:16
-updated: 2024-09-14 09:16
+updated: 2024-09-14T09:17
 ---
 ### DNS(Domain Name System)
 도메인 네임과 IP 주소를 관리하는 시스템

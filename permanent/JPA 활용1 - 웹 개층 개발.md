@@ -4,6 +4,7 @@ aliases:
 categories: jpa
 tags: jpa, orm, lecture
 created: 2023-07-21 11:09
+updated: 2024-09-19T17:45
 ---
 
 ## 홈 화면과 레이아웃

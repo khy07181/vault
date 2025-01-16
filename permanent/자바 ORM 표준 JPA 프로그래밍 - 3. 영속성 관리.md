@@ -4,6 +4,7 @@ aliases: 자바 ORM 표준 JPA 프로그래밍 - 3. 영속성 관리
 categories: JPA
 tags: JPA, ORM
 created: 2022-09-15 17:06
+updated: 2024-09-19T17:45
 ---
 
 # 영속성 관리 - 내부 동작 방식

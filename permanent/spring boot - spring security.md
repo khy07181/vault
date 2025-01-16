@@ -4,7 +4,7 @@ aliases: spring boot - spring security
 categories: springBoot
 tags: springBoot, java, framework, security
 created: 2022-09-13 15:58
-updated: 2022-09-13 23:30
+updated: 2024-09-19T17:45
 fc-calendar: Gregorian Calendar
 fc-date: 2022-09-13 15:58
 ---

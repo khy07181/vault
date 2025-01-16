@@ -5,6 +5,7 @@ categories:
 tags:
   - docker
 created: 2024-02-21 22:26
+updated: 2024-09-19T17:45
 ---
 
 ## 도커 볼륨을 이용한 퍼시스턴트 스토리지

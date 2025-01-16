@@ -1,9 +1,10 @@
 ---
 title: postgresql - function 생성
-aliases:
+aliases: 
 categories: db
 tags: postgresql, functionm, sql
 created: 2023-07-05 17:09
+updated: 2024-09-19T17:45
 ---
 
 postgresql 에서 함수를 생성하여 사용하는 방법

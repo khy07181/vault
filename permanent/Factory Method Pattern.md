@@ -5,6 +5,7 @@ categories:
 tags:
   - design-pattern
 created: 2024-06-17 21:56
+updated: 2024-10-09T00:12
 ---
 객체 생성을 Factory 클래스로 캡슐화하여 대신 생성하게 하는 생성 디자인 패턴
 

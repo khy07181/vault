@@ -5,6 +5,7 @@ categories: obsidian
 tags:
   - obsidian
 created: 2023-12-17 11:22
+updated: 2024-09-19T17:45
 ---
 
 ### note 연결

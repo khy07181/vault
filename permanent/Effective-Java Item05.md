@@ -7,6 +7,7 @@ tags:
   - effective-java
   - java
 created: 2024-01-09 23:11
+updated: 2024-09-19T17:45
 ---
 
 ## 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라.

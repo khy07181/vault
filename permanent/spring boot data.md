@@ -4,7 +4,7 @@ aliases: spring boot data
 categories: springBoot
 tags: springBoot, java, framework, jpa, spirng-data
 created: 2022-09-13 15:57
-updated: 2022-09-20 10:40
+updated: 2024-09-19T17:45
 fc-calendar: Gregorian Calendar
 fc-date: 2022-09-13 15:57
 ---

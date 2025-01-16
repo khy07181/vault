@@ -6,6 +6,7 @@ tags: spring, batch
 created: 2022-12-09 11:39
 fc-calendar: Gregorian Calendar
 fc-date: 2022-12-09 11:39
+updated: 2024-09-19T17:45
 ---
 
 ### JobExecutionListener

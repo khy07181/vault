@@ -6,6 +6,7 @@ tags:
   - excalidraw
   - obsidian
 created: 2023-12-17 11:05
+updated: 2024-09-19T17:45
 ---
 
 

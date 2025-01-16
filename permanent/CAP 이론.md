@@ -6,6 +6,7 @@ categories:
 tags:
   - cap
 created: 2024-02-20 10:25
+updated: 2024-09-19T17:45
 ---
 
 ### CAP 정리란?

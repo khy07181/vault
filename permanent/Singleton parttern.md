@@ -5,6 +5,7 @@ categories:
 tags:
   - design-pattern
 created: 2024-06-04 22:13
+updated: 2024-09-19T17:45
 ---
 
 ### singleton 패턴을 가장 단순히 구현하는 방법

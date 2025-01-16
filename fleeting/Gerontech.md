@@ -4,5 +4,6 @@ aliases:
 categories: 
 tags: 
 created: 2024-05-24 14:36
+updated: 2024-09-19T17:45
 ---
 Gerontology와 Technology의 합성어로 실버세대를 위한 기술과 고령화에 대비한 기술을 총칭하는 용어

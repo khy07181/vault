@@ -4,6 +4,7 @@ aliases: git
 categories: 
 tags: git, gitignore
 created: 2023-06-02 18:01
+updated: 2024-09-19T17:45
 ---
 
 ### git cache 삭제

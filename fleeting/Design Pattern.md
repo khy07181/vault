@@ -5,6 +5,7 @@ categories:
 tags:
   - design-pattern
 created: 2024-04-10 10:30
+updated: 2024-11-13T19:33
 ---
 소프트웨어 디자인 과정에서 자주 발생하는 문제들에 대한 전형적인 해결책
 

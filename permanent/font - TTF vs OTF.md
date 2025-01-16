@@ -4,6 +4,7 @@ aliases: font type
 categories: 
 tags: font, ttf, otf
 created: 2023-06-03 23:08
+updated: 2024-09-19T17:45
 ---
 
 font 를 다운로드 받아서 사용할 때 TTF 를 받아야 할지 OTF 를 받아야지 할 지 헷갈릴 경우가 있다.

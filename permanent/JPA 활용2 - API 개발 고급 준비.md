@@ -4,6 +4,7 @@ aliases:
 categories: jpa
 tags: jpa, orm, lecture
 created: 2023-07-21 11:19
+updated: 2024-09-19T17:45
 ---
 
 # API 개발 고급 준비

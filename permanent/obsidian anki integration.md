@@ -1,3 +1,7 @@
+---
+created: 2024-09-19T17:45
+updated: 2024-09-19T17:45
+---
 
 [Anki](https://apps.ankiweb.net/) 설치
 - `brew install --cask anki`

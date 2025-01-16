@@ -1,9 +1,10 @@
 ---
 title: JPA 활용1 - 회원 도메인 개발
-aliases:
+aliases: 
 categories: jpa
 tags: jpa, orm, lecture
 created: 2023-07-19 15:31
+updated: 2024-09-19T17:45
 ---
 
 ## 회원 Repository 개발

@@ -4,6 +4,7 @@ aliases: 생성자에 매개변수가 많다면 빌더를 고려하라
 categories: java
 tags: effective-java, java
 created: 2023-07-26 00:01
+updated: 2024-09-19T17:45
 ---
 
 생성자와 정적 팩토리 메소드는 선택적 매개변수가 많을 때 적절히 대응하기 어렵다.

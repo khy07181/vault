@@ -6,6 +6,7 @@ tags:
   - postgresql
   - partitioning
 created: 2024-05-24 11:20
+updated: 2024-09-19T17:45
 ---
 
 ### 기존 테이블 파티셔닝 방법

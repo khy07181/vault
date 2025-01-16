@@ -4,6 +4,7 @@ aliases: enumeration
 categories: java
 tags: enum, java, enumeration
 created: 2023-07-11 23:42
+updated: 2024-09-19T17:45
 ---
 
 - 상수 목록을 담을 수 있는 데이터 타입

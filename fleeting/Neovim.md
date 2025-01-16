@@ -4,7 +4,7 @@ aliases:
 categories: 
 tags: 
 created: 2024-12-30 09:33
-updated: 2024-12-30 09:33
+updated: 2024-12-31T20:58
 ---
 neovim 설치
 `brew install neovim`

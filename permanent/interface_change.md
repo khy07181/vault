@@ -4,7 +4,7 @@ aliases: 인터페이스의 변화
 categories: java
 tags: java, java8, interface
 created: 2022-08-11 15:31
-updated: 2022-09-06 17:59
+updated: 2024-09-19T17:45
 fc-calendar: Gregorian Calendar
 fc-date: 2022-08-11 15:31
 ---

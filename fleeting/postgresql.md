@@ -6,6 +6,7 @@ tags: postgresql, sql
 created: 2023-01-10 20:35
 fc-calendar: Gregorian Calendar
 fc-date: 2023-01-10 20:35
+updated: 2024-09-19T17:45
 ---
 
 # postgresql

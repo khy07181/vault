@@ -7,6 +7,7 @@ tags:
   - effective-java
   - java
 created: 2024-01-09 23:11
+updated: 2024-09-19T17:45
 ---
 
 ## private 생성자나 열거 타입으로 Singleton임을 보증하라.

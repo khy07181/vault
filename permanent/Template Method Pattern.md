@@ -7,6 +7,7 @@ tags:
   - design-pattern
   - OOP
 created: 2024-04-10 10:18
+updated: 2024-10-07T22:46
 ---
 
 ### Template Method Pattern

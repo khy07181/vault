@@ -4,6 +4,7 @@ aliases: 생성자 대신 정적 팩토리 메소드를 고려하라
 categories: java
 tags: effective-java, java
 created: 2023-07-11 21:59
+updated: 2024-09-19T17:45
 ---
 ## 생성자 대신 정적 팩토리 메소드를 고려하라.
 

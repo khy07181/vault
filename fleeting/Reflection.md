@@ -4,6 +4,7 @@ aliases:
 categories: java
 tags: reflection
 created: 2023-07-12 00:22
+updated: 2024-09-19T17:45
 ---
 
 ClassLoader를 통해 읽어온 클래스 정보(거울에 반사된 정보)를 사용하는 기술

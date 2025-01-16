@@ -1,9 +1,10 @@
 ---
 title: JPA 활용 - 도메인 분석 설계
-aliases:
+aliases: 
 categories: jpa
 tags: jpa, orm, lecture
 created: 2023-07-19 10:28
+updated: 2024-09-19T17:45
 ---
 
 ## 요구사항 분석

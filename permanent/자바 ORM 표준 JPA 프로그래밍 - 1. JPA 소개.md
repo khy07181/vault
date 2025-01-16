@@ -4,6 +4,7 @@ aliases: JPA 소개
 categories: JPA
 tags: JPA, ORM
 created: 2022-09-15 17:06
+updated: 2024-09-19T17:45
 ---
 
 # JPA 소개

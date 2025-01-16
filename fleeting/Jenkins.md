@@ -6,6 +6,7 @@ tags:
 created: 2022-11-30 16:22
 fc-calendar: Gregorian Calendar
 fc-date: 2022-11-30 16:22
+updated: 2024-09-19T17:45
 ---
 
 jenkins 설치
