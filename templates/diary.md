@@ -1,7 +1,7 @@
 ---
 title: <% tp.file.title %>
 aliases: 
-categories: diary
+classification: diary
 tags:
   - private
   - diary

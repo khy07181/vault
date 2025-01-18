@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"200a20ed555c9cf6","type":"file","file":"4_Archive/이해하기 힘든 이름.md","x":-360,"y":-320,"width":400,"height":400},
+		{"id":"29ea408e4ec4fbdd","type":"file","file":"4_Archive/중복 코드.md","x":-360,"y":119,"width":400,"height":400},
+		{"id":"911ed400d660915f","type":"file","file":"4_Archive/긴 함수.md","x":-360,"y":560,"width":400,"height":400},
+		{"id":"2e1028cff552af0a","type":"file","file":"4_Archive/긴 매개변수 목록.md","x":-360,"y":1000,"width":400,"height":400},
+		{"id":"4d5e86415a06206f","type":"file","file":"4_Archive/전역 데이터.md","x":-360,"y":1440,"width":400,"height":400},
+		{"id":"d15e421b1d61b396","type":"file","file":"4_Archive/가변 데이터.md","x":-360,"y":1880,"width":400,"height":400},
+		{"id":"88a619e15395cff8","x":-360,"y":2340,"width":400,"height":400,"type":"file","file":"4_Archive/뒤엉킨 변경.md"}
+	],
+	"edges":[]
+}

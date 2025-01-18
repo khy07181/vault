@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"e2d91e37d6225b1a","x":-1305,"y":-1860,"width":4427,"height":440,"type":"group","label":"\bJava ORM 표준 JPA 프로그래밍"},
+		{"id":"1ea2ea54d45686ff","x":-1305,"y":-1220,"width":2040,"height":440,"type":"group","label":"스프링 부트와 JPA 활용1 - 웹 어플리케이션 개발"},
+		{"id":"fb0fa2889de578c6","x":-1305,"y":-622,"width":1240,"height":440,"type":"group","label":"스프링 부트와 JPA 활용2 - API 개발과 성능 최적화"},
+		{"type":"file","file":"4_Archive/자바 ORM 표준 JPA 프로그래밍 - 1. JPA 소개.md","id":"b87fddb6020242bc","x":-1285,"y":-1840,"width":400,"height":400},
+		{"type":"file","file":"4_Archive/자바 ORM 표준 JPA 프로그래밍 - 2. JPA 시작하기.md","id":"c8efe2c56f92cc0a","x":-885,"y":-1840,"width":400,"height":400},
+		{"type":"file","file":"4_Archive/자바 ORM 표준 JPA 프로그래밍 - 3. 영속성 관리.md","id":"c67d725bf6875863","x":-485,"y":-1840,"width":400,"height":400},
+		{"type":"file","file":"4_Archive/자바 ORM 표준 JPA 프로그래밍 - 4.  Entity 맵핑.md","id":"db00414a72d3b9dc","x":-85,"y":-1840,"width":400,"height":400},
+		{"type":"file","file":"4_Archive/자바 ORM 표준 JPA 프로그래밍 - 5. 연관관계 맵핑 기초.md","id":"8f985f2e7e1a00fd","x":302,"y":-1840,"width":400,"height":400},
+		{"type":"file","file":"4_Archive/자바 ORM 표준 JPA 프로그래밍 - 6. 다양한 연관관계 맵핑.md","id":"775a91a888cd8594","x":702,"y":-1840,"width":400,"height":400},
+		{"type":"file","file":"4_Archive/자바 ORM 표준 JPA 프로그래밍 - 7. 고급 맵핑.md","id":"b741170c40f27b9c","x":1102,"y":-1840,"width":400,"height":400},
+		{"id":"ad94681851a37f72","x":1502,"y":-1840,"width":400,"height":400,"type":"file","file":"4_Archive/자바 ORM 표준 JPA 프로그래밍 - 8. 프록시와 연관관계 관리.md"},
+		{"id":"8e95fac564db9d42","x":1902,"y":-1840,"width":400,"height":400,"type":"file","file":"4_Archive/자바 ORM 표준 JPA 프로그래밍 - 9. 값 타입.md"},
+		{"id":"599cc471874db1bf","x":2302,"y":-1840,"width":400,"height":400,"type":"file","file":"4_Archive/자바 ORM 표준 JPA 프로그래밍 - 10. JPQL.md"},
+		{"id":"dd0ba26cf2acda18","x":2702,"y":-1840,"width":400,"height":400,"type":"file","file":"4_Archive/자바 ORM 표준 JPA 프로그래밍 - 11. JPQL2.md"},
+		{"id":"afa43b07221c50ed","x":-1285,"y":-1200,"width":400,"height":400,"type":"file","file":"4_Archive/JPA 활용1 - 도메인 분석 설계.md"},
+		{"id":"579f20657b6c6f82","x":-885,"y":-1200,"width":400,"height":400,"type":"file","file":"4_Archive/JPA 활용1 - 회원 도메인 개발.md"},
+		{"id":"146af1bc4343611f","x":-485,"y":-1200,"width":400,"height":400,"type":"file","file":"4_Archive/JPA 활용1 - 상품 도메인 개발.md"},
+		{"id":"19dfc346fc26d28b","x":-98,"y":-1200,"width":400,"height":400,"type":"file","file":"4_Archive/JPA 활용1 - 주문 도메인 개발.md"},
+		{"id":"00ecc597721a6e7b","x":315,"y":-1200,"width":400,"height":400,"type":"file","file":"4_Archive/JPA 활용1 - 웹 개층 개발.md"},
+		{"id":"00e1898bae0010cf","x":-1285,"y":-602,"width":400,"height":400,"type":"file","file":"4_Archive/JPA 활용2 - API 개발 기본.md"},
+		{"id":"71a34619f817847d","x":-885,"y":-602,"width":400,"height":400,"type":"file","file":"4_Archive/JPA 활용2 - API 개발 고급 준비.md"},
+		{"id":"9636a06627676a48","x":-485,"y":-602,"width":400,"height":400,"type":"file","file":"4_Archive/JPA 활용2 - API 개발 고급 - 지연 로딩과 조회 성능 최적화.md"}
+	],
+	"edges":[]
+}

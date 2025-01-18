@@ -1,10 +1,10 @@
 ---
 title: Home
 aliases: 
-categories: 
+classification: 
 tags: 
 created: 2024-06-30 23:12
-updated: 2025-01-07T10:12
+updated: 2025-01-18T20:16
 ---
 
 ### Recent File
@@ -32,10 +32,14 @@ WHERE status = "reading"
 SORT created desc
 ```
 
+### Uncreated Note
+
+^353533
+
 ```dataview
 TABLE WITHOUT ID 
-    rows.file.link AS "파일",
-    key AS "미해결 링크"
+    rows.file.link AS "note",
+    key AS "uncreated"
 FLATTEN file.outlinks as outlinks
 WHERE !(outlinks.file) AND !(contains(meta(outlinks).path, "/"))
 GROUP BY outlinks

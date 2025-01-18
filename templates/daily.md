@@ -1,12 +1,12 @@
 ---
 title: <% tp.file.title %>
 aliases: 
-categories: daily
+classification: daily
 tags:
   - daily
 created: <% tp.file.creation_date("yyyy-MM-DDTHH:mm") %>
 ---
-wake-up time
+wake-up time :
 
 ---
 

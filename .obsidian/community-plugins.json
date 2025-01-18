@@ -19,7 +19,6 @@
   "darlal-switcher-plus",
   "obsidian-excalidraw-plugin",
   "deepl",
-  "tag-wrangler",
   "readwise-official",
   "obsidian-minimal-settings",
   "obsidian-style-settings",
@@ -45,5 +44,6 @@
   "obsidian42-brat",
   "copilot",
   "obsidian-kanban",
-  "update-time-on-edit"
+  "update-time-on-edit",
+  "tag-wrangler"
 ]
