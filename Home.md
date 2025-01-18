@@ -4,8 +4,16 @@ aliases:
 classification: 
 tags: 
 created: 2024-06-30 23:12
-updated: 2025-01-18T20:16
+updated: 2025-01-19T03:17
 ---
+
+### Tasks
+
+![[tasks]]
+
+### brainstorming
+
+![[brainstorming#^bccf1a]]
 
 ### Recent File
 
@@ -27,7 +35,7 @@ author as author,
 category as category,
 dateformat(read_date, "yyyy-MM-dd") as read_date,
 rate as rate
-FROM "private/library/book"
+FROM "private/2_Area/library/book"
 WHERE status = "reading"
 SORT created desc
 ```
