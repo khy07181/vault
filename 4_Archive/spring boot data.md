@@ -1,12 +1,15 @@
 ---
 title: spring boot data
-aliases: spring boot data
-classification: springBoot
-tags: springBoot, java, framework, jpa, spirng-data
+aliases: 
+classification: resource
+tags:
+  - springBoot
+  - java
+  - framework
+  - jpa
+  - spirng-data
 created: 2022-09-13 15:57
-updated: 2025-01-18T20:16
-fc-calendar: Gregorian Calendar
-fc-date: 2022-09-13 15:57
+updated: 2025-01-18T21:34
 ---
 
 # Spring Boot Data

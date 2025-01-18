@@ -1,10 +1,10 @@
 ---
 title: figlet + lolcat 으로 터미널 꾸미기
 aliases: 
-classification: 
+classification: resource
 tags: 
 created: 2024-02-05 23:43
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:29
 ---
 
 figlet & lolcat 설치

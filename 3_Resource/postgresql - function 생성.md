@@ -1,10 +1,14 @@
 ---
 title: postgresql - function 생성
 aliases: 
-classification: db
-tags: postgresql, functionm, sql
+classification: resource
+tags:
+  - postgresql
+  - functionm
+  - sql
+  - db
 created: 2023-07-05 17:09
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:21
 ---
 
 postgresql 에서 함수를 생성하여 사용하는 방법

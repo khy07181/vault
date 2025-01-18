@@ -1,12 +1,13 @@
 ---
 title: Postgresql Partitioning
 aliases: 
-classification: db
+classification: resource
 tags:
   - postgresql
   - partitioning
+  - db
 created: 2024-05-24 11:20
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:21
 ---
 
 ### 기존 테이블 파티셔닝 방법

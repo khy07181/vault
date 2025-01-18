@@ -1,6 +1,10 @@
 ---
+title: obsidian anki integration
+aliases: 
+classification: resource
+tags: 
 created: 2024-09-19T17:45
-updated: 2024-09-19T17:45
+updated: 2025-01-18T21:31
 ---
 
 [Anki](https://apps.ankiweb.net/) 설치

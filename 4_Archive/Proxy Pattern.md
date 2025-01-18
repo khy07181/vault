@@ -1,12 +1,12 @@
 ---
 title: Proxy Pattern
 aliases: 
-classification: 
+classification: resource
 tags:
   - design-pattern
   - OOP
 created: 2024-10-09 12:14
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:31
 ---
 대상 원본 객체를 대리하여 대신 처리하게 함으로써 로직의 흐름을 제어하는 행동 패턴
 

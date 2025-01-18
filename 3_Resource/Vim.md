@@ -1,6 +1,11 @@
 ---
+title: Vim
+aliases: 
+classification: resource
+tags:
+  - vim
 created: 2024-09-19T17:45
-updated: 2025-01-17T07:25
+updated: 2025-01-18T21:22
 ---
 
 ### Vim 파일

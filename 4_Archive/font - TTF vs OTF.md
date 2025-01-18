@@ -1,10 +1,14 @@
 ---
 title: font - TTF vs OTF
-aliases: font type
-classification: 
-tags: font, ttf, otf
+aliases:
+  - font type
+classification: resource
+tags:
+  - font
+  - ttf
+  - otf
 created: 2023-06-03 23:08
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:29
 ---
 
 font 를 다운로드 받아서 사용할 때 TTF 를 받아야 할지 OTF 를 받아야지 할 지 헷갈릴 경우가 있다.

@@ -1,11 +1,11 @@
 ---
 title: Abstract Factory Pattern
 aliases: 
-classification: 
+classification: resource
 tags:
   - design-pattern
 created: 2024-06-18 16:16
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:28
 ---
 ![](https://i.imgur.com/rL5sYe5.png)
 

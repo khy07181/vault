@@ -2,13 +2,13 @@
 title: Strategy Pattern
 aliases:
   - Staretegy
-classification: 
+classification: resource
 tags:
   - design-pattern
   - java
   - OOP
 created: 2024-08-02 22:11
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:36
 ---
 특정 작업을 하는 방식, 전략들을 여러개 두고 필요에 따라 선택해서 사용할 수 있도록 하는 패턴
 

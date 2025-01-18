@@ -1,10 +1,13 @@
 ---
 title: JPA 활용2 - API 개발 고급 준비
 aliases: 
-classification: jpa
-tags: jpa, orm, lecture
+classification: resource
+tags:
+  - jpa
+  - orm
+  - lecture
 created: 2023-07-21 11:19
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:30
 ---
 
 # API 개발 고급 준비

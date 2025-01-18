@@ -1,10 +1,13 @@
 ---
 title: JPA 활용1 - 상품 도메인 개발
 aliases: 
-classification: jpa
-tags: jpa, orm, lecture
+classification: resource
+tags:
+  - jpa
+  - orm
+  - lecture
 created: 2023-07-19 16:26
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:30
 ---
 
 ## 상품 엔티티 개발(비즈니스 로직 추가)

@@ -1,11 +1,11 @@
 ---
 title: 도커 교과서 Chapter03
 aliases: 
-classification: 
+classification: resource
 tags:
   - docker
 created: 2024-02-07 22:47
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:24
 ---
 
 ## 도커 이미지 만들기

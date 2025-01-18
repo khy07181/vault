@@ -2,10 +2,10 @@
 title: Bottleneck
 aliases:
   - 병목
-classification: 
+classification: resource
 tags: 
 created: 2024-04-10 12:00
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:16
 ---
 시스템의 성능이나 데이터 흐름을 제한하는 구성 요소나 단계
 

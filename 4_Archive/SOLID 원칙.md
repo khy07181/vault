@@ -1,12 +1,12 @@
 ---
 title: SOLID 원칙
 aliases: 
-classification: 
+classification: resource
 tags:
   - SOLID
   - OOP
 created: 2023-07-12 00:37
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:32
 ---
 좋은 설계란 시스템에 새로운 요구사항이나 변경사항이 있을 때, 영향을 받는 범위가 적은 구조를 말한다. 그래서 시스템에 예상하지 못한 변경사항이 발생하더라도, 유연하게 대처하고 이후에 확장성이 있는 시스템 구조를 만들 수 있다.
 

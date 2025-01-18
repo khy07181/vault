@@ -1,7 +1,7 @@
 ---
 title: <% tp.file.title %>
 aliases: 
-category: 
+classification: area
 tags: 
 created: <% tp.file.creation_date("yyyy-MM-DDTHH:mm") %>
 ---

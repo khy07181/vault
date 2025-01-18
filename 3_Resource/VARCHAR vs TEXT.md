@@ -1,10 +1,11 @@
 ---
 title: VARCHAR vs TEXT
 aliases: 
-classification: 
-tags: 
+classification: resource
+tags:
+  - db
 created: 2024-05-22 14:56
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:22
 ---
 
 Links

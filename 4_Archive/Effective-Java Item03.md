@@ -2,12 +2,12 @@
 title: Effective-Java Item03
 aliases:
   - private 생성자나 열거 타입으로 Singleton임을 보증하라.
-classification: java
+classification: resource
 tags:
   - effective-java
   - java
 created: 2024-01-09 23:11
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:28
 ---
 
 ## private 생성자나 열거 타입으로 Singleton임을 보증하라.

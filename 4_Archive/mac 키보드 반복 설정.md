@@ -1,10 +1,11 @@
 ---
 title: mac 키보드 반복 설정
 aliases: 
-classification: 
-tags: 
+classification: resource
+tags:
+  - mac
 created: 2024-04-22 18:53
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:30
 ---
 
 ```shell

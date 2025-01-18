@@ -1,12 +1,13 @@
 ---
 title: optional
-aliases: optinal
-classification: java
-tags: java, null, optional
+aliases: []
+classification: resource
+tags:
+  - java
+  - "null"
+  - optional
 created: 2022-08-11 15:31
-updated: 2025-01-18T20:16
-fc-calendar: Gregorian Calendar
-fc-date: 2022-08-11 15:31
+updated: 2025-01-18T21:31
 ---
 
 # Optional

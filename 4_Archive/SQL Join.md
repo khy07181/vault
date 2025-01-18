@@ -1,12 +1,14 @@
 ---
 title: SQL Join
-aliases: SQL Join
-classification: sql
-tags: db, sql, join, query
+aliases: 
+classification: resource
+tags:
+  - db
+  - sql
+  - join
+  - query
 created: 2022-11-02 17:35
-fc-calendar: Gregorian Calendar
-fc-date: 2022-11-02 17:35
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:35
 ---
 
 # SQL Join

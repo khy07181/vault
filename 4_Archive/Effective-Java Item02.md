@@ -1,10 +1,13 @@
 ---
 title: Effective-Java Item02
-aliases: 생성자에 매개변수가 많다면 빌더를 고려하라
-classification: java
-tags: effective-java, java
+aliases:
+  - 생성자에 매개변수가 많다면 빌더를 고려하라
+classification: resource
+tags:
+  - effective-java
+  - java
 created: 2023-07-26 00:01
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:28
 ---
 
 생성자와 정적 팩토리 메소드는 선택적 매개변수가 많을 때 적절히 대응하기 어렵다.

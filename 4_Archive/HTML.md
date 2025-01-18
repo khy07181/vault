@@ -1,12 +1,13 @@
 ---
 title: HTML
-aliases: HTML
-classification: front-end
-tags: html, front-end
+aliases:
+  - HTML
+classification: resource
+tags:
+  - html
+  - front-end
 created: 2022-09-07 11:37
-updated: 2025-01-18T20:16
-fc-calendar: Gregorian Calendar
-fc-date: 2022-09-07 11:37
+updated: 2025-01-18T21:30
 ---
 
 # HTML

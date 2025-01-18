@@ -1,12 +1,12 @@
 ---
 title: Jenkins
-aliases: Jenkins
-classification: 
-tags: 
+aliases:
+  - Jenkins
+classification: resource
+tags:
+  - jenkins
 created: 2022-11-30 16:22
-fc-calendar: Gregorian Calendar
-fc-date: 2022-11-30 16:22
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:18
 ---
 
 jenkins 설치

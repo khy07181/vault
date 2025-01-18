@@ -1,11 +1,11 @@
 ---
 title: Singleton parttern
 aliases: 
-classification: 
+classification: resource
 tags:
   - design-pattern
 created: 2024-06-04 22:13
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:31
 ---
 
 ### singleton 패턴을 가장 단순히 구현하는 방법

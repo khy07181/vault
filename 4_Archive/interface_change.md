@@ -1,12 +1,14 @@
 ---
 title: interface_change
-aliases: 인터페이스의 변화
-classification: java
-tags: java, java8, interface
+aliases:
+  - 인터페이스의 변화
+classification: resource
+tags:
+  - java
+  - java8
+  - interface
 created: 2022-08-11 15:31
-updated: 2025-01-18T20:16
-fc-calendar: Gregorian Calendar
-fc-date: 2022-08-11 15:31
+updated: 2025-01-18T21:30
 ---
 
 # 인터페이스의 변화

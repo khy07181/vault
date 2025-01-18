@@ -1,12 +1,13 @@
 ---
 title: spring boot core
-aliases: spring boot core
-classification: springBoot
-tags: springBoot, java, framework
+aliases: 
+classification: resource
+tags:
+  - springBoot
+  - java
+  - framework
 created: 2022-09-13 15:54
-updated: 2025-01-18T20:16
-fc-calendar: Gregorian Calendar
-fc-date: 2022-09-13 15:54
+updated: 2025-01-18T21:34
 ---
 
 # 스프링 부트 핵심 기능

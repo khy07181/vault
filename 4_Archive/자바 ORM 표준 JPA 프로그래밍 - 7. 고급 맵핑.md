@@ -1,10 +1,14 @@
 ---
 title: 자바 ORM 표준 JPA 프로그래밍 -  7. 고급 맵핑
-aliases: 자바 ORM 표준 JPA 프로그래밍 -  7. 고급 맵핑
-classification: JPA
-tags: JPA, ORM, lecture
+aliases:
+  - 자바 ORM 표준 JPA 프로그래밍 -  7. 고급 맵핑
+classification: resource
+tags:
+  - JPA
+  - ORM
+  - lecture
 created: 2022-09-15 17:06
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:26
 ---
 
 # 고급 맵핑

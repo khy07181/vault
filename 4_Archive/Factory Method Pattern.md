@@ -1,11 +1,11 @@
 ---
 title: Factory Method Pattern
 aliases: 
-classification: 
+classification: resource
 tags:
   - design-pattern
 created: 2024-06-17 21:56
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:29
 ---
 객체 생성을 Factory 클래스로 캡슐화하여 대신 생성하게 하는 생성 디자인 패턴
 

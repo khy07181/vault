@@ -1,12 +1,12 @@
 ---
 title: Adapter Pattern
 aliases: 
-classification: 
+classification: resource
 tags:
   - design-pattern
   - OOP
 created: 2024-10-07 11:41
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:28
 ---
 
 클래스를 Adapter 로 사용하는 구조 패턴으로, 호환성이 없는 인터페이스 때문에 함께 동작할 수 없는 클래스들을 함께 작동해주도록 변환 역할을 해주는 행동 패턴

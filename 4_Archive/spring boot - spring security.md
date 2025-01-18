@@ -1,12 +1,15 @@
 ---
 title: spring boot - spring security
-aliases: spring boot - spring security
-classification: springBoot
-tags: springBoot, java, framework, security
+aliases:
+  - spring boot - spring security
+classification: resource
+tags:
+  - springBoot
+  - java
+  - framework
+  - security
 created: 2022-09-13 15:58
-updated: 2025-01-18T20:16
-fc-calendar: Gregorian Calendar
-fc-date: 2022-09-13 15:58
+updated: 2025-01-18T21:32
 ---
 
 # 스프링 부트 개념과 활용 Spring Security

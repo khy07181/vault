@@ -1,12 +1,12 @@
 ---
 title: State Pattern
 aliases: 
-classification: 
+classification: resource
 tags:
   - design-pattern
   - OOP
 created: 2024-10-07 10:46
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:35
 ---
 객체가 특정 상태에 따라 행위를 달리하는 상황에서, 상태를 조건문으로 검사해서 행위를 달리하는 것이 아닌, 상태를 객체화 하여 상태가 행동을 할 수 있도록 위임하는 패턴
 - 상태를 클래스로 분리해서 상태에서 메서드들을 구현하고 스스로 상태를 전환하도록 하여 코드의 복잡성을 줄이고 유연성을 높인다.

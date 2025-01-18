@@ -1,11 +1,11 @@
 ---
 title: OLTP vs OLAP
 aliases: 
-classification: 
+classification: resource
 tags:
   - database
 created: 2024-04-06 08:35
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:21
 ---
 
 ### OLTP(Online Transaction Processing)

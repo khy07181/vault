@@ -1,12 +1,13 @@
 ---
 title: Thread.sleep() vs TimeUnit.sleep()
-aliases: thread.sleep
-classification: java
-tags: java, thread
+aliases:
+  - thread.sleep
+classification: resource
+tags:
+  - java
+  - thread
 created: 2023-01-16 13:24
-fc-calendar: Gregorian Calendar
-fc-date: 2023-01-16 13:24
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:36
 ---
 
 TimeUnit의 sleep은 내부적으로 Thread.sleep을 사용한다.

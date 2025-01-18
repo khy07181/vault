@@ -1,12 +1,14 @@
 ---
 title: spring intro
-aliases: spring 소개
-classification: spring
-tags: spring, java, framework
+aliases:
+  - spring 소개
+classification: resource
+tags:
+  - spring
+  - java
+  - framework
 created: 2022-09-13 15:50
-updated: 2025-01-18T20:16
-fc-calendar: Gregorian Calendar
-fc-date: 2022-09-13 15:50
+updated: 2025-01-18T21:35
 ---
 
 ## IoC(Inversion of Control)

@@ -1,10 +1,12 @@
 ---
 title: Reflection
 aliases: 
-classification: java
-tags: reflection
+classification: resource
+tags:
+  - reflection
+  - java
 created: 2023-07-12 00:22
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:21
 ---
 
 ClassLoader를 통해 읽어온 클래스 정보(거울에 반사된 정보)를 사용하는 기술

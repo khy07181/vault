@@ -1,10 +1,13 @@
 ---
 title: JPA 활용2 - API 개발 고급 - 지연 로딩과 조회 성능 최적화
 aliases: 
-classification: jpa
-tags: jpa, orm, lecture
+classification: resource
+tags:
+  - jpa
+  - orm
+  - lecture
 created: 2023-07-21 11:21
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:30
 ---
 - 주문 + 배송정보 + 회원을 조회하는 API 생성
 - 지연 로딩 때문에 발생하는 성능 문제를 단계적으로 해결해가는 과정

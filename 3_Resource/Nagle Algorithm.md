@@ -1,10 +1,14 @@
 ---
 title: Nagle Algorithm
-aliases: nagle
-classification: network
-tags: nagle, tcp
+aliases:
+  - nagle
+classification: resource
+tags:
+  - nagle
+  - tcp
+  - network
 created: 2023-07-12 13:07
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:20
 ---
 ![nagle](../attachment/img/nagle.png)
 일반적으로 TCP 통신은 패킷을 받았는지 확인하기 위해 데이터를 받은 쪽에서 ACK 신호를 보낸다.

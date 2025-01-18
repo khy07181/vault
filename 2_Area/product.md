@@ -1,13 +1,13 @@
 ---
 title: product
 aliases: 
-classification: 
+classification: area
 tags:
   - app
   - productivity
   - product
 created: 2024-01-12 16:39
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:15
 ---
 
 ### in use

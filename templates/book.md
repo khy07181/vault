@@ -2,18 +2,19 @@
 cover_url: 
 title: <% tp.file.title %>
 author: 
+classification: area
 url: 
 category: 
 tags:
   - book
 publish_date: 
-created: <% tp.file.creation_date("yyyy-MM-DDTHH:mm") %>
 read_date: 
 total_page: 
 status: 
-rate: 
 format: 
-reading_count:
+rate: 
+reading_count: 
+created: <% tp.file.creation_date("yyyy-MM-DDTHH:mm") %>
 ---
 
 ### Highlights

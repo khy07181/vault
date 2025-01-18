@@ -1,12 +1,13 @@
 ---
 title: Spring Batch Listener
-aliases: Spring Batch Listener
-classification: spring
-tags: spring, batch
+aliases:
+  - Spring Batch Listener
+classification: resource
+tags:
+  - spring
+  - batch
 created: 2022-12-09 11:39
-fc-calendar: Gregorian Calendar
-fc-date: 2022-12-09 11:39
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:32
 ---
 
 ### JobExecutionListener

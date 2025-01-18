@@ -1,10 +1,10 @@
 ---
 title: Builder Pattern
 aliases: 
-classification: 
+classification: resource
 tags: 
 created: 2024-07-29 17:32
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:28
 ---
 복잡한 객체들을 단계별로 생성할 수 있도록 하는 생성 디자인 패턴, 생성하는 방법을 정의하는 클래스를 별도로 분리하여, 동일한 생성 과정에서 다양한 표현을 만들 수 있다.
 

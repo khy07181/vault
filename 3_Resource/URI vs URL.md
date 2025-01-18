@@ -1,11 +1,11 @@
 ---
 title: URI vs URL
 aliases: 
-classification: network
+classification: resource
 tags:
   - network
 created: 2024-07-30 11:04
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:22
 ---
 
 ### URI(Uniform Resource Identifier)

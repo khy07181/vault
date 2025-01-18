@@ -2,13 +2,13 @@
 title: Facade Pattern
 aliases:
   - Facade
-classification: 
+classification: resource
 tags:
   - design-pattern
   - OOP
   - java
 created: 2024-08-06 11:19
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:28
 ---
 어떤 건물의 외벽, 전면을 의미하는 프랑스어 Facade는 여러 요소들로 복잡하게 구성된 시스템을 하나의 창구를 통해 간단하게 사용할 수 있도록 하는 디자인 패턴이다.
 

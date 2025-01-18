@@ -1,12 +1,13 @@
 ---
 title: spring boot 원리
-aliases: spring boot 원리
-classification: springBoot
-tags: springBoot, java, framework
+aliases: 
+classification: resource
+tags:
+  - springBoot
+  - java
+  - framework
 created: 2022-09-13 15:56
-updated: 2025-01-18T20:16
-fc-calendar: Gregorian Calendar
-fc-date: 2022-09-13 15:56
+updated: 2025-01-18T21:32
 ---
 
 # 스프링 부트 원리

@@ -1,11 +1,11 @@
 ---
 title: 도커 교과서 Chapter06
 aliases: 
-classification: 
+classification: resource
 tags:
   - docker
 created: 2024-02-21 22:26
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:24
 ---
 
 ## 도커 볼륨을 이용한 퍼시스턴트 스토리지

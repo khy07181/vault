@@ -2,12 +2,12 @@
 title: Template Method Pattern
 aliases:
   - Template Method
-classification: 
+classification: resource
 tags:
   - design-pattern
   - OOP
 created: 2024-04-10 10:18
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:36
 ---
 
 ### Template Method Pattern

@@ -1,11 +1,11 @@
 ---
 title: obsidian note 연결
 aliases: 
-classification: obsidian
+classification: resource
 tags:
   - obsidian
 created: 2023-12-17 11:22
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:31
 ---
 
 ### note 연결

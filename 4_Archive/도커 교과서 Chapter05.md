@@ -1,11 +1,11 @@
 ---
 title: 도커 교과서 Chapter05
 aliases: 
-classification: 
+classification: resource
 tags:
   - docker
 created: 2024-02-15 16:18
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:24
 ---
 
 ## 도커 허브 등 레지스트리에 이미지 공유하기

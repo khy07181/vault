@@ -1,10 +1,10 @@
 ---
 title: Cold Email
 aliases: 
-classification: 
+classification: resource
 tags: 
 created: 2024-06-13 17:10
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:16
 ---
 Cold Email
 - 이전에 접촉한 적 없는 잠재 고객이나 수신자에게 보내는 이메일

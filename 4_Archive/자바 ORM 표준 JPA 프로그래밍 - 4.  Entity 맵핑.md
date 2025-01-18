@@ -1,10 +1,13 @@
 ---
 title: 자바 ORM 표준 JPA 프로그래밍 - 4.  Entity 맵핑
-aliases: 자바 ORM 표준 JPA 프로그래밍 - 4.  Entity 맵핑
-classification: JPA
-tags: JPA, ORM
+aliases:
+  - 자바 ORM 표준 JPA 프로그래밍 - 4.  Entity 맵핑
+classification: resource
+tags:
+  - JPA
+  - ORM
 created: 2022-09-15 17:06
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:25
 ---
 j
 # 엔티티 맵핑

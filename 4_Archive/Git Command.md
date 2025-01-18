@@ -1,12 +1,11 @@
 ---
 title: Git Command
-aliases: Git Command
-tags: git
-classification: git
+aliases: 
+tags:
+  - git
+classification: resource
 created: 2022-08-22 15:55
-updated: 2025-01-18T20:16
-fc-calendar: Gregorian Calendar
-fc-date: 2022-08-22 15:55
+updated: 2025-01-18T21:29
 ---
 
 # Git Command
@@ -69,11 +68,13 @@ ex) `git reset HEAD hello.txt`
 
 - `git reset HEAD^`
 - 커밋을 취소하면 스테이징도 함께 취소된다.
+
 | command | description |
 | ------------ | --------------------------------------------------------------------------------------------------------------------------- |
 | --soft HEAD^ | 최근 커밋을 하기 전 상태로 작업 트리를 되돌린다. |
 | --mixed HEAD^ | 최근 커밋과 스테이징을 하기 전 상태로 작업트리를 되돌린다. 옵션 없이 git reset 명령을 사용하면 이 옵션을 기본으로 동작한다. |
 | --hard HEAD^ | 최근 커밋과 스테이징, 파일 수정을 하기 전 상태로 작업트리를 되돌린다. 이 옵션으로 되돌린 내용은 복구할 수 없다. |
+
 <br>
 
 ### 특정 커밋으로 되돌리기 - git reset 커밋 해시

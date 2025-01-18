@@ -2,12 +2,12 @@
 title: Effective-Java Item05
 aliases:
   - 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라.
-classification: java
+classification: resource
 tags:
   - effective-java
   - java
 created: 2024-01-09 23:11
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:28
 ---
 
 ## 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라.

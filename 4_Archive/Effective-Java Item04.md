@@ -2,12 +2,12 @@
 title: Effective-Java Item04
 aliases:
   - 인스턴스화를 막으려거든 private 생성자를 사용하라.
-classification: java
+classification: resource
 tags:
   - effective-java
   - java
 created: 2024-01-09 23:11
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:28
 ---
 
 ## 인스턴스화를 막으려거든 private 생성자를 사용하라.

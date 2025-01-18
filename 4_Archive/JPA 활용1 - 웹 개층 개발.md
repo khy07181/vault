@@ -1,10 +1,13 @@
 ---
 title: JPA 활용1 - 웹 개층 개발
 aliases: 
-classification: jpa
-tags: jpa, orm, lecture
+classification: resource
+tags:
+  - jpa
+  - orm
+  - lecture
 created: 2023-07-21 11:09
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:30
 ---
 
 ## 홈 화면과 레이아웃

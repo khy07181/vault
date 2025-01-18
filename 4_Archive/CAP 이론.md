@@ -2,11 +2,11 @@
 title: CAP 이론
 aliases:
   - CAP 정리
-classification: 
+classification: resource
 tags:
   - cap
 created: 2024-02-20 10:25
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:28
 ---
 
 ### CAP 정리란?

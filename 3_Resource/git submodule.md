@@ -1,6 +1,11 @@
 ---
+title: git submodule
+aliases: 
+classification: resource
+tags:
+  - git
 created: 2024-09-19T17:45
-updated: 2025-01-17T07:23
+updated: 2025-01-18T21:16
 ---
 
 ### git submodule

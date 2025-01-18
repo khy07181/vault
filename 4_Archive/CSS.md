@@ -1,12 +1,12 @@
 ---
 title: CSS
-aliases: CSS
-classification: CSS
-tags: CSS
+aliases:
+  - CSS
+classification: resource
+tags:
+  - CSS
 created: 2022-09-08 13:00
-updated: 2025-01-18T20:16
-fc-calendar: Gregorian Calendar
-fc-date: 2022-09-08 13:00
+updated: 2025-01-18T21:28
 ---
 
 ### 웹페이지에 CSS를 사용하는 방법

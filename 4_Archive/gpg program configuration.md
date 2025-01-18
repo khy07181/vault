@@ -1,10 +1,11 @@
 ---
 title: gpg program configuration
 aliases: 
-classification: gpg
-tags: gpg
+classification: resource
+tags:
+  - gpg
 created: 2023-06-02 18:15
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:29
 ---
 obsidian git 실행 중 발생 에러
 

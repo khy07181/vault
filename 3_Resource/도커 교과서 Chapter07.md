@@ -1,11 +1,11 @@
 ---
 title: 도커 교과서 Chapter07
 aliases: 
-classification: 
+classification: resource
 tags:
   - docker
 created: 2024-02-28 18:05
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:15
 ---
 
 ## 도커 컴포즈로 분산 애플리케이션 실행하기

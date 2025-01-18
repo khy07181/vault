@@ -1,10 +1,12 @@
 ---
 title: Neovim
 aliases: 
-classification: 
-tags: 
+classification: resource
+tags:
+  - vim
+  - neovim
 created: 2024-12-30 09:33
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:20
 ---
 neovim 설치
 `brew install neovim`

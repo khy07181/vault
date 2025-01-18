@@ -1,13 +1,13 @@
 ---
 title: Google books DRM 해제
 aliases: 
-classification: 
+classification: resource
 tags:
   - ebook
   - epub
   - drm
 created: 2024-01-29 17:52
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:29
 ---
 
 1. Adobe digital edition 설치

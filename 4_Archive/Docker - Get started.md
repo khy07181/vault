@@ -1,12 +1,12 @@
 ---
 title: Docker - Get started
-aliases: Docker - Get started
-classification: devOps
-tags: docker
-fc-calendar: Gregorian Calendar
-fc-date: 2022-11-07 15:28
+aliases:
+  - Docker - Get started
+classification: resource
+tags:
+  - docker
+updated: 2025-01-18T21:28
 created: 2024-09-19T17:45
-updated: 2025-01-18T20:16
 ---
 
 # Docker - Get started

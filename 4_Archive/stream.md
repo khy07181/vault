@@ -1,12 +1,12 @@
 ---
 title: stream
-aliases: stream
-classification: java
-tags: java, stream
+aliases: 
+classification: resource
+tags:
+  - java
+  - stream
 created: 2022-08-11 15:31
-updated: 2025-01-18T20:16
-fc-calendar: Gregorian Calendar
-fc-date: 2022-08-11 15:31
+updated: 2025-01-18T21:36
 ---
 
 # Stream

@@ -2,13 +2,13 @@
 title: Trie
 aliases:
   - 트라이
-classification: 자료구조
+classification: resource
 tags:
   - 자료구조
   - 문자열
   - 트리
 created: 2024-08-26 10:43
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:36
 ---
 문자열을 효율적으로 저장하고 검색하는 데 사용되는 트리 기반의 자료구조
 사전과 같은 단어 검색, 자동 완성, 접두사 매칭 등에 유용하다.

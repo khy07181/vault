@@ -1,10 +1,10 @@
 ---
 title: 온라인 밋업 Live - 김영한님
 aliases: 
-classification: 
+classification: resource
 tags: 
 created: 2024-02-22 00:00
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:25
 ---
 좋은 개발자의 기준
 - 어떤 프로젝트에 맡겨도 잘하는 개발자, 어디에 있든 최선을 다하고 최선의 성과를 보여주는 개발자

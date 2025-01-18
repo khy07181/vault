@@ -1,12 +1,13 @@
 ---
 title: java basic
-aliases: java basic
-classification: java
-tags: java, language
+aliases:
+  - java basic
+classification: resource
+tags:
+  - java
+  - language
 created: 2022-09-15 17:06
-updated: 2025-01-18T20:16
-fc-calendar: Gregorian Calendar
-fc-date: 2022-09-15 17:06
+updated: 2025-01-18T21:30
 ---
 
 ## 6. 객체지향 프로그래밍

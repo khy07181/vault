@@ -1,11 +1,11 @@
 ---
 title: active user metrics
 aliases: 
-classification: 
+classification: resource
 tags:
   - analysis
 created: 2024-05-10 17:27
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:16
 ---
 DAU (Daily Active Users)
 - 하루 동안 앱이나 웹사이트를 사용한 고유 사용자 수

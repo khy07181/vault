@@ -1,11 +1,11 @@
 ---
 title: 도커 교과서 Chapter04
 aliases: 
-classification: 
+classification: resource
 tags:
   - docker
 created: 2024-02-13 15:52
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:24
 ---
 
 ## 애플리케이션 소스 코드에서 도커 이미지까지

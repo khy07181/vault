@@ -1,11 +1,11 @@
 ---
 title: DTO vs VO
 aliases: 
-classification: 
+classification: resource
 tags:
   - java
 created: 2024-04-09 22:51
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:28
 ---
 DTO(Data Transfer Object)
 - 레이어 간 데이터를 전달하는 객체

@@ -1,12 +1,15 @@
 ---
 title: spring boot mvc
-aliases: spring boot mvc
-classification: springBoot
-tags: springBoot, java, framework, web, mvc
+aliases: []
+classification: resource
+tags:
+  - springBoot
+  - java
+  - framework
+  - web
+  - mvc
 created: 2022-09-13 15:55
-updated: 2025-01-18T20:16
-fc-calendar: Gregorian Calendar
-fc-date: 2022-09-13 15:55
+updated: 2025-01-18T21:34
 ---
 
 # Spring Boot MVC

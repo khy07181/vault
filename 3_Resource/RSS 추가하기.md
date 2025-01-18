@@ -1,10 +1,11 @@
 ---
 title: RSS
 aliases: 
-classification: 
-tags: 
+classification: resource
+tags:
+  - rss
 created: 2024-08-16 06:52
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:21
 ---
 
 ### Tistory

@@ -1,12 +1,13 @@
 ---
 title: 자바 ORM 표준 JPA 프로그래밍 - 11. JPQL2
-aliases: 자바 ORM 표준 JPA 프로그래밍 - 11. JPQL2
-classification: JPA
-tags: JPA, ORM
+aliases:
+  - 자바 ORM 표준 JPA 프로그래밍 - 11. JPQL2
+classification: resource
+tags:
+  - JPA
+  - ORM
 created: 2022-09-15 17:06
-updated: 2025-01-18T20:16
-fc-calendar: Gregorian Calendar
-fc-date: 2022-09-15 17:06
+updated: 2025-01-18T21:27
 ---
 
 # 객체지향 쿼리 언어2 - 중급 문법

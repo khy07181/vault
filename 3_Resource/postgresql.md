@@ -1,12 +1,14 @@
 ---
 title: postgresql
-aliases: postgresql
-classification: db
-tags: postgresql, sql
+aliases:
+  - postgresql
+classification: resource
+tags:
+  - postgresql
+  - sql
+  - db
 created: 2023-01-10 20:35
-fc-calendar: Gregorian Calendar
-fc-date: 2023-01-10 20:35
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:21
 ---
 
 # postgresql

@@ -1,12 +1,13 @@
 ---
 title: spring mvc 활용
-aliases: spring mvc 활용
-classification: spring
-tags: spring, java, framework
+aliases: 
+classification: resource
+tags:
+  - spring
+  - java
+  - framework
 created: 2022-09-13 15:54
-updated: 2025-01-18T20:16
-fc-calendar: Gregorian Calendar
-fc-date: 2022-09-13 15:54
+updated: 2025-01-18T21:35
 ---
 
 # 스프링 MVC 활용

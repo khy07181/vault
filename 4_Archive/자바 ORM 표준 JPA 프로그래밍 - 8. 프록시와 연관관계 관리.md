@@ -1,12 +1,13 @@
 ---
 title: 자바 ORM 표준 JPA 프로그래밍 - 8. 프록시와 연관관계 관리
-aliases: 자바 ORM 표준 JPA 프로그래밍 - 8. 프록시와 연관관계 관리
-classification: JPA
-tags: JPA, ORM
+aliases:
+  - 자바 ORM 표준 JPA 프로그래밍 - 8. 프록시와 연관관계 관리
+classification: resource
+tags:
+  - JPA
+  - ORM
 created: 2022-09-15 17:06
-updated: 2025-01-18T20:16
-fc-calendar: Gregorian Calendar
-fc-date: 2022-09-15 17:06
+updated: 2025-01-18T21:26
 ---
 
 # 프록시와 연관관계 관리

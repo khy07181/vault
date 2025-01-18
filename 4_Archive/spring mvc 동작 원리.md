@@ -1,12 +1,13 @@
 ---
 title: spring mvc 동작 원리
-aliases: spring mvc 동작 원리
-classification: spring
-tags: spring, java, framework
+aliases: 
+classification: resource
+tags:
+  - spring
+  - java
+  - framework
 created: 2022-09-13 15:51
-updated: 2025-01-18T20:16
-fc-calendar: Gregorian Calendar
-fc-date: 2022-09-13 15:51
+updated: 2025-01-18T21:35
 ---
 
 # 스프링 MVC 동작 원리

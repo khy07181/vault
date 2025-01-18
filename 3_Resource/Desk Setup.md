@@ -1,10 +1,11 @@
 ---
 title: Desk Setup
 aliases: 
-classification: 
-tags: 
+classification: resource
+tags:
+  - desk-setup
 created: 2024-06-09 22:42
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:16
 ---
 [베스트피스 모션 데스크](https://brand.naver.com/bestpiece/products/4833046512)
 - 143

@@ -1,10 +1,13 @@
 ---
 title: JPA 활용1 - 주문 도메인 개발
 aliases: 
-classification: jpa
-tags: jpa, orm, lecture
+classification: resource
+tags:
+  - jpa
+  - orm
+  - lecture
 created: 2023-07-19 16:41
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:30
 ---
 
 ## 주문, 주문상품 엔티티 개발

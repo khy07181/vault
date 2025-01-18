@@ -1,10 +1,13 @@
 ---
 title: JPA 활용2 - API 개발 기본
 aliases: 
-classification: jpa
-tags: jpa, orm, lecture
+classification: resource
+tags:
+  - jpa
+  - orm
+  - lecture
 created: 2023-07-21 11:15
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:30
 ---
 
 - API tool Postman 설치

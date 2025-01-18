@@ -2,17 +2,20 @@
 title: Note 분류 체계
 aliases: 
 classification: project
-tags: 
+tags:
+  - obsidian
+  - note
 created: 2025-01-18T19:19
-updated: 2025-01-18T20:55
+updated: 2025-01-18T21:43
 ---
 
 ### PARA
 
 분류가 헷갈릴 수도 있으니 언제든 보고 정할 수 있도록 최대한 예시를 많이 작성하자
 Archive 로 이동 시 분류가 혼재될 수 있으니 classification properties 로 구분
+- canvas, attachement, excalidraw 에는 properties 가 없어서 아쉬움 #brainstorm
 생각보다 resource 와 project, area 간의 균형이 맞지 않지 않을까
-- 균형이 맞아야 할 필요가 있을까?
+- 균형이 맞아야 할 필요가 있을까? 지나치게 불균형하다면 분류를 하는 의미가 있을까? #brainstorm
 PARA 노트 분류에 fleeting 과 discard 를 추가해 관리
 
 **Project**
@@ -43,7 +46,7 @@ PARA 노트 분류에 fleeting 과 discard 를 추가해 관리
 
 **Fleeting**
 - 분류 전 노트, 작성 예정 노트 보관
-- [[Home#^353533|Uncreated Note]] 와 함께 관리
+- [[Home#^353533|Uncreated Note]] 와 함께 지속적으로 관리 필요
 
 >[!example]
 >미분류 노트, 작성 예정 노트

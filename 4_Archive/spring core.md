@@ -1,12 +1,14 @@
 ---
 title: spring core
-aliases: 스프링 프레임워크 핵심 기술
-classification: spring
-tags: spring, java, framework
+aliases:
+  - 스프링 프레임워크 핵심 기술
+classification: resource
+tags:
+  - spring
+  - java
+  - framework
 created: 2022-09-13 15:48
-updated: 2025-01-18T20:16
-fc-calendar: Gregorian Calendar
-fc-date: 2022-09-13 15:48
+updated: 2025-01-18T21:35
 ---
 
 # Spring Core

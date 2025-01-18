@@ -1,10 +1,13 @@
 ---
 title: Effective-Java Item01
-aliases: 생성자 대신 정적 팩토리 메소드를 고려하라
-classification: java
-tags: effective-java, java
+aliases:
+  - 생성자 대신 정적 팩토리 메소드를 고려하라
+classification: resource
+tags:
+  - effective-java
+  - java
 created: 2023-07-11 21:59
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:28
 ---
 ## 생성자 대신 정적 팩토리 메소드를 고려하라.
 

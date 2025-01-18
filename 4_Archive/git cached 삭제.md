@@ -1,10 +1,12 @@
 ---
 title: git cache 삭제
-aliases: git
-classification: 
-tags: git, gitignore
+aliases: []
+classification: resource
+tags:
+  - git
+  - gitignore
 created: 2023-06-02 18:01
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:29
 ---
 
 ### git cache 삭제

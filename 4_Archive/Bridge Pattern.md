@@ -1,12 +1,12 @@
 ---
 title: Bridge Pattern
 aliases: 
-classification: 
+classification: resource
 tags:
   - design-pattern
   - OOP
 created: 2024-10-08 12:13
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:28
 ---
 추상화와 구현을 분리해서 이 둘을 독립적으로 다양화할 수 있도록 하는 패턴
 

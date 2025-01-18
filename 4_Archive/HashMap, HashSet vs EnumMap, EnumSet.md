@@ -1,10 +1,14 @@
 ---
 title: HashMap, HashSet vs EnumMap, EnumSet
-aliases: hashMap vs enumMap
-classification: java
-tags: enum, enumMap, java
+aliases:
+  - hashMap vs enumMap
+classification: resource
+tags:
+  - enum
+  - enumMap
+  - java
 created: 2023-07-12 14:07
-updated: 2025-01-18T20:16
+updated: 2025-01-18T21:29
 ---
 
 EnumMap은 사용 가능한 모든 키를 이미 알고 있고, 내부적으로 배열에 값을 저장할 수 있다. 또한 겹치지 않는 일정한 순번을 가지고 있으니, 해싱을 할 필요도, 해시 충돌 (Hash Collision)을 처리할 필요도 없기 때문에 성능이 좋다.
