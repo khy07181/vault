@@ -6,13 +6,31 @@ tags:
   - obsidian
   - productivity
 created: 2025-01-18T22:30
-updated: 2025-01-19T02:24
+updated: 2025-01-19T23:07
 ---
 
 ### in use
 
 [Tasks](obsidian://show-plugin?id=obsidian-tasks-plugin)
 - task 관리 플러그인
+
+[Obsidian Git](obsidian://show-plugin?id=obsidian-git)
+- git 연동 플러그인
+
+[Obsidian Templater](obsidian://show-plugin?id=obsidian-templater)
+- 템플릿 플러그인
+
+[Dataview](obsidian://show-plugin?id=dataview)
+- 노트를 데이터베이스처럼 쿼리하여 조회할 수 있는 플러그인
+- 태그, 메타데이터 등을 기준으로 노트를 필터링하고 표시 가능
+
+[Calendar](obsidian://show-plugin?id=calendar)
+- 달력 형태로 데일리 노트를 관리할 수 있는 플러그인
+- 직관적인 날짜 네비게이션 제공
+
+[Kanban](obsidian://show-plugin?id=obsidian-kanban)
+- 칸반 보드 스타일로 노트를 관리할 수 있는 플러그인
+- 프로젝트 관리나 워크플로우 시각화에 유용
 
 ---
 
