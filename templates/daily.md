@@ -6,8 +6,10 @@ tags:
   - daily
 created: <% tp.file.creation_date("yyyy-MM-DDTHH:mm") %>
 ---
-wake-up time :
+wake-up time : 08:00
 
 ---
 
 tasks
+
+---
