@@ -5,7 +5,7 @@ classification: area
 tags:
   - homepage
 created: 2024-06-30 23:12
-updated: 2025-01-19T03:19
+updated: 2025-01-22T11:30
 ---
 
 ### Tasks
@@ -14,7 +14,7 @@ updated: 2025-01-19T03:19
 
 ### brainstorming
 
-![[brainstorming#^bccf1a]]
+![[brainstorming#^790cd9]]
 
 ### Recent File
 

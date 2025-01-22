@@ -212,14 +212,6 @@
       "key": "N"
     }
   ],
-  "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "1"
-    }
-  ],
   "app:toggle-right-sidebar": [
     {
       "modifiers": [
@@ -246,6 +238,22 @@
         "Shift"
       ],
       "key": "P"
+    }
+  ],
+  "file-explorer:open": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "1"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "`"
     }
   ]
 }
