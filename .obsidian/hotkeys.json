@@ -255,5 +255,24 @@
       ],
       "key": "`"
     }
+  ],
+  "smart-composer:open-new-chat": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "smart-composer:add-selection-to-chat": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
+    }
   ]
 }
