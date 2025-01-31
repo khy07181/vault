@@ -8,3 +8,4 @@ readwise/
 security
 .obsidian/plugins/
 templates/template_ai_summary.md
+.smtcmp_chat_histories
