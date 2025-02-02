@@ -8,4 +8,10 @@ readwise/
 security
 .obsidian/plugins/
 templates/template_ai_summary.md
+templates/create_tag_from_ai.md
 .smtcmp_chat_histories
+
+
+
+# Ignore Smart Environment folder
+.smart-env
