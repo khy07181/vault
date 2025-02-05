@@ -8,7 +8,7 @@ tags:
   - sql
   - db
 created: 2023-01-10 20:35
-updated: 2025-01-18T21:21
+updated: 2025-02-05T10:05
 ---
 
 # postgresql
