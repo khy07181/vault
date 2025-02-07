@@ -40,5 +40,7 @@
   "update-time-on-edit",
   "tag-wrangler",
   "smart-composer",
-  "obsidian-custom-frames"
+  "obsidian-custom-frames",
+  "obsidian-vimrc-support",
+  "mrj-jump-to-link"
 ]
