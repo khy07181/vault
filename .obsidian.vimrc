@@ -18,3 +18,10 @@ vnoremap d "_d
 nnoremap dd "_dd
 nnoremap dw "_dw
 nnoremap D "_D
+
+" Remap 'c' command to always use the '_ (black hole) register
+nnoremap c "_c
+vnoremap c "_c
+nnoremap cc "_cc
+nnoremap cw "_cw
+nnoremap C "_C
