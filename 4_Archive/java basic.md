@@ -7,7 +7,7 @@ tags:
   - java
   - language
 created: 2022-09-15 17:06
-updated: 2025-01-18T21:30
+updated: 2025-02-12T10:39
 ---
 
 ## 6. 객체지향 프로그래밍
@@ -1002,7 +1002,7 @@ static <T extends Fruit> Juice makeJuice(FruitBox<T> box) {
 ### 열거형의 정의와 사용
 
 - `enum 열거형이름 { 상수명1, 상수명2, ... }`
-- 아래의 코드와 같이 열거형 타입의 변수를 선언하고 사용할 수 있으며 `==`와 `compareTo()`로 비교 가능하다.
+- 아래의 코드와 같이 열거형 타입의 변수를 선언하고 사용할 수 있으며 == 와 `compareTo()`로 비교 가능하다.
 
 ```java
 enum Direction { EAST, SOUTH, WEST, NORTH }
