@@ -10,5 +10,6 @@
     "calendar",
     "palette",
     "inline-code"
-  ]
+  ],
+  "showRibbon": true
 }
