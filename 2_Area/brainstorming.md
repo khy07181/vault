@@ -5,10 +5,10 @@ classification: area
 tags:
   - brainstorming
 created: 2025-01-19T01:01
-updated: 2025-01-21T21:09
+updated: 2025-02-18T23:54
 ---
 
-- [ ] #task task 태그가 달린 문장 추가 또는 링크
+- [x] #task task 태그가 달린 문장 추가 또는 링크 ✅ 2025-02-18
 
 ```dataview
 TABLE

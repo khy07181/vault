@@ -5,7 +5,7 @@ classification: resource
 tags:
   - design-pattern
 created: 2024-04-10 10:30
-updated: 2025-01-18T21:16
+updated: 2025-02-18T23:43
 ---
 소프트웨어 디자인 과정에서 자주 발생하는 문제들에 대한 전형적인 해결책
 
@@ -13,6 +13,7 @@ updated: 2025-01-18T21:16
 모든 패턴은 의도 또는 목저에 따라 분류할 수 있으며 주로 세가지 그룹으로 분류된다.
 
 ### 생성 패턴
+
 - [[Factory Method Pattern|Factory Method]]
 - [[Abstract Factory Pattern|Abstract Factory]]
 - [[Builder Pattern|Builder]]
@@ -20,6 +21,7 @@ updated: 2025-01-18T21:16
 - [[Singleton parttern|Singleton]]
 
 ### 구조 패턴
+
 - [[Adapter Pattern|Adapter]]
 - [[Bridge Pattern|Bridge]]
 - [[Composite Pattern|Composite]]
@@ -29,6 +31,7 @@ updated: 2025-01-18T21:16
 - [[Proxy Pattern|Proxy]]
 
 ### 행동 패턴
+
 - [[Chain of Responsibility Pattern|Chain of Responsibility]]
 - [[Command Pattern|Command]]
 - [[Iterator Pattern|Iterator]]

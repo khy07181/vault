@@ -5,12 +5,12 @@ classification: area
 tags:
   - homepage
 created: 2024-06-30 23:12
-updated: 2025-01-22T11:30
+updated: 2025-02-18T23:57
 ---
 
 ### Tasks
 
-![[tasks]]
+![[tasks#tasks]]
 
 ### brainstorming
 
