@@ -5,7 +5,7 @@ classification: resource
 tags:
   - obsidian
 created: 2023-12-17 11:22
-updated: 2025-01-18T21:31
+updated: 2025-02-21T17:29
 ---
 
 ### note 연결

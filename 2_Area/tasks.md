@@ -5,7 +5,7 @@ classification: area
 tags:
   - task
 created: 2025-01-19T01:00
-updated: 2025-02-19T00:37
+updated: 2025-02-21T15:51
 ---
 
 ### tasks
@@ -20,5 +20,5 @@ sort by created reverse
 
 ```tasks
 sort by status.type
-sort by created
+sort by created desc
 ```

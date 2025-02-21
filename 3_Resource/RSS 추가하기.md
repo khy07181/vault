@@ -5,8 +5,9 @@ classification: resource
 tags:
   - rss
 created: 2024-08-16 06:52
-updated: 2025-02-20T16:57
+updated: 2025-02-21T00:15
 ---
+[Easily find RSS Feeds by keywords or URL with RSS Finder](https://rssfinder.app/)
 
 ### Tistory
 

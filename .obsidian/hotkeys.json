@@ -221,14 +221,6 @@
     }
   ],
   "editor:delete-paragraph": [],
-  "daily-notes": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "D"
-    }
-  ],
   "obsidian-korean-spellchecker:check-spelling": [
     {
       "modifiers": [
@@ -295,6 +287,14 @@
         "Shift"
       ],
       "key": "'"
+    }
+  ],
+  "daily-notes": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "D"
     }
   ]
 }
