@@ -276,6 +276,15 @@
         "Shift"
       ],
       "key": ";"
+    },
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
     }
   ],
   "mrj-jump-to-link:activate-jump-to-link": [
