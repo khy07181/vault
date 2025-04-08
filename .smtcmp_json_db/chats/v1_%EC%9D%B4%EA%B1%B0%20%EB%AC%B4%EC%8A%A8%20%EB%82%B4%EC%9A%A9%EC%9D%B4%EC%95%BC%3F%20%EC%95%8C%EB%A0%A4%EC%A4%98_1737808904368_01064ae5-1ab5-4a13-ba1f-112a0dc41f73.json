@@ -1,0 +1,72 @@
+{
+  "id": "01064ae5-1ab5-4a13-ba1f-112a0dc41f73",
+  "title": "이거 무슨 내용이야? 알려줘",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "이거 무슨 내용이야? 알려줘",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n이거 무슨 내용이야? 알려줘\n\n"
+        }
+      ],
+      "id": "935478ac-460a-4dc4-864a-90892472796f",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "00. Inbox/07. Clippings/버블 초보가 버블을 비벼봤습니다.(API 무료로 쓰기).md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "이 글은 버블(Bubble)이라는 노코드 플랫폼에서 유료 API 기능을 우회하여 자바스크립트와 웹훅을 이용해 데이터를 전송하는 방법을 설명합니다. 사용자는 ToolBox 플러그인을 통해 버블 내에서 자바스크립트 코드를 실행하고, Make 웹훅을 통해 외부로 데이터를 전송합니다. 다이나믹 데이터를 활용하여 버블 내의 입력값을 자바스크립트 코드에서 변수로 사용하고, 버튼 클릭 이벤트를 트리거로 사용하여 웹훅 데이터 전송을 실행합니다. GPT를 활용하여 자바스크립트 코드를 생성하고, 무료 플러그인과 웹훅을 사용하여 버블의 유료 기능을 우회하는 방법을 보여줍니다.\n",
+      "id": "aec16736-f121-4813-a4f4-996cbc84c2a5",
+      "metadata": {
+        "usage": {
+          "prompt_tokens": 3129,
+          "completion_tokens": 179,
+          "total_tokens": 3308
+        },
+        "model": {
+          "provider": "gemini",
+          "model": "gemini-2.0-flash-exp"
+        }
+      }
+    }
+  ],
+  "createdAt": 1737807202486,
+  "updatedAt": 1737808904368,
+  "schemaVersion": 1
+}

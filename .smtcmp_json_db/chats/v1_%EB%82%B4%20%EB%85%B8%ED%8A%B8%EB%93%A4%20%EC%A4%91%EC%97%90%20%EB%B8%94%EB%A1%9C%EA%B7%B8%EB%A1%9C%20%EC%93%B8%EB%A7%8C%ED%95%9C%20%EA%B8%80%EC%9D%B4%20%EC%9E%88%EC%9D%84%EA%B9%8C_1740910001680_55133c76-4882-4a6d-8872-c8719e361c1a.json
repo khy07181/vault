@@ -1,0 +1,67 @@
+{
+  "id": "55133c76-4882-4a6d-8872-c8719e361c1a",
+  "title": "내 노트들 중에 블로그로 쓸만한 글이 있을까",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "내 노트들 중에 블로그로 쓸만한 글이 있을까",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n내 노트들 중에 블로그로 쓸만한 글이 있을까\n\n"
+        }
+      ],
+      "id": "d0c3b7a2-59c3-44b5-b688-2248ca7b05ff",
+      "mentionables": []
+    },
+    {
+      "role": "assistant",
+      "content": "제공해주신 노트들을 검토하지 않고는 블로그 글로 적합한 내용이 있는지 판단하기 어렵습니다. 어떤 주제에 관심이 있으신가요? 아니면 어떤 종류의 노트를 가지고 계신가요? 더 많은 정보를 제공해주시면, 블로그 글로 적합한 내용을 찾는 데 도움을 드릴 수 있습니다.",
+      "id": "f52716b4-18ea-4c3e-b948-9073d4a10a8c",
+      "metadata": {
+        "usage": {
+          "prompt_tokens": 727,
+          "completion_tokens": 93,
+          "total_tokens": 820
+        },
+        "model": {
+          "provider": "gemini",
+          "model": "gemini-2.0-flash-exp"
+        }
+      }
+    }
+  ],
+  "createdAt": 1740910000189,
+  "updatedAt": 1740910001680,
+  "schemaVersion": 1
+}

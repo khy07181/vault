@@ -1,0 +1,274 @@
+{
+  "id": "2c62644b-7aac-4375-aa3b-4126f2fdeee2",
+  "title": "초안 작성해줘",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "초안 작성해줘",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n초안 작성해줘\n\n"
+        }
+      ],
+      "id": "848fbd8e-6b19-4dbf-ba12-8249cdb45b3b",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "private/5_Fleeting/옵시디언과 노션의 차이.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "<smtcmp_block filename=\"private/5_Fleeting/옵시디언과 노션의 차이.md\" language=\"markdown\">\n---\ntitle: 옵시디언과 노션의 차이\naliases: \nclassification: \ntags: \ncreated: 2025-03-03T20:30\nupdated: 2025-03-03T20:30\n---\n## 옵시디언과 노션의 차이\n\n#### 공통점\n\n- 둘 다 마크다운 기반의 노트 필기 앱이다.\n- 다양한 템플릿을 제공한다.\n- 여러 기기에서 동기화가 가능하다.\n\n#### 차이점\n\n- 옵시디언은 로컬 파일을 기반으로 작동하는 반면, 노션은 클라우드 기반으로 작동한다.\n- 옵시디언은 백링크 기능을 강력하게 지원하는 반면, 노션은 데이터베이스 기능을 강력하게 지원한다.\n- 옵시디언은 플러그인을 통해 기능을 확장할 수 있는 반면, 노션은 자체 API를 통해 기능을 확장할 수 있다.\n\n#### 결론\n\n- 옵시디언은 개인적인 지식 관리 시스템을 구축하는 데 유용하며, 노션은 팀 협업 및 프로젝트 관리에 유용하다.\n</smtcmp_block>\n",
+      "id": "34eb0548-5702-4fca-9c44-4e32e85b4ee5",
+      "metadata": {
+        "usage": {
+          "prompt_tokens": 825,
+          "completion_tokens": 335,
+          "total_tokens": 1160
+        },
+        "model": {
+          "provider": "gemini",
+          "model": "gemini-2.0-flash-exp"
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "너무 짧은데 길이 좀 늘리자",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "블로그에 올릴거야",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n너무 짧은데 길이 좀 늘리자\n블로그에 올릴거야\n\n"
+        }
+      ],
+      "id": "898c2a2b-d3d3-4f66-885c-50ac6a33d1e4",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "private/5_Fleeting/옵시디언과 노션의 차이.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "분량을 늘린 초안입니다.\n\n<smtcmp_block filename=\"private/5_Fleeting/옵시디언과 노션의 차이.md\" language=\"markdown\">\n---\ntitle: 옵시디언과 노션의 차이\naliases: \nclassification: \ntags: \ncreated: 2025-03-03T20:30\nupdated: 2025-03-03T20:30\n---\n## 옵시디언과 노션의 차이\n\n#### 공통점\n\n- 둘 다 마크다운 기반의 노트 필기 앱이다.\n- 다양한 템플릿을 제공한다.\n- 여러 기기에서 동기화가 가능하다.\n- 개인 및 팀 생산성 향상에 도움을 준다.\n- 텍스트 서식, 이미지, 링크 등 다양한 콘텐츠를 통합 관리할 수 있다.\n\n#### 차이점\n\n- 옵시디언은 로컬 파일을 기반으로 작동하는 반면, 노션은 클라우드 기반으로 작동한다.\n- 옵시디언은 백링크 기능을 강력하게 지원하는 반면, 노션은 데이터베이스 기능을 강력하게 지원한다.\n- 옵시디언은 플러그인을 통해 기능을 확장할 수 있는 반면, 노션은 자체 API를 통해 기능을 확장할 수 있다.\n- 옵시디언은 사용자가 데이터 파일을 직접 관리하고 제어할 수 있지만, 노션은 클라우드에 데이터를 저장하여 어디서든 접근 가능하다.\n- 옵시디언은 주로 개인 지식 관리 및 노트 작성에 최적화되어 있고, 노션은 팀 협업, 프로젝트 관리, 문서 공유에 더 적합하다.\n\n#### 결론\n\n- 옵시디언은 개인적인 지식 관리 시스템을 구축하는 데 유용하며, 노션은 팀 협업 및 프로젝트 관리에 유용하다.\n- 사용 목적과 필요에 따라 옵시디언과 노션을 선택하여 생산성을 극대화할 수 있다.\n- 두 도구 모두 강력한 기능을 제공하므로, 사용자는 자신의 워크플로우에 맞춰 최적의 도구를 선택하는 것이 중요하다.\n</smtcmp_block>",
+      "id": "6c8b0142-8991-425d-aa41-701073816cf1",
+      "metadata": {
+        "usage": {
+          "prompt_tokens": 1410,
+          "completion_tokens": 555,
+          "total_tokens": 1965
+        },
+        "model": {
+          "provider": "gemini",
+          "model": "gemini-2.0-flash-exp"
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "목차가 더 있었으면 좋겠어",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n목차가 더 있었으면 좋겠어\n\n"
+        }
+      ],
+      "id": "6192b9ca-d145-4ced-98fc-1109d9c9bc45",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "private/5_Fleeting/옵시디언과 노션의 차이.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "목차를 추가한 초안입니다.\n\n<smtcmp_block filename=\"private/5_Fleeting/옵시디언과 노션의 차이.md\" language=\"markdown\">\n---\ntitle: 옵시디언과 노션의 차이\naliases: \nclassification: \ntags: \ncreated: 2025-03-03T20:30\nupdated: 2025-03-03T20:30\n---\n## 목차\n- [옵시디언과 노션의 차이](#옵시디언과-노션의-차이)\n  - [공통점](#공통점)\n  - [차이점](#차이점)\n  - [결론](#결론)\n\n## 옵시디언과 노션의 차이\n\n#### 공통점\n\n- 둘 다 마크다운 기반의 노트 필기 앱이다.\n- 다양한 템플릿을 제공한다.\n- 여러 기기에서 동기화가 가능하다.\n- 개인 및 팀 생산성 향상에 도움을 준다.\n- 텍스트 서식, 이미지, 링크 등 다양한 콘텐츠를 통합 관리할 수 있다.\n\n#### 차이점\n\n- 옵시디언은 로컬 파일을 기반으로 작동하는 반면, 노션은 클라우드 기반으로 작동한다.\n- 옵시디언은 백링크 기능을 강력하게 지원하는 반면, 노션은 데이터베이스 기능을 강력하게 지원한다.\n- 옵시디언은 플러그인을 통해 기능을 확장할 수 있는 반면, 노션은 자체 API를 통해 기능을 확장할 수 있다.\n- 옵시디언은 사용자가 데이터 파일을 직접 관리하고 제어할 수 있지만, 노션은 클라우드에 데이터를 저장하여 어디서든 접근 가능하다.\n- 옵시디언은 주로 개인 지식 관리 및 노트 작성에 최적화되어 있고, 노션은 팀 협업, 프로젝트 관리, 문서 공유에 더 적합하다.\n\n#### 결론\n\n- 옵시디언은 개인적인 지식 관리 시스템을 구축하는 데 유용하며, 노션은 팀 협업 및 프로젝트 관리에 유용하다.\n- 사용 목적과 필요에 따라 옵시디언과 노션을 선택하여 생산성을 극대화할 수 있다.\n- 두 도구 모두 강력한 기능을 제공하므로, 사용자는 자신의 워크플로우에 맞춰 최적의 도구를 선택하는 것이 중요하다.\n</smtcmp_block>",
+      "id": "1d02e1da-35d5-4309-a4b1-ce5b67b9ad33",
+      "metadata": {
+        "usage": {
+          "prompt_tokens": 1977,
+          "completion_tokens": 619,
+          "total_tokens": 2596
+        },
+        "model": {
+          "provider": "gemini",
+          "model": "gemini-2.0-flash-exp"
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "아니 제목이 더 있었으면 좋곘어",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n아니 제목이 더 있었으면 좋곘어\n\n"
+        }
+      ],
+      "id": "d47bdf57-7ff3-47e8-a7fd-3a2d09e7e508",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "private/5_Fleeting/옵시디언과 노션의 차이.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "제목을 추가한 초안입니다.\n\n<smtcmp_block filename=\"private/5_Fleeting/옵시디언과 노션의 차이.md\" language=\"markdown\">\n---\ntitle: 옵시디언과 노션의 차이\naliases: \nclassification: \ntags: \ncreated: 2025-03-03T20:30\nupdated: 2025-03-03T20:30\n---\n## 목차\n- [옵시디언과 노션, 나에게 맞는 선택은?](#옵시디언과-노션-나에게-맞는-선택은)\n  - [공통점: 생산성 향상을 위한 도구](#공통점-생산성-향상을-위한-도구)\n  - [차이점: 로컬 vs 클라우드, 백링크 vs 데이터베이스](#차이점-로컬-vs-클라우드-백링크-vs-데이터베이스)\n  - [결론: 개인 vs 팀, 당신의 선택은?](#결론-개인-vs-팀-당신의-선택은)\n\n## 옵시디언과 노션, 나에게 맞는 선택은?\n\n#### 공통점: 생산성 향상을 위한 도구\n\n- 둘 다 마크다운 기반의 노트 필기 앱이다.\n- 다양한 템플릿을 제공한다.\n- 여러 기기에서 동기화가 가능하다.\n- 개인 및 팀 생산성 향상에 도움을 준다.\n- 텍스트 서식, 이미지, 링크 등 다양한 콘텐츠를 통합 관리할 수 있다.\n\n#### 차이점: 로컬 vs 클라우드, 백링크 vs 데이터베이스\n\n- 옵시디언은 로컬 파일을 기반으로 작동하는 반면, 노션은 클라우드 기반으로 작동한다.\n- 옵시디언은 백링크 기능을 강력하게 지원하는 반면, 노션은 데이터베이스 기능을 강력하게 지원한다.\n- 옵시디언은 플러그인을 통해 기능을 확장할 수 있는 반면, 노션은 자체 API를 통해 기능을 확장할 수 있다.\n- 옵시디언은 사용자가 데이터 파일을 직접 관리하고 제어할 수 있지만, 노션은 클라우드에 데이터를 저장하여 어디서든 접근 가능하다.\n- 옵시디언은 주로 개인 지식 관리 및 노트 작성에 최적화되어 있고, 노션은 팀 협업, 프로젝트 관리, 문서 공유에 더 적합하다.\n\n#### 결론: 개인 vs 팀, 당신의 선택은?\n\n- 옵시디언은 개인적인 지식 관리 시스템을 구축하는 데 유용하며, 노션은 팀 협업 및 프로젝트 관리에 유용하다.\n- 사용 목적과 필요에 따라 옵시디언과 노션을 선택하여 생산성을 극대화할 수 있다.\n- 두 도구 모두 강력한 기능을 제공하므로, 사용자는 자신의 워크플로우에 맞춰 최적의 도구를 선택하는 것이 중요하다.\n</smtcmp_block>",
+      "id": "12189c81-b9f8-4009-baaa-b00c2d06a913",
+      "metadata": {
+        "usage": {
+          "prompt_tokens": 2612,
+          "completion_tokens": 761,
+          "total_tokens": 3373
+        },
+        "model": {
+          "provider": "gemini",
+          "model": "gemini-2.0-flash-exp"
+        }
+      }
+    }
+  ],
+  "createdAt": 1741001439761,
+  "updatedAt": 1741001535366,
+  "schemaVersion": 1
+}
