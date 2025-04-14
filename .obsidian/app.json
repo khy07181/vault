@@ -9,7 +9,10 @@
   "readableLineLength": false,
   "foldHeading": true,
   "spellcheck": true,
-  "userIgnoreFilters": null,
+  "userIgnoreFilters": [
+    "private/6_discard/",
+    "6_Discard/"
+  ],
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "private/attachment",
   "strictLineBreaks": false,
