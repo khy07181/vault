@@ -28,5 +28,8 @@
   },
   "propertiesInDocument": "visible",
   "smartIndentList": true,
-  "uriCallbacks": true
+  "uriCallbacks": true,
+  "focusNewTab": true,
+  "defaultViewMode": "source",
+  "livePreview": true
 }
