@@ -1,18 +1,34 @@
 ---
-title: mac setting
+title: 나의 Mac 초기 설정
 aliases: 
-classification: resource
+description: 
+permalink: 
+classification: 
 tags:
   - mac
-created: 2023-03-26T22:27
-updated: 2025-04-14T23:29
+  - chezmoi
+  - setting
+  - env
+draft: false
+date: 
+created: 2025-04-27T19:00:00
+updated: 2025-04-27T19:32
 ---
+
+>[!info]
+>마지막 업데이트 날짜 : 2025-04-27
+
+## SSH
+
+ `ln -s ~/Documents/dev/.ssh ~/.ssh`
 
 ## brew
 
-### brew 설치
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-### Chezmoi
+## Chezmoi
+
+`sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply khy07181`
 
 ## System Setting
 
@@ -32,11 +48,7 @@ updated: 2025-04-14T23:29
 ![|500](https://i.imgur.com/Kd1HFOr.png)
 
 시계 옵션
-- 다 끄고 아날로그로 변경
-
-### Itsycal
-
-![|500](https://i.imgur.com/SnKK8Sx.png)
+- 전체 OFF, 아날로그로 변경
 
 ### ​화면 잠금
 
@@ -54,22 +66,20 @@ updated: 2025-04-14T23:29
 
 - 키 반복 속도, 반복 지연 시간 : 가장 빠르고, 짧게 변경
 
-fn 키를 누르
+fn 키를 누를 때 실행할 동작
 받아쓰기
 - 단축키 : 끔
 
 키보드 단축키
 - 입력 소스
 	- 이전 입력 소스 선택 : F18
-	- 입력 메뉴에서 다음 소스 선택 : off
+	- 입력 메뉴에서 다음 소스 선택 : OFF
 - 스크린샷
-	- All off
+	- 전체 OFF
 - Spotlight
-	- off
+	- OFF
 - 기능 키
 	- F1, F2 등의 키를 표준 기능 키로 설정 : ON
-- 보조 키
-	- magic keyboard
 
 ### 트랙패드
 
@@ -81,22 +91,10 @@ fn 키를 누르
 
 ## Finder
 
-### VPN
+보기 - 경로 막대 보기
 
-L2TP over IPSec
-Display name
-- Seavantage
-Configuration
-- Default
-Server address
-- 121.166.164.167
-Account name
-- khy07181
-User authentication
-- Password
-Password
-- gkdudvpn
-Machine authentication
-- Shared secret
-Shared secert
-- vpn
+도구 막대 사용자화
+
+## Itsycal
+
+![|500](https://i.imgur.com/SnKK8Sx.png)
