@@ -37,7 +37,6 @@
   "share-note",
   "obsidian-auto-link-title",
   "obsidian-kanban",
-  "update-time-on-edit",
   "tag-wrangler",
   "smart-composer",
   "obsidian-custom-frames",
@@ -46,5 +45,6 @@
   "obsidian-list-callouts",
   "obsidian-regex-replace",
   "omnisearch",
-  "obsidian-advanced-uri"
+  "obsidian-advanced-uri",
+  "update-time-on-edit"
 ]
