@@ -4,8 +4,13 @@ aliases:
 classification: project
 tags: 
 created: 2025-05-09T18:02
-updated: 2025-05-09T18:02
+updated: 2025-05-24T23:52
 ---
+
+무료 또는 lifetime 요금제
+
+[Tim • Time Tracker for macOS](https://tim.neat.software/)
+[App Store에서 제공하는 Daily – Hours & Time Tracker](https://apps.apple.com/kr/app/daily-hours-time-tracker/id686910553)
 
 ### Links
 
