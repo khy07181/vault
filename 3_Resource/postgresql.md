@@ -8,7 +8,7 @@ tags:
   - sql
   - db
 created: 2023-01-10 20:35
-updated: 2025-02-05T10:05
+updated: 2025-06-13T13:26
 ---
 
 # postgresql
@@ -145,4 +145,11 @@ FROM pg_tables
      pg_class ON pg_tables.tablename = pg_class.relname  
 WHERE schemaname NOT IN ('pg_catalog', 'information_schema')  
 ORDER BY relfilenode desc;
+```
+
+
+### Lock 없이 인덱스 생성
+```sql
+CREATE INDEX CONCURRENTLY idx_created_at
+ON table_name (created_at);
 ```
