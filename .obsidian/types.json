@@ -50,6 +50,7 @@
     "TQ_show_tree": "checkbox",
     "TQ_show_urgency": "checkbox",
     "comments": "text",
-    "date": "date"
+    "date": "date",
+    "dd": "multitext"
   }
 }
