@@ -4,7 +4,7 @@ aliases:
 classification: resource
 tags: []
 created: 2025-02-01T14:24
-updated: 2025-06-06T16:19
+updated: 2025-07-20T23:22
 ---
 [devonthink](https://www.devontechnologies.com/apps/devonthink)
 
@@ -13,20 +13,6 @@ updated: 2025-06-06T16:19
 데이터 베이스는 내부 AI 의 작동 효과 면에서 주제별 데이터베이스를 사용하는 것도 좋다.
 
 주제가 없는 자료들을 하나의 DB에 모으면서 특정 주제의 규모가 커지면 분사하는 것을 추천
-
-
-39
-45
-47
-68
-76
-80
-
-275
-294
-343
-
-
 
 ### Links
 

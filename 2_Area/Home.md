@@ -5,9 +5,8 @@ classification: area
 tags:
   - homepage
 created: 2024-06-30 23:12
-updated: 2025-07-15T09:06
+updated: 2025-07-20T20:35
 ---
-
 ### Tasks
 
 ![[tasks#tasks]]
