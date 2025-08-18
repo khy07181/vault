@@ -1,0 +1,15 @@
+---
+title: Lunatask
+aliases: 
+classification: 
+tags: 
+created: 2025-08-18T17:09
+updated: 2025-08-18T17:59
+---
+
+### Feedback
+
+- calendar view
+- Plan Your Week workflow 에서 yesterday 에서 완료할 경우 오늘로 완료되는 경우가 있어 완료 일자를 직접 설정 기능
+- 표준 markdown 문법 지원
+- Kanban, Eisenhower Matrix 등의 workflow 에서 시각적으로 구분
