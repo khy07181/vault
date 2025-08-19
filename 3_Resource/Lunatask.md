@@ -1,10 +1,11 @@
 ---
 title: Lunatask
-aliases: 
-classification: 
-tags: 
+aliases:
+classification:
+tags:
+url: https://lunatask.app/
 created: 2025-08-18T17:09
-updated: 2025-08-18T17:59
+updated: 2025-08-19T10:49
 ---
 
 ### Feedback

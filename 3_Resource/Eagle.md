@@ -1,10 +1,11 @@
 ---
 title: Eagle
-aliases: 
-classification: 
-tags: 
+aliases:
+classification:
+tags:
+url: https://eagle.cool/
 created: 2025-05-16T18:42
-updated: 2025-08-18T17:55
+updated: 2025-08-19T10:49
 ---
 
 ### 카테고리 도구 F

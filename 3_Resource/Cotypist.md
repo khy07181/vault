@@ -1,10 +1,11 @@
 ---
 title: Cotypist
-aliases: 
-classification: 
-tags: 
+aliases:
+classification:
+tags:
+url: https://cotypist.app/
 created: 2025-08-18T17:09
-updated: 2025-08-18T17:55
+updated: 2025-08-19T10:50
 ---
 
 ### Feedback
