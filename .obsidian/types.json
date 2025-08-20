@@ -51,6 +51,7 @@
     "TQ_show_urgency": "checkbox",
     "comments": "text",
     "date": "date",
-    "dd": "multitext"
+    "dd": "multitext",
+    "excalidraw-embed-md": "checkbox"
   }
 }
