@@ -1,10 +1,13 @@
 ---
 title: Fixture Monkey
-aliases: 
-classification: 
-tags: fixture_monkey, test, tool
+aliases:
+classification:
+tags:
+  - fixture_monkey
+  - test
+  - tool
 created: 2023-06-21 16:04
-updated: 2025-01-18T20:16
+updated: 2025-08-31T19:50
 ---
 
 ### Fixture Monkey
