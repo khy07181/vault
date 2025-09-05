@@ -17,6 +17,8 @@ reading_count:
 created: <% tp.file.creation_date("yyyy-MM-DDTHH:mm") %>
 ---
 
+### One line review
+
 ### Highlights
 
 ### Quotes
