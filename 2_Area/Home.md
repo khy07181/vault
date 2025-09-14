@@ -1,12 +1,13 @@
 ---
 title: Home
-aliases: 
+aliases:
 classification: area
 tags:
   - homepage
 created: 2024-06-30 23:12
-updated: 2025-07-31T09:05
+updated: 2025-09-12T10:23
 ---
+
 ### Tasks
 
 ![[tasks#tasks]]
