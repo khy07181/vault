@@ -8,7 +8,7 @@ tags:
   - sql
   - db
 created: 2023-01-10 20:35
-updated: 2025-06-13T13:26
+updated: 2025-10-01T17:39
 ---
 
 # postgresql
@@ -147,9 +147,17 @@ WHERE schemaname NOT IN ('pg_catalog', 'information_schema')
 ORDER BY relfilenode desc;
 ```
 
-
 ### Lock 없이 인덱스 생성
+
 ```sql
 CREATE INDEX CONCURRENTLY idx_created_at
 ON table_name (created_at);
+```
+
+### 현재 활성화 사용자
+
+```sql
+SELECT pid, usename, datname, client_addr, backend_start, state  
+FROM pg_stat_activity  
+where state = 'active'
 ```

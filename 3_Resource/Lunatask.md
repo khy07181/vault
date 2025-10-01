@@ -5,8 +5,17 @@ classification:
 tags:
 url: https://lunatask.app/
 created: 2025-08-18T17:09
-updated: 2025-09-01T17:21
+updated: 2025-10-01T13:54
 ---
+
+### Pricing
+
+Monthly
+- 6$
+Lifetime
+- 220$
+Student Discount
+- 50%
 
 ### Feedback
 

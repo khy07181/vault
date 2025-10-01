@@ -5,7 +5,7 @@ classification:
 tags:
 url: https://eagle.cool/
 created: 2025-05-16T18:42
-updated: 2025-08-19T10:49
+updated: 2025-10-01T13:55
 ---
 
 ### 카테고리 도구 F
@@ -25,3 +25,11 @@ F
 
 cmd + J
 - 폴더로 이동
+
+### Pricing
+
+Lifetime : 34.95$
+student discount : 30%
+
+구매 금액 : 24.46$
+
