@@ -8,7 +8,7 @@ tags:
   - tcp
   - network
 created: 2023-07-12 13:07
-updated: 2025-01-18T21:20
+updated: 2025-11-02T23:21
 ---
 ![nagle](../attachment/img/nagle.png)
 일반적으로 TCP 통신은 패킷을 받았는지 확인하기 위해 데이터를 받은 쪽에서 ACK 신호를 보낸다.
@@ -25,4 +25,4 @@ Nagle Algorithm은 네트워크의 효율성을 높이기 위해서, 출력할 �
 
 ### Links
 
-[TCP 네트워크 통신을위한 Nagle 알고리즘](https://ko.eyewated.com/tcp-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%ED%86%B5%EC%8B%A0%EC%9D%84%EC%9C%84%ED%95%9C-nagle-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/)
+[TCP 네트워크 통신을 위한 Nagle 알고리즘](https://ko.eyewated.com/tcp-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%ED%86%B5%EC%8B%A0%EC%9D%84%EC%9C%84%ED%95%9C-nagle-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/)
