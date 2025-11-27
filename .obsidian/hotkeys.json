@@ -322,5 +322,13 @@
       ],
       "key": "T"
     }
+  ],
+  "homepage:open-homepage": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "H"
+    }
   ]
 }

@@ -5,7 +5,7 @@ classification: area
 tags:
   - homepage
 created: 2024-06-30 23:12
-updated: 2025-11-10T09:02
+updated: 2025-11-24T09:32
 ---
 
 ### Tasks
@@ -47,8 +47,8 @@ SORT created desc
 
 ```dataview
 TABLE WITHOUT ID 
-    rows.file.link AS "note",
-    key AS "uncreated"
+    rows.file.link AS "location",
+    key AS "uncreated_note"
 FLATTEN file.outlinks as outlinks
 WHERE !(outlinks.file) AND !(contains(meta(outlinks).path, "/"))
 GROUP BY outlinks

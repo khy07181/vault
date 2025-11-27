@@ -18,8 +18,6 @@
   "obsidian-excalidraw-plugin",
   "deepl",
   "readwise-official",
-  "obsidian-minimal-settings",
-  "obsidian-style-settings",
   "merge-notes",
   "settings-search",
   "cmdr",
@@ -48,5 +46,8 @@
   "update-time-on-edit",
   "obsidian42-strange-new-worlds",
   "smart-connections",
-  "copilot"
+  "copilot",
+  "spoiler-block-obsidian",
+  "obsidian-minimal-settings",
+  "obsidian-style-settings"
 ]
