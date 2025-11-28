@@ -5,7 +5,7 @@ classification:
 tags:
 url:
 created: 2025-10-01T15:30
-updated: 2025-11-26T17:38
+updated: 2025-11-28T09:41
 ---
 
 ### Wishlist
@@ -15,6 +15,7 @@ updated: 2025-11-26T17:38
 
 [Bloom - Finder, but Refined](https://bloomapp.club/)
 - 16$
+- `BLACKFRIDAY2025` -> 12$
 
 [pCloud - Best Cloud Storage for Family](https://www.pcloud.com/family.html?period=lifetime)
 - Family 2TB : 595$
@@ -24,6 +25,7 @@ updated: 2025-11-26T17:38
 
 [PastePal](https://indiegoodies.com/pastepal)
 - 14.99$ -> 7.99$
+- [x] 구매 완료
 
 [MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper)
 - 59$
@@ -32,7 +34,8 @@ updated: 2025-11-26T17:38
 - 9.99$
 
 [DaisyDisk](https://daisydiskapp.com/)
-- 14000원
+- 9.9$ -> 5$
+- [x] 구매 완료
 
 ---
 
