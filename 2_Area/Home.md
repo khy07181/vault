@@ -5,16 +5,8 @@ classification: area
 tags:
   - homepage
 created: 2024-06-30 23:12
-updated: 2025-11-24T09:32
+updated: 2025-12-02T14:27
 ---
-
-### Tasks
-
-![[tasks#tasks]]
-
-### brainstorming
-
-![[brainstorming#^790cd9]]
 
 ### Recent File
 

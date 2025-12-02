@@ -1,11 +1,11 @@
 ---
 title: <% tp.file.title %>
-aliases: 
-description: 
-permalink: 
-classification: 
-tags: 
+aliases:
+description:
+permalink:
+classification:
+tags:
 draft: true
-date: 
+published:
 created: <% tp.file.creation_date("yyyy-MM-DDTHH:mm") %>
 ---

@@ -1,17 +1,17 @@
 ---
 title: PARA Method
-aliases: 
-description: 
-permalink: 
+aliases:
+description:
+permalink:
 classification: blog
 tags:
   - para
   - second-brain
   - tiago-forte
 draft: false
-date: 2025-03-16
+published: 2025-03-16
 created: 2025-03-16T15:50
-updated: 2025-03-16T20:56
+updated: 2025-12-01T16:33
 ---
 
 세상에는 지식, 노트, 파일 구조를 분류하고 정리하는 많은 방법이 있습니다.

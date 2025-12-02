@@ -5,7 +5,7 @@ classification:
 tags:
 url:
 created: 2025-10-01T15:30
-updated: 2025-11-28T09:41
+updated: 2025-11-30T11:28
 ---
 
 ### Wishlist
@@ -16,6 +16,7 @@ updated: 2025-11-28T09:41
 [Bloom - Finder, but Refined](https://bloomapp.club/)
 - 16$
 - `BLACKFRIDAY2025` -> 12$
+- [x] 구매 완료
 
 [pCloud - Best Cloud Storage for Family](https://www.pcloud.com/family.html?period=lifetime)
 - Family 2TB : 595$
