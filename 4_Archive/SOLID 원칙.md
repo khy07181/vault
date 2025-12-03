@@ -1,12 +1,12 @@
 ---
 title: SOLID 원칙
-aliases: 
+aliases:
 classification: resource
 tags:
   - SOLID
   - OOP
 created: 2023-07-12 00:37
-updated: 2025-01-18T21:32
+updated: 2025-12-03T10:49
 ---
 좋은 설계란 시스템에 새로운 요구사항이나 변경사항이 있을 때, 영향을 받는 범위가 적은 구조를 말한다. 그래서 시스템에 예상하지 못한 변경사항이 발생하더라도, 유연하게 대처하고 이후에 확장성이 있는 시스템 구조를 만들 수 있다.
 
@@ -15,7 +15,7 @@ SOLID 객체 지향 원칙을 적용하면 코드를 확장하고 유지 보수 
 ### SRP(Single Responsibility Principle)
 
 - 단일 책임 원칙
-- 각 클래스들은 하나의 책임만 가지고 있어야 한다.
+- 단일 모듈은 변경의 이유가 오직 하나뿐 이여야 한다.
 `⛔️ Noncompliant Example`
 
 ```java
