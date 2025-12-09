@@ -1,11 +1,11 @@
 ---
 title: Observer Pattern
-aliases: 
+aliases:
 classification: resource
 tags:
   - design-pattern
 created: 2025-01-08 11:10
-updated: 2025-01-18T21:21
+updated: 2025-12-06T19:52
 ---
 하나의 대상과, 하나 이상의 관찰자들간의 일대다 관계에서 관찰자들이 대상에 변화가 있을 때마다 이를 통지받고 반응하도록 설계된 패턴
 

@@ -1,11 +1,11 @@
 ---
 title: Composite Pattern
-aliases: 
+aliases:
 classification: resource
 tags:
   - design-pattern
 created: 2025-01-21T21:11
-updated: 2025-01-21T21:48
+updated: 2025-12-06T19:52
 ---
 
 특정 클래스의 객체들을 트리 관계로 다루고 포함하는 객체와 포함되는 객체를 같은 인터페이스로 다룰 수 있도록 하는 패턴

@@ -1,11 +1,11 @@
 ---
 title: Flyweight Pattern
-aliases: 
-classification: 
+aliases:
+classification:
 tags:
   - design-pattern
 created: 2025-02-20T23:01
-updated: 2025-02-20T23:51
+updated: 2025-12-06T19:52
 ---
 재사용 가능한 객체 인스턴스를 공유시켜 메모리 사용량을 최소화하는 구조 패턴
 
