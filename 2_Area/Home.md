@@ -5,7 +5,7 @@ classification: area
 tags:
   - homepage
 created: 2024-06-30 23:12
-updated: 2025-12-06T10:53
+updated: 2025-12-10T11:11
 ---
 
 ### Tasks
@@ -50,6 +50,10 @@ TABLE WITHOUT ID
     rows.file.link AS "location",
     key AS "uncreated_note"
 FLATTEN file.outlinks as outlinks
-WHERE !(outlinks.file) AND !(contains(meta(outlinks).path, "/"))
+WHERE 
+    !(outlinks.file)
+    AND !(contains(meta(outlinks).path, "/"))
+    AND !contains(file.folder, "6_Discard")
+    AND !contains(file.folder, "private/6_Discard")
 GROUP BY outlinks
 ```

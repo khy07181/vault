@@ -5,7 +5,7 @@ classification:
 tags:
 url: https://eagle.cool/
 created: 2025-05-16T18:42
-updated: 2025-10-01T13:55
+updated: 2025-12-10T10:45
 ---
 
 ### 카테고리 도구 F
@@ -32,4 +32,3 @@ Lifetime : 34.95$
 student discount : 30%
 
 구매 금액 : 24.46$
-
