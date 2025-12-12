@@ -5,7 +5,7 @@ classification: area
 tags:
   - homepage
 created: 2024-06-30 23:12
-updated: 2025-12-10T11:11
+updated: 2025-12-12T16:29
 ---
 
 ### Tasks
@@ -23,7 +23,7 @@ table file.mtime as "Modified Time"
 from ""
 where !contains(file.path, "readwise") and !contains(file.path, "private/daily")
 sort file.mtime desc
-limit 30
+limit 50
 ```
 
 ### Currently Reading
