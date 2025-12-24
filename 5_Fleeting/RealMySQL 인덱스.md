@@ -8,7 +8,7 @@ tags:
   - index
 url:
 created: 2025-12-23T11:08
-updated: 2025-12-23T17:16
+updated: 2025-12-23T20:59
 ---
 
 ## B-Tree(Balanced-Tree)
@@ -108,3 +108,4 @@ n-gram 알고리즘
 Full Text Index의 가용성
 - 쿼리 문장이 전문 검색을 위한 문법을 사용해야 한다.
 - 테이블이 전문 검색 대상 컬럼에 대해서 전문 인덱스를 보유해야 한다.
+녀

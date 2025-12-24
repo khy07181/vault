@@ -9,7 +9,7 @@ tags:
   - lock
 url:
 created: 2025-12-17T13:19
-updated: 2025-12-17T13:19
+updated: 2025-12-23T21:30
 ---
 
 ### MySQL 엔진의 잠금
@@ -77,7 +77,7 @@ REPEATABLE READ
 	- MVCC를 보장하기 위해 실행 중인 트랜잭션 가운데 가장 오래된 트랜잭션 번호보다 트랜잭션 번호가 앞선 언두 영역의 데이터는 삭제할 수 없다.
 - SELECT FOR UPDATE는 레코드에 쓰기 잠금을 걸어야 하는데 언두 레코드에는 잠금을 걸 수 없기 때문에 도중에 추가된 데이터에 대해서는 결과가 변할 수 있다.
 	- `Phantom Read`
-- MySQL에서는 Next Key Lock 덕분에 `Phantom Read`는가 발생하지 않는다.
+- MySQL에서는 Next Key Lock 덕분에 `Phantom Read`가 발생하지 않는다.
 SERIALIZABLE
 - 가장 엄격한 격리 수준으로 트랜잭션에서 읽고 쓰는 레코드를 다른 트랜잭션에서 접근할 수 없다.
 - 대부분 RDBMS는 MVCC를 지원하기 때문에 다른 Select 쿼리는 조회가 가능하다.
