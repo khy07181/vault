@@ -1,12 +1,12 @@
 ---
 title: obsidian plugins
-aliases: 
+aliases:
 classification: resource
 tags:
   - obsidian
   - productivity
 created: 2025-01-18T22:30
-updated: 2025-01-19T23:07
+updated: 2025-12-25T20:58
 ---
 
 ### in use

@@ -20,20 +20,15 @@
   "slash-commander",
   "homepage",
   "obsidian-auto-link-title",
-  "obsidian-kanban",
   "tag-wrangler",
-  "obsidian-custom-frames",
   "obsidian-vimrc-support",
   "mrj-jump-to-link",
-  "obsidian-list-callouts",
   "obsidian-regex-replace",
-  "omnisearch",
   "obsidian-advanced-uri",
   "update-time-on-edit",
-  "smart-connections",
   "copilot",
   "spoiler-block-obsidian",
   "obsidian-minimal-settings",
-  "obsidian-style-settings",
-  "quickadd"
+  "quickadd",
+  "obsidian-style-settings"
 ]
