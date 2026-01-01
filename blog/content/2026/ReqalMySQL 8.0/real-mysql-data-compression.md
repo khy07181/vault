@@ -6,8 +6,12 @@ classification: resource
 tags:
   - MySQL
 url:
+description:
+permalink:
+draft: false
+published: 2025-12-28T14:38:00
 created: 2025-12-17T13:21
-updated: 2025-12-23T10:53
+updated: 2025-12-28T14:38
 ---
 
 ### 페이지 압축

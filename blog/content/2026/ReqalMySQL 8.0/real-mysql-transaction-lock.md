@@ -2,14 +2,18 @@
 title: RealMySQL 트랜잭션과 잠금
 aliases:
   - RealMySQL 8.0 5장
-classification: resource
+classification: blog
 tags:
   - MySQL
   - transaction
   - lock
 url:
+description:
+permalink:
+draft: false
+published: 2025-12-28T14:37:00
 created: 2025-12-17T13:19
-updated: 2025-12-23T21:30
+updated: 2025-12-28T14:37
 ---
 
 ### MySQL 엔진의 잠금
