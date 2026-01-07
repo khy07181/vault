@@ -1,6 +1,6 @@
 ---
 title: spring boot data
-aliases: 
+aliases:
 classification: resource
 tags:
   - springBoot
@@ -9,7 +9,7 @@ tags:
   - jpa
   - spirng-data
 created: 2022-09-13 15:57
-updated: 2025-01-18T21:34
+updated: 2026-01-07T16:19
 ---
 
 # Spring Boot Data
@@ -112,7 +112,7 @@ public class H2Runner implements ApplicationRunner {
 
 - 위의 의존성만 추가하면 사용가능한 것이 아니라 MySQL을 설치해야 한다.
 - 도커를 사용하면 MySQL을 손쉽게 설치할 수 있다.
-* docker : 컨테이너 솔루션으로 커널을 공유하기 떄문에 가상 머신을 사용하는 것보다 훨씬 빠르게 설치 가능하다.
+* docker : 컨테이너 솔루션으로 커널을 공유하기 때문에 가상 머신을 사용하는 것보다 훨씬 빠르게 설치 가능하다.
 - `docker run -p 3306:3306 --name mysql_boot ​-e MYSQL_ROOT_PASSWORD=1​ -e MYSQL_DATABASE=springboot​ -e MYSQL_USER=hayoung -e MYSQL_PASSWORD=pass​ -d mysql`
 - MySQL 접속 : `docker exec -i -t mysql_boot bash` (컨테이너 안에 들어가 bash를 실행하라는 명령어)
 - `mysql -u hayoung -p`

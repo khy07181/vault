@@ -47,6 +47,7 @@
     "excalidraw-embed-md": "checkbox",
     "published": "datetime",
     "created": "datetime",
-    "excalidraw-export-internal-links": "checkbox"
+    "excalidraw-export-internal-links": "checkbox",
+    "read_date": "multitext"
   }
 }

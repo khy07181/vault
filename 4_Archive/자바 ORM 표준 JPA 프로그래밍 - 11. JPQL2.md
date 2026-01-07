@@ -7,7 +7,7 @@ tags:
   - JPA
   - ORM
 created: 2022-09-15 17:06
-updated: 2025-01-18T21:27
+updated: 2026-01-07T16:19
 ---
 
 # 객체지향 쿼리 언어2 - 중급 문법
@@ -170,7 +170,7 @@ List<Member> result = em.createQuery(query, Member.class).getResultList();
 
 for (Member member : result) {
      System.out.println("member = " + m.getName() + ", " + m.getTeam().getName()));
-     // 회원 1, 팀A(영속성 컨텍스트에 없기 떄문에 쿼리를 날려 SQL에서 가져온다.)
+     // 회원 1, 팀A(영속성 컨텍스트에 없기 때문에 쿼리를 날려 SQL에서 가져온다.)
      // 회원 2, 팀A(팀A는 1차 캐시에 있으므로 쿼리를 날리지 않고 가져온다.)
      // 회원 3, 팀B(팀B는 영속성 컨텍스트에 없기 때문에 쿼리를 날려 SQL에서 가져온다.)
 }

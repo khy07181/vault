@@ -1,8 +1,15 @@
 ---
 title: <% tp.file.title %>
-aliases: 
+aliases:
 classification: area
-tags: 
+tags:
+servings: ""
+total_time: ""
+cuisine: ""
+meal_type: ""
+last_made: ""
+rating: ""
+source_url: ""
 created: <% tp.file.creation_date("yyyy-MM-DDTHH:mm") %>
 ---
 
