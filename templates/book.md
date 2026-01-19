@@ -11,7 +11,6 @@ category:
 tags:
   - book
 publish_date:
-started_date: ""
 read_date:
 reading_count:
 total_page:
