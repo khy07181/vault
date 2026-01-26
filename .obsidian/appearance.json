@@ -2,5 +2,6 @@
   "cssTheme": "Minimal",
   "accentColor": "#8462f5",
   "showViewHeader": true,
-  "showRibbon": true
+  "showRibbon": true,
+  "theme": "system"
 }
