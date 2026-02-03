@@ -3,5 +3,8 @@
   "showInlineTitle": false,
   "vimMode": true,
   "openBehavior": "daily",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "tabSize": 4,
+  "readableLineLength": true,
+  "strictLineBreaks": false
 }
