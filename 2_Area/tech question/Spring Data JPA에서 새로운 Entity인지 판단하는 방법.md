@@ -8,7 +8,7 @@ tags:
   - JPA
 url:
 created: 2026-02-03T09:19
-updated: 2026-02-03T21:54
+updated: 2026-02-08T20:47
 ---
 
 ```java
@@ -28,7 +28,7 @@ public boolean isNew(T entity) {
 ```
 
 새로운 Entity인지 여부는 JpaEntityInformation의 `isNew(T entity)`에 의해 판단된다.
-다른 설정이 없으면 JpaEntityInformation의 구현체 중 JpaMetamodelEntityInformation 클래스가 동작합니다.
+다른 설정이 없으면 JpaEntityInformation의 구현체 중 JpaMetamodelEntityInformation 클래스가 동작한다.
 `@Version`이 사용된 필드가 없거나 `@Version`이 사용된 필드가 primitive 타입이면 AbstractEntityInformation의 `isNew()`를 호출한다.
 `@Version`이 사용된 필드가 wrapper class이면 null여부를 확인한다.
 
@@ -99,6 +99,6 @@ public <S extends T> S save(S entity) {
 }
 ```
 
-SimpleJpaRepository의 `save()` 메서드에서 `isNew()`를 사용하여 persist를 수행할지 merge를 수행할지 결정한다. 
+SimpleJpaRepository의 `save()` 메서드에서 `isNew()`를 사용하여 persist를 수행할지 merge를 수행할지 결정한다.
 만약 ID를 직접 지정해주는 경우에는 신규 entity라고 판단하지 않기 때문에 merge를 수행한다.
-이때 해당 entity는 신규임에도 불구하고 DB를 조회하기 때문에 비효율적
+이때 해당 entity는 신규임에도 불구하고 DB를 조회하기 때문에 비효율적이다.
