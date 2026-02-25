@@ -323,14 +323,6 @@
       "key": "H"
     }
   ],
-  "notebook-navigator:open": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "1"
-    }
-  ],
   "file-explorer:new-file-in-new-pane": [],
   "notebook-navigator:new-note-from-template": [
     {
@@ -373,6 +365,22 @@
         "Mod"
       ],
       "key": "M"
+    }
+  ],
+  "file-explorer:open": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "1"
+    }
+  ],
+  "notebook-navigator:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "2"
     }
   ]
 }
