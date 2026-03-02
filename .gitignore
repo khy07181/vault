@@ -5,6 +5,7 @@ readwise/
 .trash
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+.obsidian-mobile
 security
 .obsidian/plugins/
 templates/template_ai_summary.md
