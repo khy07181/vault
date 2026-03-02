@@ -1,6 +1,6 @@
 ---
 created: 2026-02-03T21:26
-updated: 2026-02-03T21:51
+updated: 2026-03-01T22:13
 ---
 # VAULT KNOWLEDGE BASE
 
@@ -29,13 +29,13 @@ vault/
 ```
 
 ## WHERE TO LOOK
-| Task | Location | Notes |
-|------|----------|-------|
-| Daily notes | private/2_Area/daily/YYYY/ | Format: YYYY-MM-DD.md |
-| Book notes | private/2_Area/library/book/ | Extended frontmatter, dedicated AGENTS.md |
-| Templates | templates/ | Templater syntax |
-| Homepage | 2_Area/Home.md | Dataview queries |
-| Work content | private/2_Area/seavantage/ | Business domain |
+| Task         | Location                     | Notes                                     |
+| ------------ | ---------------------------- | ----------------------------------------- |
+| Daily notes  | private/2_Area/daily/YYYY/   | Format: YYYY-MM-DD.md                     |
+| Book notes   | private/2_Area/library/book/ | Extended frontmatter, dedicated AGENTS.md |
+| Templates    | templates/                   | Templater syntax                          |
+| Homepage     | 2_Area/Home.md               | Dataview queries                          |
+| Work content | private/2_Area/seavantage/   | Business domain                           |
 
 ## CONVENTIONS
 ### Frontmatter

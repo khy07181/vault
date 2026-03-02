@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "5d363825be528d06",
+            "id": "4edb6fd527b97cfa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "private/2_Area/daily/2026/2026-02-18.md",
+                "file": "private/2_Area/family/아기 이름 작명 조건.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-18"
+              "title": "아기 이름 작명 조건"
             }
           }
         ],
@@ -193,8 +193,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "5d363825be528d06",
+  "active": "4edb6fd527b97cfa",
   "lastOpenFiles": [
+    "2_Area/Home.md",
+    "private/2_Area/daily/2026/2026-03-02.md",
     "private/2_Area/daily/2026/2026-02-19.md",
     "private/2_Area/daily/2026/2026-02-20.md",
     "private/2_Area/daily/2026/2026-02-21.md",
@@ -202,7 +204,6 @@
     "private/2_Area/daily/2026/2026-02-24.md",
     "private/2_Area/daily/2026/2026-02-25.md",
     "private/2_Area/daily/2026/2026-02-26.md",
-    "2_Area/Home.md",
     "private/2_Area/daily/2026/2026-02-14.md",
     "private/2_Area/daily/2026/2026-02-09.md",
     "4_Archive/2025 Black Friday.md",
