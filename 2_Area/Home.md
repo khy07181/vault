@@ -5,7 +5,7 @@ classification: area
 tags:
   - homepage
 created: 2024-06-30 23:12
-updated: 2025-12-26T15:31
+updated: 2026-03-27T20:34
 ---
 
 ### Recent File
@@ -13,7 +13,11 @@ updated: 2025-12-26T15:31
 ```dataview
 table file.mtime as "Modified Time"
 from ""
-where !contains(file.path, "readwise") and !contains(file.path, "private/daily")
+where !contains(file.path, "readwise")
+and !contains(file.path, "private/2_Area/daily") 
+and !contains(file.path, "private/6_Discard") 
+and !contains(file.path, "6_Discard") 
+and !contains(file.path, "Agent Sessions")
 sort file.mtime desc
 limit 50
 ```
