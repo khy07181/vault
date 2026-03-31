@@ -5,20 +5,35 @@ classification: area
 tags:
   - homepage
 created: 2024-06-30 23:12
-updated: 2026-03-27T20:34
+updated: 2026-03-31T16:01
 ---
 
 ### Recent File
 
 ```dataview
-table file.mtime as "Modified Time"
+table updated as "Modified Time"
 from ""
 where !contains(file.path, "readwise")
 and !contains(file.path, "private/2_Area/daily") 
 and !contains(file.path, "private/6_Discard") 
 and !contains(file.path, "6_Discard") 
-and !contains(file.path, "Agent Sessions")
-sort file.mtime desc
+and !contains(file.path, "private/2_Area/agent-session")
+sort updated desc
+limit 50
+```
+
+### Recent Created
+
+```dataview
+table created as "Created Time"
+from ""
+where typeof(created) = "date"
+and !contains(file.path, "readwise")
+and !contains(file.path, "private/2_Area/daily")
+and !contains(file.path, "private/6_Discard")
+and !contains(file.path, "6_Discard")
+and !contains(file.path, "private/2_Area/agent-session")
+sort created desc
 limit 50
 ```
 
