@@ -5,9 +5,14 @@ readwise/
 .trash
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+.obsidian/workspace*.json
+.obsidian/bookmarks.json
+.obsidian/daily-notes.json
 .obsidian-mobile
 security
 .obsidian/plugins/
+.smtcmp_json_db/
+.smtcmp_vector_db.tar.gz
 templates/template_ai_summary.md
 templates/create_tag_from_ai.md
 .smtcmp_chat_histories

@@ -9,7 +9,7 @@ tags:
   - jpa
   - spirng-data
 created: 2022-09-13 15:57
-updated: 2026-01-07T16:19
+updated: 2026-04-20T16:39
 ---
 
 # Spring Boot Data
