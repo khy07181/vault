@@ -1,10 +1,11 @@
 ---
 created: 2025-03-02T23:49
-updated: 2026-01-07T17:41
+updated: 2026-04-20T16:18
 ---
-# 개인 지식 저장소 (My Personal Vault)
 
-이곳은 [Obsidian](https://obsidian.md)을 사용하여 관리하는 개인적인 지식 저장소입니다. 
+# 개인 지식 관리 저장소 (My Personal Knowledge Management System Vault)
+
+이곳은 [Obsidian](https://obsidian.md)을 사용하여 관리하는 개인적인 지식 저장소입니다.
 
 제 생각, 학습 내용, 그리고 흥미로운 정보들을 기록하고 연결하여 저만의 "두 번째 뇌(Second Brain)"를 구축하는 공간입니다.
 
