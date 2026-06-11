@@ -1,11 +1,11 @@
 ---
 title: my routines
 aliases:
-classification: area
 tags:
   - homepage
+classification: area
 created: 2024-06-30 23:12
-updated: 2026-05-04T09:42
+updated: 2026-06-02T15:58
 ---
 
 ### Recent File
