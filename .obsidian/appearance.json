@@ -1,7 +1,3 @@
 {
-  "cssTheme": "Flexoki",
-  "accentColor": "#8462f5",
-  "showViewHeader": true,
-  "showRibbon": true,
-  "theme": "system"
+  "cssTheme": "Flexoki"
 }
