@@ -1,6 +1,7 @@
 ---
 title: 나만의 독서 환경 만들기
 aliases:
+  - 나만의 독서 환경 만들기
 description:
 permalink:
 classification: blog
@@ -12,7 +13,7 @@ tags:
 draft: false
 published: 2025-11-16
 created: 2025-11-16T21:30
-updated: 2026-04-20T16:39
+updated: 2026-07-20T13:44
 ---
 
 세상에는 책보다 자극적이고 재미있는 것들이 너무 많아져, 예전처럼 자연스럽게 독서에 몰입하기가 점점 어려워지고 있다.
@@ -33,7 +34,7 @@ updated: 2026-04-20T16:39
 
 pros
 - 종이 질감이 주는 감촉과 아날로그 특유의 집중감
-- 구매 후 소유권이 명확하며 대여·양도·판매 가능
+- 구매 후 소유권이 명확하며 대여·양도·선물 가능
 - 페이지를 넘기는 행위가 주는 독서 리듬과 몰입
 - 표지·제본·종이색 등 디자인 요소를 온전히 감상할 수 있음
 - 눈부심이 없어 장시간 읽어도 비교적 눈이 편안함
@@ -66,12 +67,12 @@ cons
 
 ---
 
-## 전차책을 PDF, EPUB로 변환하는 방법
+## 전자책을 PDF, EPUB으로 변환하는 방법
 
 >[!Warning]
 > 개인적인 이용·보관 목적을 제외한 **공유, 무단 배포, 상업적 활용은 저작권 문제가 발생할 수 있습니다.**
 
-### Google Play Book
+### Google Play Books
 
 구글 플레이 북은 타 플랫폼과 달리 아래와 같은 방법으로 DRM 해제가 가능하다.
 
@@ -81,20 +82,20 @@ cons
 	- `brew install --cask calibre`
 3. [DeDRM](https://github.com/noDRM/DeDRM_tools) 설치
 4. Calibre에 DeDRM plugin 등록
-	- appearance - plugin - 파일에서 플러그인 불러오기 - DeDRM_plugin.zip
+	- appearance - plugin - 파일에서 플러그인 불러오기 - DeDRM_plugin.zip
 
-5. Google play Books 라이브러리 책 내보내기
+5. Google Play Books 라이브러리 책 내보내기
 ![[Pasted image 20240204110550.png]]
 
 6. acsm 파일 ADE로 열기
 	- acsm 파일이 자동으로 pdf 또는 epub 파일로 변경된다.
-7. ADE 기본 저장소(`/Users/hayoung/Documents/Digital Editions`)의 epub 파일을 Clibre로 열기
+7. ADE 기본 저장소(`/Users/hayoung/Documents/Digital Editions`)의 epub 파일을 Calibre로 열기
 	- DeDRM 플러그인이 설치되어 있으면 자동으로 DRM이 해제된다.
 8. EPUB 또는 PDF 등 원하는 형식 변환
 
 ### 일반 전자책 플랫폼
 
-DRM 해제가 불가능해 스크린 캡쳐 후 PDF 또는 EPUB로 변환해야 한다.
+DRM 해제가 불가능해 스크린 캡처 후 PDF 또는 EPUB으로 변환해야 한다.
 
 #### GUI
 
@@ -102,7 +103,7 @@ DRM 해제가 불가능해 스크린 캡쳐 후 PDF 또는 EPUB로 변환해야 
 2. [Clop](https://lowtechguys.com/clop/)으로 이미지 용량 최적화
 3. Mac 미리보기로 png 파일들을 pdf 파일로 변환
 4. [OwlOCR](https://www.owlocr.com/) 로 OCR 진행
-5. [Readwise Reader](https://readwise.io/read) 업로드 및 iCloud 백업
+5. [Readwise Reader](https://khy07181.github.io/2026/readwise-reader) 업로드 및 iCloud 백업
 
 #### CLI
 

@@ -1,3 +1,5 @@
 {
-  "cssTheme": "Flexoki"
+  "cssTheme": "Flexoki",
+  "showViewHeader": true,
+  "showRibbon": true
 }

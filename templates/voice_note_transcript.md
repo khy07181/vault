@@ -1,7 +1,7 @@
 ---
-title:
+title: <% tp.file.title %>
 alias:
-classification:
+classification: area
 type:
 tags:
 url:

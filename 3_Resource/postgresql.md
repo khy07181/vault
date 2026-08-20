@@ -8,7 +8,7 @@ tags:
   - sql
   - db
 created: 2023-01-10 20:35
-updated: 2025-10-01T17:39
+updated: 2026-07-31T17:05
 ---
 
 # postgresql
@@ -160,4 +160,14 @@ ON table_name (created_at);
 SELECT pid, usename, datname, client_addr, backend_start, state  
 FROM pg_stat_activity  
 where state = 'active'
+```
+
+### Geometry 와 Geojson 변환
+
+```sql
+-- geometry to geojson
+select st_asgeojson(geometry)
+
+-- geojson to geometry
+select st_geomfromgeojson(geojson)
 ```
